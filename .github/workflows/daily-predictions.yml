@@ -31,12 +31,15 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
-          python automated_daily_analysis.py
+          python workflows/automated_daily_analysis.py
 
-      - name: Commit and push predictions
+      - name: Commit and push predictions and updated data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/predictions_history_v2.csv
-          git diff --quiet && git diff --staged --quiet || git commit -m "🎯 Add predictions for $(date -u +%Y-%m-%d)"
+          git add data/player_game_logs_2025_2026.csv
+          git add data/player_game_logs_2025_2026_with_opponent.csv
+          git add data/team_game_stats.csv
+          git diff --quiet && git diff --staged --quiet || git commit -m "🎯 Update data and predictions for $(date -u +%Y-%m-%d)"
           git push

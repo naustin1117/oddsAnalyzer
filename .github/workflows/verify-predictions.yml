@@ -29,7 +29,7 @@ jobs:
 
       - name: Verify HIGH confidence predictions from yesterday
         run: |
-          python verify_predictions.py HIGH 1
+          python workflows/verify_predictions.py HIGH 1
 
       - name: Commit and push results
         run: |

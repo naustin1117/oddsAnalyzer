@@ -2,14 +2,22 @@
 Automated Daily NHL Betting Analysis
 
 This script runs daily to:
-1. Fetch today's NHL games
-2. Pull FanDuel SOG lines for each game
-3. Run model predictions
-4. Calculate true edge using Poisson distribution
-5. Save all predictions to predictions_history_v2.csv
+1. Update player game logs with last night's games
+2. Rebuild team stats and opponent features
+3. Fetch today's NHL games
+4. Pull FanDuel SOG lines for each game
+5. Run model predictions with updated data
+6. Calculate true edge using Poisson distribution
+7. Save all predictions to predictions_history_v2.csv
 
 Designed to run as a cron job.
 """
+
+import sys
+from pathlib import Path
+
+# Add parent directory to path to import project modules
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import pandas as pd
 from datetime import datetime
@@ -19,6 +27,8 @@ import numpy as np
 from scipy.stats import poisson
 from odds_api import OddsAPIClient
 from simple_predict import predict_shots, get_model
+from nhl_api import NHLAPIClient
+from add_opponent_features import add_opponent_features
 
 
 def odds_to_implied_prob(odds):
@@ -367,19 +377,97 @@ def print_summary(predictions_df, games_found, games_with_props):
         print("\n⚠️  No high confidence bets found today")
 
 
-def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fanduel'):
+def update_player_data():
+    """
+    Update player game logs with latest data from NHL API.
+    This includes:
+    1. Fetching latest player game logs for 2025-2026 season
+    2. Adding engineered features
+    3. Updating team game stats (incremental)
+    4. Adding opponent features
+
+    Returns:
+        bool: True if successful, False otherwise
+    """
+    print("\n" + "="*80)
+    print("UPDATING PLAYER DATA WITH LATEST GAMES")
+    print("="*80)
+
+    try:
+        with NHLAPIClient() as client:
+            # Step 1: Fetch latest player game logs
+            print("\nStep 1: Fetching latest player game logs from NHL API")
+            print("-"*80)
+
+            client.export_all_player_game_logs_to_csv(
+                season_id="20252026",
+                game_type=2,
+                output_file="data/player_game_logs_2025_2026.csv"
+            )
+
+            # Step 2: Add engineered features (overwrites the same file)
+            print("\nStep 2: Adding engineered features")
+            print("-"*80)
+
+            NHLAPIClient.add_engineered_features(
+                input_file="data/player_game_logs_2025_2026.csv",
+                output_file="data/player_game_logs_2025_2026.csv"
+            )
+
+            # Step 3: Update team game stats (incremental - only fetches new games)
+            print("\nStep 3: Updating team game stats")
+            print("-"*80)
+            print("(Using incremental update - only fetching new games)")
+
+            client.build_team_game_stats_from_csvs(
+                input_files=[
+                    'data/player_game_logs_2023_2024.csv',
+                    'data/player_game_logs_2024_2025.csv',
+                    'data/player_game_logs_2025_2026.csv'
+                ],
+                output_file='data/team_game_stats.csv'
+            )
+
+            # Step 4: Add opponent features
+            print("\nStep 4: Adding opponent defensive features")
+            print("-"*80)
+
+            add_opponent_features(
+                input_file='data/player_game_logs_2025_2026.csv',
+                output_file='data/player_game_logs_2025_2026_with_opponent.csv',
+                team_stats_file='data/team_game_stats.csv'
+            )
+
+        print("\n" + "="*80)
+        print("DATA UPDATE COMPLETE!")
+        print("="*80)
+        print("✓ Player data is now up to date with last night's games\n")
+
+        return True
+
+    except Exception as e:
+        print(f"\n✗ ERROR updating player data: {e}")
+        import traceback
+        traceback.print_exc()
+        print("\n⚠️  Continuing with existing data...\n")
+        return False
+
+
+def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fanduel', update_data=True):
     """
     Main function to run daily NHL betting analysis.
 
     This orchestrates the entire workflow:
+    0. Update player data with last night's games (if update_data=True)
     1. Get today's games
     2. Pull lines for each game
-    3. Run predictions
+    3. Run predictions with updated data
     4. Save results
 
     Args:
         api_key (str): The Odds API key
         bookmaker (str): Bookmaker to pull lines from (default: fanduel)
+        update_data (bool): Whether to update player data first (default: True)
 
     Returns:
         DataFrame: All predictions made
@@ -390,12 +478,23 @@ def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fa
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Bookmaker: {bookmaker}\n")
 
+    # Step 0: Update player data with latest games
+    if update_data:
+        print("="*80)
+        print("PHASE 1: DATA UPDATE")
+        print("="*80)
+        update_player_data()
+
+    print("="*80)
+    print("PHASE 2: PREDICTION GENERATION")
+    print("="*80)
+
     client = OddsAPIClient(api_key)
     all_predictions = []
 
     try:
         # Step 1: Get today's games
-        print("Step 1: Getting today's games")
+        print("\nStep 1: Getting today's games")
         print("-"*80)
         events = get_todays_games(client)
 

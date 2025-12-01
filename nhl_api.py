@@ -371,6 +371,7 @@ class NHLAPIClient:
     ) -> None:
         """
         Build team game stats CSV by fetching boxscores for all unique games in the input CSVs.
+        Only fetches new games that aren't already in the output file.
 
         Args:
             input_files: List of player game log CSV files to extract game_ids from
@@ -379,6 +380,20 @@ class NHLAPIClient:
         print("="*60)
         print("BUILDING TEAM GAME STATS")
         print("="*60)
+
+        # Load existing team stats if the file exists
+        existing_game_ids = set()
+        existing_rows = []
+        import os
+
+        if os.path.exists(output_file):
+            print(f"\nLoading existing team stats from {output_file}...")
+            existing_df = pd.read_csv(output_file)
+            existing_game_ids = set(existing_df['game_id'].unique())
+            existing_rows = existing_df.to_dict('records')
+            print(f"  Found {len(existing_game_ids)} games already in {output_file}")
+        else:
+            print(f"\n{output_file} does not exist - will create new file")
 
         # Get all unique game_ids from the input files
         all_game_ids = set()
@@ -389,8 +404,15 @@ class NHLAPIClient:
             all_game_ids.update(game_ids)
             print(f"  Found {len(game_ids)} unique games")
 
-        all_game_ids = sorted(list(all_game_ids))
+        # Filter to only NEW games that need to be fetched
+        new_game_ids = sorted(list(all_game_ids - existing_game_ids))
         print(f"\nTotal unique games across all files: {len(all_game_ids)}")
+        print(f"Games already in {output_file}: {len(existing_game_ids)}")
+        print(f"NEW games to fetch: {len(new_game_ids)}")
+
+        if len(new_game_ids) == 0:
+            print(f"\n✓ No new games to fetch - {output_file} is up to date!")
+            return
 
         # CSV headers for team stats
         headers = [
@@ -399,14 +421,14 @@ class NHLAPIClient:
             'goals_for', 'goals_against'
         ]
 
-        all_rows = []
-        total_games = len(all_game_ids)
+        new_rows = []
+        total_new_games = len(new_game_ids)
         errors = 0
 
-        print("\nFetching boxscores...")
-        for idx, game_id in enumerate(all_game_ids, 1):
+        print("\nFetching boxscores for NEW games only...")
+        for idx, game_id in enumerate(new_game_ids, 1):
             if idx % 50 == 0:
-                print(f"  Progress: {idx}/{total_games} games ({idx/total_games*100:.1f}%)")
+                print(f"  Progress: {idx}/{total_new_games} games ({idx/total_new_games*100:.1f}%)")
 
             boxscore = self.get_boxscore(game_id)
 
@@ -430,7 +452,7 @@ class NHLAPIClient:
                 away_score = away_team.get('score', 0)
 
                 if home_abbrev:
-                    all_rows.append({
+                    new_rows.append({
                         'game_id': game_id,
                         'game_date': game_date,
                         'team_abbrev': home_abbrev,
@@ -445,7 +467,7 @@ class NHLAPIClient:
                 away_abbrev = away_team.get('abbrev', '')
 
                 if away_abbrev:
-                    all_rows.append({
+                    new_rows.append({
                         'game_id': game_id,
                         'game_date': game_date,
                         'team_abbrev': away_abbrev,
@@ -461,17 +483,21 @@ class NHLAPIClient:
                 errors += 1
                 continue
 
-        print(f"\n✓ Successfully fetched {len(all_game_ids) - errors}/{len(all_game_ids)} games")
+        print(f"\n✓ Successfully fetched {len(new_game_ids) - errors}/{len(new_game_ids)} new games")
         if errors > 0:
             print(f"  {errors} games had errors")
 
+        # Combine existing rows with new rows
+        all_rows = existing_rows + new_rows
+
         print(f"\nWriting {len(all_rows)} team-game records to {output_file}...")
+        print(f"  {len(existing_rows)} existing + {len(new_rows)} new = {len(all_rows)} total")
         with open(output_file, 'w', newline='') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=headers)
             writer.writeheader()
             writer.writerows(all_rows)
 
-        print(f"✓ Successfully created {output_file}")
+        print(f"✓ Successfully updated {output_file}")
 
     def close(self):
         """Close the session."""

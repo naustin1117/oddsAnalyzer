@@ -8,6 +8,12 @@ This script:
 4. Saves results to predictions_results.csv
 """
 
+import sys
+from pathlib import Path
+
+# Add parent directory to path to import project modules
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import pandas as pd
 from datetime import datetime, timedelta, timezone
 import requests
