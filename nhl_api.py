@@ -222,6 +222,124 @@ class NHLAPIClient:
 
         print(f"✓ Successfully exported data to {output_file}")
 
+    def update_player_game_logs_incremental(
+        self,
+        date: str,
+        season_id: str,
+        game_type: int,
+        csv_file: str = "data/player_game_logs_2025_2026.csv"
+    ) -> None:
+        """
+        Incrementally update player game logs by fetching only games from a specific date.
+        Uses schedule API to get game IDs, then fetches boxscores for player stats.
+
+        Args:
+            date: Date in format YYYY-MM-DD (e.g., "2024-12-01")
+            season_id: Season in format YYYYYYYY (e.g., "20252026")
+            game_type: Game type (2 = regular season, 3 = playoffs)
+            csv_file: Path to CSV file to update
+        """
+        print(f"Fetching games for {date}...")
+        schedule = self.get_schedule(date)
+
+        if not schedule or 'gameWeek' not in schedule:
+            print(f"No games found for {date}")
+            return
+
+        # Extract game IDs from schedule
+        game_ids = []
+        for day in schedule.get('gameWeek', []):
+            for game in day.get('games', []):
+                game_id = game.get('id')
+                if game_id:
+                    game_ids.append(game_id)
+
+        if not game_ids:
+            print(f"No games found for {date}")
+            return
+
+        print(f"Found {len(game_ids)} games to process")
+
+        # Load existing data
+        try:
+            df_existing = pd.read_csv(csv_file)
+            existing_game_ids = set(df_existing['game_id'].unique())
+            print(f"Loaded {len(existing_game_ids)} existing games from {csv_file}")
+        except FileNotFoundError:
+            print(f"{csv_file} not found - will create new file")
+            df_existing = pd.DataFrame()
+            existing_game_ids = set()
+
+        new_rows = []
+
+        for idx, game_id in enumerate(game_ids, 1):
+            if game_id in existing_game_ids:
+                print(f"  Game {idx}/{len(game_ids)} (ID: {game_id}) - Already in CSV, skipping")
+                continue
+
+            print(f"  Game {idx}/{len(game_ids)} (ID: {game_id}) - Fetching boxscore...")
+            boxscore = self.get_boxscore(game_id)
+
+            if not boxscore:
+                print(f"    Failed to fetch boxscore")
+                continue
+
+            # Extract player stats from boxscore
+            player_stats = boxscore.get('playerByGameStats', {})
+
+            for team_key in ['awayTeam', 'homeTeam']:
+                team_data = player_stats.get(team_key, {})
+                is_home = (team_key == 'homeTeam')
+
+                team_abbrev = boxscore.get('awayTeam' if team_key == 'awayTeam' else 'homeTeam', {}).get('abbrev', '')
+                opponent_abbrev = boxscore.get('homeTeam' if team_key == 'awayTeam' else 'awayTeam', {}).get('abbrev', '')
+
+                for position in ['forwards', 'defense']:
+                    for player in team_data.get(position, []):
+                        row = {
+                            'player_id': player.get('playerId'),
+                            'game_id': game_id,
+                            'season_id': season_id,
+                            'game_type': game_type,
+                            'game_date': date,
+                            'team_abbrev': team_abbrev,
+                            'opponent_abbrev': opponent_abbrev,
+                            'home_flag': 1 if is_home else 0,
+                            'position_code': player.get('position', 'D' if position == 'defense' else 'F'),
+                            'shots': player.get('sog', 0),
+                            'goals': player.get('goals', 0),
+                            'assists': player.get('assists', 0),
+                            'points': player.get('points', 0),
+                            'plus_minus': player.get('plusMinus', 0),
+                            'power_play_goals': player.get('powerPlayGoals', 0),
+                            'power_play_points': 0,
+                            'shorthanded_goals': player.get('shorthandedGoals', 0),
+                            'shorthanded_points': 0,
+                            'pim': player.get('pim', 0),
+                            'shifts': player.get('shifts', 0),
+                            'toi_raw': player.get('toi', '0:00')
+                        }
+                        new_rows.append(row)
+
+            print(f"    Added {len([r for r in new_rows if r['game_id'] == game_id])} player records")
+
+        if not new_rows:
+            print(f"\n✓ No new games to add - {csv_file} is up to date")
+            return
+
+        # Append new rows
+        print(f"\nAppending {len(new_rows)} new player-game records to {csv_file}...")
+        new_df = pd.DataFrame(new_rows)
+
+        if len(df_existing) > 0:
+            combined_df = pd.concat([df_existing, new_df], ignore_index=True)
+        else:
+            combined_df = new_df
+
+        combined_df.to_csv(csv_file, index=False)
+        print(f"✓ Successfully updated {csv_file}")
+        print(f"  Total records: {len(combined_df)} ({len(new_rows)} new)")
+
     @staticmethod
     def clean_toi_column(input_file: str, output_file: str = None) -> None:
         """

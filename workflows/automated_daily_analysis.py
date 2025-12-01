@@ -415,14 +415,20 @@ def update_player_data():
 
     try:
         with NHLAPIClient() as client:
-            # Step 1: Fetch latest player game logs
-            print("\nStep 1: Fetching latest player game logs from NHL API")
+            # Step 1: Fetch last night's games (incremental update)
+            print("\nStep 1: Fetching last night's games from NHL API")
             print("-"*80)
 
-            client.export_all_player_game_logs_to_csv(
+            # Calculate yesterday's date
+            from datetime import timedelta
+            yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+            print(f"Fetching games from: {yesterday}")
+
+            client.update_player_game_logs_incremental(
+                date=yesterday,
                 season_id="20252026",
                 game_type=2,
-                output_file="data/player_game_logs_2025_2026.csv"
+                csv_file="data/player_game_logs_2025_2026.csv"
             )
 
             # Step 2: Add engineered features (overwrites the same file)
