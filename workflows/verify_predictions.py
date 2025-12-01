@@ -2,10 +2,10 @@
 Verify Predictions Against Actual Results
 
 This script:
-1. Loads HIGH confidence predictions from predictions_history.csv
-2. Fetches actual game results from NHL API
+1. Loads unverified predictions from predictions_history_v2.csv
+2. Fetches actual game results from NHL API using stored nhl_game_id
 3. Determines if bets won/lost/pushed
-4. Saves results to predictions_results.csv
+4. Updates predictions_history_v2.csv with results
 """
 
 import sys
@@ -15,21 +15,19 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import pandas as pd
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 import requests
-from nhl_api import NHLAPIClient
 
 
-def get_recent_predictions(confidence='HIGH', days_ago=1):
+def get_unverified_predictions(days_ago=1):
     """
-    Get predictions made N days ago with specific confidence level.
+    Get unverified predictions from N days ago (all confidence levels).
 
     Args:
-        confidence (str): Confidence level to filter (HIGH, MEDIUM, LOW)
         days_ago (int): How many days back to check (default: 1 = yesterday)
 
     Returns:
-        DataFrame: Filtered predictions with Poisson-based true edge
+        DataFrame: Unverified predictions
     """
     predictions_file = 'data/predictions_history_v2.csv'
 
@@ -39,27 +37,29 @@ def get_recent_predictions(confidence='HIGH', days_ago=1):
         print(f"ERROR: {predictions_file} not found")
         return pd.DataFrame()
 
-    # Filter for confidence level
-    df_filtered = df[df['confidence'] == confidence].copy()
+    # Filter for unverified predictions (result is None or UNKNOWN)
+    unverified = df[(df['result'].isna()) | (df['result'] == 'UNKNOWN')].copy()
 
-    # Convert prediction_date to datetime and extract date
-    df_filtered['prediction_date'] = pd.to_datetime(df_filtered['prediction_date'])
-    df_filtered['pred_date'] = df_filtered['prediction_date'].dt.date
+    # Convert game_time to datetime
+    unverified['game_time'] = pd.to_datetime(unverified['game_time'])
 
-    # Get the target date (N days ago) - use local time, not UTC
+    # Get the target date (N days ago)
     target_date = (datetime.now() - timedelta(days=days_ago)).date()
 
-    # Filter for predictions made on that specific date
-    df_filtered = df_filtered[df_filtered['pred_date'] == target_date]
+    # Convert to EST timezone to match game dates
+    unverified['game_date'] = unverified['game_time'].dt.tz_convert('America/New_York').dt.date
 
-    print(f"Found {len(df_filtered)} {confidence} confidence predictions from {target_date}")
+    # Filter for games from the target date
+    unverified = unverified[unverified['game_date'] == target_date]
 
-    return df_filtered
+    print(f"Found {len(unverified)} unverified predictions from {target_date}")
+
+    return unverified
 
 
-def get_nhl_game_id(game_date, away_team, home_team):
+def get_nhl_game_id_from_schedule(game_date, away_team, home_team):
     """
-    Get NHL game ID from schedule for a specific game.
+    Get NHL game ID from schedule (fallback for old predictions without nhl_game_id).
 
     Args:
         game_date (str): Game date in YYYY-MM-DD format
@@ -70,7 +70,6 @@ def get_nhl_game_id(game_date, away_team, home_team):
         int or None: NHL game ID, or None if not found
     """
     try:
-        # Fetch schedule for the date
         url = f"https://api-web.nhle.com/v1/schedule/{game_date}"
         response = requests.get(url, timeout=10)
 
@@ -78,15 +77,12 @@ def get_nhl_game_id(game_date, away_team, home_team):
             return None
 
         data = response.json()
-        game_week = data.get('gameWeek', [])
 
-        # Search through all days in the week
-        for day in game_week:
+        for day in data.get('gameWeek', []):
             for game in day.get('games', []):
                 game_away = game.get('awayTeam', {}).get('placeName', {}).get('default', '')
                 game_home = game.get('homeTeam', {}).get('placeName', {}).get('default', '')
 
-                # Match by team names (partial match to handle name variations)
                 if away_team in game_away or game_away in away_team:
                     if home_team in game_home or game_home in home_team:
                         return game.get('id')
@@ -110,7 +106,6 @@ def get_actual_shots(player_id, nhl_game_id):
         int or None: Actual shots on goal, or None if not found
     """
     try:
-        # Fetch boxscore for the game
         url = f"https://api-web.nhle.com/v1/gamecenter/{nhl_game_id}/boxscore"
         response = requests.get(url, timeout=10)
 
@@ -118,15 +113,11 @@ def get_actual_shots(player_id, nhl_game_id):
             return None
 
         data = response.json()
-
-        # Get playerByGameStats
         player_stats = data.get('playerByGameStats', {})
 
-        # Search through both teams' players
         for team_key in ['awayTeam', 'homeTeam']:
             team_data = player_stats.get(team_key, {})
 
-            # Check forwards and defense
             for position in ['forwards', 'defense']:
                 for player in team_data.get(position, []):
                     if player.get('playerId') == player_id:
@@ -135,7 +126,7 @@ def get_actual_shots(player_id, nhl_game_id):
         return None
 
     except Exception as e:
-        print(f"    Error fetching shots for player {player_id}: {e}")
+        print(f"    Error fetching shots: {e}")
         return None
 
 
@@ -144,7 +135,7 @@ def calculate_units_won(odds_str, result):
     Calculate units won/lost based on American odds.
 
     Args:
-        odds_str (str or int): American odds (e.g., '-154' or '+120')
+        odds_str (str or int): American odds
         result (str): 'WIN', 'LOSS', or 'PUSH'
 
     Returns:
@@ -156,17 +147,12 @@ def calculate_units_won(odds_str, result):
     if result == 'LOSS':
         return -1.0
 
-    # WIN - calculate profit based on odds
     try:
         odds = int(odds_str)
 
         if odds > 0:
-            # Positive odds (e.g., +120)
-            # Profit = stake * (odds / 100)
             profit = 1.0 * (odds / 100.0)
         else:
-            # Negative odds (e.g., -154)
-            # Profit = stake * (100 / abs(odds))
             profit = 1.0 * (100.0 / abs(odds))
 
         return profit
@@ -177,10 +163,10 @@ def calculate_units_won(odds_str, result):
 
 def check_prediction_result(recommendation, line, actual_shots, over_odds, under_odds):
     """
-    Determine if a prediction won, lost, or pushed, and calculate units won.
+    Determine if a prediction won, lost, or pushed.
 
     Args:
-        recommendation (str): e.g., "BET OVER 2.5" or "BET UNDER 2.5"
+        recommendation (str): e.g., "BET OVER 2.5"
         line (float): The betting line
         actual_shots (int): Actual shots in the game
         over_odds (str/int): Odds for over bet
@@ -188,13 +174,10 @@ def check_prediction_result(recommendation, line, actual_shots, over_odds, under
 
     Returns:
         tuple: (result_str, units_won)
-            result_str: 'WIN', 'LOSS', 'PUSH', or 'UNKNOWN'
-            units_won: float (positive for profit, negative for loss)
     """
     if actual_shots is None:
         return 'UNKNOWN', 0.0
 
-    # Determine which odds to use
     if 'OVER' in recommendation:
         relevant_odds = over_odds
         if actual_shots > line:
@@ -214,222 +197,191 @@ def check_prediction_result(recommendation, line, actual_shots, over_odds, under
     else:
         return 'UNKNOWN', 0.0
 
-    # Calculate units won
     units = calculate_units_won(relevant_odds, result)
-
     return result, units
 
 
-def verify_predictions(confidence='HIGH', days_ago=1):
+def verify_predictions(days_ago=1):
     """
-    Main function to verify predictions against actual results.
+    Verify all unverified predictions from N days ago.
 
     Args:
-        confidence (str): Confidence level to check (HIGH, MEDIUM, LOW)
         days_ago (int): How many days back to check (1 = yesterday)
 
     Returns:
-        DataFrame: Verified predictions with results
+        int: Number of predictions verified
     """
     print("="*80)
     print("VERIFYING PREDICTIONS AGAINST ACTUAL RESULTS")
     print("="*80)
-    print(f"Confidence level: {confidence}")
     print(f"Checking predictions from: {days_ago} day(s) ago")
-    print()
+    print(f"Verifying: ALL CONFIDENCE LEVELS\n")
 
-    # Step 1: Get recent predictions
-    print("Step 1: Loading predictions...")
+    # Step 1: Get unverified predictions
+    print("Step 1: Loading unverified predictions...")
     print("-"*80)
 
-    predictions = get_recent_predictions(confidence, days_ago)
+    predictions = get_unverified_predictions(days_ago)
 
     if len(predictions) == 0:
-        print(f"No {confidence} confidence predictions found from {days_ago} day(s) ago")
-        return pd.DataFrame()
+        print(f"No unverified predictions found from {days_ago} day(s) ago")
+        return 0
 
-    # Display predictions to verify
+    # Display games to verify
     print(f"\nGames to verify:")
     for game in predictions[['game_time', 'away_team', 'home_team']].drop_duplicates().values:
-        print(f"  {game[1]} @ {game[2]} ({game[0]})")
+        print(f"  {game[1]} @ {game[2]}")
 
-    # Step 2: Fetch actual results
+    # Step 2: Load full predictions file for updating
+    predictions_file = 'data/predictions_history_v2.csv'
+    df_all = pd.read_csv(predictions_file)
+
+    # Ensure nhl_game_id column exists
+    if 'nhl_game_id' not in df_all.columns:
+        df_all['nhl_game_id'] = None
+
+    # Step 3: Fetch actual results
     print("\nStep 2: Fetching actual game results...")
     print("-"*80)
 
-    results = []
-    nhl_game_id_cache = {}  # Cache game IDs to avoid redundant API calls
+    verified_count = 0
 
     for idx, pred in predictions.iterrows():
         player_name = pred['player_name']
-        player_id = pred['player_id']
+        player_id = int(pred['player_id'])
+        game_date = pred['game_date'].strftime('%Y-%m-%d')
 
-        # Convert game_time from UTC to EST to get the correct schedule date
-        game_time_utc = pd.to_datetime(pred['game_time'])
-        game_time_est = game_time_utc.tz_convert('America/New_York')
-        game_date = game_time_est.strftime('%Y-%m-%d')
+        print(f"  {player_name} ({game_date})...", end=' ')
 
-        away_team = pred['away_team']
-        home_team = pred['home_team']
-        line = pred['line']
-        recommendation = pred['recommendation']
+        # Try to get NHL game ID from the row first (if stored)
+        nhl_game_id = pred.get('nhl_game_id')
 
-        print(f"  Checking {player_name} ({game_date})...", end=' ')
-
-        # Get NHL game ID (use cache if available)
-        game_key = f"{game_date}_{away_team}_{home_team}"
-        if game_key not in nhl_game_id_cache:
-            nhl_game_id = get_nhl_game_id(game_date, away_team, home_team)
-            nhl_game_id_cache[game_key] = nhl_game_id
+        if pd.notna(nhl_game_id):
+            # Use stored NHL game ID
+            nhl_game_id = int(nhl_game_id)
         else:
-            nhl_game_id = nhl_game_id_cache[game_key]
+            # Fallback: look up from schedule
+            print("(looking up NHL game ID)...", end=' ')
+            nhl_game_id = get_nhl_game_id_from_schedule(
+                game_date,
+                pred['away_team'],
+                pred['home_team']
+            )
 
-        # Get actual shots from boxscore
+            # Store it for future use
+            if nhl_game_id is not None:
+                df_all.at[idx, 'nhl_game_id'] = nhl_game_id
+
+        # Get actual shots
         if nhl_game_id is None:
             print("⚠️  Game not found")
             actual_shots = None
-        else:
-            actual_shots = get_actual_shots(int(player_id), nhl_game_id)
-
-        if actual_shots is None:
-            print("⚠️  No data found")
             result_status = 'UNKNOWN'
             units_won = 0.0
         else:
-            # Determine result and units won
-            result_status, units_won = check_prediction_result(
-                recommendation, line, actual_shots,
-                pred['over_odds'], pred['under_odds']
-            )
+            actual_shots = get_actual_shots(player_id, nhl_game_id)
 
-            if result_status == 'WIN':
-                print(f"✓ {actual_shots} shots - WIN (+{units_won:.2f}u)")
-            elif result_status == 'LOSS':
-                print(f"✗ {actual_shots} shots - LOSS ({units_won:.2f}u)")
+            if actual_shots is None:
+                print("⚠️  No data found")
+                result_status = 'UNKNOWN'
+                units_won = 0.0
             else:
-                print(f"≈ {actual_shots} shots - PUSH ({units_won:.2f}u)")
+                result_status, units_won = check_prediction_result(
+                    pred['recommendation'],
+                    pred['line'],
+                    actual_shots,
+                    pred['over_odds'],
+                    pred['under_odds']
+                )
 
-        # Store result
-        results.append({
-            'game_id': pred['game_id'],
-            'game_time': pred['game_time'],
-            'away_team': pred['away_team'],
-            'home_team': pred['home_team'],
-            'prediction_date': pred['prediction_date'],
-            'player_name': player_name,
-            'player_id': player_id,
-            'team': pred['team'],
-            'home_away': pred['home_away'],
-            'line': line,
-            'over_odds': pred['over_odds'],
-            'under_odds': pred['under_odds'],
-            'prediction': pred['prediction'],
-            'difference': pred['difference'],
-            'confidence': pred['confidence'],
-            'true_edge': pred['true_edge'],
-            'model_probability': pred.get('model_probability', None),
-            'implied_probability': pred.get('implied_probability', None),
-            'recommendation': recommendation,
-            'bookmaker': pred['bookmaker'],
-            'actual_shots': actual_shots,
-            'result': result_status,
-            'units_won': units_won
-        })
+                if result_status == 'WIN':
+                    print(f"✓ {actual_shots} shots - WIN (+{units_won:.2f}u)")
+                elif result_status == 'LOSS':
+                    print(f"✗ {actual_shots} shots - LOSS ({units_won:.2f}u)")
+                else:
+                    print(f"≈ {actual_shots} shots - PUSH")
 
-    # Step 3: Save results
+        # Update the main dataframe
+        df_all.at[idx, 'actual_shots'] = actual_shots
+        df_all.at[idx, 'result'] = result_status
+        df_all.at[idx, 'units_won'] = units_won
+
+        if result_status != 'UNKNOWN':
+            verified_count += 1
+
+    # Step 4: Save updated predictions
     print("\nStep 3: Saving results...")
     print("-"*80)
 
-    results_df = pd.DataFrame(results)
+    df_all.to_csv(predictions_file, index=False)
+    print(f"✓ Updated {predictions_file} with {verified_count} verified predictions")
 
-    # Save to predictions_results.csv
-    results_file = 'data/predictions_results.csv'
-    results_df.to_csv(results_file, index=False)
-    print(f"✓ Saved {len(results_df)} verified predictions to {results_file}")
-
-    # Step 4: Calculate statistics
+    # Step 5: Calculate statistics
     print("\n" + "="*80)
     print("RESULTS SUMMARY")
     print("="*80)
 
-    valid_results = results_df[results_df['result'] != 'UNKNOWN']
+    verified = predictions[predictions['result'] != 'UNKNOWN']
 
-    if len(valid_results) == 0:
+    if verified_count == 0:
         print("\n⚠️  No valid results found (games may not have been played yet)")
-        return results_df
+        return 0
+
+    # Re-read to get updated results
+    updated_predictions = df_all.loc[predictions.index]
+    valid_results = updated_predictions[updated_predictions['result'] != 'UNKNOWN']
 
     wins = (valid_results['result'] == 'WIN').sum()
     losses = (valid_results['result'] == 'LOSS').sum()
     pushes = (valid_results['result'] == 'PUSH').sum()
-
     total = len(valid_results)
-    win_rate = (wins / total * 100) if total > 0 else 0
 
-    # Calculate total units
+    # Calculate units
     total_units = valid_results['units_won'].sum()
-    avg_units_per_bet = total_units / total if total > 0 else 0
 
     print(f"\nTotal verified: {total}")
-    print(f"Wins:   {wins} ({wins/total*100:.1f}%)")
-    print(f"Losses: {losses} ({losses/total*100:.1f}%)")
-    print(f"Pushes: {pushes} ({pushes/total*100:.1f}%)")
-
-    print(f"\nWin Rate: {win_rate:.1f}%")
+    print(f"  Wins:   {wins} ({wins/total*100:.1f}%)")
+    print(f"  Losses: {losses} ({losses/total*100:.1f}%)")
+    print(f"  Pushes: {pushes} ({pushes/total*100:.1f}%)")
 
     print(f"\nUnits:")
     print(f"  Total: {total_units:+.2f}u")
-    print(f"  Per bet: {avg_units_per_bet:+.2f}u")
-    print(f"  ROI: {(total_units / total * 100):+.1f}%" if total > 0 else "  ROI: N/A")
+    print(f"  Per bet: {(total_units/total):+.2f}u" if total > 0 else "  Per bet: N/A")
+    print(f"  ROI: {(total_units/total*100):+.1f}%" if total > 0 else "  ROI: N/A")
 
-    # Break-even analysis
-    breakeven_rate = 52.4  # Need 52.4% to beat -110 vig
-    if total_units > 0:
-        print(f"\n✓ PROFITABLE! (+{total_units:.2f} units)")
-    elif total_units < 0:
-        print(f"\n✗ LOSING ({total_units:.2f} units)")
-    else:
-        print(f"\n≈ BREAK EVEN (0.00 units)")
+    # Breakdown by confidence
+    print(f"\n{'='*80}")
+    print("BREAKDOWN BY CONFIDENCE LEVEL")
+    print("="*80)
 
-    # Show wins and losses with true edge
-    if wins > 0:
-        print(f"\n{'='*80}")
-        print("WINNING BETS")
-        print("="*80)
-        winning_bets = valid_results[valid_results['result'] == 'WIN']
-        print(winning_bets[['player_name', 'line', 'prediction', 'actual_shots', 'true_edge', 'recommendation']].to_string(index=False))
-
-    if losses > 0:
-        print(f"\n{'='*80}")
-        print("LOSING BETS")
-        print("="*80)
-        losing_bets = valid_results[valid_results['result'] == 'LOSS']
-        print(losing_bets[['player_name', 'line', 'prediction', 'actual_shots', 'true_edge', 'recommendation']].to_string(index=False))
+    for conf in ['HIGH', 'MEDIUM', 'LOW']:
+        conf_bets = valid_results[valid_results['confidence'] == conf]
+        if len(conf_bets) > 0:
+            conf_wins = (conf_bets['result'] == 'WIN').sum()
+            conf_total = len(conf_bets)
+            conf_units = conf_bets['units_won'].sum()
+            print(f"\n{conf}: {conf_wins}/{conf_total} ({conf_wins/conf_total*100:.1f}%) - {conf_units:+.2f}u")
 
     print("\n" + "="*80)
     print("VERIFICATION COMPLETE")
     print("="*80)
 
-    return results_df
+    return verified_count
 
 
 if __name__ == "__main__":
-    import sys
-
-    # Default to HIGH confidence and yesterday's predictions
-    confidence = 'HIGH'
+    # Default to yesterday's predictions
     days_ago = 1
 
-    # Allow command line arguments
+    # Allow command line argument for days
     if len(sys.argv) > 1:
-        confidence = sys.argv[1]
-    if len(sys.argv) > 2:
-        days_ago = int(sys.argv[2])
+        days_ago = int(sys.argv[1])
 
     # Run verification
-    results = verify_predictions(confidence, days_ago)
+    verified = verify_predictions(days_ago)
 
-    if len(results) > 0:
-        print(f"\nResults saved to: data/predictions_results.csv")
-        print("\nTo verify other confidence levels or dates:")
-        print(f"  python3 verify_predictions.py MEDIUM 1   # Medium confidence, yesterday")
-        print(f"  python3 verify_predictions.py HIGH 2     # High confidence, 2 days ago")
+    if verified > 0:
+        print(f"\n✓ Results saved to: data/predictions_history_v2.csv")
+        print(f"\nTo verify other dates:")
+        print(f"  python workflows/verify_predictions.py 1  # Yesterday")
+        print(f"  python workflows/verify_predictions.py 2  # 2 days ago")

@@ -191,6 +191,43 @@ def pull_game_lines(client, game_id, bookmaker='fanduel'):
         return None
 
 
+def get_nhl_game_id(game_date, away_team, home_team):
+    """
+    Get NHL game ID from schedule API.
+
+    Args:
+        game_date: Date in YYYY-MM-DD format
+        away_team: Away team name
+        home_team: Home team name
+
+    Returns:
+        NHL game ID or None if not found
+    """
+    try:
+        url = f"https://api-web.nhle.com/v1/schedule/{game_date}"
+        response = requests.get(url, timeout=10)
+
+        if response.status_code != 200:
+            return None
+
+        data = response.json()
+
+        for day in data.get('gameWeek', []):
+            for game in day.get('games', []):
+                game_away = game.get('awayTeam', {}).get('placeName', {}).get('default', '')
+                game_home = game.get('homeTeam', {}).get('placeName', {}).get('default', '')
+
+                if away_team in game_away or game_away in away_team:
+                    if home_team in game_home or game_home in home_team:
+                        return game.get('id')
+
+        return None
+
+    except Exception as e:
+        print(f"    Error fetching NHL game ID: {e}")
+        return None
+
+
 def run_predictions_for_game(game_lines, game_info, player_mapping, bookmaker='fanduel'):
     """
     Run model predictions for all players in a game.
@@ -205,6 +242,25 @@ def run_predictions_for_game(game_lines, game_info, player_mapping, bookmaker='f
         list: List of prediction dictionaries
     """
     predictions = []
+
+    # Get NHL game ID from schedule API
+    import requests
+    game_time = pd.to_datetime(game_info['commence_time'])
+
+    # Convert to EST and get game date
+    if game_time.tz is None:
+        game_time_est = game_time.tz_localize('UTC').tz_convert('America/New_York')
+    else:
+        game_time_est = game_time.tz_convert('America/New_York')
+
+    game_date = game_time_est.strftime('%Y-%m-%d')
+
+    nhl_game_id = get_nhl_game_id(game_date, game_info['away_team'], game_info['home_team'])
+
+    if nhl_game_id:
+        print(f"    ✓ NHL game ID: {nhl_game_id}")
+    else:
+        print(f"    ⚠️  Could not find NHL game ID")
 
     # Load player data once for this game
     df_player = pd.read_csv('data/player_game_logs_2025_2026_with_opponent.csv')
@@ -291,6 +347,7 @@ def run_predictions_for_game(game_lines, game_info, player_mapping, bookmaker='f
             # Store prediction
             predictions.append({
                 'game_id': game_info['id'],
+                'nhl_game_id': nhl_game_id,  # NHL game ID from schedule API
                 'game_time': game_info['commence_time'],
                 'away_team': game_info['away_team'],
                 'home_team': game_info['home_team'],
