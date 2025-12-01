@@ -145,22 +145,13 @@ if __name__ == "__main__":
     print("ADDING OPPONENT AND CONTEXT FEATURES")
     print("="*60)
 
-    # Process 2023-2024 season
+    # Process 2025-2026 season
     print("\n" + "="*60)
-    print("Processing 2023-2024 Season")
+    print("Processing 2025-2026 Season")
     print("="*60)
     add_opponent_features(
-        'data/player_game_logs_2023_2024_engineered.csv',
-        'data/player_game_logs_2023_2024_with_opponent.csv'
-    )
-
-    # Process 2024-2025 season
-    print("\n" + "="*60)
-    print("Processing 2024-2025 Season")
-    print("="*60)
-    add_opponent_features(
-        'data/player_game_logs_2024_2025_engineered.csv',
-        'data/player_game_logs_2024_2025_with_opponent.csv'
+        'data/player_game_logs_2025_2026.csv',
+        'data/player_game_logs_2025_2026_with_opponent.csv'
     )
 
     print("\n" + "="*60)

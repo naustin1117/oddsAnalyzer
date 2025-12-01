@@ -12,6 +12,7 @@ __pycache__/
 
 # Model files (if large)
 *.pkl
+!models/*.pkl
 *.joblib
 
 # IDE
