@@ -9,6 +9,8 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Give permission to push to the repository
 
     steps:
       - name: Checkout repository
