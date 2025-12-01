@@ -323,6 +323,7 @@ def run_predictions_for_game(game_lines, game_info, player_mapping, bookmaker='f
 def save_predictions(predictions_df):
     """
     Save predictions to predictions_history_v2.csv with Poisson-based true edge.
+    Deduplicates by game_id + player_id, keeping the most recent prediction.
 
     Args:
         predictions_df (DataFrame): Predictions to save
@@ -332,8 +333,27 @@ def save_predictions(predictions_df):
     if os.path.exists(predictions_file):
         existing = pd.read_csv(predictions_file)
         combined = pd.concat([existing, predictions_df], ignore_index=True)
+
+        # Deduplicate: keep most recent prediction for each game_id + player_id
+        # Sort by prediction_date to ensure we keep the latest
+        combined['prediction_date'] = pd.to_datetime(combined['prediction_date'])
+        combined = combined.sort_values('prediction_date', ascending=True)
+
+        # Drop duplicates, keeping the last (most recent) entry
+        initial_count = len(combined)
+        combined = combined.drop_duplicates(subset=['game_id', 'player_id'], keep='last')
+        duplicates_removed = initial_count - len(combined)
+
+        # Convert prediction_date back to string format
+        combined['prediction_date'] = combined['prediction_date'].dt.strftime('%Y-%m-%d %H:%M:%S')
+
         combined.to_csv(predictions_file, index=False)
-        print(f"✓ Appended {len(predictions_df)} predictions to {predictions_file}")
+
+        if duplicates_removed > 0:
+            print(f"✓ Appended {len(predictions_df)} predictions, removed {duplicates_removed} duplicates")
+        else:
+            print(f"✓ Appended {len(predictions_df)} predictions (no duplicates found)")
+        print(f"  Total predictions in file: {len(combined)}")
     else:
         predictions_df.to_csv(predictions_file, index=False)
         print(f"✓ Created {predictions_file} with {len(predictions_df)} predictions")
