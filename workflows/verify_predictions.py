@@ -57,14 +57,28 @@ def get_unverified_predictions(days_ago=1):
     return unverified
 
 
+def get_team_name_for_matching(team_full_name):
+    """
+    Extract the last word from team name for matching (e.g., 'Sharks' from 'San Jose Sharks').
+
+    Args:
+        team_full_name (str): Full team name
+
+    Returns:
+        str: Last word of team name
+    """
+    return team_full_name.strip().split()[-1]
+
+
 def get_nhl_game_id_from_schedule(game_date, away_team, home_team):
     """
-    Get NHL game ID from schedule (fallback for old predictions without nhl_game_id).
+    Get NHL game ID from schedule by looking up the game date.
+    Uses the last word of team names (mascot) for matching.
 
     Args:
         game_date (str): Game date in YYYY-MM-DD format
-        away_team (str): Away team name
-        home_team (str): Home team name
+        away_team (str): Away team name (e.g., 'San Jose Sharks')
+        home_team (str): Home team name (e.g., 'Utah Mammoth')
 
     Returns:
         int or None: NHL game ID, or None if not found
@@ -78,19 +92,29 @@ def get_nhl_game_id_from_schedule(game_date, away_team, home_team):
 
         data = response.json()
 
+        # Extract team mascot names for matching
+        away_name = get_team_name_for_matching(away_team)
+        home_name = get_team_name_for_matching(home_team)
+
+        # Search through all games on this date
         for day in data.get('gameWeek', []):
             for game in day.get('games', []):
-                game_away = game.get('awayTeam', {}).get('placeName', {}).get('default', '')
-                game_home = game.get('homeTeam', {}).get('placeName', {}).get('default', '')
+                # Get full team names from API
+                game_away_full = game.get('awayTeam', {}).get('commonName', {}).get('default', '')
+                game_home_full = game.get('homeTeam', {}).get('commonName', {}).get('default', '')
 
-                if away_team in game_away or game_away in away_team:
-                    if home_team in game_home or game_home in home_team:
-                        return game.get('id')
+                # Extract mascot names from API response
+                game_away_name = get_team_name_for_matching(game_away_full)
+                game_home_name = get_team_name_for_matching(game_home_full)
+
+                # Match using mascot names
+                if away_name == game_away_name and home_name == game_home_name:
+                    return game.get('id')
 
         return None
 
     except Exception as e:
-        print(f"    Error fetching game ID: {e}")
+        print(f"    Error fetching schedule: {e}")
         return None
 
 
@@ -259,6 +283,7 @@ def verify_predictions(days_ago=1):
         if pd.notna(nhl_game_id):
             # Use stored NHL game ID
             nhl_game_id = int(nhl_game_id)
+            print(f"(using stored game ID: {nhl_game_id})...", end=' ')
         else:
             # Fallback: look up from schedule
             print("(looking up NHL game ID)...", end=' ')
