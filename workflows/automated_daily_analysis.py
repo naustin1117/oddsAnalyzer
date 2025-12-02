@@ -24,6 +24,7 @@ from datetime import datetime
 import os
 import time
 import numpy as np
+import requests
 from scipy.stats import poisson
 from odds_api import OddsAPIClient
 from simple_predict import predict_shots, get_model
@@ -244,7 +245,6 @@ def run_predictions_for_game(game_lines, game_info, player_mapping, bookmaker='f
     predictions = []
 
     # Get NHL game ID from schedule API
-    import requests
     game_time = pd.to_datetime(game_info['commence_time'])
 
     # Convert to EST and get game date
