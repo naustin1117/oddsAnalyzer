@@ -27,14 +27,14 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify HIGH confidence predictions from yesterday
+      - name: Verify predictions from yesterday
         run: |
-          python workflows/verify_predictions.py HIGH 1
+          python workflows/verify_predictions.py 1
 
       - name: Commit and push results
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/predictions_results.csv
+          git add data/predictions_history_v2.csv
           git diff --quiet && git diff --staged --quiet || git commit -m "✅ Verify predictions for $(date -u +%Y-%m-%d)"
           git push
