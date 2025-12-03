@@ -20,3 +20,4 @@ ALLOWED_ORIGINS = [
 # Data file paths
 PREDICTIONS_FILE = "data/predictions_history_v2.csv"
 PLAYER_LOGS_FILE = "data/player_game_logs_2025_2026_with_opponent.csv"
+PLAYER_NAME_MAPPING_FILE = "data/player_name_to_id.csv"

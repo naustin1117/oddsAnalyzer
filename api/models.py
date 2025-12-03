@@ -70,3 +70,36 @@ class HealthResponse(BaseModel):
     status: str
     timestamp: str
     predictions_count: int
+
+
+class PlayerGame(BaseModel):
+    """Single game stats for a player"""
+    game_date: str
+    opponent: str
+    home_away: str
+    shots: int
+    goals: int
+    assists: int
+    points: int
+    toi_seconds: float
+    game_id: Optional[int] = None
+
+
+class PlayerGamesResponse(BaseModel):
+    """Response containing player's recent games"""
+    player_id: int
+    player_name: str
+    team: str
+    games_count: int
+    games: List[PlayerGame]
+    averages: dict
+
+
+class PlayerPredictionsResponse(BaseModel):
+    """Response containing predictions for a specific player"""
+    player_id: int
+    player_name: str
+    upcoming_count: int
+    historical_count: int
+    upcoming: List[Prediction]
+    historical: List[Prediction]
