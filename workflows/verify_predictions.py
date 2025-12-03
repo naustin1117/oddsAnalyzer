@@ -286,7 +286,7 @@ def verify_predictions(days_ago=1):
             print(f"(using stored game ID: {nhl_game_id})...", end=' ')
         else:
             # Fallback: look up from schedule
-            print("(looking up NHL game ID)...", end=' ')
+            print(f"(looking up NHL game ID for {game_date}: {pred['away_team']} @ {pred['home_team']})...", end=' ')
             nhl_game_id = get_nhl_game_id_from_schedule(
                 game_date,
                 pred['away_team'],
