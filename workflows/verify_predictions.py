@@ -18,6 +18,9 @@ import pandas as pd
 from datetime import datetime, timedelta
 import requests
 
+# Cache for boxscore data to avoid redundant API calls
+_boxscore_cache = {}
+
 
 def get_unverified_predictions(days_ago=1):
     """
@@ -118,9 +121,45 @@ def get_nhl_game_id_from_schedule(game_date, away_team, home_team):
         return None
 
 
+def fetch_boxscore(nhl_game_id):
+    """
+    Fetch boxscore data for a game from NHL API.
+    Results are cached to avoid redundant API calls for the same game.
+
+    Args:
+        nhl_game_id (int): NHL game ID
+
+    Returns:
+        dict or None: Boxscore data, or None if fetch failed
+    """
+    # Check cache first
+    if nhl_game_id in _boxscore_cache:
+        return _boxscore_cache[nhl_game_id]
+
+    # Fetch from API
+    try:
+        url = f"https://api-web.nhle.com/v1/gamecenter/{nhl_game_id}/boxscore"
+        print(f"Fetching gamedata from url {url}")
+        response = requests.get(url, timeout=10)
+
+        if response.status_code != 200:
+            _boxscore_cache[nhl_game_id] = None
+            return None
+
+        data = response.json()
+        _boxscore_cache[nhl_game_id] = data
+        return data
+
+    except Exception as e:
+        print(f"    Error fetching boxscore: {e}")
+        _boxscore_cache[nhl_game_id] = None
+        return None
+
+
 def get_actual_shots(player_id, nhl_game_id):
     """
     Get actual shots for a player in a specific game from NHL boxscore.
+    Uses cached boxscore data when available to minimize API calls.
 
     Args:
         player_id (int): NHL player ID
@@ -129,29 +168,24 @@ def get_actual_shots(player_id, nhl_game_id):
     Returns:
         int or None: Actual shots on goal, or None if not found
     """
-    try:
-        url = f"https://api-web.nhle.com/v1/gamecenter/{nhl_game_id}/boxscore"
-        response = requests.get(url, timeout=10)
+    # Fetch boxscore (from cache or API)
+    data = fetch_boxscore(nhl_game_id)
 
-        if response.status_code != 200:
-            return None
-
-        data = response.json()
-        player_stats = data.get('playerByGameStats', {})
-
-        for team_key in ['awayTeam', 'homeTeam']:
-            team_data = player_stats.get(team_key, {})
-
-            for position in ['forwards', 'defense']:
-                for player in team_data.get(position, []):
-                    if player.get('playerId') == player_id:
-                        return player.get('sog', 0)
-
+    if data is None:
         return None
 
-    except Exception as e:
-        print(f"    Error fetching shots: {e}")
-        return None
+    # Extract player stats
+    player_stats = data.get('playerByGameStats', {})
+
+    for team_key in ['awayTeam', 'homeTeam']:
+        team_data = player_stats.get(team_key, {})
+
+        for position in ['forwards', 'defense']:
+            for player in team_data.get(position, []):
+                if player.get('playerId') == player_id:
+                    return player.get('sog', 0)
+
+    return None
 
 
 def calculate_units_won(odds_str, result):
