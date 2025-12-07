@@ -33,3 +33,9 @@ Thumbs.db
 
 # Don't ignore data files - we want to commit predictions
 # data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
