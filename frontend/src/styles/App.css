@@ -1,0 +1,171 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin-bottom: 2rem;
+  color: #646cff;
+}
+
+/* Record Section */
+.record-section {
+  margin-bottom: 2rem;
+}
+
+.record-section h2 {
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.record-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.record-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.record-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #646cff;
+  font-size: 1.1rem;
+}
+
+.record-stat {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+.win-rate {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4ade80;
+  margin: 0.5rem 0;
+}
+
+.total-bets {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0.5rem 0;
+}
+
+.units {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.roi {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.positive {
+  color: #4ade80;
+}
+
+.negative {
+  color: #f87171;
+}
+
+/* Health Section */
+.health-section {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #333;
+}
+
+.health-section h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.health-section p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Predictions Section */
+.predictions-section {
+  margin-top: 2rem;
+}
+
+.predictions-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.predictions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.prediction-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.prediction-card.clickable {
+  cursor: pointer;
+}
+
+.prediction-card:hover {
+  transform: translateY(-4px);
+  border-color: #646cff;
+}
+
+.prediction-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #646cff;
+  font-size: 1.2rem;
+}
+
+.prediction-card p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.prediction-card strong {
+  color: #fff;
+}
+
+/* Confidence badges */
+.confidence-high {
+  color: #4ade80;
+  font-weight: 600;
+}
+
+.confidence-medium {
+  color: #fbbf24;
+  font-weight: 600;
+}
+
+.confidence-low {
+  color: #f87171;
+  font-weight: 600;
+}
