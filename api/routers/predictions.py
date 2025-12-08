@@ -4,6 +4,7 @@ Predictions endpoints.
 from fastapi import APIRouter, Depends, HTTPException, Query
 from datetime import datetime, timedelta
 from typing import Optional
+import pandas as pd
 
 from ..auth import verify_api_key
 from ..models import Prediction, PredictionsResponse
@@ -42,14 +43,33 @@ async def get_todays_predictions(
             raise HTTPException(status_code=400, detail="Invalid confidence level. Must be HIGH, MEDIUM, or LOW")
         today_predictions = today_predictions[today_predictions['confidence'] == confidence]
 
-    # Sort by game time
-    today_predictions = today_predictions.sort_values('game_time')
+    # Sort by confidence (HIGH to LOW) then by game time
+    today_predictions['confidence_order'] = pd.Categorical(
+        today_predictions['confidence'],
+        categories=['HIGH', 'MEDIUM', 'LOW'],
+        ordered=True
+    )
+    today_predictions = today_predictions.sort_values(['confidence_order', 'game_time'])
+    today_predictions = today_predictions.drop('confidence_order', axis=1)
 
     # Convert to list of Prediction models
-    predictions = [
-        Prediction(**row.to_dict())
-        for _, row in today_predictions.iterrows()
-    ]
+    predictions = []
+    for _, row in today_predictions.iterrows():
+        row_dict = row.to_dict()
+
+        # Convert Timestamp to string
+        if pd.notna(row_dict.get('game_time')):
+            row_dict['game_time'] = row['game_time'].isoformat()
+
+        # Map CSV column names to model field names
+        row_dict['player_team'] = row_dict.pop('team', None)
+        row_dict['model_prob'] = row_dict.pop('model_probability', None)
+        row_dict['implied_prob'] = row_dict.pop('implied_probability', None)
+
+        # Convert all NaN values to None (required for JSON serialization)
+        row_dict = {k: (None if pd.isna(v) else v) for k, v in row_dict.items()}
+
+        predictions.append(Prediction(**row_dict))
 
     return PredictionsResponse(
         count=len(predictions),
@@ -93,14 +113,33 @@ async def get_upcoming_predictions(
             raise HTTPException(status_code=400, detail="Invalid confidence level. Must be HIGH, MEDIUM, or LOW")
         upcoming = upcoming[upcoming['confidence'] == confidence]
 
-    # Sort by game time
-    upcoming = upcoming.sort_values('game_time')
+    # Sort by confidence (HIGH to LOW) then by game time
+    upcoming['confidence_order'] = pd.Categorical(
+        upcoming['confidence'],
+        categories=['HIGH', 'MEDIUM', 'LOW'],
+        ordered=True
+    )
+    upcoming = upcoming.sort_values(['confidence_order', 'game_time'])
+    upcoming = upcoming.drop('confidence_order', axis=1)
 
     # Convert to list of Prediction models
-    predictions = [
-        Prediction(**row.to_dict())
-        for _, row in upcoming.iterrows()
-    ]
+    predictions = []
+    for _, row in upcoming.iterrows():
+        row_dict = row.to_dict()
+
+        # Convert Timestamp to string
+        if pd.notna(row_dict.get('game_time')):
+            row_dict['game_time'] = row['game_time'].isoformat()
+
+        # Map CSV column names to model field names
+        row_dict['player_team'] = row_dict.pop('team', None)
+        row_dict['model_prob'] = row_dict.pop('model_probability', None)
+        row_dict['implied_prob'] = row_dict.pop('implied_probability', None)
+
+        # Convert all NaN values to None (required for JSON serialization)
+        row_dict = {k: (None if pd.isna(v) else v) for k, v in row_dict.items()}
+
+        predictions.append(Prediction(**row_dict))
 
     return PredictionsResponse(
         count=len(predictions),

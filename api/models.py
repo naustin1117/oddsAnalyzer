@@ -19,11 +19,12 @@ class Prediction(BaseModel):
     line: float
     over_odds: int
     under_odds: int
+    prediction: Optional[float] = None
     recommendation: str
     confidence: str
-    edge: float
-    model_prob: float
-    implied_prob: float
+    edge: Optional[float] = None
+    model_prob: Optional[float] = None
+    implied_prob: Optional[float] = None
     actual_shots: Optional[int] = None
     result: Optional[str] = None
     units_won: Optional[float] = None
@@ -63,6 +64,25 @@ class StatsResponse(BaseModel):
     """Overall statistics response"""
     overall: PerformanceStats
     by_confidence: List[ConfidenceStats]
+
+
+class BetTypeStats(BaseModel):
+    """Statistics for a specific bet type (OVER/UNDER)"""
+    total_bets: int
+    wins: int
+    losses: int
+    pushes: int
+    win_rate: float
+    total_units: float
+    roi: float
+
+
+class ResultsSummaryResponse(BaseModel):
+    """Summary of results by bet type"""
+    confidence: str
+    over_bets: BetTypeStats
+    under_bets: BetTypeStats
+    total: BetTypeStats
 
 
 class HealthResponse(BaseModel):

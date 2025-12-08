@@ -2,6 +2,19 @@
 
 FastAPI backend to expose betting predictions and historical results to front-end applications.
 
+## Quick Start
+
+**Run the backend server:**
+```bash
+# From the project root directory
+./run_api.sh
+```
+
+The API will be available at **http://localhost:8000**
+- Interactive docs: **http://localhost:8000/docs**
+- Health check: **http://localhost:8000/health**
+- Default API key: `dev-key-123`
+
 ## Features
 
 - **Today's Predictions**: Get current day's betting recommendations
