@@ -2,13 +2,14 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../styles/App.css'
 import { apiGet } from '../api'
+import { HealthResponse, PredictionsResponse, ResultsSummaryResponse } from '../types'
 
 function Home() {
-  const [health, setHealth] = useState(null)
-  const [predictions, setPredictions] = useState(null)
-  const [resultsSummary, setResultsSummary] = useState(null)
+  const [health, setHealth] = useState<HealthResponse | null>(null)
+  const [predictions, setPredictions] = useState<PredictionsResponse | null>(null)
+  const [resultsSummary, setResultsSummary] = useState<ResultsSummaryResponse | null>(null)
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const [error, setError] = useState<string | null>(null)
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -18,20 +19,20 @@ function Home() {
         setLoading(true)
 
         // Fetch health (no auth required)
-        const healthData = await apiGet('/health')
+        const healthData = await apiGet<HealthResponse>('/health')
         setHealth(healthData)
 
         // Fetch today's predictions (auth required)
-        const predictionsData = await apiGet('/predictions/today')
+        const predictionsData = await apiGet<PredictionsResponse>('/predictions/today')
         setPredictions(predictionsData)
 
         // Fetch results summary for HIGH confidence
-        const summaryData = await apiGet('/results/summary?confidence=HIGH')
+        const summaryData = await apiGet<ResultsSummaryResponse>('/results/summary?confidence=HIGH')
         setResultsSummary(summaryData)
 
         setLoading(false)
       } catch (err) {
-        setError(err.message)
+        setError(err instanceof Error ? err.message : 'An error occurred')
         setLoading(false)
       }
     }
@@ -39,7 +40,7 @@ function Home() {
     fetchData()
   }, [])
 
-  const handlePredictionClick = (playerId) => {
+  const handlePredictionClick = (playerId: number) => {
     navigate(`/player/${playerId}`)
   }
 

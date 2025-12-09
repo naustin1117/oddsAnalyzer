@@ -6,13 +6,10 @@ const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 /**
  * Make a GET request to the API
- * @param {string} endpoint - The API endpoint (e.g., '/health', '/predictions')
- * @param {string} apiKey - Optional API key for authenticated endpoints
- * @returns {Promise} - The API response data
  */
-export async function apiGet(endpoint, apiKey = 'dev-key-123') {
+export async function apiGet<T>(endpoint: string, apiKey: string = 'dev-key-123'): Promise<T> {
   const url = `${API_URL}${endpoint}`;
-  const headers = {
+  const headers: Record<string, string> = {
     'Content-Type': 'application/json',
   };
 
@@ -34,14 +31,14 @@ export async function apiGet(endpoint, apiKey = 'dev-key-123') {
 
 /**
  * Make a POST request to the API
- * @param {string} endpoint - The API endpoint
- * @param {object} data - The request body
- * @param {string} apiKey - Optional API key for authenticated endpoints
- * @returns {Promise} - The API response data
  */
-export async function apiPost(endpoint, data, apiKey = 'dev-key-123') {
+export async function apiPost<T>(
+  endpoint: string,
+  data: unknown,
+  apiKey: string = 'dev-key-123'
+): Promise<T> {
   const url = `${API_URL}${endpoint}`;
-  const headers = {
+  const headers: Record<string, string> = {
     'Content-Type': 'application/json',
   };
 

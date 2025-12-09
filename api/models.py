@@ -110,6 +110,7 @@ class PlayerGamesResponse(BaseModel):
     player_id: int
     player_name: str
     team: str
+    headshot_url: str
     games_count: int
     games: List[PlayerGame]
     averages: dict

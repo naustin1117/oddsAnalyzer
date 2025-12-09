@@ -49,6 +49,7 @@ async def get_player_recent_games(
         raise HTTPException(status_code=404, detail=f"Player name not found for player ID {player_id}")
 
     player_name = player_info.iloc[0]['player_name']
+    headshot_url = player_info.iloc[0]['headshot_url']
     player_team = player_games.iloc[0]['team_abbrev']
 
     # Convert to PlayerGame models
@@ -87,6 +88,7 @@ async def get_player_recent_games(
         player_id=player_id,
         player_name=player_name,
         team=player_team,
+        headshot_url=headshot_url,
         games_count=len(games),
         games=games,
         averages=averages,
