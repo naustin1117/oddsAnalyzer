@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../styles/App.css'
 import { apiGet } from '../api'
+import RecordStats from '../components/Home/RecordStats'
+import PredictionsTable from '../components/Home/PredictionsTable'
 import { HealthResponse, PredictionsResponse, ResultsSummaryResponse } from '../types'
 
 function Home() {
@@ -67,93 +69,31 @@ function Home() {
 
   return (
     <div className="App">
-      <h1>NHL Odds Analyzer</h1>
 
-      {/* HIGH Confidence Record */}
-      {resultsSummary && (
-        <div className="record-section">
-          <h2>HIGH Confidence Record</h2>
-          <div className="record-grid">
-            <div className="record-card">
-              <h3>Total</h3>
-              <p className="record-stat">{resultsSummary.total.wins}-{resultsSummary.total.losses}-{resultsSummary.total.pushes}</p>
-              <p className="win-rate">{resultsSummary.total.win_rate}% Win Rate</p>
-              <p className={`units ${resultsSummary.total.total_units >= 0 ? 'positive' : 'negative'}`}>
-                {resultsSummary.total.total_units >= 0 ? '+' : ''}{resultsSummary.total.total_units} units
-              </p>
-              <p className={`roi ${resultsSummary.total.roi >= 0 ? 'positive' : 'negative'}`}>
-                {resultsSummary.total.roi >= 0 ? '+' : ''}{resultsSummary.total.roi}% ROI
-              </p>
-              <p className="total-bets">{resultsSummary.total.total_bets} bets</p>
-            </div>
-            <div className="record-card">
-              <h3>Over Bets</h3>
-              <p className="record-stat">{resultsSummary.over_bets.wins}-{resultsSummary.over_bets.losses}-{resultsSummary.over_bets.pushes}</p>
-              <p className="win-rate">{resultsSummary.over_bets.win_rate}% Win Rate</p>
-              <p className={`units ${resultsSummary.over_bets.total_units >= 0 ? 'positive' : 'negative'}`}>
-                {resultsSummary.over_bets.total_units >= 0 ? '+' : ''}{resultsSummary.over_bets.total_units} units
-              </p>
-              <p className={`roi ${resultsSummary.over_bets.roi >= 0 ? 'positive' : 'negative'}`}>
-                {resultsSummary.over_bets.roi >= 0 ? '+' : ''}{resultsSummary.over_bets.roi}% ROI
-              </p>
-              <p className="total-bets">{resultsSummary.over_bets.total_bets} bets</p>
-            </div>
-            <div className="record-card">
-              <h3>Under Bets</h3>
-              <p className="record-stat">{resultsSummary.under_bets.wins}-{resultsSummary.under_bets.losses}-{resultsSummary.under_bets.pushes}</p>
-              <p className="win-rate">{resultsSummary.under_bets.win_rate}% Win Rate</p>
-              <p className={`units ${resultsSummary.under_bets.total_units >= 0 ? 'positive' : 'negative'}`}>
-                {resultsSummary.under_bets.total_units >= 0 ? '+' : ''}{resultsSummary.under_bets.total_units} units
-              </p>
-              <p className={`roi ${resultsSummary.under_bets.roi >= 0 ? 'positive' : 'negative'}`}>
-                {resultsSummary.under_bets.roi >= 0 ? '+' : ''}{resultsSummary.under_bets.roi}% ROI
-              </p>
-              <p className="total-bets">{resultsSummary.under_bets.total_bets} bets</p>
-            </div>
-          </div>
+      <div className="main-layout">
+        {/* Left Column - HIGH Confidence Record */}
+        <div className="left-column">
+          {resultsSummary && <RecordStats resultsSummary={resultsSummary} />}
         </div>
-      )}
 
-      {/* Health Status */}
-      {health && (
-        <div className="health-section">
-          <h2>API Status</h2>
-          <p>Status: <span style={{ color: 'green' }}>{health.status}</span></p>
-          <p>Total Predictions: {health.predictions_count}</p>
-          <p>Last Updated: {new Date(health.timestamp).toLocaleString()}</p>
-        </div>
-      )}
-
-      {/* Today's Predictions */}
-      {predictions && (
-        <div className="predictions-section">
-          <h2>Today's Predictions ({predictions.count})</h2>
-          {predictions.count === 0 ? (
-            <p>No predictions for today</p>
-          ) : (
-            <div className="predictions-grid">
-              {predictions.predictions.map((pred, idx) => (
-                <div
-                  key={idx}
-                  className="prediction-card clickable"
-                  onClick={() => handlePredictionClick(pred.player_id)}
-                >
-                  <h3>{pred.player_name}</h3>
-                  <p><strong>{pred.home_team} vs {pred.away_team}</strong></p>
-                  <p>Line: {pred.line}</p>
-                  <p>Model Prediction: {pred.prediction ? pred.prediction.toFixed(2) : 'N/A'}</p>
-                  <p>Over: {pred.over_odds > 0 ? '+' : ''}{pred.over_odds} | Under: {pred.under_odds > 0 ? '+' : ''}{pred.under_odds}</p>
-                  <p>Recommendation: {pred.recommendation}</p>
-                  <p className={`confidence-${pred.confidence.toLowerCase()}`}>
-                    {pred.confidence} confidence
-                  </p>
-                  <p style={{ fontSize: '0.8em', color: '#666' }}>
-                    {new Date(pred.game_time).toLocaleString()}
-                  </p>
-                </div>
-              ))}
+        {/* Right Column - Today's Predictions */}
+        <div className="right-column">
+          {predictions && (
+            <div className="predictions-section">
+              <PredictionsTable
+                predictions={predictions.predictions}
+                onPlayerClick={handlePredictionClick}
+              />
             </div>
           )}
+        </div>
+      </div>
+
+      {/* API Status - Bottom Right Corner */}
+      {health && (
+        <div className="api-status-pill">
+          <span className={`status-dot ${health.status === 'healthy' ? 'healthy' : 'error'}`}></span>
+          <span className="status-text">API</span>
         </div>
       )}
     </div>

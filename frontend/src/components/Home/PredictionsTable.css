@@ -1,0 +1,178 @@
+.predictions-table-container {
+  overflow-x: auto;
+}
+
+.predictions-header {
+  color: #fff;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.predictions-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  background: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #888;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  background: #333;
+  border-color: #646cff;
+}
+
+.filter-btn.active {
+  background: #646cff;
+  border-color: #646cff;
+  color: #fff;
+}
+
+.filter-btn.confidence-btn.active.confidence-high {
+  background: #4ade80;
+  border-color: #4ade80;
+  color: #000;
+}
+
+.filter-btn.confidence-btn.active.confidence-medium {
+  background: #fbbf24;
+  border-color: #fbbf24;
+  color: #000;
+}
+
+.filter-btn.confidence-btn.active.confidence-low {
+  background: #f87171;
+  border-color: #f87171;
+  color: #000;
+}
+
+.table-wrapper {
+  background: linear-gradient(200deg, #141414 20%, #000000 100%);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.predictions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.predictions-table thead {
+  background: #2a2a2a;
+}
+
+.predictions-table th {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  color: #888;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #333;
+}
+
+.predictions-table tbody tr {
+  border-bottom: 1px solid #333;
+  transition: background-color 0.2s;
+}
+
+.predictions-table tbody tr:hover {
+  background-color: #252525;
+}
+
+.predictions-table tbody tr.clickable {
+  cursor: pointer;
+}
+
+.predictions-table td {
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.player-name {
+  color: #646cff;
+  font-weight: 600;
+}
+
+.matchup {
+  color: #fff;
+  font-weight: 500;
+}
+
+.game-time {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.line,
+.prediction {
+  font-weight: 600;
+  color: #fff;
+}
+
+.odds {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.recommendation {
+  font-weight: 600;
+}
+
+.confidence-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.confidence-badge.confidence-high {
+  background: rgba(74, 222, 128, 0.2);
+  color: #4ade80;
+}
+
+.confidence-badge.confidence-medium {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+}
+
+.confidence-badge.confidence-low {
+  background: rgba(248, 113, 113, 0.2);
+  color: #f87171;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .predictions-table {
+    font-size: 0.85rem;
+  }
+
+  .predictions-table th,
+  .predictions-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
