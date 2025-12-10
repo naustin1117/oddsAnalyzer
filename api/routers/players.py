@@ -7,7 +7,7 @@ import pandas as pd
 
 from ..auth import verify_api_key
 from ..models import PlayerGame, PlayerGamesResponse, Prediction, PlayerPredictionsResponse
-from ..services.data_loader import load_predictions, load_player_logs, load_player_name_mapping
+from ..services.data_loader import load_predictions, load_player_logs, load_player_name_mapping, load_team_logos
 
 router = APIRouter(prefix="/players", tags=["Players"])
 
@@ -52,6 +52,11 @@ async def get_player_recent_games(
     headshot_url = player_info.iloc[0]['headshot_url']
     player_team = player_games.iloc[0]['team_abbrev']
 
+    # Get team logo URL
+    team_logos = load_team_logos()
+    team_logo_row = team_logos[team_logos['team_abbrev'] == player_team]
+    team_logo_url = team_logo_row.iloc[0]['logo_url'] if len(team_logo_row) > 0 else ""
+
     # Convert to PlayerGame models
     games = []
     for _, game in player_games.iterrows():
@@ -89,6 +94,7 @@ async def get_player_recent_games(
         player_name=player_name,
         team=player_team,
         headshot_url=headshot_url,
+        team_logo_url=team_logo_url,
         games_count=len(games),
         games=games,
         averages=averages,
@@ -134,14 +140,31 @@ async def get_player_predictions(
         (player_predictions['result'].notna() & (player_predictions['result'] != 'UNKNOWN'))
     ].sort_values('game_time', ascending=False)
 
-    # Convert to Prediction models
+    # Convert to Prediction models with proper data conversions
+    def convert_row_to_prediction(row):
+        row_dict = row.to_dict()
+
+        # Convert Timestamp to string
+        if pd.notna(row_dict.get('game_time')):
+            row_dict['game_time'] = row['game_time'].isoformat()
+
+        # Map CSV column names to model field names
+        row_dict['player_team'] = row_dict.pop('team', None)
+        row_dict['model_prob'] = row_dict.pop('model_probability', None)
+        row_dict['implied_prob'] = row_dict.pop('implied_probability', None)
+
+        # Convert all NaN values to None (required for JSON serialization)
+        row_dict = {k: (None if pd.isna(v) else v) for k, v in row_dict.items()}
+
+        return Prediction(**row_dict)
+
     upcoming_predictions = [
-        Prediction(**row.to_dict())
+        convert_row_to_prediction(row)
         for _, row in upcoming.iterrows()
     ]
 
     historical_predictions = [
-        Prediction(**row.to_dict())
+        convert_row_to_prediction(row)
         for _, row in historical.iterrows()
     ]
 

@@ -1,13 +1,17 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { apiGet } from '../api'
+import PlayerHeader from '../components/PlayerHeader'
 import RecentGamesTable from '../components/RecentGamesTable'
-import { PlayerGamesResponse } from '../types'
+import PlayerStatsChart from '../components/PlayerStatsChart'
+import SeasonAverages from '../components/SeasonAverages'
+import { PlayerGamesResponse, PlayerPredictionsResponse } from '../types'
 import '../styles/Player.css'
 
 function Player() {
   const { playerId } = useParams<{ playerId: string }>()
   const [playerData, setPlayerData] = useState<PlayerGamesResponse | null>(null)
+  const [predictionsData, setPredictionsData] = useState<PlayerPredictionsResponse | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -15,8 +19,15 @@ function Player() {
     const fetchPlayerData = async () => {
       try {
         setLoading(true)
-        const data = await apiGet<PlayerGamesResponse>(`/players/${playerId}/recent-games?limit=5`)
-        setPlayerData(data)
+
+        // Fetch both in parallel
+        const [gamesData, predictions] = await Promise.all([
+          apiGet<PlayerGamesResponse>(`/players/${playerId}/recent-games?limit=10`),
+          apiGet<PlayerPredictionsResponse>(`/players/${playerId}/predictions`)
+        ])
+
+        setPlayerData(gamesData)
+        setPredictionsData(predictions)
         setLoading(false)
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred')
@@ -54,53 +65,34 @@ function Player() {
     )
   }
 
+  // Get upcoming game info if available
+  const upcomingGame = predictionsData?.upcoming?.[0]
+
   return (
     <div className="Player">
-      <Link to="/" className="back-link">← Back to Predictions</Link>
+      <div className="player-content-wrapper">
+        <PlayerHeader
+          headshot_url={playerData.headshot_url}
+          team_logo_url={playerData.team_logo_url}
+          player_name={playerData.player_name}
+          team={playerData.team}
+          opponent={upcomingGame?.away_team === playerData.team ? upcomingGame?.home_team : upcomingGame?.away_team}
+          game_time={upcomingGame?.game_time}
+          line={upcomingGame?.line}
+          prediction={upcomingGame?.prediction ?? undefined}
+          over_odds={upcomingGame?.over_odds}
+          under_odds={upcomingGame?.under_odds}
+        />
 
-      <div className="player-container">
-        <div className="player-header">
-          <img
-            src={playerData.headshot_url}
-            alt={playerData.player_name}
-            className="player-headshot"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none'
-            }}
-          />
-          <div className="player-info">
-            <h1>{playerData.player_name}</h1>
-            <p className="player-team">{playerData.team}</p>
-          </div>
-        </div>
+        <SeasonAverages averages={playerData.averages} games_count={playerData.games_count} />
+
+        <PlayerStatsChart
+          games={playerData.games}
+          line={upcomingGame?.line}
+          prediction={upcomingGame?.prediction ?? undefined}
+        />
 
         <RecentGamesTable games={playerData.games} />
-
-        <div className="player-averages">
-          <h2>Season Averages (Last {playerData.games_count} Games)</h2>
-          <div className="averages-grid">
-            <div className="average-stat">
-              <span className="stat-label">Shots/Game</span>
-              <span className="stat-value">{playerData.averages.shots_per_game}</span>
-            </div>
-            <div className="average-stat">
-              <span className="stat-label">Goals/Game</span>
-              <span className="stat-value">{playerData.averages.goals_per_game}</span>
-            </div>
-            <div className="average-stat">
-              <span className="stat-label">Assists/Game</span>
-              <span className="stat-value">{playerData.averages.assists_per_game}</span>
-            </div>
-            <div className="average-stat">
-              <span className="stat-label">Points/Game</span>
-              <span className="stat-value">{playerData.averages.points_per_game}</span>
-            </div>
-            <div className="average-stat">
-              <span className="stat-label">TOI/Game</span>
-              <span className="stat-value">{playerData.averages.toi_per_game} min</span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   )

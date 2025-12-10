@@ -1,0 +1,64 @@
+.player-stats-chart {
+  margin: 1rem 0 2rem 0;
+  padding: 2rem;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chart-header h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.chart-filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  background: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  background: #333;
+  border-color: #646cff;
+  color: #fff;
+}
+
+.filter-btn.active {
+  background: #646cff;
+  border-color: #646cff;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Ensure chart is visible on dark background */
+.recharts-surface {
+  background: transparent;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #333;
+}
+
+.recharts-legend-item-text {
+  color: #888 !important;
+}

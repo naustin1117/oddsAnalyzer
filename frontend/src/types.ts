@@ -79,6 +79,7 @@ export interface PlayerGamesResponse {
   player_name: string;
   team: string;
   headshot_url: string;
+  team_logo_url: string;
   games_count: number;
   games: PlayerGame[];
   averages: PlayerAverages;
