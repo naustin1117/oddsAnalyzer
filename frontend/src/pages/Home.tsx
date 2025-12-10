@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { PulseLoader } from 'react-spinners'
 import '../styles/App.css'
 import { apiGet } from '../api'
 import RecordStats from '../components/Home/RecordStats'
 import PredictionsTable from '../components/Home/PredictionsTable'
-import { HealthResponse, PredictionsResponse, ResultsSummaryResponse } from '../types'
+import { HealthResponse, PredictionsResponse, ResultsSummaryResponse, PlayerGamesResponse } from '../types'
 
 function Home() {
   const [health, setHealth] = useState<HealthResponse | null>(null)
   const [predictions, setPredictions] = useState<PredictionsResponse | null>(null)
   const [resultsSummary, setResultsSummary] = useState<ResultsSummaryResponse | null>(null)
+  const [playerRecentGames, setPlayerRecentGames] = useState<Record<number, PlayerGamesResponse>>({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const navigate = useNavigate()
@@ -32,6 +34,26 @@ function Home() {
         const summaryData = await apiGet<ResultsSummaryResponse>('/results/summary?confidence=HIGH')
         setResultsSummary(summaryData)
 
+        // Fetch recent games for each unique player in predictions
+        const uniquePlayerIds = [...new Set(predictionsData.predictions.map(pred => pred.player_id))]
+        const playerGamesPromises = uniquePlayerIds.map(playerId =>
+          apiGet<PlayerGamesResponse>(`/players/${playerId}/recent-games?limit=5`)
+            .then(data => ({ playerId, data }))
+            .catch(err => {
+              console.error(`Failed to fetch games for player ${playerId}:`, err)
+              return null
+            })
+        )
+
+        const playerGamesResults = await Promise.all(playerGamesPromises)
+        const playerGamesMap: Record<number, PlayerGamesResponse> = {}
+        playerGamesResults.forEach(result => {
+          if (result) {
+            playerGamesMap[result.playerId] = result.data
+          }
+        })
+        setPlayerRecentGames(playerGamesMap)
+
         setLoading(false)
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred')
@@ -49,8 +71,21 @@ function Home() {
   if (loading) {
     return (
       <div className="App">
-        <h1>NHL Odds Analyzer</h1>
-        <p>Loading...</p>
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '50vh',
+          gap: '2rem'
+        }}>
+          <PulseLoader
+            color="#646cff"
+            size={15}
+            speedMultiplier={0.8}
+          />
+          <p style={{ color: '#888' }}>Loading predictions...</p>
+        </div>
       </div>
     )
   }
@@ -71,21 +106,22 @@ function Home() {
     <div className="App">
 
       <div className="main-layout">
-        {/* Left Column - HIGH Confidence Record */}
+        {/* Left Column - Today's Predictions */}
         <div className="left-column">
-          {resultsSummary && <RecordStats resultsSummary={resultsSummary} />}
-        </div>
-
-        {/* Right Column - Today's Predictions */}
-        <div className="right-column">
           {predictions && (
             <div className="predictions-section">
               <PredictionsTable
                 predictions={predictions.predictions}
+                playerRecentGames={playerRecentGames}
                 onPlayerClick={handlePredictionClick}
               />
             </div>
           )}
+        </div>
+
+        {/* Right Column - HIGH Confidence Record */}
+        <div className="right-column">
+          {resultsSummary && <RecordStats resultsSummary={resultsSummary} />}
         </div>
       </div>
 

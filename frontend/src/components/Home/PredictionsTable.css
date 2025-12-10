@@ -64,9 +64,15 @@
 }
 
 .table-wrapper {
-  background: linear-gradient(200deg, #141414 20%, #000000 100%);
-  border-radius: 8px;
-  padding: 1rem;
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(100, 108, 255, 0.12) 0%, transparent 40%),
+    radial-gradient(ellipse at 80% 5%, rgba(160, 160, 180, 0.10) 0%, transparent 35%),
+    radial-gradient(ellipse at 50% 15%, rgba(140, 140, 160, 0.08) 0%, transparent 45%),
+    radial-gradient(ellipse at 10% 8%, rgba(100, 108, 255, 0.08) 0%, transparent 30%),
+    radial-gradient(ellipse at 90% 12%, rgba(180, 180, 200, 0.10) 0%, transparent 38%),
+    linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
 }
 
 .predictions-table {

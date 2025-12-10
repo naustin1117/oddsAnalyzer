@@ -16,19 +16,20 @@
 /* Two-column layout */
 .main-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   gap: 1rem;
   align-items: start;
   margin-top: 0;
 }
 
 .left-column {
-  position: sticky;
-  top: 2rem;
+  min-width: 0;
 }
 
 .right-column {
-  min-width: 0;
+  position: sticky;
+  top: 2rem;
+  align-self: start;
 }
 
 @media (max-width: 1200px) {
@@ -36,7 +37,7 @@
     grid-template-columns: 1fr;
   }
 
-  .left-column {
+  .right-column {
     position: static;
   }
 }

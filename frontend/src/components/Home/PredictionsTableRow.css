@@ -1,0 +1,178 @@
+.prediction-row-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.prediction-row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prediction-player-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.prediction-player-image-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.prediction-player-headshot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+}
+
+.prediction-player-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  border: 2px solid #444;
+}
+
+.prediction-team-logo-badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  border: 0px solid rgba(255, 255, 255, 0.3);
+  padding: 0px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transform: translate(25%, 25%);
+}
+
+.prediction-player-name {
+  font-weight: 600;
+}
+
+.prediction-team-pill {
+  background-color: #444;
+  color: #aaa;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.prediction-row-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.prediction-matchup {
+  color: #888;
+}
+
+.prediction-game-time {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.prediction-row-bottom {
+  display: flex;
+  gap: 2rem;
+  padding-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #aaa;
+  border-top: 1px dotted #333;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prediction-row-bottom > div {
+  display: flex;
+  align-items: center;
+}
+
+.prediction-stat-label {
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.prediction-stat-value {
+  color: #fff;
+}
+
+.prediction-recommendation-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.prediction-recommendation-icon {
+  color: #646cff;
+}
+
+.prediction-recommendation-value {
+  color: #646cff;
+  font-weight: 700;
+  font-size: .80rem;
+}
+
+.prediction-odds-container {
+  display: inline-flex;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #444;
+}
+
+.prediction-odds-side {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: #2a2a2a;
+  color: #aaa;
+}
+
+.prediction-odds-side.highlighted {
+  background-color: rgba(100, 108, 255, 0.2);;
+  color: #646cff;
+
+}
+
+.prediction-odds-side:first-child {
+  border-right: 1px solid #444;
+}
+
+.prediction-games-dots {
+  display: flex;
+  gap: 0.35rem;
+  margin-left: auto;
+  align-items: center;
+}
+
+.game-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.game-dot:hover {
+  transform: scale(1.5);
+}
+
+.game-dot.hit {
+  background-color: #4ade80;
+  box-shadow: 0 0 4px rgba(74, 222, 128, 0.5);
+}
+
+.game-dot.miss {
+  background-color: #ef4444;
+  box-shadow: 0 0 4px rgba(239, 68, 68, 0.5);
+}

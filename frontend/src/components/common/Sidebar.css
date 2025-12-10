@@ -43,15 +43,14 @@
 }
 
 .sidebar-item {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /*width: 40px;*/
+  /*height: 40px;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
   background: transparent;
   border: none;
   border-radius: 8px;
-  color: #888;
+  color: #b8b8b8;
   cursor: pointer;
   transition: all 0.2s;
   position: relative;
@@ -80,8 +79,7 @@
 }
 
 .sidebar-item svg {
-  width: 20px;
-  height: 20px;
+  color: inherit;
 }
 
 @media (max-width: 768px) {
