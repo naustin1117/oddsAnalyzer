@@ -1,5 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom'
-import { Home, Info, BarChart3, Users, Settings, Circle } from 'lucide-react'
+import { Home, Info, Settings, Circle } from 'lucide-react'
 import './Sidebar.css'
 
 function Sidebar() {
