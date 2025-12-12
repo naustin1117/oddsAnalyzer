@@ -357,6 +357,7 @@ def get_teams_playing_today():
 def scrape_todays_lineups(output_dir='data'):
     """
     Scrape lineups for all teams playing today and save to 3 combined CSV files.
+    Appends to existing CSV files rather than overwriting.
 
     Args:
         output_dir (str): Directory to save CSV files
@@ -364,12 +365,19 @@ def scrape_todays_lineups(output_dir='data'):
     Returns:
         dict: Combined DataFrames for lines, goalies, and injuries
     """
+    from datetime import timezone, timedelta
+
     # Get teams playing today and their matchups
     teams, matchups = get_teams_playing_today()
 
     if not teams:
         print("No teams playing today - nothing to scrape!")
         return None
+
+    # Get current date in EST for scrape_date column
+    est = timezone(timedelta(hours=-5))
+    now_est = datetime.now(est)
+    scrape_date = now_est.date().strftime('%Y-%m-%d')
 
     # Initialize lists to collect all data
     all_lines = []
@@ -378,6 +386,7 @@ def scrape_todays_lineups(output_dir='data'):
 
     print("="*60)
     print(f"SCRAPING LINEUPS FOR {len(teams)} TEAMS")
+    print(f"Scrape Date: {scrape_date}")
     print("="*60)
 
     for i, team_slug in enumerate(teams, 1):
@@ -388,12 +397,15 @@ def scrape_todays_lineups(output_dir='data'):
         result = scrape_team_lineup(team_slug, opponent=opponent, output_file=None)
 
         if result:
-            # Append to combined lists
+            # Add scrape_date column to each DataFrame
             if len(result['line_combinations']) > 0:
+                result['line_combinations']['scrape_date'] = scrape_date
                 all_lines.append(result['line_combinations'])
             if len(result['goalies']) > 0:
+                result['goalies']['scrape_date'] = scrape_date
                 all_goalies.append(result['goalies'])
             if len(result['injuries']) > 0:
+                result['injuries']['scrape_date'] = scrape_date
                 all_injuries.append(result['injuries'])
 
         # Small delay to be respectful to the server
@@ -401,37 +413,76 @@ def scrape_todays_lineups(output_dir='data'):
             time.sleep(1)
 
     # Combine all DataFrames
-    df_all_lines = pd.concat(all_lines, ignore_index=True) if all_lines else pd.DataFrame()
-    df_all_goalies = pd.concat(all_goalies, ignore_index=True) if all_goalies else pd.DataFrame()
-    df_all_injuries = pd.concat(all_injuries, ignore_index=True) if all_injuries else pd.DataFrame()
+    df_new_lines = pd.concat(all_lines, ignore_index=True) if all_lines else pd.DataFrame()
+    df_new_goalies = pd.concat(all_goalies, ignore_index=True) if all_goalies else pd.DataFrame()
+    df_new_injuries = pd.concat(all_injuries, ignore_index=True) if all_injuries else pd.DataFrame()
 
     # Save to CSV files
     from pathlib import Path
     Path(output_dir).mkdir(parents=True, exist_ok=True)
 
     print("\n" + "="*60)
-    print("SAVING COMBINED LINEUPS")
+    print("SAVING COMBINED LINEUPS (APPENDING TO EXISTING)")
     print("="*60)
 
     lines_file = f"{output_dir}/lineup_lines.csv"
     goalies_file = f"{output_dir}/lineup_goalies.csv"
     injuries_file = f"{output_dir}/lineup_injuries.csv"
 
-    if len(df_all_lines) > 0:
-        df_all_lines.to_csv(lines_file, index=False)
-        print(f"✓ Saved {len(df_all_lines)} line combination records to {lines_file}")
+    # Helper function to append to CSV or create new
+    def append_to_csv(df_new, file_path, dedup_columns):
+        """Append new data to CSV file, avoiding duplicates"""
+        if len(df_new) == 0:
+            return 0, 0
+
+        if Path(file_path).exists():
+            # Read existing data
+            df_existing = pd.read_csv(file_path)
+            print(f"  Found existing file with {len(df_existing)} records")
+
+            # Combine and remove duplicates
+            df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+            df_combined = df_combined.drop_duplicates(subset=dedup_columns, keep='last')
+
+            new_records = len(df_combined) - len(df_existing)
+            df_combined.to_csv(file_path, index=False)
+
+            return len(df_combined), new_records
+        else:
+            # Create new file
+            df_new.to_csv(file_path, index=False)
+            return len(df_new), len(df_new)
+
+    # Save lines
+    if len(df_new_lines) > 0:
+        total, new = append_to_csv(
+            df_new_lines,
+            lines_file,
+            dedup_columns=['team', 'player_name', 'scrape_date']
+        )
+        print(f"✓ Lines: {total} total records ({new} new)")
     else:
         print(f"⚠️  No line combinations to save")
 
-    if len(df_all_goalies) > 0:
-        df_all_goalies.to_csv(goalies_file, index=False)
-        print(f"✓ Saved {len(df_all_goalies)} goalie records to {goalies_file}")
+    # Save goalies
+    if len(df_new_goalies) > 0:
+        total, new = append_to_csv(
+            df_new_goalies,
+            goalies_file,
+            dedup_columns=['team', 'player_name', 'scrape_date']
+        )
+        print(f"✓ Goalies: {total} total records ({new} new)")
     else:
         print(f"⚠️  No goalies to save")
 
-    if len(df_all_injuries) > 0:
-        df_all_injuries.to_csv(injuries_file, index=False)
-        print(f"✓ Saved {len(df_all_injuries)} injury records to {injuries_file}")
+    # Save injuries
+    if len(df_new_injuries) > 0:
+        total, new = append_to_csv(
+            df_new_injuries,
+            injuries_file,
+            dedup_columns=['team', 'player_name', 'scrape_date']
+        )
+        print(f"✓ Injuries: {total} total records ({new} new)")
     else:
         print(f"⚠️  No injuries to save")
 
@@ -440,18 +491,19 @@ def scrape_todays_lineups(output_dir='data'):
     print("SUMMARY")
     print("="*60)
     print(f"Teams scraped: {len(teams)}")
-    print(f"Total skaters: {len(df_all_lines)}")
-    print(f"Total goalies: {len(df_all_goalies)}")
-    print(f"Total injuries: {len(df_all_injuries)}")
+    print(f"Scrape date: {scrape_date}")
+    print(f"New skaters: {len(df_new_lines)}")
+    print(f"New goalies: {len(df_new_goalies)}")
+    print(f"New injuries: {len(df_new_injuries)}")
 
     print("\n" + "="*60)
     print("COMPLETE!")
     print("="*60)
 
     return {
-        'line_combinations': df_all_lines,
-        'goalies': df_all_goalies,
-        'injuries': df_all_injuries
+        'line_combinations': df_new_lines,
+        'goalies': df_new_goalies,
+        'injuries': df_new_injuries
     }
 
 
