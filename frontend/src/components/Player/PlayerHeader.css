@@ -1,6 +1,6 @@
 .player-header-top {
   background: linear-gradient(135deg, #2d3561 0%, #3d2d4f 100%);
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   margin: 0 -1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -12,10 +12,10 @@
 
 .back-link-header {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   transition: color 0.2s;
   font-weight: 500;
 }
@@ -74,47 +74,18 @@
 
 .player-headshot-container {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
 }
 
 .player-headshot {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 4px solid rgba(255, 255, 255, 0.3);
-  object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.player-headshot-container .team-logo-badge {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
   width: 50px;
   height: 50px;
-
-  background: rgba(255, 255, 255, 0.95);
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.6);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-  z-index: 3;
-
-  /* Position so only half overlaps the player image */
-  transform: translate(66%, 66%);
-}
-
-.team-logo-img {
-  width: 20%;
-  height: 20%;
-  object-fit: contain;
-  display: block;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .team-logo-badge {
@@ -128,25 +99,97 @@
   border: 0px solid rgba(255, 255, 255, 0.3);
   padding: 0px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transform: translate(25%, 25%);
+  object-fit: contain;
 }
 
 .player-info {
   text-align: left;
-  padding-left: 1rem;
+  padding-left: 0.75rem;
 }
 
-.player-info h1 {
+.player-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.player-name-row p {
   color: #fff;
-  margin: 0 0 0.25rem 0;
-  font-size: 1.8rem;
+  margin: 0;
+  font-size: .8rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  letter-spacing: 0.3px;
 }
 
-.player-team {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 1.2rem;
-  margin: 0;
+.player-team-pill {
+  background-color: #444;
+  color: #aaa;
+  padding: 0.15rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.game-info-compact {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+  font-size: 0.65rem;
+}
+
+.opponent-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+}
+
+.time-separator {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.time-text {
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
+}
+
+/* Game Stats Row */
+.game-stats-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 0 -1rem;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  flex-wrap: wrap;
+}
+
+.game-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.game-stats-row .stat-label {
+  color: #888;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.game-stats-row .stat-value {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.game-stats-row .prediction-highlight {
+  color: #4ade80;
 }
 
 /* Responsive design */

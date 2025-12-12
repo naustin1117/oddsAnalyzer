@@ -125,3 +125,32 @@ class PlayerPredictionsResponse(BaseModel):
     historical_count: int
     upcoming: List[Prediction]
     historical: List[Prediction]
+
+
+class LineupPlayer(BaseModel):
+    """Single player in a lineup"""
+    player_name: str
+    position: str
+    position_id: str
+    line: str
+    line_id: str
+    jersey_number: Optional[float] = None
+    injury_status: Optional[str] = None
+    game_time_decision: Optional[bool] = None
+
+
+class TeamLineup(BaseModel):
+    """Lineup for a single team"""
+    team: str
+    team_name: str
+    opponent: Optional[str] = None
+    opponent_name: Optional[str] = None
+    line_combinations: List[LineupPlayer]
+    goalies: List[LineupPlayer]
+    injuries: List[LineupPlayer]
+
+
+class LineupsResponse(BaseModel):
+    """Response containing lineups for a team and their opponent"""
+    team: TeamLineup
+    opponent: Optional[TeamLineup] = None

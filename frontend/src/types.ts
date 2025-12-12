@@ -93,3 +93,29 @@ export interface PlayerPredictionsResponse {
   upcoming: Prediction[];
   historical: Prediction[];
 }
+
+export interface LineupPlayer {
+  player_name: string;
+  position: string;
+  position_id: string;
+  line: string;
+  line_id: string;
+  jersey_number: number | null;
+  injury_status: string | null;
+  game_time_decision: boolean | null;
+}
+
+export interface TeamLineup {
+  team: string;
+  team_name: string;
+  opponent: string | null;
+  opponent_name: string | null;
+  line_combinations: LineupPlayer[];
+  goalies: LineupPlayer[];
+  injuries: LineupPlayer[];
+}
+
+export interface LineupsResponse {
+  team: TeamLineup;
+  opponent: TeamLineup | null;
+}
