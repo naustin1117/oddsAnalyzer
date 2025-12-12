@@ -9,11 +9,11 @@ interface PlayerLineupsProps {
 function PlayerLineups({ lineupData }: PlayerLineupsProps) {
   const [activeMainTab, setActiveMainTab] = useState<'lineups' | 'injuries'>('lineups')
   const [activeLineupTab, setActiveLineupTab] = useState<'team' | 'opponent'>('team')
-  const [selectedLine, setSelectedLine] = useState<string>('all')
+  const [selectedLine, setSelectedLine] = useState<string>('')
 
   // Helper function to filter players by line (combines forward lines with defense pairs)
   const filterPlayersByLine = (players: any[]) => {
-    if (selectedLine === 'all') return players
+    if (!selectedLine) return players
 
     // For regular lines, combine forwards with corresponding defense
     if (selectedLine === 'f1' || selectedLine === 'f2' || selectedLine === 'f3') {
@@ -45,6 +45,11 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
     })
 
     return organized
+  }
+
+  // Helper function to check if line is a special teams unit (PP or PK)
+  const isSpecialTeams = (lineId: string) => {
+    return lineId === 'pp1' || lineId === 'pp2' || lineId === 'pk1' || lineId === 'pk2'
   }
 
   return (
@@ -90,56 +95,50 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
         {/* Line Filter */}
         <div className="line-filter">
           <button
-            className={`line-tile ${selectedLine === 'all' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('all')}
-          >
-            All
-          </button>
-          <button
             className={`line-tile ${selectedLine === 'f1' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('f1')}
+            onClick={() => setSelectedLine(selectedLine === 'f1' ? '' : 'f1')}
           >
             L1
           </button>
           <button
             className={`line-tile ${selectedLine === 'f2' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('f2')}
+            onClick={() => setSelectedLine(selectedLine === 'f2' ? '' : 'f2')}
           >
             L2
           </button>
           <button
             className={`line-tile ${selectedLine === 'f3' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('f3')}
+            onClick={() => setSelectedLine(selectedLine === 'f3' ? '' : 'f3')}
           >
             L3
           </button>
           <button
             className={`line-tile ${selectedLine === 'f4' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('f4')}
+            onClick={() => setSelectedLine(selectedLine === 'f4' ? '' : 'f4')}
           >
             L4
           </button>
           <button
             className={`line-tile ${selectedLine === 'pp1' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('pp1')}
+            onClick={() => setSelectedLine(selectedLine === 'pp1' ? '' : 'pp1')}
           >
             PP1
           </button>
           <button
             className={`line-tile ${selectedLine === 'pp2' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('pp2')}
+            onClick={() => setSelectedLine(selectedLine === 'pp2' ? '' : 'pp2')}
           >
             PP2
           </button>
           <button
             className={`line-tile ${selectedLine === 'pk1' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('pk1')}
+            onClick={() => setSelectedLine(selectedLine === 'pk1' ? '' : 'pk1')}
           >
             PK1
           </button>
           <button
             className={`line-tile ${selectedLine === 'pk2' ? 'active' : ''}`}
-            onClick={() => setSelectedLine('pk2')}
+            onClick={() => setSelectedLine(selectedLine === 'pk2' ? '' : 'pk2')}
           >
             PK2
           </button>
@@ -155,10 +154,40 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
               )}
 
               {/* Hockey Formation Display */}
-              {selectedLine !== 'all' ? (
+              {selectedLine ? (
                 // Show single line formation
                 (() => {
                   const filteredPlayers = filterPlayersByLine(lineupData.team.line_combinations)
+
+                  // Check if this is a special teams unit (PP or PK)
+                  if (isSpecialTeams(selectedLine)) {
+                    // Display special teams as a grid of skaters
+                    return (
+                      <div className="formation-container">
+                        <div className="formation-row special-teams">
+                          {filteredPlayers.map((player, idx) => (
+                            <div key={idx} className="formation-player">
+                              <div
+                                className="player-circle"
+                                style={{
+                                  background: `linear-gradient(135deg, ${lineupData.team.primary_color} 0%, ${lineupData.team.secondary_color} 100%)`
+                                }}
+                              >
+                                {player.headshot_url ? (
+                                  <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                ) : (
+                                  player.jersey_number || '?'
+                                )}
+                              </div>
+                              <div className="player-label">{player.player_name}</div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  }
+
+                  // Regular 5v5 lines - organize by traditional positions
                   const formation = organizeByPosition(filteredPlayers)
 
                   return (
@@ -171,8 +200,17 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                             <div key={pos} className="formation-player">
                               {player ? (
                                 <>
-                                  <div className="player-circle">
-                                    {player.jersey_number || '?'}
+                                  <div
+                                    className="player-circle"
+                                    style={{
+                                      background: `linear-gradient(135deg, ${lineupData.team.primary_color} 0%, ${lineupData.team.secondary_color} 100%)`
+                                    }}
+                                  >
+                                    {player.headshot_url ? (
+                                      <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                    ) : (
+                                      player.jersey_number || '?'
+                                    )}
                                   </div>
                                   <div className="player-label">{player.player_name}</div>
                                 </>
@@ -195,8 +233,17 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                             <div key={pos} className="formation-player">
                               {player ? (
                                 <>
-                                  <div className="player-circle">
-                                    {player.jersey_number || '?'}
+                                  <div
+                                    className="player-circle"
+                                    style={{
+                                      background: `linear-gradient(135deg, ${lineupData.team.primary_color} 0%, ${lineupData.team.secondary_color} 100%)`
+                                    }}
+                                  >
+                                    {player.headshot_url ? (
+                                      <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                    ) : (
+                                      player.jersey_number || '?'
+                                    )}
                                   </div>
                                   <div className="player-label">{player.player_name}</div>
                                 </>
@@ -216,26 +263,36 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
               ) : (
                 // Show all lines stacked
                 <div className="all-lines-container">
-                  {['f1', 'f2', 'f3', 'f4', 'd1', 'd2', 'd3'].map(lineId => {
-                    const linePlayers = lineupData.team.line_combinations.filter(p => p.line_id === lineId)
-                    if (linePlayers.length === 0) return null
+                  {/* Forward Lines Section */}
+                  <div className="line-group">
+                    {['f1', 'f2', 'f3', 'f4'].map(lineId => {
+                      const linePlayers = lineupData.team.line_combinations.filter(p => p.line_id === lineId)
+                      if (linePlayers.length === 0) return null
 
-                    const formation = organizeByPosition(linePlayers)
-                    const lineLabel = lineId.toUpperCase().replace('F', 'Line ').replace('D', 'D-Pair ')
+                      const formation = organizeByPosition(linePlayers)
+                      const lineLabel = lineId.toUpperCase().replace('F', 'Line ')
 
-                    return (
-                      <div key={lineId} className="line-group">
-                        <h5 className="line-label">{lineLabel}</h5>
-                        <div className="formation-container">
+                      return (
+                        <div key={lineId} className="line-row">
+                          <h5 className="line-label">{lineLabel}</h5>
                           <div className="formation-row forwards">
-                            {(lineId.startsWith('f') ? ['lw', 'c', 'rw'] : ['ld', 'rd']).map(pos => {
+                            {['lw', 'c', 'rw'].map(pos => {
                               const player = formation[pos]
                               return (
                                 <div key={pos} className="formation-player">
                                   {player ? (
                                     <>
-                                      <div className="player-circle">
-                                        {player.jersey_number || '?'}
+                                      <div
+                                        className="player-circle"
+                                        style={{
+                                          background: `linear-gradient(135deg, ${lineupData.team.primary_color} 0%, ${lineupData.team.secondary_color} 100%)`
+                                        }}
+                                      >
+                                        {player.headshot_url ? (
+                                          <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                        ) : (
+                                          player.jersey_number || '?'
+                                        )}
                                       </div>
                                       <div className="player-label">{player.player_name}</div>
                                     </>
@@ -250,9 +307,57 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                             })}
                           </div>
                         </div>
-                      </div>
-                    )
-                  })}
+                      )
+                    })}
+                  </div>
+
+                  {/* Defense Pairs Section */}
+                  <div className="line-group">
+                    {['d1', 'd2', 'd3'].map(lineId => {
+                      const linePlayers = lineupData.team.line_combinations.filter(p => p.line_id === lineId)
+                      if (linePlayers.length === 0) return null
+
+                      const formation = organizeByPosition(linePlayers)
+                      const lineLabel = lineId.toUpperCase().replace('D', 'D-Pair ')
+
+                      return (
+                        <div key={lineId} className="line-row">
+                          <h5 className="line-label">{lineLabel}</h5>
+                          <div className="formation-row defense">
+                            {['ld', 'rd'].map(pos => {
+                              const player = formation[pos]
+                              return (
+                                <div key={pos} className="formation-player">
+                                  {player ? (
+                                    <>
+                                      <div
+                                        className="player-circle"
+                                        style={{
+                                          background: `linear-gradient(135deg, ${lineupData.team.primary_color} 0%, ${lineupData.team.secondary_color} 100%)`
+                                        }}
+                                      >
+                                        {player.headshot_url ? (
+                                          <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                        ) : (
+                                          player.jersey_number || '?'
+                                        )}
+                                      </div>
+                                      <div className="player-label">{player.player_name}</div>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <div className="player-circle empty">—</div>
+                                      <div className="player-label">Empty</div>
+                                    </>
+                                  )}
+                                </div>
+                              )
+                            })}
+                          </div>
+                        </div>
+                      )
+                    })}
+                  </div>
                 </div>
               )}
 
@@ -280,10 +385,40 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
               )}
 
               {/* Hockey Formation Display for Opponent */}
-              {selectedLine !== 'all' ? (
+              {selectedLine ? (
                 // Show single line formation
                 (() => {
                   const filteredPlayers = filterPlayersByLine(lineupData.opponent.line_combinations)
+
+                  // Check if this is a special teams unit (PP or PK)
+                  if (isSpecialTeams(selectedLine)) {
+                    // Display special teams as a grid of skaters
+                    return (
+                      <div className="formation-container">
+                        <div className="formation-row special-teams">
+                          {filteredPlayers.map((player, idx) => (
+                            <div key={idx} className="formation-player">
+                              <div
+                                className="player-circle"
+                                style={{
+                                  background: `linear-gradient(135deg, ${lineupData.opponent.primary_color} 0%, ${lineupData.opponent.secondary_color} 100%)`
+                                }}
+                              >
+                                {player.headshot_url ? (
+                                  <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                ) : (
+                                  player.jersey_number || '?'
+                                )}
+                              </div>
+                              <div className="player-label">{player.player_name}</div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  }
+
+                  // Regular 5v5 lines - organize by traditional positions
                   const formation = organizeByPosition(filteredPlayers)
 
                   return (
@@ -296,8 +431,17 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                             <div key={pos} className="formation-player">
                               {player ? (
                                 <>
-                                  <div className="player-circle">
-                                    {player.jersey_number || '?'}
+                                  <div
+                                    className="player-circle"
+                                    style={{
+                                      background: `linear-gradient(135deg, ${lineupData.opponent.primary_color} 0%, ${lineupData.opponent.secondary_color} 100%)`
+                                    }}
+                                  >
+                                    {player.headshot_url ? (
+                                      <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                    ) : (
+                                      player.jersey_number || '?'
+                                    )}
                                   </div>
                                   <div className="player-label">{player.player_name}</div>
                                 </>
@@ -320,8 +464,17 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                             <div key={pos} className="formation-player">
                               {player ? (
                                 <>
-                                  <div className="player-circle">
-                                    {player.jersey_number || '?'}
+                                  <div
+                                    className="player-circle"
+                                    style={{
+                                      background: `linear-gradient(135deg, ${lineupData.opponent.primary_color} 0%, ${lineupData.opponent.secondary_color} 100%)`
+                                    }}
+                                  >
+                                    {player.headshot_url ? (
+                                      <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                    ) : (
+                                      player.jersey_number || '?'
+                                    )}
                                   </div>
                                   <div className="player-label">{player.player_name}</div>
                                 </>
@@ -341,26 +494,36 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
               ) : (
                 // Show all lines stacked
                 <div className="all-lines-container">
-                  {['f1', 'f2', 'f3', 'f4', 'd1', 'd2', 'd3'].map(lineId => {
-                    const linePlayers = lineupData.opponent.line_combinations.filter(p => p.line_id === lineId)
-                    if (linePlayers.length === 0) return null
+                  {/* Forward Lines Section */}
+                  <div className="line-group">
+                    {['f1', 'f2', 'f3', 'f4'].map(lineId => {
+                      const linePlayers = lineupData.opponent.line_combinations.filter(p => p.line_id === lineId)
+                      if (linePlayers.length === 0) return null
 
-                    const formation = organizeByPosition(linePlayers)
-                    const lineLabel = lineId.toUpperCase().replace('F', 'Line ').replace('D', 'D-Pair ')
+                      const formation = organizeByPosition(linePlayers)
+                      const lineLabel = lineId.toUpperCase().replace('F', 'Line ')
 
-                    return (
-                      <div key={lineId} className="line-group">
-                        <h5 className="line-label">{lineLabel}</h5>
-                        <div className="formation-container">
+                      return (
+                        <div key={lineId} className="line-row">
+                          <h5 className="line-label">{lineLabel}</h5>
                           <div className="formation-row forwards">
-                            {(lineId.startsWith('f') ? ['lw', 'c', 'rw'] : ['ld', 'rd']).map(pos => {
+                            {['lw', 'c', 'rw'].map(pos => {
                               const player = formation[pos]
                               return (
                                 <div key={pos} className="formation-player">
                                   {player ? (
                                     <>
-                                      <div className="player-circle">
-                                        {player.jersey_number || '?'}
+                                      <div
+                                        className="player-circle"
+                                        style={{
+                                          background: `linear-gradient(135deg, ${lineupData.opponent.primary_color} 0%, ${lineupData.opponent.secondary_color} 100%)`
+                                        }}
+                                      >
+                                        {player.headshot_url ? (
+                                          <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                        ) : (
+                                          player.jersey_number || '?'
+                                        )}
                                       </div>
                                       <div className="player-label">{player.player_name}</div>
                                     </>
@@ -375,9 +538,57 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                             })}
                           </div>
                         </div>
-                      </div>
-                    )
-                  })}
+                      )
+                    })}
+                  </div>
+
+                  {/* Defense Pairs Section */}
+                  <div className="line-group">
+                    {['d1', 'd2', 'd3'].map(lineId => {
+                      const linePlayers = lineupData.opponent.line_combinations.filter(p => p.line_id === lineId)
+                      if (linePlayers.length === 0) return null
+
+                      const formation = organizeByPosition(linePlayers)
+                      const lineLabel = lineId.toUpperCase().replace('D', 'D-Pair ')
+
+                      return (
+                        <div key={lineId} className="line-row">
+                          <h5 className="line-label">{lineLabel}</h5>
+                          <div className="formation-row defense">
+                            {['ld', 'rd'].map(pos => {
+                              const player = formation[pos]
+                              return (
+                                <div key={pos} className="formation-player">
+                                  {player ? (
+                                    <>
+                                      <div
+                                        className="player-circle"
+                                        style={{
+                                          background: `linear-gradient(135deg, ${lineupData.opponent.primary_color} 0%, ${lineupData.opponent.secondary_color} 100%)`
+                                        }}
+                                      >
+                                        {player.headshot_url ? (
+                                          <img src={player.headshot_url} alt={player.player_name} className="player-headshot" />
+                                        ) : (
+                                          player.jersey_number || '?'
+                                        )}
+                                      </div>
+                                      <div className="player-label">{player.player_name}</div>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <div className="player-circle empty">—</div>
+                                      <div className="player-label">Empty</div>
+                                    </>
+                                  )}
+                                </div>
+                              )
+                            })}
+                          </div>
+                        </div>
+                      )
+                    })}
+                  </div>
                 </div>
               )}
 
@@ -410,7 +621,13 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                   {lineupData.team.injuries.map((player, idx) => (
                     <div key={idx} className="injury-card">
                       <div className="injury-card-header">
-                        <span className="player-number">#{player.jersey_number || '—'}</span>
+                        {player.headshot_url ? (
+                          <div className="injury-player-headshot-container">
+                            <img src={player.headshot_url} alt={player.player_name} className="injury-player-headshot" />
+                          </div>
+                        ) : (
+                          <span className="player-number">#{player.jersey_number || '—'}</span>
+                        )}
                         <span className="player-name">{player.player_name}</span>
                         <span className="player-position">{player.position}</span>
                       </div>

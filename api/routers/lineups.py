@@ -7,6 +7,7 @@ from pathlib import Path
 
 from ..auth import verify_api_key
 from ..models import LineupPlayer, TeamLineup, LineupsResponse
+from ..services.data_loader import load_team_logos, load_player_name_mapping
 
 router = APIRouter(prefix="/lineups", tags=["Lineups"])
 
@@ -75,7 +76,7 @@ def load_lineup_data():
     return df_lines, df_goalies, df_injuries
 
 
-def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataFrame, df_injuries: pd.DataFrame) -> TeamLineup:
+def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataFrame, df_injuries: pd.DataFrame, player_mapping: pd.DataFrame) -> TeamLineup:
     """Extract lineup for a specific team."""
     # Filter data for this team
     team_lines = df_lines[df_lines['team'] == team_slug]
@@ -89,6 +90,27 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
         if pd.isna(opponent_slug) or opponent_slug == '':
             opponent_slug = None
 
+    # Get team abbreviation and look up team colors/logo
+    team_abbrev = SLUG_TO_ABBREV.get(team_slug, '')
+    team_logos = load_team_logos()
+    team_logo_row = team_logos[team_logos['team_abbrev'] == team_abbrev]
+
+    if len(team_logo_row) > 0:
+        team_logo_url = team_logo_row.iloc[0]['logo_url']
+        primary_color = team_logo_row.iloc[0]['primary_color']
+        secondary_color = team_logo_row.iloc[0]['secondary_color']
+    else:
+        team_logo_url = ""
+        primary_color = "#000000"
+        secondary_color = "#FFFFFF"
+
+    # Helper function to get headshot URL for a player
+    def get_headshot_url(player_name: str) -> str:
+        player_row = player_mapping[player_mapping['player_name'] == player_name]
+        if len(player_row) > 0:
+            return player_row.iloc[0]['headshot_url']
+        return ""
+
     # Convert to LineupPlayer models
     line_combinations = []
     for _, player in team_lines.iterrows():
@@ -100,6 +122,7 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
                 line=player['line'],
                 line_id=player['line_id'],
                 jersey_number=float(player['jersey_number']) if pd.notna(player.get('jersey_number')) else None,
+                headshot_url=get_headshot_url(player['player_name']),
                 injury_status=player.get('injury_status', None) if pd.notna(player.get('injury_status')) else None,
                 game_time_decision=bool(player.get('game_time_decision', False)) if pd.notna(player.get('game_time_decision')) else None,
             )
@@ -115,6 +138,7 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
                 line=player['line'],
                 line_id=player['line_id'],
                 jersey_number=float(player['jersey_number']) if pd.notna(player.get('jersey_number')) else None,
+                headshot_url=get_headshot_url(player['player_name']),
                 injury_status=player.get('injury_status', None) if pd.notna(player.get('injury_status')) else None,
                 game_time_decision=bool(player.get('game_time_decision', False)) if pd.notna(player.get('game_time_decision')) else None,
             )
@@ -130,6 +154,7 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
                 line=player['line'],
                 line_id=player['line_id'],
                 jersey_number=float(player['jersey_number']) if pd.notna(player.get('jersey_number')) else None,
+                headshot_url=get_headshot_url(player['player_name']),
                 injury_status=player.get('injury_status', None) if pd.notna(player.get('injury_status')) else None,
                 game_time_decision=bool(player.get('game_time_decision', False)) if pd.notna(player.get('game_time_decision')) else None,
             )
@@ -138,6 +163,9 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
     return TeamLineup(
         team=team_slug,
         team_name=slug_to_name(team_slug),
+        team_logo_url=team_logo_url,
+        primary_color=primary_color,
+        secondary_color=secondary_color,
         opponent=opponent_slug,
         opponent_name=slug_to_name(opponent_slug) if opponent_slug else None,
         line_combinations=line_combinations,
@@ -180,6 +208,9 @@ async def get_lineups(
     except FileNotFoundError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
+    # Load player name mapping for headshots
+    player_mapping = load_player_name_mapping()
+
     # Check if team has lineup data
     if len(df_lines[df_lines['team'] == team_slug]) == 0:
         raise HTTPException(
@@ -188,12 +219,12 @@ async def get_lineups(
         )
 
     # Get team lineup
-    team_lineup = get_team_lineup(team_slug, df_lines, df_goalies, df_injuries)
+    team_lineup = get_team_lineup(team_slug, df_lines, df_goalies, df_injuries, player_mapping)
 
     # Get opponent lineup if opponent exists
     opponent_lineup = None
     if team_lineup.opponent:
-        opponent_lineup = get_team_lineup(team_lineup.opponent, df_lines, df_goalies, df_injuries)
+        opponent_lineup = get_team_lineup(team_lineup.opponent, df_lines, df_goalies, df_injuries, player_mapping)
 
     return LineupsResponse(
         team=team_lineup,

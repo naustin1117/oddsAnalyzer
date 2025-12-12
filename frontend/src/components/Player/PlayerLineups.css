@@ -168,10 +168,12 @@
 
 .injuries-title {
   color: #ff6b6b;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   margin: 0 0 1.5rem 0;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  letter-spacing: 0.3px;
 }
 
 .injuries-title.opponent {
@@ -263,12 +265,13 @@
   border: none;
   border-bottom: 2px solid transparent;
   color: #888;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.7rem;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
   position: relative;
   bottom: -2px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
 .lineup-tab:hover {
@@ -285,7 +288,7 @@
 /* Line Filter */
 .line-filter {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.4rem;
   margin-bottom: 1.5rem;
 }
@@ -347,6 +350,11 @@
   gap: 4rem;
 }
 
+.formation-row.special-teams {
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .formation-player {
   display: flex;
   flex-direction: column;
@@ -358,15 +366,22 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #646cff;
-  border: 2px solid #535bf2;
+  border: 2px solid rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
   font-weight: bold;
   color: #fff;
-  box-shadow: 0 2px 8px rgba(100, 108, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.player-headshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .player-circle.empty {
@@ -393,18 +408,29 @@
 }
 
 .line-group {
-  padding: 1rem;
+  padding: 0.5rem;
   background: #0a0a0a;
   border-radius: 6px;
   border: 1px solid #333;
 }
 
+.line-row {
+  margin-bottom: 1rem;
+}
+
+.line-row:last-child {
+  margin-bottom: 0;
+}
+
 .line-label {
   color: #646cff;
-  font-size: 0.9rem;
+  font-size: 0.55rem;
   font-weight: 600;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
 .team-lineup {
@@ -417,15 +443,20 @@
 .team-lineup h3 {
   color: #646cff;
   margin: 0 0 0.5rem 0;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   text-align: center;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  letter-spacing: 0.3px;
 }
 
 .opponent-info {
   color: #888;
   text-align: center;
   margin: 0 0 1.5rem 0;
-  font-size: 0.95rem;
+  font-size: 0.65rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
 .lineup-section {
@@ -439,9 +470,13 @@
 .lineup-section h4 {
   color: #aaa;
   margin: 0 0 1rem 0;
-  font-size: 1.1rem;
+  font-size: 0.55rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
 .lineup-grid {

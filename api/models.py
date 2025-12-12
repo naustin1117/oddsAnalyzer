@@ -137,6 +137,7 @@ class LineupPlayer(BaseModel):
     line: str
     line_id: str
     jersey_number: Optional[float] = None
+    headshot_url: Optional[str] = None
     injury_status: Optional[str] = None
     game_time_decision: Optional[bool] = None
 
@@ -145,6 +146,9 @@ class TeamLineup(BaseModel):
     """Lineup for a single team"""
     team: str
     team_name: str
+    team_logo_url: str
+    primary_color: str
+    secondary_color: str
     opponent: Optional[str] = None
     opponent_name: Optional[str] = None
     line_combinations: List[LineupPlayer]
