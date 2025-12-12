@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { LineupsResponse } from '../../types'
+import './PlayerLineups.css'
 
 interface PlayerLineupsProps {
   lineupData: LineupsResponse
 }
 
 function PlayerLineups({ lineupData }: PlayerLineupsProps) {
+  const [activeMainTab, setActiveMainTab] = useState<'lineups' | 'injuries'>('lineups')
   const [activeLineupTab, setActiveLineupTab] = useState<'team' | 'opponent'>('team')
   const [selectedLine, setSelectedLine] = useState<string>('all')
 
@@ -48,10 +50,27 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
   return (
     <div className="lineups-column">
       <div className="lineups-section">
-        <h2>Today's Lineups</h2>
+        {/* Main Tabs */}
+        <div className="main-tabs">
+          <button
+            className={`main-tab ${activeMainTab === 'lineups' ? 'active' : ''}`}
+            onClick={() => setActiveMainTab('lineups')}
+          >
+            Lineups
+          </button>
+          <button
+            className={`main-tab ${activeMainTab === 'injuries' ? 'active' : ''}`}
+            onClick={() => setActiveMainTab('injuries')}
+          >
+            Injuries/News
+          </button>
+        </div>
 
-        {/* Tabs */}
-        <div className="lineup-tabs">
+        {/* Content */}
+        {activeMainTab === 'lineups' && (
+          <div>
+            {/* Tabs */}
+            <div className="lineup-tabs">
           <button
             className={`lineup-tab ${activeLineupTab === 'team' ? 'active' : ''}`}
             onClick={() => setActiveLineupTab('team')}
@@ -249,24 +268,6 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                   ))}
                 </div>
               </div>
-
-              {lineupData.team.injuries.length > 0 && (
-                <div className="lineup-section">
-                  <h4>Injuries/Scratches ({lineupData.team.injuries.length})</h4>
-                  <div className="lineup-grid">
-                    {lineupData.team.injuries.map((player, idx) => (
-                      <div key={idx} className="lineup-player injury">
-                        <span className="player-number">#{player.jersey_number || '—'}</span>
-                        <span className="player-name">{player.player_name}</span>
-                        <span className="player-position">{player.position}</span>
-                        {player.injury_status && (
-                          <span className="injury-status">{player.injury_status}</span>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
             </div>
           )}
 
@@ -392,27 +393,72 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                   ))}
                 </div>
               </div>
+            </div>
+          )}
+        </div>
+          </div>
+        )}
 
-              {lineupData.opponent.injuries.length > 0 && (
-                <div className="lineup-section">
-                  <h4>Injuries/Scratches ({lineupData.opponent.injuries.length})</h4>
-                  <div className="lineup-grid">
-                    {lineupData.opponent.injuries.map((player, idx) => (
-                      <div key={idx} className="lineup-player injury">
+        {/* Injuries Content */}
+        {activeMainTab === 'injuries' && (
+          <div>
+            {/* Player's Team Injuries */}
+            <div className="injuries-team-section">
+              <h3 className="injuries-title">{lineupData.team.team_name}</h3>
+              {lineupData.team.injuries.length > 0 ? (
+                <div className="injuries-grid">
+                  {lineupData.team.injuries.map((player, idx) => (
+                    <div key={idx} className="injury-card">
+                      <div className="injury-card-header">
                         <span className="player-number">#{player.jersey_number || '—'}</span>
                         <span className="player-name">{player.player_name}</span>
                         <span className="player-position">{player.position}</span>
+                      </div>
+                      {player.injury_status && (
+                        <div className="injury-card-status">
+                          <span className="injury-status-badge">{player.injury_status}</span>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="no-injuries">
+                  <p>No injuries or scratches reported</p>
+                </div>
+              )}
+            </div>
+
+            {/* Opponent's Team Injuries */}
+            {lineupData.opponent && (
+              <div className="injuries-team-section">
+                <h3 className="injuries-title opponent">{lineupData.opponent.team_name}</h3>
+                {lineupData.opponent.injuries.length > 0 ? (
+                  <div className="injuries-grid">
+                    {lineupData.opponent.injuries.map((player, idx) => (
+                      <div key={idx} className="injury-card">
+                        <div className="injury-card-header">
+                          <span className="player-number">#{player.jersey_number || '—'}</span>
+                          <span className="player-name">{player.player_name}</span>
+                          <span className="player-position">{player.position}</span>
+                        </div>
                         {player.injury_status && (
-                          <span className="injury-status">{player.injury_status}</span>
+                          <div className="injury-card-status">
+                            <span className="injury-status-badge">{player.injury_status}</span>
+                          </div>
                         )}
                       </div>
                     ))}
                   </div>
-                </div>
-              )}
-            </div>
-          )}
-        </div>
+                ) : (
+                  <div className="no-injuries">
+                    <p>No injuries or scratches reported</p>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   )
