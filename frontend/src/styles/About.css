@@ -1,0 +1,139 @@
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.about-container h1 {
+  color: #646cff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-section {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  color: #ccc;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-section ul,
+.about-section ol {
+  color: #ccc;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+}
+
+.about-section li {
+  margin-bottom: 0.75rem;
+}
+
+.about-section li strong {
+  color: #fff;
+}
+
+/* Confidence Explainer */
+.confidence-explainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.confidence-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.confidence-item p {
+  margin: 0;
+  flex: 1;
+}
+
+.confidence-badge-about {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-width: 90px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.confidence-badge-about.high {
+  background: rgba(74, 222, 128, 0.2);
+  color: #4ade80;
+  border: 1px solid #4ade80;
+}
+
+.confidence-badge-about.medium {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+  border: 1px solid #fbbf24;
+}
+
+.confidence-badge-about.low {
+  background: rgba(248, 113, 113, 0.2);
+  color: #f87171;
+  border: 1px solid #f87171;
+}
+
+/* Disclaimer */
+.disclaimer {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: #ef4444;
+}
+
+.disclaimer h2 {
+  color: #f87171;
+}
+
+.disclaimer p {
+  color: #fca5a5;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1rem;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-section {
+    padding: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .confidence-item {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
