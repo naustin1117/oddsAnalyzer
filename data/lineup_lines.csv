@@ -1,935 +1,143 @@
 team,opponent,player_name,position,position_id,line,line_id,jersey_number,injury_status,game_time_decision
-anaheim-ducks,new-york-islanders,Chris Kreider,Left Wing,lw,Forwards 1,f1,20.0,,False
-anaheim-ducks,new-york-islanders,Leo Carlsson,Center,c,Forwards 1,f1,91.0,,False
-anaheim-ducks,new-york-islanders,Troy Terry,Right Wing,rw,Forwards 1,f1,19.0,,False
-anaheim-ducks,new-york-islanders,Cutter Gauthier,Left Wing,lw,Forwards 2,f2,61.0,,False
-anaheim-ducks,new-york-islanders,Mason McTavish,Center,c,Forwards 2,f2,23.0,,False
-anaheim-ducks,new-york-islanders,Beckett Sennecke,Right Wing,rw,Forwards 2,f2,45.0,,False
-anaheim-ducks,new-york-islanders,Frank Vatrano,Left Wing,lw,Forwards 3,f3,77.0,,False
-anaheim-ducks,new-york-islanders,Ryan Strome,Center,c,Forwards 3,f3,16.0,,False
-anaheim-ducks,new-york-islanders,Alex Killorn,Right Wing,rw,Forwards 3,f3,17.0,,False
-anaheim-ducks,new-york-islanders,Ross Johnston,Left Wing,lw,Forwards 4,f4,44.0,,False
-anaheim-ducks,new-york-islanders,Ryan Poehling,Center,c,Forwards 4,f4,25.0,,False
-anaheim-ducks,new-york-islanders,Mikael Granlund,Right Wing,rw,Forwards 4,f4,64.0,,False
-anaheim-ducks,new-york-islanders,Jackson Lacombe,Left Defense,ld,Defense 1,d1,2.0,,False
-anaheim-ducks,new-york-islanders,Jacob Trouba,Right Defense,rd,Defense 1,d1,65.0,,False
-anaheim-ducks,new-york-islanders,Olen Zellweger,Left Defense,ld,Defense 2,d2,51.0,,False
-anaheim-ducks,new-york-islanders,Radko Gudas,Right Defense,rd,Defense 2,d2,7.0,,False
-anaheim-ducks,new-york-islanders,Pavel Mintyukov,Left Defense,ld,Defense 3,d3,34.0,,False
-anaheim-ducks,new-york-islanders,Drew Helleson,Right Defense,rd,Defense 3,d3,14.0,,False
-anaheim-ducks,new-york-islanders,Chris Kreider,Skater 1,sk1,1st Powerplay Unit,pp1,20.0,,False
-anaheim-ducks,new-york-islanders,Leo Carlsson,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False
-anaheim-ducks,new-york-islanders,Mikael Granlund,Skater 3,sk3,1st Powerplay Unit,pp1,64.0,,False
-anaheim-ducks,new-york-islanders,Troy Terry,Skater 4,sk4,1st Powerplay Unit,pp1,19.0,,False
-anaheim-ducks,new-york-islanders,Jackson Lacombe,Skater 5,sk5,1st Powerplay Unit,pp1,2.0,,False
-anaheim-ducks,new-york-islanders,Beckett Sennecke,Skater 1,sk1,2nd Powerplay Unit,pp2,45.0,,False
-anaheim-ducks,new-york-islanders,Mason McTavish,Skater 2,sk2,2nd Powerplay Unit,pp2,23.0,,False
-anaheim-ducks,new-york-islanders,Frank Vatrano,Skater 3,sk3,2nd Powerplay Unit,pp2,77.0,,False
-anaheim-ducks,new-york-islanders,Cutter Gauthier,Skater 4,sk4,2nd Powerplay Unit,pp2,61.0,,False
-anaheim-ducks,new-york-islanders,Olen Zellweger,Skater 5,sk5,2nd Powerplay Unit,pp2,51.0,,False
-anaheim-ducks,new-york-islanders,Leo Carlsson,Skater 1,sk1,1st Penalty Kill Unit,pk1,91.0,,False
-anaheim-ducks,new-york-islanders,Alex Killorn,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False
-anaheim-ducks,new-york-islanders,Jackson Lacombe,Skater 3,sk3,1st Penalty Kill Unit,pk1,2.0,,False
-anaheim-ducks,new-york-islanders,Radko Gudas,Skater 4,sk4,1st Penalty Kill Unit,pk1,7.0,,False
-anaheim-ducks,new-york-islanders,Mikael Granlund,Skater 1,sk1,2nd Penalty Kill Unit,pk2,64.0,,False
-anaheim-ducks,new-york-islanders,Frank Vatrano,Skater 2,sk2,2nd Penalty Kill Unit,pk2,77.0,,False
-anaheim-ducks,new-york-islanders,Drew Helleson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,14.0,,False
-anaheim-ducks,new-york-islanders,Jacob Trouba,Skater 4,sk4,2nd Penalty Kill Unit,pk2,65.0,,False
-boston-bruins,winnipeg-jets,Alexander Steeves,Left Wing,lw,Forwards 1,f1,21.0,,False
-boston-bruins,winnipeg-jets,Elias Lindholm,Center,c,Forwards 1,f1,28.0,,False
-boston-bruins,winnipeg-jets,Morgan Geekie,Right Wing,rw,Forwards 1,f1,39.0,,False
-boston-bruins,winnipeg-jets,Marat Khusnutdinov,Left Wing,lw,Forwards 2,f2,92.0,,False
-boston-bruins,winnipeg-jets,Fraser Minten,Center,c,Forwards 2,f2,93.0,,False
-boston-bruins,winnipeg-jets,David Pastrnak,Right Wing,rw,Forwards 2,f2,88.0,,False
-boston-bruins,winnipeg-jets,Casey Mittelstadt,Left Wing,lw,Forwards 3,f3,11.0,,False
-boston-bruins,winnipeg-jets,Pavel Zacha,Center,c,Forwards 3,f3,18.0,,False
-boston-bruins,winnipeg-jets,Viktor Arvidsson,Right Wing,rw,Forwards 3,f3,71.0,,False
-boston-bruins,winnipeg-jets,Tanner Jeannot,Left Wing,lw,Forwards 4,f4,84.0,,False
-boston-bruins,winnipeg-jets,Sean Kuraly,Center,c,Forwards 4,f4,7.0,,False
-boston-bruins,winnipeg-jets,Mark Kastelic,Right Wing,rw,Forwards 4,f4,47.0,,False
-boston-bruins,winnipeg-jets,Nikita Zadorov,Left Defense,ld,Defense 1,d1,91.0,,False
-boston-bruins,winnipeg-jets,Charlie McAvoy,Right Defense,rd,Defense 1,d1,73.0,,False
-boston-bruins,winnipeg-jets,Hampus Lindholm,Left Defense,ld,Defense 2,d2,27.0,,False
-boston-bruins,winnipeg-jets,Jonathan Aspirot,Right Defense,rd,Defense 2,d2,45.0,,False
-boston-bruins,winnipeg-jets,Mason Lohrei,Left Defense,ld,Defense 3,d3,6.0,,False
-boston-bruins,winnipeg-jets,Andrew Peeke,Right Defense,rd,Defense 3,d3,52.0,,False
-boston-bruins,winnipeg-jets,Morgan Geekie,Skater 1,sk1,1st Powerplay Unit,pp1,39.0,,False
-boston-bruins,winnipeg-jets,Elias Lindholm,Skater 2,sk2,1st Powerplay Unit,pp1,28.0,,False
-boston-bruins,winnipeg-jets,Pavel Zacha,Skater 3,sk3,1st Powerplay Unit,pp1,18.0,,False
-boston-bruins,winnipeg-jets,David Pastrnak,Skater 4,sk4,1st Powerplay Unit,pp1,88.0,,False
-boston-bruins,winnipeg-jets,Charlie McAvoy,Skater 5,sk5,1st Powerplay Unit,pp1,73.0,,False
-boston-bruins,winnipeg-jets,Casey Mittelstadt,Skater 1,sk1,2nd Powerplay Unit,pp2,11.0,,False
-boston-bruins,winnipeg-jets,Marat Khusnutdinov,Skater 2,sk2,2nd Powerplay Unit,pp2,92.0,,False
-boston-bruins,winnipeg-jets,Viktor Arvidsson,Skater 3,sk3,2nd Powerplay Unit,pp2,71.0,,False
-boston-bruins,winnipeg-jets,Hampus Lindholm,Skater 4,sk4,2nd Powerplay Unit,pp2,27.0,,False
-boston-bruins,winnipeg-jets,Alexander Steeves,Skater 5,sk5,2nd Powerplay Unit,pp2,21.0,,False
-boston-bruins,winnipeg-jets,Fraser Minten,Skater 1,sk1,1st Penalty Kill Unit,pk1,93.0,,False
-boston-bruins,winnipeg-jets,Pavel Zacha,Skater 2,sk2,1st Penalty Kill Unit,pk1,18.0,,False
-boston-bruins,winnipeg-jets,Hampus Lindholm,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False
-boston-bruins,winnipeg-jets,Andrew Peeke,Skater 4,sk4,1st Penalty Kill Unit,pk1,52.0,,False
-boston-bruins,winnipeg-jets,Sean Kuraly,Skater 1,sk1,2nd Penalty Kill Unit,pk2,7.0,,False
-boston-bruins,winnipeg-jets,Tanner Jeannot,Skater 2,sk2,2nd Penalty Kill Unit,pk2,84.0,,False
-boston-bruins,winnipeg-jets,Nikita Zadorov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,91.0,,False
-boston-bruins,winnipeg-jets,Charlie McAvoy,Skater 4,sk4,2nd Penalty Kill Unit,pk2,73.0,,False
-buffalo-sabres,vancouver-canucks,Peyton Krebs,Left Wing,lw,Forwards 1,f1,19.0,,False
-buffalo-sabres,vancouver-canucks,Tage Thompson,Center,c,Forwards 1,f1,72.0,,False
-buffalo-sabres,vancouver-canucks,Alex Tuch,Right Wing,rw,Forwards 1,f1,89.0,,False
-buffalo-sabres,vancouver-canucks,Zach Benson,Left Wing,lw,Forwards 2,f2,6.0,,False
-buffalo-sabres,vancouver-canucks,Tyson Kozak,Center,c,Forwards 2,f2,48.0,,False
-buffalo-sabres,vancouver-canucks,Josh Doan,Right Wing,rw,Forwards 2,f2,91.0,,False
-buffalo-sabres,vancouver-canucks,Isak Rosen,Left Wing,lw,Forwards 3,f3,63.0,,False
-buffalo-sabres,vancouver-canucks,Ryan McLeod,Center,c,Forwards 3,f3,71.0,,False
-buffalo-sabres,vancouver-canucks,Jack Quinn,Right Wing,rw,Forwards 3,f3,22.0,,False
-buffalo-sabres,vancouver-canucks,Jordan Greenway,Left Wing,lw,Forwards 4,f4,12.0,,False
-buffalo-sabres,vancouver-canucks,Josh Dunne,Center,c,Forwards 4,f4,,,False
-buffalo-sabres,vancouver-canucks,Tyson Kozak,Right Wing,rw,Forwards 4,f4,48.0,,False
-buffalo-sabres,vancouver-canucks,Mattias Samuelsson,Left Defense,ld,Defense 1,d1,23.0,,False
-buffalo-sabres,vancouver-canucks,Rasmus Dahlin,Right Defense,rd,Defense 1,d1,26.0,,False
-buffalo-sabres,vancouver-canucks,Bowen Byram,Left Defense,ld,Defense 2,d2,4.0,,False
-buffalo-sabres,vancouver-canucks,Conor Timmins,Right Defense,rd,Defense 2,d2,21.0,,False
-buffalo-sabres,vancouver-canucks,Owen Power,Left Defense,ld,Defense 3,d3,25.0,,False
-buffalo-sabres,vancouver-canucks,Jacob Bryson,Right Defense,rd,Defense 3,d3,78.0,,False
-buffalo-sabres,vancouver-canucks,Josh Doan,Skater 1,sk1,1st Powerplay Unit,pp1,91.0,,False
-buffalo-sabres,vancouver-canucks,Ryan McLeod,Skater 2,sk2,1st Powerplay Unit,pp1,71.0,,False
-buffalo-sabres,vancouver-canucks,Zach Benson,Skater 3,sk3,1st Powerplay Unit,pp1,6.0,,False
-buffalo-sabres,vancouver-canucks,Rasmus Dahlin,Skater 4,sk4,1st Powerplay Unit,pp1,26.0,,False
-buffalo-sabres,vancouver-canucks,Tage Thompson,Skater 5,sk5,1st Powerplay Unit,pp1,72.0,,False
-buffalo-sabres,vancouver-canucks,Alex Tuch,Skater 1,sk1,2nd Powerplay Unit,pp2,89.0,,False
-buffalo-sabres,vancouver-canucks,Peyton Krebs,Skater 2,sk2,2nd Powerplay Unit,pp2,19.0,,False
-buffalo-sabres,vancouver-canucks,Jack Quinn,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False
-buffalo-sabres,vancouver-canucks,Owen Power,Skater 4,sk4,2nd Powerplay Unit,pp2,25.0,,False
-buffalo-sabres,vancouver-canucks,Bowen Byram,Skater 5,sk5,2nd Powerplay Unit,pp2,4.0,,False
-buffalo-sabres,vancouver-canucks,Ryan McLeod,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False
-buffalo-sabres,vancouver-canucks,Alex Tuch,Skater 2,sk2,1st Penalty Kill Unit,pk1,89.0,,False
-buffalo-sabres,vancouver-canucks,Owen Power,Skater 3,sk3,1st Penalty Kill Unit,pk1,25.0,,False
-buffalo-sabres,vancouver-canucks,Conor Timmins,Skater 4,sk4,1st Penalty Kill Unit,pk1,21.0,,False
-buffalo-sabres,vancouver-canucks,Tyson Kozak,Skater 1,sk1,2nd Penalty Kill Unit,pk2,48.0,,False
-buffalo-sabres,vancouver-canucks,Beck Malenstyn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,29.0,,False
-buffalo-sabres,vancouver-canucks,Mattias Samuelsson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,23.0,,False
-buffalo-sabres,vancouver-canucks,Rasmus Dahlin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,26.0,,False
-carolina-hurricanes,washington-capitals,Andrei Svechnikov,Left Wing,lw,Forwards 1,f1,37.0,,False
-carolina-hurricanes,washington-capitals,Sebastian Aho,Center,c,Forwards 1,f1,20.0,,False
-carolina-hurricanes,washington-capitals,Seth Jarvis,Right Wing,rw,Forwards 1,f1,24.0,,False
-carolina-hurricanes,washington-capitals,Nikolaj Ehlers,Left Wing,lw,Forwards 2,f2,27.0,,False
-carolina-hurricanes,washington-capitals,Logan Stankoven,Center,c,Forwards 2,f2,22.0,,False
-carolina-hurricanes,washington-capitals,Jackson Blake,Right Wing,rw,Forwards 2,f2,53.0,,False
-carolina-hurricanes,washington-capitals,William Carrier,Left Wing,lw,Forwards 3,f3,28.0,,False
-carolina-hurricanes,washington-capitals,Jordan Staal,Center,c,Forwards 3,f3,11.0,,False
-carolina-hurricanes,washington-capitals,Jordan Martinook,Right Wing,rw,Forwards 3,f3,48.0,,False
-carolina-hurricanes,washington-capitals,Taylor Hall,Left Wing,lw,Forwards 4,f4,71.0,,False
-carolina-hurricanes,washington-capitals,Mark Jankowski,Center,c,Forwards 4,f4,77.0,,False
-carolina-hurricanes,washington-capitals,Eric Robinson,Right Wing,rw,Forwards 4,f4,50.0,,False
-carolina-hurricanes,washington-capitals,K'Andre Miller,Left Defense,ld,Defense 1,d1,79.0,,False
-carolina-hurricanes,washington-capitals,Sean Walker,Right Defense,rd,Defense 1,d1,26.0,,False
-carolina-hurricanes,washington-capitals,Shayne Gostisbehere,Left Defense,ld,Defense 2,d2,4.0,,False
-carolina-hurricanes,washington-capitals,Jalen Chatfield,Right Defense,rd,Defense 2,d2,5.0,,False
-carolina-hurricanes,washington-capitals,Alexander Nikishin,Left Defense,ld,Defense 3,d3,21.0,,False
-carolina-hurricanes,washington-capitals,Joel Nystrom,Right Defense,rd,Defense 3,d3,64.0,,False
-carolina-hurricanes,washington-capitals,Andrei Svechnikov,Skater 1,sk1,1st Powerplay Unit,pp1,37.0,,False
-carolina-hurricanes,washington-capitals,Sebastian Aho,Skater 2,sk2,1st Powerplay Unit,pp1,20.0,,False
-carolina-hurricanes,washington-capitals,Jordan Staal,Skater 3,sk3,1st Powerplay Unit,pp1,11.0,,False
-carolina-hurricanes,washington-capitals,Seth Jarvis,Skater 4,sk4,1st Powerplay Unit,pp1,24.0,,False
-carolina-hurricanes,washington-capitals,Shayne Gostisbehere,Skater 5,sk5,1st Powerplay Unit,pp1,4.0,,False
-carolina-hurricanes,washington-capitals,Jackson Blake,Skater 1,sk1,2nd Powerplay Unit,pp2,53.0,,False
-carolina-hurricanes,washington-capitals,Logan Stankoven,Skater 2,sk2,2nd Powerplay Unit,pp2,22.0,,False
-carolina-hurricanes,washington-capitals,Nikolaj Ehlers,Skater 3,sk3,2nd Powerplay Unit,pp2,27.0,,False
-carolina-hurricanes,washington-capitals,Taylor Hall,Skater 4,sk4,2nd Powerplay Unit,pp2,71.0,,False
-carolina-hurricanes,washington-capitals,Alexander Nikishin,Skater 5,sk5,2nd Powerplay Unit,pp2,21.0,,False
-carolina-hurricanes,washington-capitals,Sebastian Aho,Skater 1,sk1,1st Penalty Kill Unit,pk1,20.0,,False
-carolina-hurricanes,washington-capitals,Seth Jarvis,Skater 2,sk2,1st Penalty Kill Unit,pk1,24.0,,False
-carolina-hurricanes,washington-capitals,Alexander Nikishin,Skater 3,sk3,1st Penalty Kill Unit,pk1,21.0,,False
-carolina-hurricanes,washington-capitals,Sean Walker,Skater 4,sk4,1st Penalty Kill Unit,pk1,26.0,,False
-carolina-hurricanes,washington-capitals,Jordan Staal,Skater 1,sk1,2nd Penalty Kill Unit,pk2,11.0,,False
-carolina-hurricanes,washington-capitals,Jordan Martinook,Skater 2,sk2,2nd Penalty Kill Unit,pk2,48.0,,False
-carolina-hurricanes,washington-capitals,K'Andre Miller,Skater 3,sk3,2nd Penalty Kill Unit,pk2,79.0,,False
-carolina-hurricanes,washington-capitals,Jalen Chatfield,Skater 4,sk4,2nd Penalty Kill Unit,pk2,5.0,,False
-colorado-avalanche,florida-panthers,Artturi Lehkonen,Left Wing,lw,Forwards 1,f1,62.0,,False
-colorado-avalanche,florida-panthers,Nathan MacKinnon,Center,c,Forwards 1,f1,29.0,,False
-colorado-avalanche,florida-panthers,Martin Necas,Right Wing,rw,Forwards 1,f1,88.0,,False
-colorado-avalanche,florida-panthers,Gabriel Landeskog,Left Wing,lw,Forwards 2,f2,92.0,,False
-colorado-avalanche,florida-panthers,Brock Nelson,Center,c,Forwards 2,f2,11.0,,False
-colorado-avalanche,florida-panthers,Ross Colton,Right Wing,rw,Forwards 2,f2,20.0,,False
-colorado-avalanche,florida-panthers,Valeri Nichushkin,Left Wing,lw,Forwards 3,f3,13.0,,False
-colorado-avalanche,florida-panthers,Jack Drury,Center,c,Forwards 3,f3,18.0,,False
-colorado-avalanche,florida-panthers,Victor Olofsson,Right Wing,rw,Forwards 3,f3,95.0,,False
-colorado-avalanche,florida-panthers,Joel Kiviranta,Left Wing,lw,Forwards 4,f4,94.0,,False
-colorado-avalanche,florida-panthers,Parker Kelly,Center,c,Forwards 4,f4,17.0,,False
-colorado-avalanche,florida-panthers,Gavin Brindley,Right Wing,rw,Forwards 4,f4,54.0,,False
-colorado-avalanche,florida-panthers,Devon Toews,Left Defense,ld,Defense 1,d1,7.0,,False
-colorado-avalanche,florida-panthers,Cale Makar,Right Defense,rd,Defense 1,d1,8.0,,False
-colorado-avalanche,florida-panthers,Josh Manson,Left Defense,ld,Defense 2,d2,42.0,,False
-colorado-avalanche,florida-panthers,Brent Burns,Right Defense,rd,Defense 2,d2,84.0,,False
-colorado-avalanche,florida-panthers,Samuel Girard,Left Defense,ld,Defense 3,d3,49.0,,False
-colorado-avalanche,florida-panthers,Sam Malinski,Right Defense,rd,Defense 3,d3,70.0,,False
-colorado-avalanche,florida-panthers,Artturi Lehkonen,Skater 1,sk1,1st Powerplay Unit,pp1,62.0,,False
-colorado-avalanche,florida-panthers,Martin Necas,Skater 2,sk2,1st Powerplay Unit,pp1,88.0,,False
-colorado-avalanche,florida-panthers,Gabriel Landeskog,Skater 3,sk3,1st Powerplay Unit,pp1,92.0,,False
-colorado-avalanche,florida-panthers,Nathan MacKinnon,Skater 4,sk4,1st Powerplay Unit,pp1,29.0,,False
-colorado-avalanche,florida-panthers,Cale Makar,Skater 5,sk5,1st Powerplay Unit,pp1,8.0,,False
-colorado-avalanche,florida-panthers,Valeri Nichushkin,Skater 1,sk1,2nd Powerplay Unit,pp2,13.0,,False
-colorado-avalanche,florida-panthers,Brock Nelson,Skater 2,sk2,2nd Powerplay Unit,pp2,11.0,,False
-colorado-avalanche,florida-panthers,Ross Colton,Skater 3,sk3,2nd Powerplay Unit,pp2,20.0,,False
-colorado-avalanche,florida-panthers,Devon Toews,Skater 4,sk4,2nd Powerplay Unit,pp2,7.0,,False
-colorado-avalanche,florida-panthers,Victor Olofsson,Skater 5,sk5,2nd Powerplay Unit,pp2,95.0,,False
-colorado-avalanche,florida-panthers,Jack Drury,Skater 1,sk1,1st Penalty Kill Unit,pk1,18.0,,False
-colorado-avalanche,florida-panthers,Parker Kelly,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False
-colorado-avalanche,florida-panthers,Devon Toews,Skater 3,sk3,1st Penalty Kill Unit,pk1,7.0,,False
-colorado-avalanche,florida-panthers,Cale Makar,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False
-colorado-avalanche,florida-panthers,Brock Nelson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,11.0,,False
-colorado-avalanche,florida-panthers,Artturi Lehkonen,Skater 2,sk2,2nd Penalty Kill Unit,pk2,62.0,,False
-colorado-avalanche,florida-panthers,Sam Malinski,Skater 3,sk3,2nd Penalty Kill Unit,pk2,70.0,,False
-colorado-avalanche,florida-panthers,Josh Manson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,42.0,,False
-columbus-blue-jackets,ottawa-senators,Dmitri Voronkov,Left Wing,lw,Forwards 1,f1,10.0,,False
-columbus-blue-jackets,ottawa-senators,Sean Monahan,Center,c,Forwards 1,f1,23.0,,False
-columbus-blue-jackets,ottawa-senators,Kirill Marchenko,Right Wing,rw,Forwards 1,f1,86.0,,False
-columbus-blue-jackets,ottawa-senators,Kent Johnson,Left Wing,lw,Forwards 2,f2,91.0,,False
-columbus-blue-jackets,ottawa-senators,Adam Fantilli,Center,c,Forwards 2,f2,19.0,,False
-columbus-blue-jackets,ottawa-senators,Boone Jenner,Right Wing,rw,Forwards 2,f2,38.0,,False
-columbus-blue-jackets,ottawa-senators,Miles Wood,Left Wing,lw,Forwards 3,f3,28.0,,False
-columbus-blue-jackets,ottawa-senators,Charlie Coyle,Center,c,Forwards 3,f3,3.0,,False
-columbus-blue-jackets,ottawa-senators,Cole Sillinger,Right Wing,rw,Forwards 3,f3,4.0,,False
-columbus-blue-jackets,ottawa-senators,Brendan Gaunce,Left Wing,lw,Forwards 4,f4,16.0,,False
-columbus-blue-jackets,ottawa-senators,Isac Lundestrom,Center,c,Forwards 4,f4,21.0,,False
-columbus-blue-jackets,ottawa-senators,Yegor Chinakhov,Right Wing,rw,Forwards 4,f4,59.0,,False
-columbus-blue-jackets,ottawa-senators,Zach Werenski,Left Defense,ld,Defense 1,d1,8.0,,False
-columbus-blue-jackets,ottawa-senators,Ivan Provorov,Right Defense,rd,Defense 1,d1,9.0,,False
-columbus-blue-jackets,ottawa-senators,Denton Mateychuk,Left Defense,ld,Defense 2,d2,5.0,,False
-columbus-blue-jackets,ottawa-senators,Damon Severson,Right Defense,rd,Defense 2,d2,78.0,,False
-columbus-blue-jackets,ottawa-senators,Brendan Smith,Left Defense,ld,Defense 3,d3,2.0,,False
-columbus-blue-jackets,ottawa-senators,Dante Fabbro,Right Defense,rd,Defense 3,d3,15.0,,False
-columbus-blue-jackets,ottawa-senators,Dmitri Voronkov,Skater 1,sk1,1st Powerplay Unit,pp1,10.0,,False
-columbus-blue-jackets,ottawa-senators,Sean Monahan,Skater 2,sk2,1st Powerplay Unit,pp1,23.0,,False
-columbus-blue-jackets,ottawa-senators,Adam Fantilli,Skater 3,sk3,1st Powerplay Unit,pp1,19.0,,False
-columbus-blue-jackets,ottawa-senators,Kirill Marchenko,Skater 4,sk4,1st Powerplay Unit,pp1,86.0,,False
-columbus-blue-jackets,ottawa-senators,Zach Werenski,Skater 5,sk5,1st Powerplay Unit,pp1,8.0,,False
-columbus-blue-jackets,ottawa-senators,Kent Johnson,Skater 1,sk1,2nd Powerplay Unit,pp2,91.0,,False
-columbus-blue-jackets,ottawa-senators,Charlie Coyle,Skater 2,sk2,2nd Powerplay Unit,pp2,3.0,,False
-columbus-blue-jackets,ottawa-senators,Cole Sillinger,Skater 3,sk3,2nd Powerplay Unit,pp2,4.0,,False
-columbus-blue-jackets,ottawa-senators,Ivan Provorov,Skater 4,sk4,2nd Powerplay Unit,pp2,9.0,,False
-columbus-blue-jackets,ottawa-senators,Damon Severson,Skater 5,sk5,2nd Powerplay Unit,pp2,78.0,,False
-columbus-blue-jackets,ottawa-senators,Sean Monahan,Skater 1,sk1,1st Penalty Kill Unit,pk1,23.0,,False
-columbus-blue-jackets,ottawa-senators,Brendan Gaunce,Skater 2,sk2,1st Penalty Kill Unit,pk1,16.0,,False
-columbus-blue-jackets,ottawa-senators,Denton Mateychuk,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False
-columbus-blue-jackets,ottawa-senators,Ivan Provorov,Skater 4,sk4,1st Penalty Kill Unit,pk1,9.0,,False
-columbus-blue-jackets,ottawa-senators,Isac Lundestrom,Skater 1,sk1,2nd Penalty Kill Unit,pk2,21.0,,False
-columbus-blue-jackets,ottawa-senators,Miles Wood,Skater 2,sk2,2nd Penalty Kill Unit,pk2,28.0,,False
-columbus-blue-jackets,ottawa-senators,Zach Werenski,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False
-columbus-blue-jackets,ottawa-senators,Dante Fabbro,Skater 4,sk4,2nd Penalty Kill Unit,pk2,15.0,,False
-dallas-stars,minnesota-wild,Jason Robertson,Left Wing,lw,Forwards 1,f1,21.0,,False
-dallas-stars,minnesota-wild,Roope Hintz,Center,c,Forwards 1,f1,24.0,,False
-dallas-stars,minnesota-wild,Jamie Benn,Right Wing,rw,Forwards 1,f1,14.0,,False
-dallas-stars,minnesota-wild,Matt Duchene,Left Wing,lw,Forwards 2,f2,95.0,,False
-dallas-stars,minnesota-wild,Wyatt Johnston,Center,c,Forwards 2,f2,53.0,,False
-dallas-stars,minnesota-wild,Mikko Rantanen,Right Wing,rw,Forwards 2,f2,96.0,,False
-dallas-stars,minnesota-wild,Oskar Back,Left Wing,lw,Forwards 3,f3,10.0,,False
-dallas-stars,minnesota-wild,Justin Hryckowian,Center,c,Forwards 3,f3,49.0,,False
-dallas-stars,minnesota-wild,Mavrik Bourque,Right Wing,rw,Forwards 3,f3,22.0,,False
-dallas-stars,minnesota-wild,Sam Steel,Left Wing,lw,Forwards 4,f4,18.0,,False
-dallas-stars,minnesota-wild,Radek Faksa,Center,c,Forwards 4,f4,12.0,,False
-dallas-stars,minnesota-wild,Colin Blackwell,Right Wing,rw,Forwards 4,f4,15.0,,False
-dallas-stars,minnesota-wild,Esa Lindell,Left Defense,ld,Defense 1,d1,23.0,,False
-dallas-stars,minnesota-wild,Miro Heiskanen,Right Defense,rd,Defense 1,d1,4.0,,False
-dallas-stars,minnesota-wild,Thomas Harley,Left Defense,ld,Defense 2,d2,55.0,,False
-dallas-stars,minnesota-wild,Alex Petrovic,Right Defense,rd,Defense 2,d2,,,False
-dallas-stars,minnesota-wild,Vladislav Kolyachonok,Left Defense,ld,Defense 3,d3,44.0,,False
-dallas-stars,minnesota-wild,Kyle Capobianco,Right Defense,rd,Defense 3,d3,20.0,,False
-dallas-stars,minnesota-wild,Wyatt Johnston,Skater 1,sk1,1st Powerplay Unit,pp1,53.0,,False
-dallas-stars,minnesota-wild,Roope Hintz,Skater 2,sk2,1st Powerplay Unit,pp1,24.0,,False
-dallas-stars,minnesota-wild,Mikko Rantanen,Skater 3,sk3,1st Powerplay Unit,pp1,96.0,,False
-dallas-stars,minnesota-wild,Jason Robertson,Skater 4,sk4,1st Powerplay Unit,pp1,21.0,,False
-dallas-stars,minnesota-wild,Miro Heiskanen,Skater 5,sk5,1st Powerplay Unit,pp1,4.0,,False
-dallas-stars,minnesota-wild,Jamie Benn,Skater 1,sk1,2nd Powerplay Unit,pp2,14.0,,False
-dallas-stars,minnesota-wild,Matt Duchene,Skater 2,sk2,2nd Powerplay Unit,pp2,95.0,,False
-dallas-stars,minnesota-wild,Mavrik Bourque,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False
-dallas-stars,minnesota-wild,Thomas Harley,Skater 4,sk4,2nd Powerplay Unit,pp2,55.0,,False
-dallas-stars,minnesota-wild,Esa Lindell,Skater 5,sk5,2nd Powerplay Unit,pp2,23.0,,False
-dallas-stars,minnesota-wild,Sam Steel,Skater 1,sk1,1st Penalty Kill Unit,pk1,18.0,,False
-dallas-stars,minnesota-wild,Oskar Back,Skater 2,sk2,1st Penalty Kill Unit,pk1,10.0,,False
-dallas-stars,minnesota-wild,Alex Petrovic,Skater 3,sk3,1st Penalty Kill Unit,pk1,,,False
-dallas-stars,minnesota-wild,Miro Heiskanen,Skater 4,sk4,1st Penalty Kill Unit,pk1,4.0,,False
-dallas-stars,minnesota-wild,Radek Faksa,Skater 1,sk1,2nd Penalty Kill Unit,pk2,12.0,,False
-dallas-stars,minnesota-wild,Colin Blackwell,Skater 2,sk2,2nd Penalty Kill Unit,pk2,15.0,,False
-dallas-stars,minnesota-wild,Thomas Harley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,55.0,,False
-dallas-stars,minnesota-wild,Vladislav Kolyachonok,Skater 4,sk4,2nd Penalty Kill Unit,pk2,44.0,,False
-detroit-red-wings,edmonton-oilers,Emmitt Finnie,Left Wing,lw,Forwards 1,f1,,,False
-detroit-red-wings,edmonton-oilers,Dylan Larkin,Center,c,Forwards 1,f1,71.0,,False
-detroit-red-wings,edmonton-oilers,Lucas Raymond,Right Wing,rw,Forwards 1,f1,23.0,,False
-detroit-red-wings,edmonton-oilers,Alex DeBrincat,Left Wing,lw,Forwards 2,f2,93.0,,False
-detroit-red-wings,edmonton-oilers,Andrew Copp,Center,c,Forwards 2,f2,18.0,,False
-detroit-red-wings,edmonton-oilers,Patrick Kane,Right Wing,rw,Forwards 2,f2,88.0,,False
-detroit-red-wings,edmonton-oilers,Elmer Soderblom,Left Wing,lw,Forwards 3,f3,,,False
-detroit-red-wings,edmonton-oilers,Nate Danielson,Center,c,Forwards 3,f3,29.0,,False
-detroit-red-wings,edmonton-oilers,Marco Kasper,Right Wing,rw,Forwards 3,f3,,,False
-detroit-red-wings,edmonton-oilers,James van Riemsdyk,Left Wing,lw,Forwards 4,f4,21.0,,False
-detroit-red-wings,edmonton-oilers,J.T. Compher,Center,c,Forwards 4,f4,37.0,,False
-detroit-red-wings,edmonton-oilers,Michael Rasmussen,Right Wing,rw,Forwards 4,f4,27.0,,False
-detroit-red-wings,edmonton-oilers,Albert Johansson,Left Defense,ld,Defense 1,d1,20.0,,False
-detroit-red-wings,edmonton-oilers,Moritz Seider,Right Defense,rd,Defense 1,d1,53.0,,False
-detroit-red-wings,edmonton-oilers,Ben Chiarot,Left Defense,ld,Defense 2,d2,8.0,,False
-detroit-red-wings,edmonton-oilers,Axel Sandin-Pellikka,Right Defense,rd,Defense 2,d2,,,False
-detroit-red-wings,edmonton-oilers,Erik Gustafsson,Left Defense,ld,Defense 3,d3,56.0,,False
-detroit-red-wings,edmonton-oilers,Travis Hamonic,Right Defense,rd,Defense 3,d3,23.0,,False
-detroit-red-wings,edmonton-oilers,Alex DeBrincat,Skater 1,sk1,1st Powerplay Unit,pp1,93.0,,False
-detroit-red-wings,edmonton-oilers,Dylan Larkin,Skater 2,sk2,1st Powerplay Unit,pp1,71.0,,False
-detroit-red-wings,edmonton-oilers,Patrick Kane,Skater 3,sk3,1st Powerplay Unit,pp1,88.0,,False
-detroit-red-wings,edmonton-oilers,Lucas Raymond,Skater 4,sk4,1st Powerplay Unit,pp1,23.0,,False
-detroit-red-wings,edmonton-oilers,Moritz Seider,Skater 5,sk5,1st Powerplay Unit,pp1,53.0,,False
-detroit-red-wings,edmonton-oilers,James van Riemsdyk,Skater 1,sk1,2nd Powerplay Unit,pp2,21.0,,False
-detroit-red-wings,edmonton-oilers,Andrew Copp,Skater 2,sk2,2nd Powerplay Unit,pp2,18.0,,False
-detroit-red-wings,edmonton-oilers,Emmitt Finnie,Skater 3,sk3,2nd Powerplay Unit,pp2,,,False
-detroit-red-wings,edmonton-oilers,Erik Gustafsson,Skater 4,sk4,2nd Powerplay Unit,pp2,56.0,,False
-detroit-red-wings,edmonton-oilers,Axel Sandin-Pellikka,Skater 5,sk5,2nd Powerplay Unit,pp2,,,False
-detroit-red-wings,edmonton-oilers,Dylan Larkin,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False
-detroit-red-wings,edmonton-oilers,Lucas Raymond,Skater 2,sk2,1st Penalty Kill Unit,pk1,23.0,,False
-detroit-red-wings,edmonton-oilers,Albert Johansson,Skater 3,sk3,1st Penalty Kill Unit,pk1,20.0,,False
-detroit-red-wings,edmonton-oilers,Moritz Seider,Skater 4,sk4,1st Penalty Kill Unit,pk1,53.0,,False
-detroit-red-wings,edmonton-oilers,J.T. Compher,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False
-detroit-red-wings,edmonton-oilers,Andrew Copp,Skater 2,sk2,2nd Penalty Kill Unit,pk2,18.0,,False
-detroit-red-wings,edmonton-oilers,Ben Chiarot,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False
-detroit-red-wings,edmonton-oilers,Travis Hamonic,Skater 4,sk4,2nd Penalty Kill Unit,pk2,23.0,,False
-edmonton-oilers,detroit-red-wings,Ryan Nugent-Hopkins,Left Wing,lw,Forwards 1,f1,93.0,,False
-edmonton-oilers,detroit-red-wings,Connor McDavid,Center,c,Forwards 1,f1,97.0,,False
-edmonton-oilers,detroit-red-wings,Zach Hyman,Right Wing,rw,Forwards 1,f1,18.0,,False
-edmonton-oilers,detroit-red-wings,Vasily Podkolzin,Left Wing,lw,Forwards 2,f2,92.0,,False
-edmonton-oilers,detroit-red-wings,Leon Draisaitl,Center,c,Forwards 2,f2,29.0,,False
-edmonton-oilers,detroit-red-wings,Matthew Savoie,Right Wing,rw,Forwards 2,f2,22.0,,False
-edmonton-oilers,detroit-red-wings,Mattias Janmark,Left Wing,lw,Forwards 3,f3,13.0,,False
-edmonton-oilers,detroit-red-wings,Adam Henrique,Center,c,Forwards 3,f3,19.0,,False
-edmonton-oilers,detroit-red-wings,Andrew Mangiapane,Right Wing,rw,Forwards 3,f3,88.0,,False
-edmonton-oilers,detroit-red-wings,Trent Frederic,Left Wing,lw,Forwards 4,f4,10.0,,False
-edmonton-oilers,detroit-red-wings,Curtis Lazar,Center,c,Forwards 4,f4,20.0,,False
-edmonton-oilers,detroit-red-wings,David Tomasek,Right Wing,rw,Forwards 4,f4,86.0,,False
-edmonton-oilers,detroit-red-wings,Mattias Ekholm,Left Defense,ld,Defense 1,d1,14.0,,False
-edmonton-oilers,detroit-red-wings,Evan Bouchard,Right Defense,rd,Defense 1,d1,2.0,,False
-edmonton-oilers,detroit-red-wings,Darnell Nurse,Left Defense,ld,Defense 2,d2,25.0,,False
-edmonton-oilers,detroit-red-wings,Alec Regula,Right Defense,rd,Defense 2,d2,,,False
-edmonton-oilers,detroit-red-wings,Brett Kulak,Left Defense,ld,Defense 3,d3,27.0,,False
-edmonton-oilers,detroit-red-wings,Ty Emberson,Right Defense,rd,Defense 3,d3,49.0,,False
-edmonton-oilers,detroit-red-wings,Zach Hyman,Skater 1,sk1,1st Powerplay Unit,pp1,18.0,,False
-edmonton-oilers,detroit-red-wings,Ryan Nugent-Hopkins,Skater 2,sk2,1st Powerplay Unit,pp1,93.0,,False
-edmonton-oilers,detroit-red-wings,Leon Draisaitl,Skater 3,sk3,1st Powerplay Unit,pp1,29.0,,False
-edmonton-oilers,detroit-red-wings,Connor McDavid,Skater 4,sk4,1st Powerplay Unit,pp1,97.0,,False
-edmonton-oilers,detroit-red-wings,Evan Bouchard,Skater 5,sk5,1st Powerplay Unit,pp1,2.0,,False
-edmonton-oilers,detroit-red-wings,Andrew Mangiapane,Skater 1,sk1,2nd Powerplay Unit,pp2,88.0,,False
-edmonton-oilers,detroit-red-wings,Adam Henrique,Skater 2,sk2,2nd Powerplay Unit,pp2,19.0,,False
-edmonton-oilers,detroit-red-wings,Matthew Savoie,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False
-edmonton-oilers,detroit-red-wings,Mattias Ekholm,Skater 4,sk4,2nd Powerplay Unit,pp2,14.0,,False
-edmonton-oilers,detroit-red-wings,Darnell Nurse,Skater 5,sk5,2nd Powerplay Unit,pp2,25.0,,False
-edmonton-oilers,detroit-red-wings,Adam Henrique,Skater 1,sk1,1st Penalty Kill Unit,pk1,19.0,,False
-edmonton-oilers,detroit-red-wings,Matthew Savoie,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False
-edmonton-oilers,detroit-red-wings,Brett Kulak,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False
-edmonton-oilers,detroit-red-wings,Mattias Ekholm,Skater 4,sk4,1st Penalty Kill Unit,pk1,14.0,,False
-edmonton-oilers,detroit-red-wings,Connor McDavid,Skater 1,sk1,2nd Penalty Kill Unit,pk2,97.0,,False
-edmonton-oilers,detroit-red-wings,Ryan Nugent-Hopkins,Skater 2,sk2,2nd Penalty Kill Unit,pk2,93.0,,False
-edmonton-oilers,detroit-red-wings,Darnell Nurse,Skater 3,sk3,2nd Penalty Kill Unit,pk2,25.0,,False
-edmonton-oilers,detroit-red-wings,Alec Regula,Skater 4,sk4,2nd Penalty Kill Unit,pk2,,,False
-florida-panthers,colorado-avalanche,Eetu Luostarinen,Left Wing,lw,Forwards 1,f1,27.0,,False
-florida-panthers,colorado-avalanche,Anton Lundell,Center,c,Forwards 1,f1,15.0,,False
-florida-panthers,colorado-avalanche,Sam Reinhart,Right Wing,rw,Forwards 1,f1,13.0,,False
-florida-panthers,colorado-avalanche,Carter Verhaeghe,Left Wing,lw,Forwards 2,f2,23.0,,False
-florida-panthers,colorado-avalanche,Sam Bennett,Center,c,Forwards 2,f2,9.0,,False
-florida-panthers,colorado-avalanche,Brad Marchand,Right Wing,rw,Forwards 2,f2,63.0,,False
-florida-panthers,colorado-avalanche,Mackie Samoskevich,Left Wing,lw,Forwards 3,f3,11.0,,False
-florida-panthers,colorado-avalanche,Evan Rodrigues,Center,c,Forwards 3,f3,17.0,,False
-florida-panthers,colorado-avalanche,A.J. Greer,Right Wing,rw,Forwards 3,f3,10.0,,False
-florida-panthers,colorado-avalanche,Jesper Boqvist,Left Wing,lw,Forwards 4,f4,70.0,,False
-florida-panthers,colorado-avalanche,Jack Studnicka,Center,c,Forwards 4,f4,,,False
-florida-panthers,colorado-avalanche,Noah Gregor,Right Wing,rw,Forwards 4,f4,18.0,,False
-florida-panthers,colorado-avalanche,Gustav Forsling,Left Defense,ld,Defense 1,d1,42.0,,False
-florida-panthers,colorado-avalanche,Aaron Ekblad,Right Defense,rd,Defense 1,d1,5.0,,False
-florida-panthers,colorado-avalanche,Niko Mikkola,Left Defense,ld,Defense 2,d2,77.0,,False
-florida-panthers,colorado-avalanche,Seth Jones,Right Defense,rd,Defense 2,d2,3.0,,False
-florida-panthers,colorado-avalanche,Jeff Petry,Left Defense,ld,Defense 3,d3,2.0,,False
-florida-panthers,colorado-avalanche,Uvis Balinskis,Right Defense,rd,Defense 3,d3,26.0,,False
-florida-panthers,colorado-avalanche,Brad Marchand,Skater 1,sk1,1st Powerplay Unit,pp1,63.0,,False
-florida-panthers,colorado-avalanche,Sam Bennett,Skater 2,sk2,1st Powerplay Unit,pp1,9.0,,False
-florida-panthers,colorado-avalanche,Sam Reinhart,Skater 3,sk3,1st Powerplay Unit,pp1,13.0,,False
-florida-panthers,colorado-avalanche,Carter Verhaeghe,Skater 4,sk4,1st Powerplay Unit,pp1,23.0,,False
-florida-panthers,colorado-avalanche,Seth Jones,Skater 5,sk5,1st Powerplay Unit,pp1,3.0,,False
-florida-panthers,colorado-avalanche,Eetu Luostarinen,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False
-florida-panthers,colorado-avalanche,Anton Lundell,Skater 2,sk2,2nd Powerplay Unit,pp2,15.0,,False
-florida-panthers,colorado-avalanche,Mackie Samoskevich,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False
-florida-panthers,colorado-avalanche,Evan Rodrigues,Skater 4,sk4,2nd Powerplay Unit,pp2,17.0,,False
-florida-panthers,colorado-avalanche,Seth Jones,Skater 5,sk5,2nd Powerplay Unit,pp2,3.0,,False
-florida-panthers,colorado-avalanche,Evan Rodrigues,Skater 1,sk1,1st Penalty Kill Unit,pk1,17.0,,False
-florida-panthers,colorado-avalanche,Sam Reinhart,Skater 2,sk2,1st Penalty Kill Unit,pk1,13.0,,False
-florida-panthers,colorado-avalanche,Gustav Forsling,Skater 3,sk3,1st Penalty Kill Unit,pk1,42.0,,False
-florida-panthers,colorado-avalanche,Aaron Ekblad,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False
-florida-panthers,colorado-avalanche,Anton Lundell,Skater 1,sk1,2nd Penalty Kill Unit,pk2,15.0,,False
-florida-panthers,colorado-avalanche,Brad Marchand,Skater 2,sk2,2nd Penalty Kill Unit,pk2,63.0,,False
-florida-panthers,colorado-avalanche,Niko Mikkola,Skater 3,sk3,2nd Penalty Kill Unit,pk2,77.0,,False
-florida-panthers,colorado-avalanche,Seth Jones,Skater 4,sk4,2nd Penalty Kill Unit,pk2,3.0,,False
-minnesota-wild,dallas-stars,Kirill Kaprizov,Left Wing,lw,Forwards 1,f1,97.0,,False
-minnesota-wild,dallas-stars,Danila Yurov,Center,c,Forwards 1,f1,22.0,,False
-minnesota-wild,dallas-stars,Vladimir Tarasenko,Right Wing,rw,Forwards 1,f1,11.0,,False
-minnesota-wild,dallas-stars,Marcus Johansson,Left Wing,lw,Forwards 2,f2,90.0,,False
-minnesota-wild,dallas-stars,Joel Eriksson Ek,Center,c,Forwards 2,f2,14.0,,False
-minnesota-wild,dallas-stars,Matt Boldy,Right Wing,rw,Forwards 2,f2,12.0,,False
-minnesota-wild,dallas-stars,Yakov Trenin,Left Wing,lw,Forwards 3,f3,13.0,,False
-minnesota-wild,dallas-stars,Ryan Hartman,Center,c,Forwards 3,f3,38.0,,False
-minnesota-wild,dallas-stars,Liam Ohgren,Right Wing,rw,Forwards 3,f3,28.0,,False
-minnesota-wild,dallas-stars,Ben Jones,Left Wing,lw,Forwards 4,f4,39.0,,False
-minnesota-wild,dallas-stars,Nico Sturm,Center,c,Forwards 4,f4,78.0,,False
-minnesota-wild,dallas-stars,Tyler Pitlick,Right Wing,rw,Forwards 4,f4,19.0,,False
-minnesota-wild,dallas-stars,Jonas Brodin,Left Defense,ld,Defense 1,d1,25.0,,False
-minnesota-wild,dallas-stars,Brock Faber,Right Defense,rd,Defense 1,d1,7.0,,False
-minnesota-wild,dallas-stars,Daemon Hunt,Left Defense,ld,Defense 2,d2,48.0,,False
-minnesota-wild,dallas-stars,Jared Spurgeon,Right Defense,rd,Defense 2,d2,46.0,,False
-minnesota-wild,dallas-stars,Zeev Buium,Left Defense,ld,Defense 3,d3,8.0,,False
-minnesota-wild,dallas-stars,Zach Bogosian,Right Defense,rd,Defense 3,d3,24.0,,False
-minnesota-wild,dallas-stars,Vladimir Tarasenko,Skater 1,sk1,1st Powerplay Unit,pp1,11.0,,False
-minnesota-wild,dallas-stars,Joel Eriksson Ek,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False
-minnesota-wild,dallas-stars,Matt Boldy,Skater 3,sk3,1st Powerplay Unit,pp1,12.0,,False
-minnesota-wild,dallas-stars,Brock Faber,Skater 4,sk4,1st Powerplay Unit,pp1,7.0,,False
-minnesota-wild,dallas-stars,Kirill Kaprizov,Skater 5,sk5,1st Powerplay Unit,pp1,97.0,,False
-minnesota-wild,dallas-stars,Marcus Johansson,Skater 1,sk1,2nd Powerplay Unit,pp2,90.0,,False
-minnesota-wild,dallas-stars,Ryan Hartman,Skater 2,sk2,2nd Powerplay Unit,pp2,38.0,,False
-minnesota-wild,dallas-stars,Liam Ohgren,Skater 3,sk3,2nd Powerplay Unit,pp2,28.0,,False
-minnesota-wild,dallas-stars,Zeev Buium,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False
-minnesota-wild,dallas-stars,Jared Spurgeon,Skater 5,sk5,2nd Powerplay Unit,pp2,46.0,,False
-minnesota-wild,dallas-stars,Matt Boldy,Skater 1,sk1,1st Penalty Kill Unit,pk1,12.0,,False
-minnesota-wild,dallas-stars,Marcus Johansson,Skater 2,sk2,1st Penalty Kill Unit,pk1,90.0,,False
-minnesota-wild,dallas-stars,Jonas Brodin,Skater 3,sk3,1st Penalty Kill Unit,pk1,25.0,,False
-minnesota-wild,dallas-stars,Jared Spurgeon,Skater 4,sk4,1st Penalty Kill Unit,pk1,46.0,,False
-minnesota-wild,dallas-stars,Nico Sturm,Skater 1,sk1,2nd Penalty Kill Unit,pk2,78.0,,False
-minnesota-wild,dallas-stars,Yakov Trenin,Skater 2,sk2,2nd Penalty Kill Unit,pk2,13.0,,False
-minnesota-wild,dallas-stars,Zach Bogosian,Skater 3,sk3,2nd Penalty Kill Unit,pk2,24.0,,False
-minnesota-wild,dallas-stars,Brock Faber,Skater 4,sk4,2nd Penalty Kill Unit,pk2,7.0,,False
-montreal-canadiens,pittsburgh-penguins,Cole Caufield,Left Wing,lw,Forwards 1,f1,13.0,,False
-montreal-canadiens,pittsburgh-penguins,Nick Suzuki,Center,c,Forwards 1,f1,14.0,,False
-montreal-canadiens,pittsburgh-penguins,Zack Bolduc,Right Wing,rw,Forwards 1,f1,76.0,,False
-montreal-canadiens,pittsburgh-penguins,Juraj Slafkovsky,Left Wing,lw,Forwards 2,f2,20.0,,False
-montreal-canadiens,pittsburgh-penguins,Oliver Kapanen,Center,c,Forwards 2,f2,,,False
-montreal-canadiens,pittsburgh-penguins,Ivan Demidov,Right Wing,rw,Forwards 2,f2,,,False
-montreal-canadiens,pittsburgh-penguins,Josh Anderson,Left Wing,lw,Forwards 3,f3,17.0,,False
-montreal-canadiens,pittsburgh-penguins,Owen Beck,Center,c,Forwards 3,f3,,,False
-montreal-canadiens,pittsburgh-penguins,Alexandre Texier,Right Wing,rw,Forwards 3,f3,9.0,,False
-montreal-canadiens,pittsburgh-penguins,Jared Davidson,Left Wing,lw,Forwards 4,f4,49.0,,False
-montreal-canadiens,pittsburgh-penguins,Joe Veleno,Center,c,Forwards 4,f4,90.0,,False
-montreal-canadiens,pittsburgh-penguins,Brendan Gallagher,Right Wing,rw,Forwards 4,f4,11.0,,False
-montreal-canadiens,pittsburgh-penguins,Mike Matheson,Left Defense,ld,Defense 1,d1,8.0,,False
-montreal-canadiens,pittsburgh-penguins,Alexandre Carrier,Right Defense,rd,Defense 1,d1,45.0,,False
-montreal-canadiens,pittsburgh-penguins,Lane Hutson,Left Defense,ld,Defense 2,d2,48.0,,False
-montreal-canadiens,pittsburgh-penguins,Noah Dobson,Right Defense,rd,Defense 2,d2,8.0,,False
-montreal-canadiens,pittsburgh-penguins,Jayden Struble,Left Defense,ld,Defense 3,d3,47.0,,False
-montreal-canadiens,pittsburgh-penguins,Adam Engstrom,Right Defense,rd,Defense 3,d3,,,False
-montreal-canadiens,pittsburgh-penguins,Juraj Slafkovsky,Skater 1,sk1,1st Powerplay Unit,pp1,20.0,,False
-montreal-canadiens,pittsburgh-penguins,Nick Suzuki,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False
-montreal-canadiens,pittsburgh-penguins,Zack Bolduc,Skater 3,sk3,1st Powerplay Unit,pp1,76.0,,False
-montreal-canadiens,pittsburgh-penguins,Cole Caufield,Skater 4,sk4,1st Powerplay Unit,pp1,13.0,,False
-montreal-canadiens,pittsburgh-penguins,Lane Hutson,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False
-montreal-canadiens,pittsburgh-penguins,Oliver Kapanen,Skater 1,sk1,2nd Powerplay Unit,pp2,,,False
-montreal-canadiens,pittsburgh-penguins,Nick Suzuki,Skater 2,sk2,2nd Powerplay Unit,pp2,14.0,,False
-montreal-canadiens,pittsburgh-penguins,Brendan Gallagher,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False
-montreal-canadiens,pittsburgh-penguins,Ivan Demidov,Skater 4,sk4,2nd Powerplay Unit,pp2,,,False
-montreal-canadiens,pittsburgh-penguins,Noah Dobson,Skater 5,sk5,2nd Powerplay Unit,pp2,8.0,,False
-montreal-canadiens,pittsburgh-penguins,Owen Beck,Skater 1,sk1,1st Penalty Kill Unit,pk1,,,False
-montreal-canadiens,pittsburgh-penguins,Josh Anderson,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False
-montreal-canadiens,pittsburgh-penguins,Mike Matheson,Skater 3,sk3,1st Penalty Kill Unit,pk1,8.0,,False
-montreal-canadiens,pittsburgh-penguins,Noah Dobson,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False
-montreal-canadiens,pittsburgh-penguins,Oliver Kapanen,Skater 1,sk1,2nd Penalty Kill Unit,pk2,,,False
-montreal-canadiens,pittsburgh-penguins,Joe Veleno,Skater 2,sk2,2nd Penalty Kill Unit,pk2,90.0,,False
-montreal-canadiens,pittsburgh-penguins,Adam Engstrom,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False
-montreal-canadiens,pittsburgh-penguins,Alexandre Carrier,Skater 4,sk4,2nd Penalty Kill Unit,pk2,45.0,,False
-nashville-predators,st-louis-blues,Steven Stamkos,Left Wing,lw,Forwards 1,f1,91.0,,False
-nashville-predators,st-louis-blues,Ryan O'Reilly,Center,c,Forwards 1,f1,90.0,,False
-nashville-predators,st-louis-blues,Luke Evangelista,Right Wing,rw,Forwards 1,f1,77.0,,False
-nashville-predators,st-louis-blues,Filip Forsberg,Left Wing,lw,Forwards 2,f2,9.0,,False
-nashville-predators,st-louis-blues,Fedor Svechkov,Center,c,Forwards 2,f2,40.0,,False
-nashville-predators,st-louis-blues,Matthew Wood,Right Wing,rw,Forwards 2,f2,71.0,,False
-nashville-predators,st-louis-blues,Michael Bunting,Left Wing,lw,Forwards 3,f3,58.0,,False
-nashville-predators,st-louis-blues,Erik Haula,Center,c,Forwards 3,f3,56.0,,False
-nashville-predators,st-louis-blues,Jonathan Marchessault,Right Wing,rw,Forwards 3,f3,81.0,,False
-nashville-predators,st-louis-blues,Reid Schaefer,Left Wing,lw,Forwards 4,f4,,,False
-nashville-predators,st-louis-blues,Michael McCarron,Center,c,Forwards 4,f4,47.0,,False
-nashville-predators,st-louis-blues,Nicolas Hague,Left Defense,ld,Defense 1,d1,41.0,,False
-nashville-predators,st-louis-blues,Roman Josi,Right Defense,rd,Defense 1,d1,59.0,,False
-nashville-predators,st-louis-blues,Brady Skjei,Left Defense,ld,Defense 2,d2,76.0,,False
-nashville-predators,st-louis-blues,Adam Wilsby,Right Defense,rd,Defense 2,d2,83.0,,False
-nashville-predators,st-louis-blues,Spencer Stastney,Left Defense,ld,Defense 3,d3,,,False
-nashville-predators,st-louis-blues,Nick Blankenburg,Right Defense,rd,Defense 3,d3,37.0,,False
-nashville-predators,st-louis-blues,Nick Perbix,Left Defense,ld,Defense 4,d4,48.0,,False
-nashville-predators,st-louis-blues,Filip Forsberg,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False
-nashville-predators,st-louis-blues,Ryan O'Reilly,Skater 2,sk2,1st Powerplay Unit,pp1,90.0,,False
-nashville-predators,st-louis-blues,Jonathan Marchessault,Skater 3,sk3,1st Powerplay Unit,pp1,81.0,,False
-nashville-predators,st-louis-blues,Steven Stamkos,Skater 4,sk4,1st Powerplay Unit,pp1,91.0,,False
-nashville-predators,st-louis-blues,Roman Josi,Skater 5,sk5,1st Powerplay Unit,pp1,59.0,,False
-nashville-predators,st-louis-blues,Michael Bunting,Skater 1,sk1,2nd Powerplay Unit,pp2,58.0,,False
-nashville-predators,st-louis-blues,Erik Haula,Skater 2,sk2,2nd Powerplay Unit,pp2,56.0,,False
-nashville-predators,st-louis-blues,Matthew Wood,Skater 3,sk3,2nd Powerplay Unit,pp2,71.0,,False
-nashville-predators,st-louis-blues,Nick Blankenburg,Skater 4,sk4,2nd Powerplay Unit,pp2,37.0,,False
-nashville-predators,st-louis-blues,Luke Evangelista,Skater 5,sk5,2nd Powerplay Unit,pp2,77.0,,False
-nashville-predators,st-louis-blues,Erik Haula,Skater 1,sk1,1st Penalty Kill Unit,pk1,56.0,,False
-nashville-predators,st-louis-blues,Michael McCarron,Skater 2,sk2,1st Penalty Kill Unit,pk1,47.0,,False
-nashville-predators,st-louis-blues,Brady Skjei,Skater 3,sk3,1st Penalty Kill Unit,pk1,76.0,,False
-nashville-predators,st-louis-blues,Adam Wilsby,Skater 4,sk4,1st Penalty Kill Unit,pk1,83.0,,False
-nashville-predators,st-louis-blues,Ryan O'Reilly,Skater 1,sk1,2nd Penalty Kill Unit,pk2,90.0,,False
-nashville-predators,st-louis-blues,Michael Bunting,Skater 2,sk2,2nd Penalty Kill Unit,pk2,58.0,,False
-nashville-predators,st-louis-blues,Nicolas Hague,Skater 3,sk3,2nd Penalty Kill Unit,pk2,41.0,,False
-nashville-predators,st-louis-blues,Nick Blankenburg,Skater 4,sk4,2nd Penalty Kill Unit,pk2,37.0,,False
-new-jersey-devils,tampa-bay-lightning,Stefan Noesen,Left Wing,lw,Forwards 1,f1,11.0,,False
-new-jersey-devils,tampa-bay-lightning,Nico Hischier,Center,c,Forwards 1,f1,13.0,,False
-new-jersey-devils,tampa-bay-lightning,Jesper Bratt,Right Wing,rw,Forwards 1,f1,63.0,,False
-new-jersey-devils,tampa-bay-lightning,Ondrej Palat,Left Wing,lw,Forwards 2,f2,18.0,,False
-new-jersey-devils,tampa-bay-lightning,Dawson Mercer,Center,c,Forwards 2,f2,91.0,,False
-new-jersey-devils,tampa-bay-lightning,Paul Cotter,Right Wing,rw,Forwards 2,f2,47.0,,False
-new-jersey-devils,tampa-bay-lightning,Arseny Gritsyuk,Left Wing,lw,Forwards 3,f3,81.0,,False
-new-jersey-devils,tampa-bay-lightning,Cody Glass,Center,c,Forwards 3,f3,12.0,,False
-new-jersey-devils,tampa-bay-lightning,Connor Brown,Right Wing,rw,Forwards 3,f3,16.0,,False
-new-jersey-devils,tampa-bay-lightning,Xavier Parent,Left Wing,lw,Forwards 4,f4,,,False
-new-jersey-devils,tampa-bay-lightning,Luke Glendening,Center,c,Forwards 4,f4,14.0,,False
-new-jersey-devils,tampa-bay-lightning,Angus Crookshank,Right Wing,rw,Forwards 4,f4,,,False
-new-jersey-devils,tampa-bay-lightning,Jonas Siegenthaler,Left Defense,ld,Defense 1,d1,71.0,,False
-new-jersey-devils,tampa-bay-lightning,Dougie Hamilton,Right Defense,rd,Defense 1,d1,7.0,,False
-new-jersey-devils,tampa-bay-lightning,Brenden Dillon,Left Defense,ld,Defense 2,d2,5.0,,False
-new-jersey-devils,tampa-bay-lightning,Luke Hughes,Right Defense,rd,Defense 2,d2,43.0,,False
-new-jersey-devils,tampa-bay-lightning,Colton White,Left Defense,ld,Defense 3,d3,45.0,,False
-new-jersey-devils,tampa-bay-lightning,Simon Nemec,Right Defense,rd,Defense 3,d3,17.0,,False
-new-jersey-devils,tampa-bay-lightning,Arseny Gritsyuk,Skater 1,sk1,1st Powerplay Unit,pp1,81.0,,False
-new-jersey-devils,tampa-bay-lightning,Nico Hischier,Skater 2,sk2,1st Powerplay Unit,pp1,13.0,,False
-new-jersey-devils,tampa-bay-lightning,Stefan Noesen,Skater 3,sk3,1st Powerplay Unit,pp1,11.0,,False
-new-jersey-devils,tampa-bay-lightning,Jesper Bratt,Skater 4,sk4,1st Powerplay Unit,pp1,63.0,,False
-new-jersey-devils,tampa-bay-lightning,Simon Nemec,Skater 5,sk5,1st Powerplay Unit,pp1,17.0,,False
-new-jersey-devils,tampa-bay-lightning,Ondrej Palat,Skater 1,sk1,2nd Powerplay Unit,pp2,18.0,,False
-new-jersey-devils,tampa-bay-lightning,Dawson Mercer,Skater 2,sk2,2nd Powerplay Unit,pp2,91.0,,False
-new-jersey-devils,tampa-bay-lightning,Connor Brown,Skater 3,sk3,2nd Powerplay Unit,pp2,16.0,,False
-new-jersey-devils,tampa-bay-lightning,Dougie Hamilton,Skater 4,sk4,2nd Powerplay Unit,pp2,7.0,,False
-new-jersey-devils,tampa-bay-lightning,Luke Hughes,Skater 5,sk5,2nd Powerplay Unit,pp2,43.0,,False
-new-jersey-devils,tampa-bay-lightning,Luke Glendening,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False
-new-jersey-devils,tampa-bay-lightning,Connor Brown,Skater 2,sk2,1st Penalty Kill Unit,pk1,16.0,,False
-new-jersey-devils,tampa-bay-lightning,Brenden Dillon,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False
-new-jersey-devils,tampa-bay-lightning,Dougie Hamilton,Skater 4,sk4,1st Penalty Kill Unit,pk1,7.0,,False
-new-jersey-devils,tampa-bay-lightning,Nico Hischier,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False
-new-jersey-devils,tampa-bay-lightning,Dawson Mercer,Skater 2,sk2,2nd Penalty Kill Unit,pk2,91.0,,False
-new-jersey-devils,tampa-bay-lightning,Jonas Siegenthaler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,71.0,,False
-new-jersey-devils,tampa-bay-lightning,Luke Hughes,Skater 4,sk4,2nd Penalty Kill Unit,pk2,43.0,,False
-new-york-islanders,anaheim-ducks,Emil Heineman,Left Wing,lw,Forwards 1,f1,51.0,,False
-new-york-islanders,anaheim-ducks,Bo Horvat,Center,c,Forwards 1,f1,14.0,,False
-new-york-islanders,anaheim-ducks,Maxim Shabanov,Right Wing,rw,Forwards 1,f1,49.0,,False
-new-york-islanders,anaheim-ducks,Anders Lee,Left Wing,lw,Forwards 2,f2,27.0,,False
-new-york-islanders,anaheim-ducks,Mathew Barzal,Center,c,Forwards 2,f2,13.0,,False
-new-york-islanders,anaheim-ducks,Jean-Gabriel Pageau,Right Wing,rw,Forwards 2,f2,44.0,,False
-new-york-islanders,anaheim-ducks,Anthony Duclair,Left Wing,lw,Forwards 3,f3,11.0,,False
-new-york-islanders,anaheim-ducks,Calum Ritchie,Center,c,Forwards 3,f3,64.0,,False
-new-york-islanders,anaheim-ducks,Simon Holmstrom,Right Wing,rw,Forwards 3,f3,10.0,,False
-new-york-islanders,anaheim-ducks,Kyle MacLean,Left Wing,lw,Forwards 4,f4,32.0,,False
-new-york-islanders,anaheim-ducks,Casey Cizikas,Center,c,Forwards 4,f4,53.0,,False
-new-york-islanders,anaheim-ducks,Marc Gatcomb,Right Wing,rw,Forwards 4,f4,16.0,,False
-new-york-islanders,anaheim-ducks,Matthew Schaefer,Left Defense,ld,Defense 1,d1,48.0,,False
-new-york-islanders,anaheim-ducks,Ryan Pulock,Right Defense,rd,Defense 1,d1,6.0,,False
-new-york-islanders,anaheim-ducks,Adam Pelech,Left Defense,ld,Defense 2,d2,3.0,,False
-new-york-islanders,anaheim-ducks,Tony DeAngelo,Right Defense,rd,Defense 2,d2,77.0,,False
-new-york-islanders,anaheim-ducks,Travis Mitchell,Left Defense,ld,Defense 3,d3,,,False
-new-york-islanders,anaheim-ducks,Scott Mayfield,Right Defense,rd,Defense 3,d3,24.0,,False
-new-york-islanders,anaheim-ducks,Anthony Duclair,Skater 1,sk1,1st Powerplay Unit,pp1,11.0,,False
-new-york-islanders,anaheim-ducks,Bo Horvat,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False
-new-york-islanders,anaheim-ducks,Maxim Shabanov,Skater 3,sk3,1st Powerplay Unit,pp1,49.0,,False
-new-york-islanders,anaheim-ducks,Mathew Barzal,Skater 4,sk4,1st Powerplay Unit,pp1,13.0,,False
-new-york-islanders,anaheim-ducks,Matthew Schaefer,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False
-new-york-islanders,anaheim-ducks,Anders Lee,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False
-new-york-islanders,anaheim-ducks,Calum Ritchie,Skater 2,sk2,2nd Powerplay Unit,pp2,64.0,,False
-new-york-islanders,anaheim-ducks,Emil Heineman,Skater 3,sk3,2nd Powerplay Unit,pp2,51.0,,False
-new-york-islanders,anaheim-ducks,Simon Holmstrom,Skater 4,sk4,2nd Powerplay Unit,pp2,10.0,,False
-new-york-islanders,anaheim-ducks,Tony DeAngelo,Skater 5,sk5,2nd Powerplay Unit,pp2,77.0,,False
-new-york-islanders,anaheim-ducks,Bo Horvat,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False
-new-york-islanders,anaheim-ducks,Emil Heineman,Skater 2,sk2,1st Penalty Kill Unit,pk1,51.0,,False
-new-york-islanders,anaheim-ducks,Matthew Schaefer,Skater 3,sk3,1st Penalty Kill Unit,pk1,48.0,,False
-new-york-islanders,anaheim-ducks,Ryan Pulock,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False
-new-york-islanders,anaheim-ducks,Casey Cizikas,Skater 1,sk1,2nd Penalty Kill Unit,pk2,53.0,,False
-new-york-islanders,anaheim-ducks,Jean-Gabriel Pageau,Skater 2,sk2,2nd Penalty Kill Unit,pk2,44.0,,False
-new-york-islanders,anaheim-ducks,Adam Pelech,Skater 3,sk3,2nd Penalty Kill Unit,pk2,3.0,,False
-new-york-islanders,anaheim-ducks,Scott Mayfield,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False
-ottawa-senators,columbus-blue-jackets,Brady Tkachuk,Left Wing,lw,Forwards 1,f1,7.0,,False
-ottawa-senators,columbus-blue-jackets,Tim Stützle,Center,c,Forwards 1,f1,18.0,,False
-ottawa-senators,columbus-blue-jackets,Fabian Zetterlund,Right Wing,rw,Forwards 1,f1,20.0,,False
-ottawa-senators,columbus-blue-jackets,David Perron,Left Wing,lw,Forwards 2,f2,57.0,,False
-ottawa-senators,columbus-blue-jackets,Dylan Cozens,Center,c,Forwards 2,f2,24.0,,False
-ottawa-senators,columbus-blue-jackets,Drake Batherson,Right Wing,rw,Forwards 2,f2,19.0,,False
-ottawa-senators,columbus-blue-jackets,Michael Amadio,Left Wing,lw,Forwards 3,f3,22.0,,False
-ottawa-senators,columbus-blue-jackets,Ridly Greig,Center,c,Forwards 3,f3,71.0,,False
-ottawa-senators,columbus-blue-jackets,Claude Giroux,Right Wing,rw,Forwards 3,f3,28.0,,False
-ottawa-senators,columbus-blue-jackets,Kurtis MacDermid,Left Wing,lw,Forwards 4,f4,23.0,,False
-ottawa-senators,columbus-blue-jackets,Lars Eller,Center,c,Forwards 4,f4,89.0,,False
-ottawa-senators,columbus-blue-jackets,Nick Cousins,Right Wing,rw,Forwards 4,f4,21.0,,False
-ottawa-senators,columbus-blue-jackets,Jake Sanderson,Left Defense,ld,Defense 1,d1,85.0,,False
-ottawa-senators,columbus-blue-jackets,Artem Zub,Right Defense,rd,Defense 1,d1,2.0,,False
-ottawa-senators,columbus-blue-jackets,Tyler Kleven,Left Defense,ld,Defense 2,d2,43.0,,False
-ottawa-senators,columbus-blue-jackets,Jordan Spence,Right Defense,rd,Defense 2,d2,21.0,,False
-ottawa-senators,columbus-blue-jackets,Nikolas Matinpalo,Left Defense,ld,Defense 3,d3,33.0,,False
-ottawa-senators,columbus-blue-jackets,Nick Jensen,Right Defense,rd,Defense 3,d3,3.0,,False
-ottawa-senators,columbus-blue-jackets,Brady Tkachuk,Skater 1,sk1,1st Powerplay Unit,pp1,7.0,,False
-ottawa-senators,columbus-blue-jackets,Tim Stützle,Skater 2,sk2,1st Powerplay Unit,pp1,18.0,,False
-ottawa-senators,columbus-blue-jackets,Dylan Cozens,Skater 3,sk3,1st Powerplay Unit,pp1,24.0,,False
-ottawa-senators,columbus-blue-jackets,Jake Sanderson,Skater 4,sk4,1st Powerplay Unit,pp1,85.0,,False
-ottawa-senators,columbus-blue-jackets,Drake Batherson,Skater 5,sk5,1st Powerplay Unit,pp1,19.0,,False
-ottawa-senators,columbus-blue-jackets,Fabian Zetterlund,Skater 1,sk1,2nd Powerplay Unit,pp2,20.0,,False
-ottawa-senators,columbus-blue-jackets,Stephen Halliday,Skater 2,sk2,2nd Powerplay Unit,pp2,83.0,,False
-ottawa-senators,columbus-blue-jackets,Claude Giroux,Skater 3,sk3,2nd Powerplay Unit,pp2,28.0,,False
-ottawa-senators,columbus-blue-jackets,David Perron,Skater 4,sk4,2nd Powerplay Unit,pp2,57.0,,False
-ottawa-senators,columbus-blue-jackets,Jordan Spence,Skater 5,sk5,2nd Powerplay Unit,pp2,21.0,,False
-ottawa-senators,columbus-blue-jackets,Ridly Greig,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False
-ottawa-senators,columbus-blue-jackets,Claude Giroux,Skater 2,sk2,1st Penalty Kill Unit,pk1,28.0,,False
-ottawa-senators,columbus-blue-jackets,Jake Sanderson,Skater 3,sk3,1st Penalty Kill Unit,pk1,85.0,,False
-ottawa-senators,columbus-blue-jackets,Artem Zub,Skater 4,sk4,1st Penalty Kill Unit,pk1,2.0,,False
-ottawa-senators,columbus-blue-jackets,Tim Stützle,Skater 1,sk1,2nd Penalty Kill Unit,pk2,18.0,,False
-ottawa-senators,columbus-blue-jackets,Lars Eller,Skater 2,sk2,2nd Penalty Kill Unit,pk2,89.0,,False
-ottawa-senators,columbus-blue-jackets,Tyler Kleven,Skater 3,sk3,2nd Penalty Kill Unit,pk2,43.0,,False
-ottawa-senators,columbus-blue-jackets,Nick Jensen,Skater 4,sk4,2nd Penalty Kill Unit,pk2,3.0,,False
-philadelphia-flyers,vegas-golden-knights,Trevor Zegras,Left Wing,lw,Forwards 1,f1,46.0,,False
-philadelphia-flyers,vegas-golden-knights,Christian Dvorak,Center,c,Forwards 1,f1,22.0,,False
-philadelphia-flyers,vegas-golden-knights,Travis Konecny,Right Wing,rw,Forwards 1,f1,11.0,,False
-philadelphia-flyers,vegas-golden-knights,Matvei Michkov,Left Wing,lw,Forwards 2,f2,39.0,,False
-philadelphia-flyers,vegas-golden-knights,Sean Couturier,Center,c,Forwards 2,f2,14.0,,False
-philadelphia-flyers,vegas-golden-knights,Owen Tippett,Right Wing,rw,Forwards 2,f2,74.0,,False
-philadelphia-flyers,vegas-golden-knights,Nikita Grebenkin,Left Wing,lw,Forwards 3,f3,29.0,,False
-philadelphia-flyers,vegas-golden-knights,Noah Cates,Center,c,Forwards 3,f3,27.0,,False
-philadelphia-flyers,vegas-golden-knights,Bobby Brink,Right Wing,rw,Forwards 3,f3,10.0,,False
-philadelphia-flyers,vegas-golden-knights,Carl Grundstrom,Left Wing,lw,Forwards 4,f4,91.0,,False
-philadelphia-flyers,vegas-golden-knights,Rodrigo Abols,Center,c,Forwards 4,f4,18.0,,False
-philadelphia-flyers,vegas-golden-knights,Garnet Hathaway,Right Wing,rw,Forwards 4,f4,19.0,,False
-philadelphia-flyers,vegas-golden-knights,Nick Seeler,Left Defense,ld,Defense 1,d1,24.0,,False
-philadelphia-flyers,vegas-golden-knights,Travis Sanheim,Right Defense,rd,Defense 1,d1,6.0,,False
-philadelphia-flyers,vegas-golden-knights,Emil Andrae,Left Defense,ld,Defense 2,d2,,,False
-philadelphia-flyers,vegas-golden-knights,Jamie Drysdale,Right Defense,rd,Defense 2,d2,9.0,,False
-philadelphia-flyers,vegas-golden-knights,Ty Murchison,Left Defense,ld,Defense 3,d3,,,False
-philadelphia-flyers,vegas-golden-knights,Noah Juulsen,Right Defense,rd,Defense 3,d3,47.0,,False
-philadelphia-flyers,vegas-golden-knights,Travis Konecny,Skater 1,sk1,1st Powerplay Unit,pp1,11.0,,False
-philadelphia-flyers,vegas-golden-knights,Trevor Zegras,Skater 2,sk2,1st Powerplay Unit,pp1,46.0,,False
-philadelphia-flyers,vegas-golden-knights,Matvei Michkov,Skater 3,sk3,1st Powerplay Unit,pp1,39.0,,False
-philadelphia-flyers,vegas-golden-knights,Owen Tippett,Skater 4,sk4,1st Powerplay Unit,pp1,74.0,,False
-philadelphia-flyers,vegas-golden-knights,Travis Sanheim,Skater 5,sk5,1st Powerplay Unit,pp1,6.0,,False
-philadelphia-flyers,vegas-golden-knights,Noah Cates,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False
-philadelphia-flyers,vegas-golden-knights,Sean Couturier,Skater 2,sk2,2nd Powerplay Unit,pp2,14.0,,False
-philadelphia-flyers,vegas-golden-knights,Bobby Brink,Skater 3,sk3,2nd Powerplay Unit,pp2,10.0,,False
-philadelphia-flyers,vegas-golden-knights,Jamie Drysdale,Skater 4,sk4,2nd Powerplay Unit,pp2,9.0,,False
-philadelphia-flyers,vegas-golden-knights,Emil Andrae,Skater 5,sk5,2nd Powerplay Unit,pp2,,,False
-philadelphia-flyers,vegas-golden-knights,Sean Couturier,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False
-philadelphia-flyers,vegas-golden-knights,Christian Dvorak,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False
-philadelphia-flyers,vegas-golden-knights,Nick Seeler,Skater 3,sk3,1st Penalty Kill Unit,pk1,24.0,,False
-philadelphia-flyers,vegas-golden-knights,Travis Sanheim,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False
-philadelphia-flyers,vegas-golden-knights,Noah Cates,Skater 1,sk1,2nd Penalty Kill Unit,pk2,27.0,,False
-philadelphia-flyers,vegas-golden-knights,Garnet Hathaway,Skater 2,sk2,2nd Penalty Kill Unit,pk2,19.0,,False
-philadelphia-flyers,vegas-golden-knights,Ty Murchison,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False
-philadelphia-flyers,vegas-golden-knights,Noah Juulsen,Skater 4,sk4,2nd Penalty Kill Unit,pk2,47.0,,False
-pittsburgh-penguins,montreal-canadiens,Tommy Novak,Left Wing,lw,Forwards 1,f1,18.0,,False
-pittsburgh-penguins,montreal-canadiens,Sidney Crosby,Center,c,Forwards 1,f1,87.0,,False
-pittsburgh-penguins,montreal-canadiens,Bryan Rust,Right Wing,rw,Forwards 1,f1,17.0,,False
-pittsburgh-penguins,montreal-canadiens,Anthony Mantha,Left Wing,lw,Forwards 2,f2,39.0,,False
-pittsburgh-penguins,montreal-canadiens,Kevin Hayes,Center,c,Forwards 2,f2,13.0,,False
-pittsburgh-penguins,montreal-canadiens,Justin Brazeau,Right Wing,rw,Forwards 2,f2,15.0,,False
-pittsburgh-penguins,montreal-canadiens,Rutger McGroarty,Left Wing,lw,Forwards 3,f3,2.0,,False
-pittsburgh-penguins,montreal-canadiens,Ben Kindel,Center,c,Forwards 3,f3,81.0,,False
-pittsburgh-penguins,montreal-canadiens,Ville Koivunen,Right Wing,rw,Forwards 3,f3,41.0,,False
-pittsburgh-penguins,montreal-canadiens,Danton Heinen,Left Wing,lw,Forwards 4,f4,43.0,,False
-pittsburgh-penguins,montreal-canadiens,Connor Dewar,Center,c,Forwards 4,f4,19.0,,False
-pittsburgh-penguins,montreal-canadiens,Noel Acciari,Right Wing,rw,Forwards 4,f4,55.0,,False
-pittsburgh-penguins,montreal-canadiens,Ryan Shea,Left Defense,ld,Defense 1,d1,5.0,,False
-pittsburgh-penguins,montreal-canadiens,Kris Letang,Right Defense,rd,Defense 1,d1,58.0,,False
-pittsburgh-penguins,montreal-canadiens,Parker Wotherspoon,Left Defense,ld,Defense 2,d2,29.0,,False
-pittsburgh-penguins,montreal-canadiens,Erik Karlsson,Right Defense,rd,Defense 2,d2,65.0,,False
-pittsburgh-penguins,montreal-canadiens,Ryan Graves,Left Defense,ld,Defense 3,d3,27.0,,False
-pittsburgh-penguins,montreal-canadiens,Connor Clifton,Right Defense,rd,Defense 3,d3,75.0,,False
-pittsburgh-penguins,montreal-canadiens,Bryan Rust,Skater 1,sk1,1st Powerplay Unit,pp1,17.0,,False
-pittsburgh-penguins,montreal-canadiens,Ben Kindel,Skater 2,sk2,1st Powerplay Unit,pp1,81.0,,False
-pittsburgh-penguins,montreal-canadiens,Anthony Mantha,Skater 3,sk3,1st Powerplay Unit,pp1,39.0,,False
-pittsburgh-penguins,montreal-canadiens,Erik Karlsson,Skater 4,sk4,1st Powerplay Unit,pp1,65.0,,False
-pittsburgh-penguins,montreal-canadiens,Sidney Crosby,Skater 5,sk5,1st Powerplay Unit,pp1,87.0,,False
-pittsburgh-penguins,montreal-canadiens,Ville Koivunen,Skater 1,sk1,2nd Powerplay Unit,pp2,41.0,,False
-pittsburgh-penguins,montreal-canadiens,Kevin Hayes,Skater 2,sk2,2nd Powerplay Unit,pp2,13.0,,False
-pittsburgh-penguins,montreal-canadiens,Justin Brazeau,Skater 3,sk3,2nd Powerplay Unit,pp2,15.0,,False
-pittsburgh-penguins,montreal-canadiens,Kris Letang,Skater 4,sk4,2nd Powerplay Unit,pp2,58.0,,False
-pittsburgh-penguins,montreal-canadiens,Tommy Novak,Skater 5,sk5,2nd Powerplay Unit,pp2,18.0,,False
-pittsburgh-penguins,montreal-canadiens,Blake Lizotte,Skater 1,sk1,1st Penalty Kill Unit,pk1,46.0,,False
-pittsburgh-penguins,montreal-canadiens,Connor Dewar,Skater 2,sk2,1st Penalty Kill Unit,pk1,19.0,,False
-pittsburgh-penguins,montreal-canadiens,Parker Wotherspoon,Skater 3,sk3,1st Penalty Kill Unit,pk1,29.0,,False
-pittsburgh-penguins,montreal-canadiens,Ryan Shea,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False
-pittsburgh-penguins,montreal-canadiens,Kevin Hayes,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False
-pittsburgh-penguins,montreal-canadiens,Bryan Rust,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False
-pittsburgh-penguins,montreal-canadiens,Ryan Graves,Skater 3,sk3,2nd Penalty Kill Unit,pk2,27.0,,False
-pittsburgh-penguins,montreal-canadiens,Kris Letang,Skater 4,sk4,2nd Penalty Kill Unit,pk2,58.0,,False
-san-jose-sharks,toronto-maple-leafs,Collin Graf,Left Wing,lw,Forwards 1,f1,51.0,,False
-san-jose-sharks,toronto-maple-leafs,Macklin Celebrini,Center,c,Forwards 1,f1,71.0,,False
-san-jose-sharks,toronto-maple-leafs,Will Smith,Right Wing,rw,Forwards 1,f1,2.0,,False
-san-jose-sharks,toronto-maple-leafs,William Eklund,Left Wing,lw,Forwards 2,f2,72.0,,False
-san-jose-sharks,toronto-maple-leafs,Alexander Wennberg,Center,c,Forwards 2,f2,21.0,,False
-san-jose-sharks,toronto-maple-leafs,Tyler Toffoli,Right Wing,rw,Forwards 2,f2,73.0,,False
-san-jose-sharks,toronto-maple-leafs,Jeff Skinner,Left Wing,lw,Forwards 3,f3,53.0,,False
-san-jose-sharks,toronto-maple-leafs,Ty Dellandrea,Center,c,Forwards 3,f3,10.0,,False
-san-jose-sharks,toronto-maple-leafs,Philipp Kurashev,Right Wing,rw,Forwards 3,f3,96.0,,False
-san-jose-sharks,toronto-maple-leafs,Barclay Goodrow,Left Wing,lw,Forwards 4,f4,23.0,,False
-san-jose-sharks,toronto-maple-leafs,Adam Gaudette,Center,c,Forwards 4,f4,81.0,,False
-san-jose-sharks,toronto-maple-leafs,Ryan Reaves,Right Wing,rw,Forwards 4,f4,75.0,,False
-san-jose-sharks,toronto-maple-leafs,Dmitry Orlov,Left Defense,ld,Defense 1,d1,9.0,,False
-san-jose-sharks,toronto-maple-leafs,John Klingberg,Right Defense,rd,Defense 1,d1,3.0,,False
-san-jose-sharks,toronto-maple-leafs,Mario Ferraro,Left Defense,ld,Defense 2,d2,38.0,,False
-san-jose-sharks,toronto-maple-leafs,Shakir Mukhamadullin,Right Defense,rd,Defense 2,d2,,,False
-san-jose-sharks,toronto-maple-leafs,Sam Dickinson,Left Defense,ld,Defense 3,d3,,,False
-san-jose-sharks,toronto-maple-leafs,Timothy Liljegren,Right Defense,rd,Defense 3,d3,37.0,,False
-san-jose-sharks,toronto-maple-leafs,William Eklund,Skater 1,sk1,1st Powerplay Unit,pp1,72.0,,False
-san-jose-sharks,toronto-maple-leafs,Alexander Wennberg,Skater 2,sk2,1st Powerplay Unit,pp1,21.0,,False
-san-jose-sharks,toronto-maple-leafs,Tyler Toffoli,Skater 3,sk3,1st Powerplay Unit,pp1,73.0,,False
-san-jose-sharks,toronto-maple-leafs,Macklin Celebrini,Skater 4,sk4,1st Powerplay Unit,pp1,71.0,,False
-san-jose-sharks,toronto-maple-leafs,John Klingberg,Skater 5,sk5,1st Powerplay Unit,pp1,3.0,,False
-san-jose-sharks,toronto-maple-leafs,Collin Graf,Skater 1,sk1,2nd Powerplay Unit,pp2,51.0,,False
-san-jose-sharks,toronto-maple-leafs,Adam Gaudette,Skater 2,sk2,2nd Powerplay Unit,pp2,81.0,,False
-san-jose-sharks,toronto-maple-leafs,Will Smith,Skater 3,sk3,2nd Powerplay Unit,pp2,2.0,,False
-san-jose-sharks,toronto-maple-leafs,Philipp Kurashev,Skater 4,sk4,2nd Powerplay Unit,pp2,96.0,,False
-san-jose-sharks,toronto-maple-leafs,Dmitry Orlov,Skater 5,sk5,2nd Powerplay Unit,pp2,9.0,,False
-san-jose-sharks,toronto-maple-leafs,Alexander Wennberg,Skater 1,sk1,1st Penalty Kill Unit,pk1,21.0,,False
-san-jose-sharks,toronto-maple-leafs,Barclay Goodrow,Skater 2,sk2,1st Penalty Kill Unit,pk1,23.0,,False
-san-jose-sharks,toronto-maple-leafs,Mario Ferraro,Skater 3,sk3,1st Penalty Kill Unit,pk1,38.0,,False
-san-jose-sharks,toronto-maple-leafs,Timothy Liljegren,Skater 4,sk4,1st Penalty Kill Unit,pk1,37.0,,False
-san-jose-sharks,toronto-maple-leafs,Ty Dellandrea,Skater 1,sk1,2nd Penalty Kill Unit,pk2,10.0,,False
-san-jose-sharks,toronto-maple-leafs,Collin Graf,Skater 2,sk2,2nd Penalty Kill Unit,pk2,51.0,,False
-san-jose-sharks,toronto-maple-leafs,Dmitry Orlov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,9.0,,False
-san-jose-sharks,toronto-maple-leafs,Shakir Mukhamadullin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,,,False
-st-louis-blues,nashville-predators,Jake Neighbours,Left Wing,lw,Forwards 1,f1,63.0,,False
-st-louis-blues,nashville-predators,Robert Thomas,Center,c,Forwards 1,f1,18.0,,False
-st-louis-blues,nashville-predators,Pavel Buchnevich,Right Wing,rw,Forwards 1,f1,89.0,,False
-st-louis-blues,nashville-predators,Dylan Holloway,Left Wing,lw,Forwards 2,f2,81.0,,False
-st-louis-blues,nashville-predators,Brayden Schenn,Center,c,Forwards 2,f2,10.0,,False
-st-louis-blues,nashville-predators,Mathieu Joseph,Right Wing,rw,Forwards 2,f2,71.0,,False
-st-louis-blues,nashville-predators,Pius Suter,Left Wing,lw,Forwards 3,f3,24.0,,False
-st-louis-blues,nashville-predators,Dalibor Dvorsky,Center,c,Forwards 3,f3,54.0,,False
-st-louis-blues,nashville-predators,Robby Fabbri,Right Wing,rw,Forwards 3,f3,13.0,,False
-st-louis-blues,nashville-predators,Hugh McGing,Left Wing,lw,Forwards 4,f4,,,False
-st-louis-blues,nashville-predators,Oskar Sundqvist,Center,c,Forwards 4,f4,70.0,,False
-st-louis-blues,nashville-predators,Aleksanteri Kaskimaki,Right Wing,rw,Forwards 4,f4,,,False
-st-louis-blues,nashville-predators,Cam Fowler,Left Defense,ld,Defense 1,d1,17.0,,False
-st-louis-blues,nashville-predators,Colton Parayko,Right Defense,rd,Defense 1,d1,55.0,,False
-st-louis-blues,nashville-predators,Philip Broberg,Left Defense,ld,Defense 2,d2,6.0,,False
-st-louis-blues,nashville-predators,Justin Faulk,Right Defense,rd,Defense 2,d2,72.0,,False
-st-louis-blues,nashville-predators,Tyler Tucker,Left Defense,ld,Defense 3,d3,75.0,,False
-st-louis-blues,nashville-predators,Logan Mailloux,Right Defense,rd,Defense 3,d3,23.0,,False
-st-louis-blues,nashville-predators,Pavel Buchnevich,Skater 1,sk1,1st Powerplay Unit,pp1,89.0,,False
-st-louis-blues,nashville-predators,Robert Thomas,Skater 2,sk2,1st Powerplay Unit,pp1,18.0,,False
-st-louis-blues,nashville-predators,Oskar Sundqvist,Skater 3,sk3,1st Powerplay Unit,pp1,70.0,,False
-st-louis-blues,nashville-predators,Justin Faulk,Skater 4,sk4,1st Powerplay Unit,pp1,72.0,,False
-st-louis-blues,nashville-predators,Dalibor Dvorsky,Skater 5,sk5,1st Powerplay Unit,pp1,54.0,,False
-st-louis-blues,nashville-predators,Jake Neighbours,Skater 1,sk1,2nd Powerplay Unit,pp2,63.0,,False
-st-louis-blues,nashville-predators,Brayden Schenn,Skater 2,sk2,2nd Powerplay Unit,pp2,10.0,,False
-st-louis-blues,nashville-predators,Dylan Holloway,Skater 3,sk3,2nd Powerplay Unit,pp2,81.0,,False
-st-louis-blues,nashville-predators,Pius Suter,Skater 4,sk4,2nd Powerplay Unit,pp2,24.0,,False
-st-louis-blues,nashville-predators,Cam Fowler,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False
-st-louis-blues,nashville-predators,Oskar Sundqvist,Skater 1,sk1,1st Penalty Kill Unit,pk1,70.0,,False
-st-louis-blues,nashville-predators,Mathieu Joseph,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False
-st-louis-blues,nashville-predators,Philip Broberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False
-st-louis-blues,nashville-predators,Justin Faulk,Skater 4,sk4,1st Penalty Kill Unit,pk1,72.0,,False
-st-louis-blues,nashville-predators,Robby Fabbri,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False
-st-louis-blues,nashville-predators,Brayden Schenn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,10.0,,False
-st-louis-blues,nashville-predators,Cam Fowler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,17.0,,False
-st-louis-blues,nashville-predators,Colton Parayko,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False
-tampa-bay-lightning,new-jersey-devils,Brandon Hagel,Left Wing,lw,Forwards 1,f1,38.0,,False
-tampa-bay-lightning,new-jersey-devils,Anthony Cirelli,Center,c,Forwards 1,f1,71.0,,False
-tampa-bay-lightning,new-jersey-devils,Nikita Kucherov,Right Wing,rw,Forwards 1,f1,86.0,,False
-tampa-bay-lightning,new-jersey-devils,Jake Guentzel,Left Wing,lw,Forwards 2,f2,59.0,,False
-tampa-bay-lightning,new-jersey-devils,Brayden Point,Center,c,Forwards 2,f2,21.0,,False
-tampa-bay-lightning,new-jersey-devils,Oliver Bjorkstrand,Right Wing,rw,Forwards 2,f2,22.0,,False
-tampa-bay-lightning,new-jersey-devils,Pontus Holmberg,Left Wing,lw,Forwards 3,f3,29.0,,False
-tampa-bay-lightning,new-jersey-devils,Yanni Gourde,Center,c,Forwards 3,f3,37.0,,False
-tampa-bay-lightning,new-jersey-devils,Zemgus Girgensons,Right Wing,rw,Forwards 3,f3,28.0,,False
-tampa-bay-lightning,new-jersey-devils,Curtis Douglas,Left Wing,lw,Forwards 4,f4,42.0,,False
-tampa-bay-lightning,new-jersey-devils,Nick Paul,Center,c,Forwards 4,f4,20.0,,False
-tampa-bay-lightning,new-jersey-devils,Scott Sabourin,Right Wing,rw,Forwards 4,f4,,,False
-tampa-bay-lightning,new-jersey-devils,J.J. Moser,Left Defense,ld,Defense 1,d1,90.0,,False
-tampa-bay-lightning,new-jersey-devils,Darren Raddysh,Right Defense,rd,Defense 1,d1,43.0,,False
-tampa-bay-lightning,new-jersey-devils,Charle-Edouard D'Astous,Left Defense,ld,Defense 2,d2,51.0,,False
-tampa-bay-lightning,new-jersey-devils,Emil Lilleberg,Right Defense,rd,Defense 2,d2,,,False
-tampa-bay-lightning,new-jersey-devils,Declan Carlile,Left Defense,ld,Defense 3,d3,67.0,,False
-tampa-bay-lightning,new-jersey-devils,Maxwell Crozier,Right Defense,rd,Defense 3,d3,24.0,,False
-tampa-bay-lightning,new-jersey-devils,Jake Guentzel,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False
-tampa-bay-lightning,new-jersey-devils,Brayden Point,Skater 2,sk2,1st Powerplay Unit,pp1,21.0,,False
-tampa-bay-lightning,new-jersey-devils,Nikita Kucherov,Skater 3,sk3,1st Powerplay Unit,pp1,86.0,,False
-tampa-bay-lightning,new-jersey-devils,Oliver Bjorkstrand,Skater 4,sk4,1st Powerplay Unit,pp1,22.0,,False
-tampa-bay-lightning,new-jersey-devils,Darren Raddysh,Skater 5,sk5,1st Powerplay Unit,pp1,43.0,,False
-tampa-bay-lightning,new-jersey-devils,Nick Paul,Skater 1,sk1,2nd Powerplay Unit,pp2,20.0,,False
-tampa-bay-lightning,new-jersey-devils,Anthony Cirelli,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False
-tampa-bay-lightning,new-jersey-devils,Brandon Hagel,Skater 3,sk3,2nd Powerplay Unit,pp2,38.0,,False
-tampa-bay-lightning,new-jersey-devils,Charle-Edouard D'Astous,Skater 4,sk4,2nd Powerplay Unit,pp2,51.0,,False
-tampa-bay-lightning,new-jersey-devils,Declan Carlile,Skater 5,sk5,2nd Powerplay Unit,pp2,67.0,,False
-tampa-bay-lightning,new-jersey-devils,Anthony Cirelli,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False
-tampa-bay-lightning,new-jersey-devils,Jake Guentzel,Skater 2,sk2,1st Penalty Kill Unit,pk1,59.0,,False
-tampa-bay-lightning,new-jersey-devils,J.J. Moser,Skater 3,sk3,1st Penalty Kill Unit,pk1,90.0,,False
-tampa-bay-lightning,new-jersey-devils,Emil Lilleberg,Skater 4,sk4,1st Penalty Kill Unit,pk1,,,False
-tampa-bay-lightning,new-jersey-devils,Yanni Gourde,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False
-tampa-bay-lightning,new-jersey-devils,Zemgus Girgensons,Skater 2,sk2,2nd Penalty Kill Unit,pk2,28.0,,False
-tampa-bay-lightning,new-jersey-devils,Charle-Edouard D'Astous,Skater 3,sk3,2nd Penalty Kill Unit,pk2,51.0,,False
-tampa-bay-lightning,new-jersey-devils,Declan Carlile,Skater 4,sk4,2nd Penalty Kill Unit,pk2,67.0,,False
-toronto-maple-leafs,san-jose-sharks,Matthew Knies,Left Wing,lw,Forwards 1,f1,23.0,,False
-toronto-maple-leafs,san-jose-sharks,Auston Matthews,Center,c,Forwards 1,f1,34.0,,False
-toronto-maple-leafs,san-jose-sharks,Max Domi,Right Wing,rw,Forwards 1,f1,11.0,,False
-toronto-maple-leafs,san-jose-sharks,Easton Cowan,Left Wing,lw,Forwards 2,f2,53.0,,False
-toronto-maple-leafs,san-jose-sharks,John Tavares,Center,c,Forwards 2,f2,91.0,,False
-toronto-maple-leafs,san-jose-sharks,Nicholas Robertson,Right Wing,rw,Forwards 2,f2,89.0,,False
-toronto-maple-leafs,san-jose-sharks,Dakota Joshua,Left Wing,lw,Forwards 3,f3,81.0,,False
-toronto-maple-leafs,san-jose-sharks,Nicolas Roy,Center,c,Forwards 3,f3,55.0,,False
-toronto-maple-leafs,san-jose-sharks,William Nylander,Right Wing,rw,Forwards 3,f3,88.0,,False
-toronto-maple-leafs,san-jose-sharks,Steven Lorentz,Left Wing,lw,Forwards 4,f4,18.0,,False
-toronto-maple-leafs,san-jose-sharks,Scott Laughton,Center,c,Forwards 4,f4,24.0,,False
-toronto-maple-leafs,san-jose-sharks,Calle Jarnkrok,Right Wing,rw,Forwards 4,f4,19.0,,False
-toronto-maple-leafs,san-jose-sharks,Morgan Rielly,Left Defense,ld,Defense 1,d1,44.0,,False
-toronto-maple-leafs,san-jose-sharks,Oliver Ekman-Larsson,Right Defense,rd,Defense 1,d1,95.0,,False
-toronto-maple-leafs,san-jose-sharks,Jake McCabe,Left Defense,ld,Defense 2,d2,22.0,,False
-toronto-maple-leafs,san-jose-sharks,Troy Stecher,Right Defense,rd,Defense 2,d2,28.0,,False
-toronto-maple-leafs,san-jose-sharks,Simon Benoit,Left Defense,ld,Defense 3,d3,2.0,,False
-toronto-maple-leafs,san-jose-sharks,Henry Thrun,Right Defense,rd,Defense 3,d3,3.0,,False
-toronto-maple-leafs,san-jose-sharks,Matthew Knies,Skater 1,sk1,1st Powerplay Unit,pp1,23.0,,False
-toronto-maple-leafs,san-jose-sharks,John Tavares,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False
-toronto-maple-leafs,san-jose-sharks,Auston Matthews,Skater 3,sk3,1st Powerplay Unit,pp1,34.0,,False
-toronto-maple-leafs,san-jose-sharks,Morgan Rielly,Skater 4,sk4,1st Powerplay Unit,pp1,44.0,,False
-toronto-maple-leafs,san-jose-sharks,William Nylander,Skater 5,sk5,1st Powerplay Unit,pp1,88.0,,False
-toronto-maple-leafs,san-jose-sharks,Easton Cowan,Skater 1,sk1,2nd Powerplay Unit,pp2,53.0,,False
-toronto-maple-leafs,san-jose-sharks,Scott Laughton,Skater 2,sk2,2nd Powerplay Unit,pp2,24.0,,False
-toronto-maple-leafs,san-jose-sharks,Max Domi,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False
-toronto-maple-leafs,san-jose-sharks,Nicolas Roy,Skater 4,sk4,2nd Powerplay Unit,pp2,55.0,,False
-toronto-maple-leafs,san-jose-sharks,Oliver Ekman-Larsson,Skater 5,sk5,2nd Powerplay Unit,pp2,95.0,,False
-toronto-maple-leafs,san-jose-sharks,Scott Laughton,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False
-toronto-maple-leafs,san-jose-sharks,Steven Lorentz,Skater 2,sk2,1st Penalty Kill Unit,pk1,18.0,,False
-toronto-maple-leafs,san-jose-sharks,Jake McCabe,Skater 3,sk3,1st Penalty Kill Unit,pk1,22.0,,False
-toronto-maple-leafs,san-jose-sharks,Morgan Rielly,Skater 4,sk4,1st Penalty Kill Unit,pk1,44.0,,False
-toronto-maple-leafs,san-jose-sharks,Nicolas Roy,Skater 1,sk1,2nd Penalty Kill Unit,pk2,55.0,,False
-toronto-maple-leafs,san-jose-sharks,Matthew Knies,Skater 2,sk2,2nd Penalty Kill Unit,pk2,23.0,,False
-toronto-maple-leafs,san-jose-sharks,Simon Benoit,Skater 3,sk3,2nd Penalty Kill Unit,pk2,2.0,,False
-toronto-maple-leafs,san-jose-sharks,Troy Stecher,Skater 4,sk4,2nd Penalty Kill Unit,pk2,28.0,,False
-vancouver-canucks,buffalo-sabres,David Kampf,Center,c,Forwards 1,f1,64.0,,False
-vancouver-canucks,buffalo-sabres,Conor Garland,Right Wing,rw,Forwards 1,f1,8.0,,False
-vancouver-canucks,buffalo-sabres,Evander Kane,Left Wing,lw,Forwards 2,f2,91.0,,False
-vancouver-canucks,buffalo-sabres,Drew O'Connor,Center,c,Forwards 2,f2,18.0,,False
-vancouver-canucks,buffalo-sabres,Kiefer Sherwood,Right Wing,rw,Forwards 2,f2,44.0,,False
-vancouver-canucks,buffalo-sabres,Jake DeBrusk,Left Wing,lw,Forwards 3,f3,74.0,,False
-vancouver-canucks,buffalo-sabres,Max Sasson,Center,c,Forwards 3,f3,,,False
-vancouver-canucks,buffalo-sabres,Linus Karlsson,Right Wing,rw,Forwards 3,f3,94.0,,False
-vancouver-canucks,buffalo-sabres,Nils Hoglander,Left Wing,lw,Forwards 4,f4,21.0,,False
-vancouver-canucks,buffalo-sabres,Aatu Raty,Center,c,Forwards 4,f4,54.0,,False
-vancouver-canucks,buffalo-sabres,Arshdeep Bains,Right Wing,rw,Forwards 4,f4,,,False
-vancouver-canucks,buffalo-sabres,Quinn Hughes,Left Defense,ld,Defense 1,d1,43.0,,False
-vancouver-canucks,buffalo-sabres,Filip Hronek,Right Defense,rd,Defense 1,d1,17.0,,False
-vancouver-canucks,buffalo-sabres,Elias Nils Pettersson,Left Defense,ld,Defense 2,d2,25.0,,False
-vancouver-canucks,buffalo-sabres,Tyler Myers,Right Defense,rd,Defense 2,d2,57.0,,False
-vancouver-canucks,buffalo-sabres,Marcus Pettersson,Left Defense,ld,Defense 3,d3,29.0,,False
-vancouver-canucks,buffalo-sabres,Tom Willander,Right Defense,rd,Defense 3,d3,5.0,,False
-vancouver-canucks,buffalo-sabres,Kiefer Sherwood,Skater 1,sk1,1st Powerplay Unit,pp1,44.0,,False
-vancouver-canucks,buffalo-sabres,Jake DeBrusk,Skater 2,sk2,1st Powerplay Unit,pp1,74.0,,False
-vancouver-canucks,buffalo-sabres,Conor Garland,Skater 3,sk3,1st Powerplay Unit,pp1,8.0,,False
-vancouver-canucks,buffalo-sabres,Quinn Hughes,Skater 4,sk4,1st Powerplay Unit,pp1,43.0,,False
-vancouver-canucks,buffalo-sabres,Evander Kane,Skater 1,sk1,2nd Powerplay Unit,pp2,91.0,,False
-vancouver-canucks,buffalo-sabres,Linus Karlsson,Skater 2,sk2,2nd Powerplay Unit,pp2,94.0,,False
-vancouver-canucks,buffalo-sabres,Nils Hoglander,Skater 3,sk3,2nd Powerplay Unit,pp2,21.0,,False
-vancouver-canucks,buffalo-sabres,Tom Willander,Skater 4,sk4,2nd Powerplay Unit,pp2,5.0,,False
-vancouver-canucks,buffalo-sabres,Filip Hronek,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False
-vancouver-canucks,buffalo-sabres,Jake DeBrusk,Skater 1,sk1,1st Penalty Kill Unit,pk1,74.0,,False
-vancouver-canucks,buffalo-sabres,Kiefer Sherwood,Skater 2,sk2,1st Penalty Kill Unit,pk1,44.0,,False
-vancouver-canucks,buffalo-sabres,Elias Nils Pettersson,Skater 3,sk3,1st Penalty Kill Unit,pk1,25.0,,False
-vancouver-canucks,buffalo-sabres,Tyler Myers,Skater 4,sk4,1st Penalty Kill Unit,pk1,57.0,,False
-vancouver-canucks,buffalo-sabres,David Kampf,Skater 1,sk1,2nd Penalty Kill Unit,pk2,64.0,,False
-vancouver-canucks,buffalo-sabres,Drew O'Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,18.0,,False
-vancouver-canucks,buffalo-sabres,Marcus Pettersson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,29.0,,False
-vancouver-canucks,buffalo-sabres,Filip Hronek,Skater 4,sk4,2nd Penalty Kill Unit,pk2,17.0,,False
-vegas-golden-knights,philadelphia-flyers,Ivan Barbashev,Left Wing,lw,Forwards 1,f1,49.0,,False
-vegas-golden-knights,philadelphia-flyers,Jack Eichel,Center,c,Forwards 1,f1,9.0,,False
-vegas-golden-knights,philadelphia-flyers,Braeden Bowman,Right Wing,rw,Forwards 1,f1,42.0,,False
-vegas-golden-knights,philadelphia-flyers,Mitch Marner,Left Wing,lw,Forwards 2,f2,16.0,,False
-vegas-golden-knights,philadelphia-flyers,Brett Howden,Center,c,Forwards 2,f2,21.0,,False
-vegas-golden-knights,philadelphia-flyers,Mark Stone,Right Wing,rw,Forwards 2,f2,61.0,,False
-vegas-golden-knights,philadelphia-flyers,Reilly Smith,Left Wing,lw,Forwards 3,f3,19.0,,False
-vegas-golden-knights,philadelphia-flyers,Tomas Hertl,Center,c,Forwards 3,f3,48.0,,False
-vegas-golden-knights,philadelphia-flyers,Pavel Dorofeyev,Right Wing,rw,Forwards 3,f3,16.0,,False
-vegas-golden-knights,philadelphia-flyers,Cole Reinhardt,Left Wing,lw,Forwards 4,f4,23.0,,False
-vegas-golden-knights,philadelphia-flyers,Colton Sissons,Center,c,Forwards 4,f4,10.0,,False
-vegas-golden-knights,philadelphia-flyers,Keegan Kolesar,Right Wing,rw,Forwards 4,f4,55.0,,False
-vegas-golden-knights,philadelphia-flyers,Brayden McNabb,Left Defense,ld,Defense 1,d1,3.0,,False
-vegas-golden-knights,philadelphia-flyers,Shea Theodore,Right Defense,rd,Defense 1,d1,27.0,,False
-vegas-golden-knights,philadelphia-flyers,Noah Hanifin,Left Defense,ld,Defense 2,d2,15.0,,False
-vegas-golden-knights,philadelphia-flyers,Zach Whitecloud,Right Defense,rd,Defense 2,d2,2.0,,False
-vegas-golden-knights,philadelphia-flyers,Ben Hutton,Left Defense,ld,Defense 3,d3,17.0,,False
-vegas-golden-knights,philadelphia-flyers,Kaedan Korczak,Right Defense,rd,Defense 3,d3,6.0,,False
-vegas-golden-knights,philadelphia-flyers,Mark Stone,Skater 1,sk1,1st Powerplay Unit,pp1,61.0,,False
-vegas-golden-knights,philadelphia-flyers,Tomas Hertl,Skater 2,sk2,1st Powerplay Unit,pp1,48.0,,False
-vegas-golden-knights,philadelphia-flyers,Pavel Dorofeyev,Skater 3,sk3,1st Powerplay Unit,pp1,16.0,,False
-vegas-golden-knights,philadelphia-flyers,Jack Eichel,Skater 4,sk4,1st Powerplay Unit,pp1,9.0,,False
-vegas-golden-knights,philadelphia-flyers,Mitch Marner,Skater 5,sk5,1st Powerplay Unit,pp1,16.0,,False
-vegas-golden-knights,philadelphia-flyers,Braeden Bowman,Skater 1,sk1,2nd Powerplay Unit,pp2,42.0,,False
-vegas-golden-knights,philadelphia-flyers,Brett Howden,Skater 2,sk2,2nd Powerplay Unit,pp2,21.0,,False
-vegas-golden-knights,philadelphia-flyers,Ivan Barbashev,Skater 3,sk3,2nd Powerplay Unit,pp2,49.0,,False
-vegas-golden-knights,philadelphia-flyers,Noah Hanifin,Skater 4,sk4,2nd Powerplay Unit,pp2,15.0,,False
-vegas-golden-knights,philadelphia-flyers,Shea Theodore,Skater 5,sk5,2nd Powerplay Unit,pp2,27.0,,False
-vegas-golden-knights,philadelphia-flyers,Jack Eichel,Skater 1,sk1,1st Penalty Kill Unit,pk1,9.0,,False
-vegas-golden-knights,philadelphia-flyers,Mark Stone,Skater 2,sk2,1st Penalty Kill Unit,pk1,61.0,,False
-vegas-golden-knights,philadelphia-flyers,Noah Hanifin,Skater 3,sk3,1st Penalty Kill Unit,pk1,15.0,,False
-vegas-golden-knights,philadelphia-flyers,Zach Whitecloud,Skater 4,sk4,1st Penalty Kill Unit,pk1,2.0,,False
-vegas-golden-knights,philadelphia-flyers,Reilly Smith,Skater 1,sk1,2nd Penalty Kill Unit,pk2,19.0,,False
-vegas-golden-knights,philadelphia-flyers,Mitch Marner,Skater 2,sk2,2nd Penalty Kill Unit,pk2,16.0,,False
-vegas-golden-knights,philadelphia-flyers,Kaedan Korczak,Skater 3,sk3,2nd Penalty Kill Unit,pk2,6.0,,False
-vegas-golden-knights,philadelphia-flyers,Brayden McNabb,Skater 4,sk4,2nd Penalty Kill Unit,pk2,3.0,,False
-washington-capitals,carolina-hurricanes,Alex Ovechkin,Left Wing,lw,Forwards 1,f1,8.0,,False
-washington-capitals,carolina-hurricanes,Dylan Strome,Center,c,Forwards 1,f1,17.0,,False
-washington-capitals,carolina-hurricanes,Connor McMichael,Right Wing,rw,Forwards 1,f1,24.0,,False
-washington-capitals,carolina-hurricanes,Aliaksei Protas,Left Wing,lw,Forwards 2,f2,21.0,,False
-washington-capitals,carolina-hurricanes,Justin Sourdif,Center,c,Forwards 2,f2,34.0,,False
-washington-capitals,carolina-hurricanes,Tom Wilson,Right Wing,rw,Forwards 2,f2,43.0,,False
-washington-capitals,carolina-hurricanes,Anthony Beauvillier,Left Wing,lw,Forwards 3,f3,72.0,,False
-washington-capitals,carolina-hurricanes,Nic Dowd,Center,c,Forwards 3,f3,26.0,,False
-washington-capitals,carolina-hurricanes,Ethen Frank,Right Wing,rw,Forwards 3,f3,53.0,,False
-washington-capitals,carolina-hurricanes,Brandon Duhaime,Left Wing,lw,Forwards 4,f4,22.0,,False
-washington-capitals,carolina-hurricanes,Hendrix Lapierre,Center,c,Forwards 4,f4,,,False
-washington-capitals,carolina-hurricanes,Sonny Milano,Right Wing,rw,Forwards 4,f4,15.0,,False
-washington-capitals,carolina-hurricanes,Martin Fehervary,Left Defense,ld,Defense 1,d1,42.0,,False
-washington-capitals,carolina-hurricanes,John Carlson,Right Defense,rd,Defense 1,d1,74.0,,False
-washington-capitals,carolina-hurricanes,Jakob Chychrun,Left Defense,ld,Defense 2,d2,6.0,,False
-washington-capitals,carolina-hurricanes,Matt Roy,Right Defense,rd,Defense 2,d2,3.0,,False
-washington-capitals,carolina-hurricanes,Rasmus Sandin,Left Defense,ld,Defense 3,d3,38.0,,False
-washington-capitals,carolina-hurricanes,Trevor van Riemsdyk,Right Defense,rd,Defense 3,d3,57.0,,False
-washington-capitals,carolina-hurricanes,Tom Wilson,Skater 1,sk1,1st Powerplay Unit,pp1,43.0,,False
-washington-capitals,carolina-hurricanes,Dylan Strome,Skater 2,sk2,1st Powerplay Unit,pp1,17.0,,False
-washington-capitals,carolina-hurricanes,Ethen Frank,Skater 3,sk3,1st Powerplay Unit,pp1,53.0,,False
-washington-capitals,carolina-hurricanes,Alex Ovechkin,Skater 4,sk4,1st Powerplay Unit,pp1,8.0,,False
-washington-capitals,carolina-hurricanes,Jakob Chychrun,Skater 5,sk5,1st Powerplay Unit,pp1,6.0,,False
-washington-capitals,carolina-hurricanes,Connor McMichael,Skater 1,sk1,2nd Powerplay Unit,pp2,24.0,,False
-washington-capitals,carolina-hurricanes,Hendrix Lapierre,Skater 2,sk2,2nd Powerplay Unit,pp2,,,False
-washington-capitals,carolina-hurricanes,Anthony Beauvillier,Skater 3,sk3,2nd Powerplay Unit,pp2,72.0,,False
-washington-capitals,carolina-hurricanes,Alex Ovechkin,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False
-washington-capitals,carolina-hurricanes,John Carlson,Skater 5,sk5,2nd Powerplay Unit,pp2,74.0,,False
-washington-capitals,carolina-hurricanes,Connor McMichael,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False
-washington-capitals,carolina-hurricanes,Brandon Duhaime,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False
-washington-capitals,carolina-hurricanes,Martin Fehervary,Skater 3,sk3,1st Penalty Kill Unit,pk1,42.0,,False
-washington-capitals,carolina-hurricanes,Trevor van Riemsdyk,Skater 4,sk4,1st Penalty Kill Unit,pk1,57.0,,False
-washington-capitals,carolina-hurricanes,Aliaksei Protas,Skater 1,sk1,2nd Penalty Kill Unit,pk2,21.0,,False
-washington-capitals,carolina-hurricanes,Anthony Beauvillier,Skater 2,sk2,2nd Penalty Kill Unit,pk2,72.0,,False
-washington-capitals,carolina-hurricanes,John Carlson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,74.0,,False
-washington-capitals,carolina-hurricanes,Matt Roy,Skater 4,sk4,2nd Penalty Kill Unit,pk2,3.0,,False
-winnipeg-jets,boston-bruins,Kyle Connor,Left Wing,lw,Forwards 1,f1,81.0,,False
-winnipeg-jets,boston-bruins,Mark Scheifele,Center,c,Forwards 1,f1,55.0,,False
-winnipeg-jets,boston-bruins,Alex Iafallo,Right Wing,rw,Forwards 1,f1,9.0,,False
-winnipeg-jets,boston-bruins,Cole Perfetti,Left Wing,lw,Forwards 2,f2,91.0,,False
-winnipeg-jets,boston-bruins,Vladislav Namestnikov,Center,c,Forwards 2,f2,7.0,,False
-winnipeg-jets,boston-bruins,Gabriel Vilardi,Right Wing,rw,Forwards 2,f2,13.0,,False
-winnipeg-jets,boston-bruins,Nino Niederreiter,Left Wing,lw,Forwards 3,f3,62.0,,False
-winnipeg-jets,boston-bruins,Adam Lowry,Center,c,Forwards 3,f3,17.0,,False
-winnipeg-jets,boston-bruins,Cole Koepke,Right Wing,rw,Forwards 3,f3,45.0,,False
-winnipeg-jets,boston-bruins,Morgan Barron,Left Wing,lw,Forwards 4,f4,36.0,,False
-winnipeg-jets,boston-bruins,Jonathan Toews,Center,c,Forwards 4,f4,19.0,,False
-winnipeg-jets,boston-bruins,Gustav Nyquist,Right Wing,rw,Forwards 4,f4,14.0,,False
-winnipeg-jets,boston-bruins,Josh Morrissey,Left Defense,ld,Defense 1,d1,44.0,,False
-winnipeg-jets,boston-bruins,Dylan DeMelo,Right Defense,rd,Defense 1,d1,2.0,,False
-winnipeg-jets,boston-bruins,Dylan Samberg,Left Defense,ld,Defense 2,d2,54.0,,False
-winnipeg-jets,boston-bruins,Neal Pionk,Right Defense,rd,Defense 2,d2,4.0,,False
-winnipeg-jets,boston-bruins,Logan Stanley,Left Defense,ld,Defense 3,d3,64.0,,False
-winnipeg-jets,boston-bruins,Luke Schenn,Right Defense,rd,Defense 3,d3,2.0,,False
-winnipeg-jets,boston-bruins,Gabriel Vilardi,Skater 1,sk1,1st Powerplay Unit,pp1,13.0,,False
-winnipeg-jets,boston-bruins,Mark Scheifele,Skater 2,sk2,1st Powerplay Unit,pp1,55.0,,False
-winnipeg-jets,boston-bruins,Cole Perfetti,Skater 3,sk3,1st Powerplay Unit,pp1,91.0,,False
-winnipeg-jets,boston-bruins,Josh Morrissey,Skater 4,sk4,1st Powerplay Unit,pp1,44.0,,False
-winnipeg-jets,boston-bruins,Kyle Connor,Skater 5,sk5,1st Powerplay Unit,pp1,81.0,,False
-winnipeg-jets,boston-bruins,Nino Niederreiter,Skater 1,sk1,2nd Powerplay Unit,pp2,62.0,,False
-winnipeg-jets,boston-bruins,Jonathan Toews,Skater 2,sk2,2nd Powerplay Unit,pp2,19.0,,False
-winnipeg-jets,boston-bruins,Gustav Nyquist,Skater 3,sk3,2nd Powerplay Unit,pp2,14.0,,False
-winnipeg-jets,boston-bruins,Neal Pionk,Skater 4,sk4,2nd Powerplay Unit,pp2,4.0,,False
-winnipeg-jets,boston-bruins,Vladislav Namestnikov,Skater 5,sk5,2nd Powerplay Unit,pp2,7.0,,False
-winnipeg-jets,boston-bruins,Morgan Barron,Skater 1,sk1,1st Penalty Kill Unit,pk1,36.0,,False
-winnipeg-jets,boston-bruins,Vladislav Namestnikov,Skater 2,sk2,1st Penalty Kill Unit,pk1,7.0,,False
-winnipeg-jets,boston-bruins,Dylan Samberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,54.0,,False
-winnipeg-jets,boston-bruins,Dylan DeMelo,Skater 4,sk4,1st Penalty Kill Unit,pk1,2.0,,False
-winnipeg-jets,boston-bruins,Adam Lowry,Skater 1,sk1,2nd Penalty Kill Unit,pk2,17.0,,False
-winnipeg-jets,boston-bruins,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False
-winnipeg-jets,boston-bruins,Logan Stanley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,64.0,,False
-winnipeg-jets,boston-bruins,Neal Pionk,Skater 4,sk4,2nd Penalty Kill Unit,pk2,4.0,,False
+chicago-blackhawks,st-louis-blues,Ryan Greene,Left Wing,lw,Forwards 1,f1,20.0,,False
+chicago-blackhawks,st-louis-blues,Connor Bedard,Center,c,Forwards 1,f1,98.0,,False
+chicago-blackhawks,st-louis-blues,Andre Burakovsky,Right Wing,rw,Forwards 1,f1,28.0,,False
+chicago-blackhawks,st-louis-blues,Oliver Moore,Left Wing,lw,Forwards 2,f2,11.0,,False
+chicago-blackhawks,st-louis-blues,Frank Nazar,Center,c,Forwards 2,f2,,,False
+chicago-blackhawks,st-louis-blues,Tyler Bertuzzi,Right Wing,rw,Forwards 2,f2,59.0,,False
+chicago-blackhawks,st-louis-blues,Teuvo Teravainen,Left Wing,lw,Forwards 3,f3,86.0,,False
+chicago-blackhawks,st-louis-blues,Jason Dickinson,Center,c,Forwards 3,f3,16.0,,False
+chicago-blackhawks,st-louis-blues,Ilya Mikheyev,Right Wing,rw,Forwards 3,f3,95.0,,False
+chicago-blackhawks,st-louis-blues,Colton Dach,Left Wing,lw,Forwards 4,f4,34.0,,False
+chicago-blackhawks,st-louis-blues,Ryan Donato,Center,c,Forwards 4,f4,8.0,,False
+chicago-blackhawks,st-louis-blues,Sam Lafferty,Right Wing,rw,Forwards 4,f4,24.0,,False
+chicago-blackhawks,st-louis-blues,Alex Vlasic,Left Defense,ld,Defense 1,d1,72.0,,False
+chicago-blackhawks,st-louis-blues,Louis Crevier,Right Defense,rd,Defense 1,d1,46.0,,False
+chicago-blackhawks,st-louis-blues,Wyatt Kaiser,Left Defense,ld,Defense 2,d2,,,False
+chicago-blackhawks,st-louis-blues,Connor Murphy,Right Defense,rd,Defense 2,d2,5.0,,False
+chicago-blackhawks,st-louis-blues,Matt Grzelcyk,Left Defense,ld,Defense 3,d3,24.0,,False
+chicago-blackhawks,st-louis-blues,Artyom Levshunov,Right Defense,rd,Defense 3,d3,55.0,,False
+chicago-blackhawks,st-louis-blues,Tyler Bertuzzi,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False
+chicago-blackhawks,st-louis-blues,Connor Bedard,Skater 2,sk2,1st Powerplay Unit,pp1,98.0,,False
+chicago-blackhawks,st-louis-blues,Andre Burakovsky,Skater 3,sk3,1st Powerplay Unit,pp1,28.0,,False
+chicago-blackhawks,st-louis-blues,Frank Nazar,Skater 4,sk4,1st Powerplay Unit,pp1,,,False
+chicago-blackhawks,st-louis-blues,Artyom Levshunov,Skater 5,sk5,1st Powerplay Unit,pp1,55.0,,False
+chicago-blackhawks,st-louis-blues,Teuvo Teravainen,Skater 1,sk1,2nd Powerplay Unit,pp2,86.0,,False
+chicago-blackhawks,st-louis-blues,Ryan Donato,Skater 2,sk2,2nd Powerplay Unit,pp2,8.0,,False
+chicago-blackhawks,st-louis-blues,Ryan Greene,Skater 3,sk3,2nd Powerplay Unit,pp2,20.0,,False
+chicago-blackhawks,st-louis-blues,Colton Dach,Skater 4,sk4,2nd Powerplay Unit,pp2,34.0,,False
+chicago-blackhawks,st-louis-blues,Matt Grzelcyk,Skater 5,sk5,2nd Powerplay Unit,pp2,24.0,,False
+chicago-blackhawks,st-louis-blues,Jason Dickinson,Skater 1,sk1,1st Penalty Kill Unit,pk1,16.0,,False
+chicago-blackhawks,st-louis-blues,Ilya Mikheyev,Skater 2,sk2,1st Penalty Kill Unit,pk1,95.0,,False
+chicago-blackhawks,st-louis-blues,Alex Vlasic,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False
+chicago-blackhawks,st-louis-blues,Connor Murphy,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False
+chicago-blackhawks,st-louis-blues,Landon Slaggert,Skater 1,sk1,2nd Penalty Kill Unit,pk2,84.0,,False
+chicago-blackhawks,st-louis-blues,Oliver Moore,Skater 2,sk2,2nd Penalty Kill Unit,pk2,11.0,,False
+chicago-blackhawks,st-louis-blues,Wyatt Kaiser,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False
+chicago-blackhawks,st-louis-blues,Louis Crevier,Skater 4,sk4,2nd Penalty Kill Unit,pk2,46.0,,False
+seattle-kraken,utah-hockey-club,Matty Beniers,Center,c,Forwards 1,f1,10.0,,False
+seattle-kraken,utah-hockey-club,Jordan Eberle,Right Wing,rw,Forwards 1,f1,7.0,,False
+seattle-kraken,utah-hockey-club,Mason Marchment,Left Wing,lw,Forwards 2,f2,27.0,,False
+seattle-kraken,utah-hockey-club,Chandler Stephenson,Center,c,Forwards 2,f2,9.0,,False
+seattle-kraken,utah-hockey-club,Eeli Tolvanen,Right Wing,rw,Forwards 2,f2,20.0,,False
+seattle-kraken,utah-hockey-club,Kaapo Kakko,Left Wing,lw,Forwards 3,f3,84.0,,False
+seattle-kraken,utah-hockey-club,Shane Wright,Center,c,Forwards 3,f3,51.0,,False
+seattle-kraken,utah-hockey-club,Jani Nyman,Right Wing,rw,Forwards 3,f3,38.0,,False
+seattle-kraken,utah-hockey-club,Ben Meyers,Left Wing,lw,Forwards 4,f4,59.0,,False
+seattle-kraken,utah-hockey-club,Frederick Gaudreau,Center,c,Forwards 4,f4,89.0,,False
+seattle-kraken,utah-hockey-club,Ryan Winterton,Right Wing,rw,Forwards 4,f4,26.0,,False
+seattle-kraken,utah-hockey-club,Vince Dunn,Left Defense,ld,Defense 1,d1,29.0,,False
+seattle-kraken,utah-hockey-club,Adam Larsson,Right Defense,rd,Defense 1,d1,6.0,,False
+seattle-kraken,utah-hockey-club,Ryan Lindgren,Left Defense,ld,Defense 2,d2,55.0,,False
+seattle-kraken,utah-hockey-club,Brandon Montour,Right Defense,rd,Defense 2,d2,62.0,,False
+seattle-kraken,utah-hockey-club,Ryker Evans,Left Defense,ld,Defense 3,d3,41.0,,False
+seattle-kraken,utah-hockey-club,Jamie Oleksiak,Right Defense,rd,Defense 3,d3,24.0,,False
+seattle-kraken,utah-hockey-club,Chandler Stephenson,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False
+seattle-kraken,utah-hockey-club,Matty Beniers,Skater 2,sk2,1st Powerplay Unit,pp1,10.0,,False
+seattle-kraken,utah-hockey-club,Jordan Eberle,Skater 3,sk3,1st Powerplay Unit,pp1,7.0,,False
+seattle-kraken,utah-hockey-club,Vince Dunn,Skater 4,sk4,1st Powerplay Unit,pp1,29.0,,False
+seattle-kraken,utah-hockey-club,Mason Marchment,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False
+seattle-kraken,utah-hockey-club,Shane Wright,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False
+seattle-kraken,utah-hockey-club,Kaapo Kakko,Skater 3,sk3,2nd Powerplay Unit,pp2,84.0,,False
+seattle-kraken,utah-hockey-club,Brandon Montour,Skater 4,sk4,2nd Powerplay Unit,pp2,62.0,,False
+seattle-kraken,utah-hockey-club,Eeli Tolvanen,Skater 5,sk5,2nd Powerplay Unit,pp2,20.0,,False
+seattle-kraken,utah-hockey-club,Chandler Stephenson,Skater 1,sk1,1st Penalty Kill Unit,pk1,9.0,,False
+seattle-kraken,utah-hockey-club,Ryan Winterton,Skater 2,sk2,1st Penalty Kill Unit,pk1,26.0,,False
+seattle-kraken,utah-hockey-club,Ryan Lindgren,Skater 3,sk3,1st Penalty Kill Unit,pk1,55.0,,False
+seattle-kraken,utah-hockey-club,Adam Larsson,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False
+seattle-kraken,utah-hockey-club,Frederick Gaudreau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,89.0,,False
+seattle-kraken,utah-hockey-club,Eeli Tolvanen,Skater 2,sk2,2nd Penalty Kill Unit,pk2,20.0,,False
+seattle-kraken,utah-hockey-club,Ryker Evans,Skater 3,sk3,2nd Penalty Kill Unit,pk2,41.0,,False
+seattle-kraken,utah-hockey-club,Jamie Oleksiak,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False
+st-louis-blues,chicago-blackhawks,Jake Neighbours,Left Wing,lw,Forwards 1,f1,63.0,,False
+st-louis-blues,chicago-blackhawks,Robert Thomas,Center,c,Forwards 1,f1,18.0,,False
+st-louis-blues,chicago-blackhawks,Pavel Buchnevich,Right Wing,rw,Forwards 1,f1,89.0,,False
+st-louis-blues,chicago-blackhawks,Dylan Holloway,Left Wing,lw,Forwards 2,f2,81.0,,False
+st-louis-blues,chicago-blackhawks,Brayden Schenn,Center,c,Forwards 2,f2,10.0,,False
+st-louis-blues,chicago-blackhawks,Mathieu Joseph,Right Wing,rw,Forwards 2,f2,71.0,,False
+st-louis-blues,chicago-blackhawks,Pius Suter,Left Wing,lw,Forwards 3,f3,24.0,,False
+st-louis-blues,chicago-blackhawks,Dalibor Dvorsky,Center,c,Forwards 3,f3,54.0,,False
+st-louis-blues,chicago-blackhawks,Robby Fabbri,Right Wing,rw,Forwards 3,f3,13.0,,False
+st-louis-blues,chicago-blackhawks,Hugh McGing,Left Wing,lw,Forwards 4,f4,,,False
+st-louis-blues,chicago-blackhawks,Oskar Sundqvist,Center,c,Forwards 4,f4,70.0,,False
+st-louis-blues,chicago-blackhawks,Aleksanteri Kaskimaki,Right Wing,rw,Forwards 4,f4,,,False
+st-louis-blues,chicago-blackhawks,Cam Fowler,Left Defense,ld,Defense 1,d1,17.0,,False
+st-louis-blues,chicago-blackhawks,Colton Parayko,Right Defense,rd,Defense 1,d1,55.0,,False
+st-louis-blues,chicago-blackhawks,Philip Broberg,Left Defense,ld,Defense 2,d2,6.0,,False
+st-louis-blues,chicago-blackhawks,Justin Faulk,Right Defense,rd,Defense 2,d2,72.0,,False
+st-louis-blues,chicago-blackhawks,Tyler Tucker,Left Defense,ld,Defense 3,d3,75.0,,False
+st-louis-blues,chicago-blackhawks,Logan Mailloux,Right Defense,rd,Defense 3,d3,23.0,,False
+st-louis-blues,chicago-blackhawks,Pavel Buchnevich,Skater 1,sk1,1st Powerplay Unit,pp1,89.0,,False
+st-louis-blues,chicago-blackhawks,Robert Thomas,Skater 2,sk2,1st Powerplay Unit,pp1,18.0,,False
+st-louis-blues,chicago-blackhawks,Dalibor Dvorsky,Skater 3,sk3,1st Powerplay Unit,pp1,54.0,,False
+st-louis-blues,chicago-blackhawks,Justin Faulk,Skater 4,sk4,1st Powerplay Unit,pp1,72.0,,False
+st-louis-blues,chicago-blackhawks,Philip Broberg,Skater 5,sk5,1st Powerplay Unit,pp1,6.0,,False
+st-louis-blues,chicago-blackhawks,Jake Neighbours,Skater 1,sk1,2nd Powerplay Unit,pp2,63.0,,False
+st-louis-blues,chicago-blackhawks,Brayden Schenn,Skater 2,sk2,2nd Powerplay Unit,pp2,10.0,,False
+st-louis-blues,chicago-blackhawks,Dylan Holloway,Skater 3,sk3,2nd Powerplay Unit,pp2,81.0,,False
+st-louis-blues,chicago-blackhawks,Pius Suter,Skater 4,sk4,2nd Powerplay Unit,pp2,24.0,,False
+st-louis-blues,chicago-blackhawks,Cam Fowler,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False
+st-louis-blues,chicago-blackhawks,Oskar Sundqvist,Skater 1,sk1,1st Penalty Kill Unit,pk1,70.0,,False
+st-louis-blues,chicago-blackhawks,Mathieu Joseph,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False
+st-louis-blues,chicago-blackhawks,Philip Broberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False
+st-louis-blues,chicago-blackhawks,Justin Faulk,Skater 4,sk4,1st Penalty Kill Unit,pk1,72.0,,False
+st-louis-blues,chicago-blackhawks,Robby Fabbri,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False
+st-louis-blues,chicago-blackhawks,Brayden Schenn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,10.0,,False
+st-louis-blues,chicago-blackhawks,Cam Fowler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,17.0,,False
+st-louis-blues,chicago-blackhawks,Colton Parayko,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False
+utah-hockey-club,seattle-kraken,Clayton Keller,Left Wing,lw,Forwards 1,f1,9.0,,False
+utah-hockey-club,seattle-kraken,Nick Schmaltz,Center,c,Forwards 1,f1,8.0,,False
+utah-hockey-club,seattle-kraken,JJ Peterka,Right Wing,rw,Forwards 1,f1,77.0,,False
+utah-hockey-club,seattle-kraken,Lawson Crouse,Left Wing,lw,Forwards 2,f2,67.0,,False
+utah-hockey-club,seattle-kraken,Barrett Hayton,Center,c,Forwards 2,f2,27.0,,False
+utah-hockey-club,seattle-kraken,Dylan Guenther,Right Wing,rw,Forwards 2,f2,11.0,,False
+utah-hockey-club,seattle-kraken,Michael Carcone,Left Wing,lw,Forwards 3,f3,53.0,,False
+utah-hockey-club,seattle-kraken,Jack McBain,Center,c,Forwards 3,f3,22.0,,False
+utah-hockey-club,seattle-kraken,Daniil But,Right Wing,rw,Forwards 3,f3,19.0,,False
+utah-hockey-club,seattle-kraken,Brandon Tanev,Left Wing,lw,Forwards 4,f4,13.0,,False
+utah-hockey-club,seattle-kraken,Kevin Stenlund,Center,c,Forwards 4,f4,82.0,,False
+utah-hockey-club,seattle-kraken,Liam O'Brien,Right Wing,rw,Forwards 4,f4,38.0,,False
+utah-hockey-club,seattle-kraken,Mikhail Sergachev,Left Defense,ld,Defense 1,d1,98.0,,False
+utah-hockey-club,seattle-kraken,John Marino,Right Defense,rd,Defense 1,d1,6.0,,False
+utah-hockey-club,seattle-kraken,Nate Schmidt,Left Defense,ld,Defense 2,d2,88.0,,False
+utah-hockey-club,seattle-kraken,Sean Durzi,Right Defense,rd,Defense 2,d2,50.0,,False
+utah-hockey-club,seattle-kraken,Ian Cole,Left Defense,ld,Defense 3,d3,28.0,,False
+utah-hockey-club,seattle-kraken,Maveric Lamoureux,Right Defense,rd,Defense 3,d3,,,False
+utah-hockey-club,seattle-kraken,Clayton Keller,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False
+utah-hockey-club,seattle-kraken,Nick Schmaltz,Skater 2,sk2,1st Powerplay Unit,pp1,8.0,,False
+utah-hockey-club,seattle-kraken,JJ Peterka,Skater 3,sk3,1st Powerplay Unit,pp1,77.0,,False
+utah-hockey-club,seattle-kraken,Dylan Guenther,Skater 4,sk4,1st Powerplay Unit,pp1,11.0,,False
+utah-hockey-club,seattle-kraken,Mikhail Sergachev,Skater 5,sk5,1st Powerplay Unit,pp1,98.0,,False
+utah-hockey-club,seattle-kraken,Daniil But,Skater 1,sk1,2nd Powerplay Unit,pp2,19.0,,False
+utah-hockey-club,seattle-kraken,Barrett Hayton,Skater 2,sk2,2nd Powerplay Unit,pp2,27.0,,False
+utah-hockey-club,seattle-kraken,Lawson Crouse,Skater 3,sk3,2nd Powerplay Unit,pp2,67.0,,False
+utah-hockey-club,seattle-kraken,Michael Carcone,Skater 4,sk4,2nd Powerplay Unit,pp2,53.0,,False
+utah-hockey-club,seattle-kraken,Sean Durzi,Skater 5,sk5,2nd Powerplay Unit,pp2,50.0,,False
+utah-hockey-club,seattle-kraken,Kevin Stenlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,82.0,,False
+utah-hockey-club,seattle-kraken,Lawson Crouse,Skater 2,sk2,1st Penalty Kill Unit,pk1,67.0,,False
+utah-hockey-club,seattle-kraken,Mikhail Sergachev,Skater 3,sk3,1st Penalty Kill Unit,pk1,98.0,,False
+utah-hockey-club,seattle-kraken,Ian Cole,Skater 4,sk4,1st Penalty Kill Unit,pk1,28.0,,False
+utah-hockey-club,seattle-kraken,Jack McBain,Skater 1,sk1,2nd Penalty Kill Unit,pk2,22.0,,False
+utah-hockey-club,seattle-kraken,Nick Schmaltz,Skater 2,sk2,2nd Penalty Kill Unit,pk2,8.0,,False
+utah-hockey-club,seattle-kraken,Nate Schmidt,Skater 3,sk3,2nd Penalty Kill Unit,pk2,88.0,,False
+utah-hockey-club,seattle-kraken,John Marino,Skater 4,sk4,2nd Penalty Kill Unit,pk2,6.0,,False
