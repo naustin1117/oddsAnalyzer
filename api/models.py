@@ -112,6 +112,8 @@ class PlayerGamesResponse(BaseModel):
     team: str
     headshot_url: str
     team_logo_url: str
+    primary_color: str
+    secondary_color: str
     games_count: int
     games: List[PlayerGame]
     averages: dict

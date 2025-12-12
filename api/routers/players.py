@@ -52,10 +52,17 @@ async def get_player_recent_games(
     headshot_url = player_info.iloc[0]['headshot_url']
     player_team = player_games.iloc[0]['team_abbrev']
 
-    # Get team logo URL
+    # Get team logo URL and colors
     team_logos = load_team_logos()
     team_logo_row = team_logos[team_logos['team_abbrev'] == player_team]
-    team_logo_url = team_logo_row.iloc[0]['logo_url'] if len(team_logo_row) > 0 else ""
+    if len(team_logo_row) > 0:
+        team_logo_url = team_logo_row.iloc[0]['logo_url']
+        primary_color = team_logo_row.iloc[0]['primary_color']
+        secondary_color = team_logo_row.iloc[0]['secondary_color']
+    else:
+        team_logo_url = ""
+        primary_color = "#000000"
+        secondary_color = "#FFFFFF"
 
     # Convert to PlayerGame models
     games = []
@@ -95,6 +102,8 @@ async def get_player_recent_games(
         team=player_team,
         headshot_url=headshot_url,
         team_logo_url=team_logo_url,
+        primary_color=primary_color,
+        secondary_color=secondary_color,
         games_count=len(games),
         games=games,
         averages=averages,
