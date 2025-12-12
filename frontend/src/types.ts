@@ -80,6 +80,8 @@ export interface PlayerGamesResponse {
   team: string;
   headshot_url: string;
   team_logo_url: string;
+  primary_color: string;
+  secondary_color: string;
   games_count: number;
   games: PlayerGame[];
   averages: PlayerAverages;

@@ -6,6 +6,8 @@ interface PlayerHeaderProps {
   team_logo_url: string
   player_name: string
   team: string
+  primary_color: string
+  secondary_color: string
   // Optional upcoming game info
   opponent?: string
   game_time?: string
@@ -20,6 +22,8 @@ function PlayerHeader({
   team_logo_url,
   player_name,
   team,
+  primary_color,
+  secondary_color,
   opponent,
   game_time,
   line,
@@ -40,7 +44,12 @@ function PlayerHeader({
 
   return (
     <>
-      <div className="player-header-top">
+      <div
+        className="player-header-top"
+        style={{
+          background: `linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%), linear-gradient(to right, ${primary_color}, ${secondary_color})`
+        }}
+      >
         <div className="player-header-content">
           <Link to="/" className="back-link-header">← Back to Predictions</Link>
 
