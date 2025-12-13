@@ -1,9 +1,17 @@
-team,opponent,player_name,position,position_id,line,line_id,jersey_number,injury_status,game_time_decision
-chicago-blackhawks,st-louis-blues,Spencer Knight,Starting Goalie,g1,Goalies,g,30,,False
-chicago-blackhawks,st-louis-blues,Arvid Soderblom,Backup Goalie,g2,Goalies,g,40,,False
-seattle-kraken,utah-hockey-club,Joey Daccord,Starting Goalie,g1,Goalies,g,35,,False
-seattle-kraken,utah-hockey-club,Philipp Grubauer,Backup Goalie,g2,Goalies,g,31,,False
-st-louis-blues,chicago-blackhawks,Joel Hofer,Starting Goalie,g1,Goalies,g,30,,False
-st-louis-blues,chicago-blackhawks,Jordan Binnington,Backup Goalie,g2,Goalies,g,50,,False
-utah-hockey-club,seattle-kraken,Karel Vejmelka,Starting Goalie,g1,Goalies,g,70,,False
-utah-hockey-club,seattle-kraken,Vitek Vanecek,Backup Goalie,g2,Goalies,g,41,,False
+team,opponent,player_name,position,position_id,line,line_id,jersey_number,injury_status,game_time_decision,scrape_date
+chicago-blackhawks,st-louis-blues,Spencer Knight,Starting Goalie,g1,Goalies,g,30,,False,
+chicago-blackhawks,st-louis-blues,Arvid Soderblom,Backup Goalie,g2,Goalies,g,40,,False,
+seattle-kraken,utah-hockey-club,Joey Daccord,Starting Goalie,g1,Goalies,g,35,,False,
+seattle-kraken,utah-hockey-club,Philipp Grubauer,Backup Goalie,g2,Goalies,g,31,,False,
+st-louis-blues,chicago-blackhawks,Joel Hofer,Starting Goalie,g1,Goalies,g,30,,False,
+st-louis-blues,chicago-blackhawks,Jordan Binnington,Backup Goalie,g2,Goalies,g,50,,False,
+utah-hockey-club,seattle-kraken,Karel Vejmelka,Starting Goalie,g1,Goalies,g,70,,False,
+utah-hockey-club,seattle-kraken,Vitek Vanecek,Backup Goalie,g2,Goalies,g,41,,False,
+chicago-blackhawks,st-louis-blues,Spencer Knight,Starting Goalie,g1,Goalies,g,30,,False,2025-12-12
+chicago-blackhawks,st-louis-blues,Arvid Soderblom,Backup Goalie,g2,Goalies,g,40,,False,2025-12-12
+seattle-kraken,utah-hockey-club,Joey Daccord,Starting Goalie,g1,Goalies,g,35,,False,2025-12-12
+seattle-kraken,utah-hockey-club,Philipp Grubauer,Backup Goalie,g2,Goalies,g,31,,False,2025-12-12
+st-louis-blues,chicago-blackhawks,Joel Hofer,Starting Goalie,g1,Goalies,g,30,,False,2025-12-12
+st-louis-blues,chicago-blackhawks,Jordan Binnington,Backup Goalie,g2,Goalies,g,50,,False,2025-12-12
+utah-hockey-club,seattle-kraken,Karel Vejmelka,Starting Goalie,g1,Goalies,g,70,,False,2025-12-12
+utah-hockey-club,seattle-kraken,Vitek Vanecek,Backup Goalie,g2,Goalies,g,41,,False,2025-12-12
