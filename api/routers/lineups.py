@@ -78,10 +78,27 @@ def load_lineup_data():
 
 def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataFrame, df_injuries: pd.DataFrame, player_mapping: pd.DataFrame) -> TeamLineup:
     """Extract lineup for a specific team."""
-    # Filter data for this team
-    team_lines = df_lines[df_lines['team'] == team_slug]
-    team_goalies = df_goalies[df_goalies['team'] == team_slug]
-    team_injuries = df_injuries[df_injuries['team'] == team_slug]
+    # Get most recent scrape_date for this team
+    team_data = df_lines[df_lines['team'] == team_slug]
+    if len(team_data) == 0:
+        # No data for this team
+        team_lines = pd.DataFrame()
+        most_recent_date = None
+    else:
+        most_recent_date = team_data['scrape_date'].max()
+        # Filter data for this team and most recent date
+        team_lines = df_lines[(df_lines['team'] == team_slug) & (df_lines['scrape_date'] == most_recent_date)]
+
+    # Filter goalies and injuries by most recent date
+    if most_recent_date and len(df_goalies) > 0:
+        team_goalies = df_goalies[(df_goalies['team'] == team_slug) & (df_goalies['scrape_date'] == most_recent_date)]
+    else:
+        team_goalies = df_goalies[df_goalies['team'] == team_slug] if len(df_goalies) > 0 else pd.DataFrame()
+
+    if most_recent_date and len(df_injuries) > 0:
+        team_injuries = df_injuries[(df_injuries['team'] == team_slug) & (df_injuries['scrape_date'] == most_recent_date)]
+    else:
+        team_injuries = df_injuries[df_injuries['team'] == team_slug] if len(df_injuries) > 0 else pd.DataFrame()
 
     # Get opponent from the first row (should be the same for all players)
     opponent_slug = None

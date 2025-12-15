@@ -458,7 +458,7 @@ def scrape_todays_lineups(output_dir='data'):
         total, new = append_to_csv(
             df_new_lines,
             lines_file,
-            dedup_columns=['team', 'player_name', 'scrape_date']
+            dedup_columns=['team', 'player_name', 'line_id', 'scrape_date']
         )
         print(f"✓ Lines: {total} total records ({new} new)")
     else:

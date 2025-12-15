@@ -109,6 +109,7 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
                   borderRadius: '8px',
                   padding: '10px',
                   color: '#fff',
+                  fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif',
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                     {data.opponent_logo_url && (
@@ -119,25 +120,25 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
                       />
                     )}
                     <div>
-                      <p style={{ margin: '0', color: '#646cff', fontWeight: 'bold', fontSize: '0.9em' }}>vs {data.opponent}</p>
-                      <p style={{ margin: '0', color: '#888', fontSize: '0.8em' }}>{data.date}</p>
+                      <p style={{ margin: '0', color: '#646cff', fontWeight: '600', fontSize: '0.75rem' }}>vs {data.opponent}</p>
+                      <p style={{ margin: '0', color: '#888', fontSize: '0.7rem' }}>{data.date}</p>
                     </div>
                   </div>
-                  <p style={{ margin: '4px 0', color: '#646cff' }}>Shots: {data.shots}</p>
-                  <p style={{ margin: '4px 0', color: '#4ade80' }}>Goals: {data.goals}</p>
-                  <p style={{ margin: '4px 0', color: '#fbbf24' }}>Assists: {data.assists}</p>
-                  <p style={{ margin: '4px 0', color: '#f87171' }}>Points: {data.points}</p>
+                  <p style={{ margin: '4px 0', color: '#646cff', fontSize: '0.75rem' }}>Shots: {data.shots}</p>
+                  <p style={{ margin: '4px 0', color: '#4ade80', fontSize: '0.75rem' }}>Goals: {data.goals}</p>
+                  <p style={{ margin: '4px 0', color: '#fbbf24', fontSize: '0.75rem' }}>Assists: {data.assists}</p>
+                  <p style={{ margin: '4px 0', color: '#f87171', fontSize: '0.75rem' }}>Points: {data.points}</p>
                   {line !== undefined && prediction !== undefined && (
                     <>
-                      <p style={{ margin: '8px 0 4px 0', color: '#888', fontSize: '0.9em' }}>
+                      <p style={{ margin: '8px 0 4px 0', color: '#888', fontSize: '0.7rem' }}>
                         Line: {line} | Prediction: {prediction.toFixed(2)}
                       </p>
                       {prediction < line ? (
-                        <p style={{ margin: '0', color: data.shots < line ? '#4ade80' : '#ef4444', fontWeight: 'bold' }}>
+                        <p style={{ margin: '0', color: data.shots < line ? '#4ade80' : '#ef4444', fontWeight: '600', fontSize: '0.75rem' }}>
                           {data.shots < line ? '✓ UNDER would have won' : '✗ UNDER would have lost'}
                         </p>
                       ) : (
-                        <p style={{ margin: '0', color: data.shots >= line ? '#4ade80' : '#ef4444', fontWeight: 'bold' }}>
+                        <p style={{ margin: '0', color: data.shots >= line ? '#4ade80' : '#ef4444', fontWeight: '600', fontSize: '0.75rem' }}>
                           {data.shots >= line ? '✓ OVER would have won' : '✗ OVER would have lost'}
                         </p>
                       )}
