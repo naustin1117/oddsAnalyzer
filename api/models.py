@@ -96,6 +96,7 @@ class PlayerGame(BaseModel):
     """Single game stats for a player"""
     game_date: str
     opponent: str
+    opponent_logo_url: str
     home_away: str
     shots: int
     goals: int

@@ -3,7 +3,7 @@ name: Scrape Daily Lineups
 on:
   schedule:
     # Run at 11 PM EST (4 AM UTC next day) every day
-    - cron: '0 4 * * *'
+    - cron: '0 14 * * *'
   workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:

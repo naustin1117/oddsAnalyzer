@@ -57,6 +57,7 @@ export interface HealthResponse {
 export interface PlayerGame {
   game_date: string;
   opponent: string;
+  opponent_logo_url: string;
   home_away: string;
   shots: number;
   goals: number;

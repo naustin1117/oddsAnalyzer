@@ -655,7 +655,13 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                     {lineupData.opponent.injuries.map((player, idx) => (
                       <div key={idx} className="injury-card">
                         <div className="injury-card-header">
-                          <span className="player-number">#{player.jersey_number || '—'}</span>
+                          {player.headshot_url ? (
+                            <div className="injury-player-headshot-container">
+                              <img src={player.headshot_url} alt={player.player_name} className="injury-player-headshot" />
+                            </div>
+                          ) : (
+                            <span className="player-number">#{player.jersey_number || '—'}</span>
+                          )}
                           <span className="player-name">{player.player_name}</span>
                           <span className="player-position">{player.position}</span>
                         </div>

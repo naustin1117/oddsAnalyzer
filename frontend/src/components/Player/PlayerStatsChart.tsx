@@ -55,6 +55,7 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
       assists: game.assists,
       points: game.points,
       opponent: game.opponent,
+      opponent_logo_url: game.opponent_logo_url,
       barColor,
     }
   })
@@ -109,7 +110,19 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
                   padding: '10px',
                   color: '#fff',
                 }}>
-                  <p style={{ margin: '0 0 8px 0', color: '#646cff', fontWeight: 'bold' }}>{data.date}</p>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                    {data.opponent_logo_url && (
+                      <img
+                        src={data.opponent_logo_url}
+                        alt={data.opponent}
+                        style={{ width: '24px', height: '24px', objectFit: 'contain' }}
+                      />
+                    )}
+                    <div>
+                      <p style={{ margin: '0', color: '#646cff', fontWeight: 'bold', fontSize: '0.9em' }}>vs {data.opponent}</p>
+                      <p style={{ margin: '0', color: '#888', fontSize: '0.8em' }}>{data.date}</p>
+                    </div>
+                  </div>
                   <p style={{ margin: '4px 0', color: '#646cff' }}>Shots: {data.shots}</p>
                   <p style={{ margin: '4px 0', color: '#4ade80' }}>Goals: {data.goals}</p>
                   <p style={{ margin: '4px 0', color: '#fbbf24' }}>Assists: {data.assists}</p>

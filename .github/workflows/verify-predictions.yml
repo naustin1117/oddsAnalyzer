@@ -2,8 +2,8 @@ name: Verify Yesterday's Predictions
 
 on:
   schedule:
-    # Run at 10 AM EST (3 PM UTC) every day - after predictions run
-    - cron: '0 15 * * *'
+    # Run at 9 AM EST (2 PM UTC) every day - after predictions run
+    - cron: '0 14 * * *'
   workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:

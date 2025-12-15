@@ -73,10 +73,16 @@ async def get_player_recent_games(
         # Convert toi_minutes to seconds for the model
         toi_seconds = float(game['toi_minutes']) * 60
 
+        # Get opponent logo URL
+        opponent_abbrev = game['opponent_abbrev']
+        opponent_logo_row = team_logos[team_logos['team_abbrev'] == opponent_abbrev]
+        opponent_logo_url = opponent_logo_row.iloc[0]['logo_url'] if len(opponent_logo_row) > 0 else ""
+
         games.append(
             PlayerGame(
                 game_date=game['game_date'].strftime('%Y-%m-%d'),
-                opponent=game['opponent_abbrev'],
+                opponent=opponent_abbrev,
+                opponent_logo_url=opponent_logo_url,
                 home_away=home_away,
                 shots=int(game['shots']),
                 goals=int(game['goals']),

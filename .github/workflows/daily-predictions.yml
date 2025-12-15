@@ -2,8 +2,8 @@ name: Generate Daily Predictions
 
 on:
   schedule:
-    # Run at 9 AM EST (2 PM UTC) every day
-    - cron: '0 14 * * *'
+    # Run at 8 AM EST (1 PM UTC) every day
+    - cron: '0 13 * * *'
   workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
