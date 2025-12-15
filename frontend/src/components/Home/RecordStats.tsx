@@ -46,6 +46,8 @@ function RecordStats({ resultsSummary }: RecordStatsProps) {
                 border: '1px solid #333',
                 borderRadius: '8px',
                 color: '#fff',
+                fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif',
+                fontSize: '0.75rem',
               }}
             />
             <Legend />

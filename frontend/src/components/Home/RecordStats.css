@@ -4,13 +4,18 @@
   background: #1a1a1a;
   border: 1px solid #333;
   border-radius: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
 .record-stats h2 {
-  color: #fff;
+  color: #646cff;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
 
 .record-chart {
@@ -33,16 +38,21 @@
 }
 
 .tile-label {
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   color: #888;
   margin-bottom: 0.35rem;
   text-align: center;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .tile-value {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
 .tile-value.positive {
@@ -51,6 +61,24 @@
 
 .tile-value.negative {
   color: #ef4444;
+}
+
+/* Chart text styling */
+.record-stats .recharts-cartesian-axis-tick-value {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif !important;
+  font-size: 0.7rem !important;
+}
+
+.record-stats .recharts-legend-item-text {
+  color: #888 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+}
+
+.record-stats .recharts-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif !important;
+  font-size: 0.7rem !important;
 }
 
 @media (max-width: 768px) {
