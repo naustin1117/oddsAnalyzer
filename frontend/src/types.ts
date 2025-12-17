@@ -8,9 +8,12 @@ export interface Prediction {
   game_time: string;
   away_team: string;
   home_team: string;
+  away_team_abbrev?: string | null;
+  home_team_abbrev?: string | null;
   player_id: number;
   player_name: string;
   player_team: string;
+  player_team_name?: string | null;
   line: number;
   over_odds: number;
   under_odds: number;
@@ -78,7 +81,8 @@ export interface PlayerAverages {
 export interface PlayerGamesResponse {
   player_id: number;
   player_name: string;
-  team: string;
+  team_abbrev: string;
+  team_name: string;
   headshot_url: string;
   team_logo_url: string;
   primary_color: string;

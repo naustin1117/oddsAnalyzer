@@ -33,7 +33,7 @@ function Player() {
 
         // Fetch lineup data using the team abbreviation
         try {
-          const lineup = await apiGet<LineupsResponse>(`/lineups/${gamesData.team}`)
+          const lineup = await apiGet<LineupsResponse>(`/lineups/${gamesData.team_abbrev}`)
           setLineupData(lineup)
         } catch (lineupErr) {
           // Lineup data is optional - team might not be playing today
@@ -87,10 +87,10 @@ function Player() {
           headshot_url={playerData.headshot_url}
           team_logo_url={playerData.team_logo_url}
           player_name={playerData.player_name}
-          team={playerData.team}
+          team={playerData.team_abbrev}
           primary_color={playerData.primary_color}
           secondary_color={playerData.secondary_color}
-          opponent={upcomingGame?.away_team === playerData.team ? upcomingGame?.home_team : upcomingGame?.away_team}
+          opponent={upcomingGame?.away_team_abbrev === playerData.team_abbrev ? upcomingGame?.home_team : upcomingGame?.away_team}
           game_time={upcomingGame?.game_time}
           line={upcomingGame?.line}
           prediction={upcomingGame?.prediction ?? undefined}

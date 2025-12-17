@@ -8,6 +8,7 @@ import pandas as pd
 from ..auth import verify_api_key
 from ..models import PlayerGame, PlayerGamesResponse, Prediction, PlayerPredictionsResponse
 from ..services.data_loader import load_predictions, load_player_logs, load_player_name_mapping, load_team_logos
+from ..team_names import get_team_name, get_team_abbrev
 
 router = APIRouter(prefix="/players", tags=["Players"])
 
@@ -105,7 +106,8 @@ async def get_player_recent_games(
     return PlayerGamesResponse(
         player_id=player_id,
         player_name=player_name,
-        team=player_team,
+        team_abbrev=player_team,
+        team_name=get_team_name(player_team),
         headshot_url=headshot_url,
         team_logo_url=team_logo_url,
         primary_color=primary_color,
@@ -164,9 +166,17 @@ async def get_player_predictions(
             row_dict['game_time'] = row['game_time'].isoformat()
 
         # Map CSV column names to model field names
-        row_dict['player_team'] = row_dict.pop('team', None)
+        player_team_abbrev = row_dict.pop('team', None)
+        row_dict['player_team'] = player_team_abbrev
+        row_dict['player_team_name'] = get_team_name(player_team_abbrev) if player_team_abbrev else None
         row_dict['model_prob'] = row_dict.pop('model_probability', None)
         row_dict['implied_prob'] = row_dict.pop('implied_probability', None)
+
+        # Add team abbreviations (away_team and home_team are full names in CSV)
+        away_team_name = row_dict.get('away_team')
+        home_team_name = row_dict.get('home_team')
+        row_dict['away_team_abbrev'] = get_team_abbrev(away_team_name) if away_team_name else None
+        row_dict['home_team_abbrev'] = get_team_abbrev(home_team_name) if home_team_name else None
 
         # Convert all NaN values to None (required for JSON serialization)
         row_dict = {k: (None if pd.isna(v) else v) for k, v in row_dict.items()}

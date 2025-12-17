@@ -83,13 +83,13 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
                     'game_time_decision': player.get('gameTimeDecision', False)
                 }
 
-                # Categorize player
-                if player_info['injury_status'] or player_info['game_time_decision']:
-                    injuries.append(player_info)
-                elif player_info['line_id'] == 'g':
+                # Categorize player - line assignment trumps injury status
+                if player_info['line_id'] == 'g':
                     goalies.append(player_info)
-                else:
-                    line_combinations.append(player_info)
+                elif player_info['line_id']:  # Has a line assignment (f1, d1, pp1, pk1, etc.)
+                    line_combinations.append(player_info)  # Keep in lineup with injury flags
+                else:  # No line assignment - pure scratch/IR
+                    injuries.append(player_info)
 
         else:
             # Fallback: Parse HTML structure
@@ -155,10 +155,39 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
 
         # Display sample data
         if len(df_lines) > 0:
-            print("\n" + "="*60)
-            print("SAMPLE LINE COMBINATIONS (first 12)")
-            print("="*60)
-            print(df_lines[['player_name', 'position', 'line']].head(12).to_string(index=False))
+            # Filter different line types
+            forwards = df_lines[df_lines['line_id'].str.startswith('f', na=False)]
+            defense = df_lines[df_lines['line_id'].str.startswith('d', na=False)]
+            powerplay = df_lines[df_lines['line_id'].str.startswith('pp', na=False)]
+            penalty_kill = df_lines[df_lines['line_id'].str.startswith('pk', na=False)]
+
+            # Display forwards
+            if len(forwards) > 0:
+                print("\n" + "="*60)
+                print("FORWARDS")
+                print("="*60)
+                print(forwards[['player_name', 'position', 'line']].to_string(index=False))
+
+            # Display defense
+            if len(defense) > 0:
+                print("\n" + "="*60)
+                print("DEFENSE")
+                print("="*60)
+                print(defense[['player_name', 'position', 'line']].to_string(index=False))
+
+            # Display powerplay units
+            if len(powerplay) > 0:
+                print("\n" + "="*60)
+                print("POWERPLAY UNITS")
+                print("="*60)
+                print(powerplay[['player_name', 'position', 'line']].to_string(index=False))
+
+            # Display penalty kill units
+            if len(penalty_kill) > 0:
+                print("\n" + "="*60)
+                print("PENALTY KILL UNITS")
+                print("="*60)
+                print(penalty_kill[['player_name', 'position', 'line']].to_string(index=False))
 
         if len(df_goalies) > 0:
             print("\n" + "="*60)

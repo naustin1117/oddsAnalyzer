@@ -1,76 +1,4 @@
 team,opponent,player_name,position,position_id,line,line_id,jersey_number,injury_status,game_time_decision,scrape_date
-chicago-blackhawks,st-louis-blues,Sam Lafferty,Right Wing,rw,Forwards 4,f4,24.0,,False,
-chicago-blackhawks,st-louis-blues,Tyler Bertuzzi,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,
-chicago-blackhawks,st-louis-blues,Connor Bedard,Skater 2,sk2,1st Powerplay Unit,pp1,98.0,,False,
-chicago-blackhawks,st-louis-blues,Andre Burakovsky,Skater 3,sk3,1st Powerplay Unit,pp1,28.0,,False,
-chicago-blackhawks,st-louis-blues,Frank Nazar,Skater 4,sk4,1st Powerplay Unit,pp1,,,False,
-chicago-blackhawks,st-louis-blues,Artyom Levshunov,Skater 5,sk5,1st Powerplay Unit,pp1,55.0,,False,
-chicago-blackhawks,st-louis-blues,Teuvo Teravainen,Skater 1,sk1,2nd Powerplay Unit,pp2,86.0,,False,
-chicago-blackhawks,st-louis-blues,Ryan Donato,Skater 2,sk2,2nd Powerplay Unit,pp2,8.0,,False,
-chicago-blackhawks,st-louis-blues,Ryan Greene,Skater 3,sk3,2nd Powerplay Unit,pp2,20.0,,False,
-chicago-blackhawks,st-louis-blues,Colton Dach,Skater 4,sk4,2nd Powerplay Unit,pp2,34.0,,False,
-chicago-blackhawks,st-louis-blues,Matt Grzelcyk,Skater 5,sk5,2nd Powerplay Unit,pp2,24.0,,False,
-chicago-blackhawks,st-louis-blues,Jason Dickinson,Skater 1,sk1,1st Penalty Kill Unit,pk1,16.0,,False,
-chicago-blackhawks,st-louis-blues,Ilya Mikheyev,Skater 2,sk2,1st Penalty Kill Unit,pk1,95.0,,False,
-chicago-blackhawks,st-louis-blues,Alex Vlasic,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False,
-chicago-blackhawks,st-louis-blues,Connor Murphy,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,
-chicago-blackhawks,st-louis-blues,Landon Slaggert,Skater 1,sk1,2nd Penalty Kill Unit,pk2,84.0,,False,
-chicago-blackhawks,st-louis-blues,Oliver Moore,Skater 2,sk2,2nd Penalty Kill Unit,pk2,11.0,,False,
-chicago-blackhawks,st-louis-blues,Wyatt Kaiser,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False,
-chicago-blackhawks,st-louis-blues,Louis Crevier,Skater 4,sk4,2nd Penalty Kill Unit,pk2,46.0,,False,
-seattle-kraken,utah-hockey-club,Jani Nyman,Right Wing,rw,Forwards 3,f3,38.0,,False,
-seattle-kraken,utah-hockey-club,Ben Meyers,Left Wing,lw,Forwards 4,f4,59.0,,False,
-seattle-kraken,utah-hockey-club,Matty Beniers,Skater 2,sk2,1st Powerplay Unit,pp1,10.0,,False,
-seattle-kraken,utah-hockey-club,Jordan Eberle,Skater 3,sk3,1st Powerplay Unit,pp1,7.0,,False,
-seattle-kraken,utah-hockey-club,Vince Dunn,Skater 4,sk4,1st Powerplay Unit,pp1,29.0,,False,
-seattle-kraken,utah-hockey-club,Mason Marchment,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False,
-seattle-kraken,utah-hockey-club,Shane Wright,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False,
-seattle-kraken,utah-hockey-club,Kaapo Kakko,Skater 3,sk3,2nd Powerplay Unit,pp2,84.0,,False,
-seattle-kraken,utah-hockey-club,Brandon Montour,Skater 4,sk4,2nd Powerplay Unit,pp2,62.0,,False,
-seattle-kraken,utah-hockey-club,Chandler Stephenson,Skater 1,sk1,1st Penalty Kill Unit,pk1,9.0,,False,
-seattle-kraken,utah-hockey-club,Ryan Winterton,Skater 2,sk2,1st Penalty Kill Unit,pk1,26.0,,False,
-seattle-kraken,utah-hockey-club,Ryan Lindgren,Skater 3,sk3,1st Penalty Kill Unit,pk1,55.0,,False,
-seattle-kraken,utah-hockey-club,Adam Larsson,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,
-seattle-kraken,utah-hockey-club,Frederick Gaudreau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,89.0,,False,
-seattle-kraken,utah-hockey-club,Eeli Tolvanen,Skater 2,sk2,2nd Penalty Kill Unit,pk2,20.0,,False,
-seattle-kraken,utah-hockey-club,Ryker Evans,Skater 3,sk3,2nd Penalty Kill Unit,pk2,41.0,,False,
-seattle-kraken,utah-hockey-club,Jamie Oleksiak,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,
-st-louis-blues,chicago-blackhawks,Hugh McGing,Left Wing,lw,Forwards 4,f4,,,False,
-st-louis-blues,chicago-blackhawks,Aleksanteri Kaskimaki,Right Wing,rw,Forwards 4,f4,,,False,
-st-louis-blues,chicago-blackhawks,Tyler Tucker,Left Defense,ld,Defense 3,d3,75.0,,False,
-st-louis-blues,chicago-blackhawks,Logan Mailloux,Right Defense,rd,Defense 3,d3,23.0,,False,
-st-louis-blues,chicago-blackhawks,Pavel Buchnevich,Skater 1,sk1,1st Powerplay Unit,pp1,89.0,,False,
-st-louis-blues,chicago-blackhawks,Robert Thomas,Skater 2,sk2,1st Powerplay Unit,pp1,18.0,,False,
-st-louis-blues,chicago-blackhawks,Dalibor Dvorsky,Skater 3,sk3,1st Powerplay Unit,pp1,54.0,,False,
-st-louis-blues,chicago-blackhawks,Jake Neighbours,Skater 1,sk1,2nd Powerplay Unit,pp2,63.0,,False,
-st-louis-blues,chicago-blackhawks,Dylan Holloway,Skater 3,sk3,2nd Powerplay Unit,pp2,81.0,,False,
-st-louis-blues,chicago-blackhawks,Pius Suter,Skater 4,sk4,2nd Powerplay Unit,pp2,24.0,,False,
-st-louis-blues,chicago-blackhawks,Oskar Sundqvist,Skater 1,sk1,1st Penalty Kill Unit,pk1,70.0,,False,
-st-louis-blues,chicago-blackhawks,Mathieu Joseph,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False,
-st-louis-blues,chicago-blackhawks,Philip Broberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False,
-st-louis-blues,chicago-blackhawks,Justin Faulk,Skater 4,sk4,1st Penalty Kill Unit,pk1,72.0,,False,
-st-louis-blues,chicago-blackhawks,Robby Fabbri,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False,
-st-louis-blues,chicago-blackhawks,Brayden Schenn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,10.0,,False,
-st-louis-blues,chicago-blackhawks,Cam Fowler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,17.0,,False,
-st-louis-blues,chicago-blackhawks,Colton Parayko,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False,
-utah-hockey-club,seattle-kraken,Brandon Tanev,Left Wing,lw,Forwards 4,f4,13.0,,False,
-utah-hockey-club,seattle-kraken,Liam O'Brien,Right Wing,rw,Forwards 4,f4,38.0,,False,
-utah-hockey-club,seattle-kraken,Maveric Lamoureux,Right Defense,rd,Defense 3,d3,,,False,
-utah-hockey-club,seattle-kraken,Clayton Keller,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False,
-utah-hockey-club,seattle-kraken,JJ Peterka,Skater 3,sk3,1st Powerplay Unit,pp1,77.0,,False,
-utah-hockey-club,seattle-kraken,Dylan Guenther,Skater 4,sk4,1st Powerplay Unit,pp1,11.0,,False,
-utah-hockey-club,seattle-kraken,Daniil But,Skater 1,sk1,2nd Powerplay Unit,pp2,19.0,,False,
-utah-hockey-club,seattle-kraken,Barrett Hayton,Skater 2,sk2,2nd Powerplay Unit,pp2,27.0,,False,
-utah-hockey-club,seattle-kraken,Michael Carcone,Skater 4,sk4,2nd Powerplay Unit,pp2,53.0,,False,
-utah-hockey-club,seattle-kraken,Sean Durzi,Skater 5,sk5,2nd Powerplay Unit,pp2,50.0,,False,
-utah-hockey-club,seattle-kraken,Kevin Stenlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,82.0,,False,
-utah-hockey-club,seattle-kraken,Lawson Crouse,Skater 2,sk2,1st Penalty Kill Unit,pk1,67.0,,False,
-utah-hockey-club,seattle-kraken,Mikhail Sergachev,Skater 3,sk3,1st Penalty Kill Unit,pk1,98.0,,False,
-utah-hockey-club,seattle-kraken,Ian Cole,Skater 4,sk4,1st Penalty Kill Unit,pk1,28.0,,False,
-utah-hockey-club,seattle-kraken,Jack McBain,Skater 1,sk1,2nd Penalty Kill Unit,pk2,22.0,,False,
-utah-hockey-club,seattle-kraken,Nick Schmaltz,Skater 2,sk2,2nd Penalty Kill Unit,pk2,8.0,,False,
-utah-hockey-club,seattle-kraken,Nate Schmidt,Skater 3,sk3,2nd Penalty Kill Unit,pk2,88.0,,False,
-utah-hockey-club,seattle-kraken,John Marino,Skater 4,sk4,2nd Penalty Kill Unit,pk2,6.0,,False,
 chicago-blackhawks,st-louis-blues,Oliver Moore,Left Wing,lw,Forwards 2,f2,11.0,,False,2025-12-12
 chicago-blackhawks,st-louis-blues,Sam Lafferty,Right Wing,rw,Forwards 4,f4,24.0,,False,2025-12-12
 chicago-blackhawks,st-louis-blues,Wyatt Kaiser,Left Defense,ld,Defense 3,d3,,,False,2025-12-12
@@ -1934,6 +1862,7 @@ carolina-hurricanes,nashville-predators,Logan Stankoven,Skater 2,sk2,2nd Powerpl
 carolina-hurricanes,nashville-predators,Nikolaj Ehlers,Skater 3,sk3,2nd Powerplay Unit,pp2,27.0,,False,2025-12-17
 carolina-hurricanes,nashville-predators,Taylor Hall,Skater 4,sk4,2nd Powerplay Unit,pp2,71.0,,False,2025-12-17
 carolina-hurricanes,nashville-predators,Alexander Nikishin,Skater 5,sk5,2nd Powerplay Unit,pp2,21.0,,False,2025-12-17
+carolina-hurricanes,nashville-predators,Charles-Alexis Legault,Injured Reserve 2,ir2,Injured Reserve,ir,62.0,out,False,2025-12-17
 carolina-hurricanes,nashville-predators,Sebastian Aho,Skater 1,sk1,1st Penalty Kill Unit,pk1,20.0,,False,2025-12-17
 carolina-hurricanes,nashville-predators,Seth Jarvis,Skater 2,sk2,1st Penalty Kill Unit,pk1,24.0,,False,2025-12-17
 carolina-hurricanes,nashville-predators,Alexander Nikishin,Skater 3,sk3,1st Penalty Kill Unit,pk1,21.0,,False,2025-12-17
@@ -1970,6 +1899,8 @@ detroit-red-wings,utah-hockey-club,Andrew Copp,Skater 2,sk2,2nd Powerplay Unit,p
 detroit-red-wings,utah-hockey-club,John Leonard,Skater 3,sk3,2nd Powerplay Unit,pp2,,,False,2025-12-17
 detroit-red-wings,utah-hockey-club,Nate Danielson,Skater 4,sk4,2nd Powerplay Unit,pp2,29.0,,False,2025-12-17
 detroit-red-wings,utah-hockey-club,Axel Sandin-Pellikka,Skater 5,sk5,2nd Powerplay Unit,pp2,,,False,2025-12-17
+detroit-red-wings,utah-hockey-club,Mason Appleton,Injured Reserve 1,ir1,Injured Reserve,ir,22.0,ir,False,2025-12-17
+detroit-red-wings,utah-hockey-club,Patrick Kane,Injured Reserve 2,ir2,Injured Reserve,ir,88.0,dtd,False,2025-12-17
 detroit-red-wings,utah-hockey-club,Dylan Larkin,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-17
 detroit-red-wings,utah-hockey-club,Lucas Raymond,Skater 2,sk2,1st Penalty Kill Unit,pk1,23.0,,False,2025-12-17
 detroit-red-wings,utah-hockey-club,Simon Edvinsson,Skater 3,sk3,1st Penalty Kill Unit,pk1,77.0,,False,2025-12-17
@@ -1990,6 +1921,7 @@ florida-panthers,los-angeles-kings,A.J. Greer,Right Wing,rw,Forwards 3,f3,10.0,,
 florida-panthers,los-angeles-kings,Noah Gregor,Left Wing,lw,Forwards 4,f4,18.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Jack Studnicka,Center,c,Forwards 4,f4,,,False,2025-12-17
 florida-panthers,los-angeles-kings,Jesper Boqvist,Right Wing,rw,Forwards 4,f4,70.0,,False,2025-12-17
+florida-panthers,los-angeles-kings,Gustav Forsling,Left Defense,ld,Defense 1,d1,42.0,,True,2025-12-17
 florida-panthers,los-angeles-kings,Aaron Ekblad,Right Defense,rd,Defense 1,d1,5.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Niko Mikkola,Left Defense,ld,Defense 2,d2,77.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Seth Jones,Right Defense,rd,Defense 2,d2,3.0,,False,2025-12-17
@@ -2005,8 +1937,16 @@ florida-panthers,los-angeles-kings,Anton Lundell,Skater 2,sk2,2nd Powerplay Unit
 florida-panthers,los-angeles-kings,Mackie Samoskevich,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Evan Rodrigues,Skater 4,sk4,2nd Powerplay Unit,pp2,17.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Aaron Ekblad,Skater 5,sk5,2nd Powerplay Unit,pp2,5.0,,False,2025-12-17
+florida-panthers,los-angeles-kings,Matthew Tkachuk,Injured Reserve 1,ir1,Injured Reserve,ir,19.0,ir,False,2025-12-17
+florida-panthers,los-angeles-kings,Aleksander Barkov,Injured Reserve 2,ir2,Injured Reserve,ir,16.0,ir,False,2025-12-17
+florida-panthers,los-angeles-kings,Dmitry Kulikov,Injured Reserve 3,ir3,Injured Reserve,ir,7.0,ir,False,2025-12-17
+florida-panthers,los-angeles-kings,Jonah Gadjovich,Injured Reserve 4,ir4,Injured Reserve,ir,12.0,ir,False,2025-12-17
+florida-panthers,los-angeles-kings,Tomas Nosek,Injured Reserve 5,ir5,Injured Reserve,ir,92.0,out,False,2025-12-17
+florida-panthers,los-angeles-kings,Cole Schwindt,Injured Reserve 6,ir6,Injured Reserve,ir,79.0,out,False,2025-12-17
+florida-panthers,los-angeles-kings,Gustav Forsling,Injured Reserve 7,ir7,Injured Reserve,ir,42.0,out,False,2025-12-17
 florida-panthers,los-angeles-kings,Evan Rodrigues,Skater 1,sk1,1st Penalty Kill Unit,pk1,17.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Sam Reinhart,Skater 2,sk2,1st Penalty Kill Unit,pk1,13.0,,False,2025-12-17
+florida-panthers,los-angeles-kings,Gustav Forsling,Skater 3,sk3,1st Penalty Kill Unit,pk1,42.0,,True,2025-12-17
 florida-panthers,los-angeles-kings,Aaron Ekblad,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Anton Lundell,Skater 1,sk1,2nd Penalty Kill Unit,pk2,15.0,,False,2025-12-17
 florida-panthers,los-angeles-kings,Brad Marchand,Skater 2,sk2,2nd Penalty Kill Unit,pk2,63.0,,False,2025-12-17
@@ -2040,6 +1980,9 @@ los-angeles-kings,florida-panthers,Alex Laferriere,Skater 2,sk2,2nd Powerplay Un
 los-angeles-kings,florida-panthers,Corey Perry,Skater 3,sk3,2nd Powerplay Unit,pp2,90.0,,False,2025-12-17
 los-angeles-kings,florida-panthers,Alex Turcotte,Skater 4,sk4,2nd Powerplay Unit,pp2,15.0,,False,2025-12-17
 los-angeles-kings,florida-panthers,Brandt Clarke,Skater 5,sk5,2nd Powerplay Unit,pp2,92.0,,False,2025-12-17
+los-angeles-kings,florida-panthers,Phillip Danault,Injured Reserve 1,ir1,Injured Reserve,ir,24.0,dtd,False,2025-12-17
+los-angeles-kings,florida-panthers,Quinton Byfield,Injured Reserve 2,ir2,Injured Reserve,ir,55.0,dtd,False,2025-12-17
+los-angeles-kings,florida-panthers,Darcy Kuemper,Injured Reserve 3,ir3,Injured Reserve,ir,35.0,ir,False,2025-12-17
 los-angeles-kings,florida-panthers,Alex Laferriere,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-17
 los-angeles-kings,florida-panthers,Trevor Moore,Skater 2,sk2,1st Penalty Kill Unit,pk1,12.0,,False,2025-12-17
 los-angeles-kings,florida-panthers,Mikey Anderson,Skater 3,sk3,1st Penalty Kill Unit,pk1,44.0,,False,2025-12-17
@@ -2076,6 +2019,10 @@ nashville-predators,carolina-hurricanes,Erik Haula,Skater 2,sk2,2nd Powerplay Un
 nashville-predators,carolina-hurricanes,Matthew Wood,Skater 3,sk3,2nd Powerplay Unit,pp2,71.0,,False,2025-12-17
 nashville-predators,carolina-hurricanes,Nick Blankenburg,Skater 4,sk4,2nd Powerplay Unit,pp2,37.0,,False,2025-12-17
 nashville-predators,carolina-hurricanes,Luke Evangelista,Skater 5,sk5,2nd Powerplay Unit,pp2,77.0,,False,2025-12-17
+nashville-predators,carolina-hurricanes,Cole Smith,Injured Reserve 1,ir1,Injured Reserve,ir,36.0,ir,False,2025-12-17
+nashville-predators,carolina-hurricanes,Zachary L'Heureux,Injured Reserve 2,ir2,Injured Reserve,ir,68.0,out,False,2025-12-17
+nashville-predators,carolina-hurricanes,Ozzy Wiesblatt,Injured Reserve 4,ir4,Injured Reserve,ir,89.0,ir,False,2025-12-17
+nashville-predators,carolina-hurricanes,Justin Barron,Injured Reserve 5,ir5,Injured Reserve,ir,20.0,ir,False,2025-12-17
 nashville-predators,carolina-hurricanes,Erik Haula,Skater 1,sk1,1st Penalty Kill Unit,pk1,56.0,,False,2025-12-17
 nashville-predators,carolina-hurricanes,Michael McCarron,Skater 2,sk2,1st Penalty Kill Unit,pk1,47.0,,False,2025-12-17
 nashville-predators,carolina-hurricanes,Brady Skjei,Skater 3,sk3,1st Penalty Kill Unit,pk1,76.0,,False,2025-12-17
@@ -2112,6 +2059,14 @@ new-jersey-devils,vegas-golden-knights,Cody Glass,Skater 2,sk2,2nd Powerplay Uni
 new-jersey-devils,vegas-golden-knights,Connor Brown,Skater 3,sk3,2nd Powerplay Unit,pp2,16.0,,False,2025-12-17
 new-jersey-devils,vegas-golden-knights,Dawson Mercer,Skater 4,sk4,2nd Powerplay Unit,pp2,91.0,,False,2025-12-17
 new-jersey-devils,vegas-golden-knights,Dougie Hamilton,Skater 5,sk5,2nd Powerplay Unit,pp2,7.0,,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Jack Hughes,Injured Reserve 1,ir1,Injured Reserve,ir,86.0,ir,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Brett Pesce,Injured Reserve 2,ir2,Injured Reserve,ir,22.0,ir,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Zack MacEwen,Injured Reserve 3,ir3,Injured Reserve,ir,,ir,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Johnathan Kovacevic,Injured Reserve 4,ir4,Injured Reserve,ir,8.0,ir,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Evgenii Dadonov,Injured Reserve 5,ir5,Injured Reserve,ir,33.0,ir,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Timo Meier,Injured Reserve 6,ir6,Injured Reserve,ir,28.0,out,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Arseny Gritsyuk,Injured Reserve 7,ir7,Injured Reserve,ir,81.0,dtd,False,2025-12-17
+new-jersey-devils,vegas-golden-knights,Simon Nemec,Injured Reserve 8,ir8,Injured Reserve,ir,17.0,ir,False,2025-12-17
 new-jersey-devils,vegas-golden-knights,Luke Glendening,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-17
 new-jersey-devils,vegas-golden-knights,Connor Brown,Skater 2,sk2,1st Penalty Kill Unit,pk1,16.0,,False,2025-12-17
 new-jersey-devils,vegas-golden-knights,Brenden Dillon,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-17
@@ -2148,6 +2103,12 @@ st-louis-blues,winnipeg-jets,Oskar Sundqvist,Skater 2,sk2,2nd Powerplay Unit,pp2
 st-louis-blues,winnipeg-jets,Brayden Schenn,Skater 3,sk3,2nd Powerplay Unit,pp2,10.0,,False,2025-12-17
 st-louis-blues,winnipeg-jets,Justin Faulk,Skater 4,sk4,2nd Powerplay Unit,pp2,72.0,,False,2025-12-17
 st-louis-blues,winnipeg-jets,Logan Mailloux,Skater 5,sk5,2nd Powerplay Unit,pp2,23.0,,False,2025-12-17
+st-louis-blues,winnipeg-jets,Torey Krug,Injured Reserve 1,ir1,Injured Reserve,ir,47.0,ir,False,2025-12-17
+st-louis-blues,winnipeg-jets,Alexey Toropchenko,Injured Reserve 2,ir2,Injured Reserve,ir,13.0,out,False,2025-12-17
+st-louis-blues,winnipeg-jets,Jimmy Snuggerud,Injured Reserve 3,ir3,Injured Reserve,ir,21.0,out,False,2025-12-17
+st-louis-blues,winnipeg-jets,Jordan Kyrou,Injured Reserve 4,ir4,Injured Reserve,ir,25.0,ir,False,2025-12-17
+st-louis-blues,winnipeg-jets,Nick Bjugstad,Injured Reserve 5,ir5,Injured Reserve,ir,77.0,ir,False,2025-12-17
+st-louis-blues,winnipeg-jets,Dylan Holloway,Injured Reserve 6,ir6,Injured Reserve,ir,81.0,out,False,2025-12-17
 st-louis-blues,winnipeg-jets,Oskar Sundqvist,Skater 1,sk1,1st Penalty Kill Unit,pk1,70.0,,False,2025-12-17
 st-louis-blues,winnipeg-jets,Mathieu Joseph,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-17
 st-louis-blues,winnipeg-jets,Philip Broberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-17
@@ -2184,6 +2145,9 @@ utah-hockey-club,detroit-red-wings,Barrett Hayton,Skater 2,sk2,2nd Powerplay Uni
 utah-hockey-club,detroit-red-wings,Lawson Crouse,Skater 3,sk3,2nd Powerplay Unit,pp2,67.0,,False,2025-12-17
 utah-hockey-club,detroit-red-wings,Michael Carcone,Skater 4,sk4,2nd Powerplay Unit,pp2,53.0,,False,2025-12-17
 utah-hockey-club,detroit-red-wings,Sean Durzi,Skater 5,sk5,2nd Powerplay Unit,pp2,50.0,,False,2025-12-17
+utah-hockey-club,detroit-red-wings,Alex Kerfoot,Injured Reserve 1,ir1,Injured Reserve,ir,15.0,ir,False,2025-12-17
+utah-hockey-club,detroit-red-wings,Juuso Valimaki,Injured Reserve 2,ir2,Injured Reserve,ir,4.0,ir,False,2025-12-17
+utah-hockey-club,detroit-red-wings,Logan Cooley,Injured Reserve 3,ir3,Injured Reserve,ir,92.0,out,False,2025-12-17
 utah-hockey-club,detroit-red-wings,Kevin Stenlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,82.0,,False,2025-12-17
 utah-hockey-club,detroit-red-wings,Lawson Crouse,Skater 2,sk2,1st Penalty Kill Unit,pk1,67.0,,False,2025-12-17
 utah-hockey-club,detroit-red-wings,Mikhail Sergachev,Skater 3,sk3,1st Penalty Kill Unit,pk1,98.0,,False,2025-12-17
@@ -2193,27 +2157,41 @@ utah-hockey-club,detroit-red-wings,Nick Schmaltz,Skater 2,sk2,2nd Penalty Kill U
 utah-hockey-club,detroit-red-wings,Nate Schmidt,Skater 3,sk3,2nd Penalty Kill Unit,pk2,88.0,,False,2025-12-17
 utah-hockey-club,detroit-red-wings,John Marino,Skater 4,sk4,2nd Penalty Kill Unit,pk2,6.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Ivan Barbashev,Left Wing,lw,Forwards 1,f1,49.0,,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Jack Eichel,Center,c,Forwards 1,f1,9.0,,True,2025-12-17
 vegas-golden-knights,new-jersey-devils,Mark Stone,Right Wing,rw,Forwards 1,f1,61.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Mitch Marner,Left Wing,lw,Forwards 2,f2,16.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Brett Howden,Center,c,Forwards 2,f2,21.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Braeden Bowman,Right Wing,rw,Forwards 2,f2,42.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Brandon Saad,Left Wing,lw,Forwards 3,f3,20.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Tomas Hertl,Center,c,Forwards 3,f3,48.0,,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Pavel Dorofeyev,Right Wing,rw,Forwards 3,f3,16.0,,True,2025-12-17
 vegas-golden-knights,new-jersey-devils,Cole Reinhardt,Left Wing,lw,Forwards 4,f4,23.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Colton Sissons,Center,c,Forwards 4,f4,10.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Keegan Kolesar,Right Wing,rw,Forwards 4,f4,55.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Brayden McNabb,Left Defense,ld,Defense 1,d1,3.0,,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Shea Theodore,Right Defense,rd,Defense 1,d1,27.0,,True,2025-12-17
 vegas-golden-knights,new-jersey-devils,Noah Hanifin,Left Defense,ld,Defense 2,d2,15.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Zach Whitecloud,Right Defense,rd,Defense 2,d2,2.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Ben Hutton,Left Defense,ld,Defense 3,d3,17.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Kaedan Korczak,Right Defense,rd,Defense 3,d3,6.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Mark Stone,Skater 1,sk1,1st Powerplay Unit,pp1,61.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Tomas Hertl,Skater 2,sk2,1st Powerplay Unit,pp1,48.0,,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Pavel Dorofeyev,Skater 3,sk3,1st Powerplay Unit,pp1,16.0,,True,2025-12-17
+vegas-golden-knights,new-jersey-devils,Jack Eichel,Skater 4,sk4,1st Powerplay Unit,pp1,9.0,,True,2025-12-17
 vegas-golden-knights,new-jersey-devils,Mitch Marner,Skater 5,sk5,1st Powerplay Unit,pp1,16.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Braeden Bowman,Skater 1,sk1,2nd Powerplay Unit,pp2,42.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Colton Sissons,Skater 2,sk2,2nd Powerplay Unit,pp2,10.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Ivan Barbashev,Skater 3,sk3,2nd Powerplay Unit,pp2,49.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Noah Hanifin,Skater 4,sk4,2nd Powerplay Unit,pp2,15.0,,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Shea Theodore,Skater 5,sk5,2nd Powerplay Unit,pp2,27.0,,True,2025-12-17
+vegas-golden-knights,new-jersey-devils,Alex Pietrangelo,Injured Reserve 1,ir1,Injured Reserve,ir,7.0,ir,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Pavel Dorofeyev,Injured Reserve 2,ir2,Injured Reserve,ir,16.0,dtd,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Adin Hill,Injured Reserve 3,ir3,Injured Reserve,ir,33.0,ir,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,William Karlsson,Injured Reserve 4,ir4,Injured Reserve,ir,71.0,ir,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Jeremy Lauzon,Injured Reserve 5,ir5,Injured Reserve,ir,3.0,ir,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Shea Theodore,Injured Reserve 6,ir6,Injured Reserve,ir,27.0,dtd,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Jack Eichel,Injured Reserve 7,ir7,Injured Reserve,ir,9.0,dtd,False,2025-12-17
+vegas-golden-knights,new-jersey-devils,Jack Eichel,Skater 1,sk1,1st Penalty Kill Unit,pk1,9.0,,True,2025-12-17
 vegas-golden-knights,new-jersey-devils,Mark Stone,Skater 2,sk2,1st Penalty Kill Unit,pk1,61.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Noah Hanifin,Skater 3,sk3,1st Penalty Kill Unit,pk1,15.0,,False,2025-12-17
 vegas-golden-knights,new-jersey-devils,Zach Whitecloud,Skater 4,sk4,1st Penalty Kill Unit,pk1,2.0,,False,2025-12-17
@@ -2249,6 +2227,7 @@ winnipeg-jets,st-louis-blues,Jonathan Toews,Skater 2,sk2,2nd Powerplay Unit,pp2,
 winnipeg-jets,st-louis-blues,Gustav Nyquist,Skater 3,sk3,2nd Powerplay Unit,pp2,14.0,,False,2025-12-17
 winnipeg-jets,st-louis-blues,Neal Pionk,Skater 4,sk4,2nd Powerplay Unit,pp2,4.0,,False,2025-12-17
 winnipeg-jets,st-louis-blues,Vladislav Namestnikov,Skater 5,sk5,2nd Powerplay Unit,pp2,7.0,,False,2025-12-17
+winnipeg-jets,st-louis-blues,Haydn Fleury,Injured Reserve 1,ir1,Injured Reserve,ir,24.0,ir,False,2025-12-17
 winnipeg-jets,st-louis-blues,Morgan Barron,Skater 1,sk1,1st Penalty Kill Unit,pk1,36.0,,False,2025-12-17
 winnipeg-jets,st-louis-blues,Vladislav Namestnikov,Skater 2,sk2,1st Penalty Kill Unit,pk1,7.0,,False,2025-12-17
 winnipeg-jets,st-louis-blues,Dylan Samberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,54.0,,False,2025-12-17

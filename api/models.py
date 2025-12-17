@@ -13,9 +13,12 @@ class Prediction(BaseModel):
     game_time: str
     away_team: str
     home_team: str
+    away_team_abbrev: Optional[str] = None
+    home_team_abbrev: Optional[str] = None
     player_id: int
     player_name: str
     player_team: str
+    player_team_name: Optional[str] = None
     line: float
     over_odds: int
     under_odds: int
@@ -110,7 +113,8 @@ class PlayerGamesResponse(BaseModel):
     """Response containing player's recent games"""
     player_id: int
     player_name: str
-    team: str
+    team_abbrev: str
+    team_name: str
     headshot_url: str
     team_logo_url: str
     primary_color: str
