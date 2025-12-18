@@ -2236,3 +2236,806 @@ winnipeg-jets,st-louis-blues,Adam Lowry,Skater 1,sk1,2nd Penalty Kill Unit,pk2,1
 winnipeg-jets,st-louis-blues,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2025-12-17
 winnipeg-jets,st-louis-blues,Logan Stanley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,64.0,,False,2025-12-17
 winnipeg-jets,st-louis-blues,Neal Pionk,Skater 4,sk4,2nd Penalty Kill Unit,pk2,4.0,,False,2025-12-17
+boston-bruins,edmonton-oilers,Morgan Geekie,Left Wing,lw,Forwards 1,f1,39.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Elias Lindholm,Center,c,Forwards 1,f1,28.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,David Pastrnak,Right Wing,rw,Forwards 1,f1,88.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Casey Mittelstadt,Left Wing,lw,Forwards 2,f2,11.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Pavel Zacha,Center,c,Forwards 2,f2,18.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Marat Khusnutdinov,Right Wing,rw,Forwards 2,f2,92.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Alexander Steeves,Left Wing,lw,Forwards 3,f3,21.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Fraser Minten,Center,c,Forwards 3,f3,93.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Michael Eyssimont,Right Wing,rw,Forwards 3,f3,81.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Jeffrey Viel,Left Wing,lw,Forwards 4,f4,48.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Sean Kuraly,Center,c,Forwards 4,f4,7.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Mark Kastelic,Right Wing,rw,Forwards 4,f4,47.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Nikita Zadorov,Left Defense,ld,Defense 1,d1,91.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Charlie McAvoy,Right Defense,rd,Defense 1,d1,73.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Hampus Lindholm,Left Defense,ld,Defense 2,d2,27.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Andrew Peeke,Right Defense,rd,Defense 2,d2,52.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Mason Lohrei,Left Defense,ld,Defense 3,d3,6.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Victor Soderstrom,Right Defense,rd,Defense 3,d3,,,False,2025-12-18
+boston-bruins,edmonton-oilers,Morgan Geekie,Skater 1,sk1,1st Powerplay Unit,pp1,39.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Elias Lindholm,Skater 2,sk2,1st Powerplay Unit,pp1,28.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Pavel Zacha,Skater 3,sk3,1st Powerplay Unit,pp1,18.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,David Pastrnak,Skater 4,sk4,1st Powerplay Unit,pp1,88.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Charlie McAvoy,Skater 5,sk5,1st Powerplay Unit,pp1,73.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Casey Mittelstadt,Skater 1,sk1,2nd Powerplay Unit,pp2,11.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Alexander Steeves,Skater 2,sk2,2nd Powerplay Unit,pp2,21.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Michael Eyssimont,Skater 3,sk3,2nd Powerplay Unit,pp2,81.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Mason Lohrei,Skater 4,sk4,2nd Powerplay Unit,pp2,6.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Hampus Lindholm,Skater 5,sk5,2nd Powerplay Unit,pp2,27.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Jordan Harris,Injured Reserve 1,ir1,Injured Reserve,ir,43.0,ir,False,2025-12-18
+boston-bruins,edmonton-oilers,Matej Blumel,Injured Reserve 2,ir2,Injured Reserve,ir,13.0,ir,False,2025-12-18
+boston-bruins,edmonton-oilers,Jonathan Aspirot,Injured Reserve 3,ir3,Injured Reserve,ir,45.0,ir,False,2025-12-18
+boston-bruins,edmonton-oilers,Michael Callahan,Injured Reserve 4,ir4,Injured Reserve,ir,79.0,ir,False,2025-12-18
+boston-bruins,edmonton-oilers,Viktor Arvidsson,Injured Reserve 5,ir5,Injured Reserve,ir,71.0,dtd,False,2025-12-18
+boston-bruins,edmonton-oilers,Tanner Jeannot,Injured Reserve 6,ir6,Injured Reserve,ir,84.0,dtd,False,2025-12-18
+boston-bruins,edmonton-oilers,Fraser Minten,Skater 1,sk1,1st Penalty Kill Unit,pk1,93.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Pavel Zacha,Skater 2,sk2,1st Penalty Kill Unit,pk1,18.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Hampus Lindholm,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Andrew Peeke,Skater 4,sk4,1st Penalty Kill Unit,pk1,52.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Sean Kuraly,Skater 1,sk1,2nd Penalty Kill Unit,pk2,7.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Mark Kastelic,Skater 2,sk2,2nd Penalty Kill Unit,pk2,47.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Nikita Zadorov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,91.0,,False,2025-12-18
+boston-bruins,edmonton-oilers,Charlie McAvoy,Skater 4,sk4,2nd Penalty Kill Unit,pk2,73.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Tyson Kozak,Left Wing,lw,Forwards 1,f1,48.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Tage Thompson,Center,c,Forwards 1,f1,72.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Josh Doan,Right Wing,rw,Forwards 1,f1,91.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Noah Ostlund,Left Wing,lw,Forwards 2,f2,86.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Josh Norris,Center,c,Forwards 2,f2,9.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Alex Tuch,Right Wing,rw,Forwards 2,f2,89.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Zach Benson,Left Wing,lw,Forwards 3,f3,6.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Ryan McLeod,Center,c,Forwards 3,f3,71.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Jack Quinn,Right Wing,rw,Forwards 3,f3,22.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Beck Malenstyn,Left Wing,lw,Forwards 4,f4,29.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Josh Dunne,Center,c,Forwards 4,f4,,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Jordan Greenway,Right Wing,rw,Forwards 4,f4,12.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Rasmus Dahlin,Left Defense,ld,Defense 1,d1,26.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Mattias Samuelsson,Right Defense,rd,Defense 1,d1,23.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Bowen Byram,Left Defense,ld,Defense 2,d2,4.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Conor Timmins,Right Defense,rd,Defense 2,d2,21.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Owen Power,Left Defense,ld,Defense 3,d3,25.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Michael Kesselring,Right Defense,rd,Defense 3,d3,8.0,,True,2025-12-18
+buffalo-sabres,philadelphia-flyers,Josh Doan,Skater 1,sk1,1st Powerplay Unit,pp1,91.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Josh Norris,Skater 2,sk2,1st Powerplay Unit,pp1,9.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Zach Benson,Skater 3,sk3,1st Powerplay Unit,pp1,6.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Tage Thompson,Skater 4,sk4,1st Powerplay Unit,pp1,72.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Rasmus Dahlin,Skater 5,sk5,1st Powerplay Unit,pp1,26.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Alex Tuch,Skater 1,sk1,2nd Powerplay Unit,pp2,89.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Ryan McLeod,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Jack Quinn,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Owen Power,Skater 4,sk4,2nd Powerplay Unit,pp2,25.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Bowen Byram,Skater 5,sk5,2nd Powerplay Unit,pp2,4.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Justin Danforth,Injured Reserve 2,ir2,Injured Reserve,ir,15.0,ir,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Jiri Kulich,Injured Reserve 3,ir3,Injured Reserve,ir,20.0,ir,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Michael Kesselring,Injured Reserve 4,ir4,Injured Reserve,ir,8.0,ir,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Jason Zucker,Injured Reserve 5,ir5,Injured Reserve,ir,17.0,ir,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Colten Ellis,Injured Reserve 7,ir7,Injured Reserve,ir,92.0,ir,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Peyton Krebs,Injured Reserve 8,ir8,Injured Reserve,ir,19.0,dtd,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Ryan McLeod,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Jordan Greenway,Skater 2,sk2,1st Penalty Kill Unit,pk1,12.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Owen Power,Skater 3,sk3,1st Penalty Kill Unit,pk1,25.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Conor Timmins,Skater 4,sk4,1st Penalty Kill Unit,pk1,21.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Tyson Kozak,Skater 1,sk1,2nd Penalty Kill Unit,pk2,48.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Beck Malenstyn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,29.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Mattias Samuelsson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,23.0,,False,2025-12-18
+buffalo-sabres,philadelphia-flyers,Rasmus Dahlin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,26.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Jonathan Huberdeau,Left Wing,lw,Forwards 1,f1,10.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Morgan Frost,Center,c,Forwards 1,f1,48.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Matt Coronato,Right Wing,rw,Forwards 1,f1,27.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Joel Farabee,Left Wing,lw,Forwards 2,f2,86.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Nazem Kadri,Center,c,Forwards 2,f2,91.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Yegor Sharangovich,Right Wing,rw,Forwards 2,f2,17.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Connor Zary,Left Wing,lw,Forwards 3,f3,47.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Mikael Backlund,Center,c,Forwards 3,f3,11.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Blake Coleman,Right Wing,rw,Forwards 3,f3,20.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Ryan Lomberg,Left Wing,lw,Forwards 4,f4,70.0,,False,2025-12-18
+calgary-flames,seattle-kraken,John Beecher,Center,c,Forwards 4,f4,18.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Adam Klapka,Right Wing,rw,Forwards 4,f4,43.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Kevin Bahl,Left Defense,ld,Defense 1,d1,7.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Rasmus Andersson,Right Defense,rd,Defense 1,d1,4.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Yan Kuznetsov,Left Defense,ld,Defense 2,d2,37.0,,False,2025-12-18
+calgary-flames,seattle-kraken,MacKenzie Weegar,Right Defense,rd,Defense 2,d2,52.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Joel Hanley,Left Defense,ld,Defense 3,d3,44.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Hunter Brzustewicz,Right Defense,rd,Defense 3,d3,,,False,2025-12-18
+calgary-flames,seattle-kraken,Morgan Frost,Skater 1,sk1,1st Powerplay Unit,pp1,48.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Nazem Kadri,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Jonathan Huberdeau,Skater 3,sk3,1st Powerplay Unit,pp1,10.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Matt Coronato,Skater 4,sk4,1st Powerplay Unit,pp1,27.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Rasmus Andersson,Skater 5,sk5,1st Powerplay Unit,pp1,4.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Blake Coleman,Skater 1,sk1,2nd Powerplay Unit,pp2,20.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Mikael Backlund,Skater 2,sk2,2nd Powerplay Unit,pp2,11.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Connor Zary,Skater 3,sk3,2nd Powerplay Unit,pp2,47.0,,False,2025-12-18
+calgary-flames,seattle-kraken,MacKenzie Weegar,Skater 4,sk4,2nd Powerplay Unit,pp2,52.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Yegor Sharangovich,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Martin Pospisil,Injured Reserve 1,ir1,Injured Reserve,ir,76.0,ir,False,2025-12-18
+calgary-flames,seattle-kraken,Zayne Parekh,Injured Reserve 2,ir2,Injured Reserve,ir,89.0,ir,False,2025-12-18
+calgary-flames,seattle-kraken,Samuel Honzek,Injured Reserve 3,ir3,Injured Reserve,ir,29.0,ir,False,2025-12-18
+calgary-flames,seattle-kraken,Jake Bean,Injured Reserve 4,ir4,Injured Reserve,ir,24.0,ir,False,2025-12-18
+calgary-flames,seattle-kraken,Mikael Backlund,Injured Reserve 5,ir5,Injured Reserve,ir,11.0,dtd,False,2025-12-18
+calgary-flames,seattle-kraken,Mikael Backlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,11.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Blake Coleman,Skater 2,sk2,1st Penalty Kill Unit,pk1,20.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Kevin Bahl,Skater 3,sk3,1st Penalty Kill Unit,pk1,7.0,,False,2025-12-18
+calgary-flames,seattle-kraken,MacKenzie Weegar,Skater 4,sk4,1st Penalty Kill Unit,pk1,52.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Jonathan Huberdeau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,10.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Joel Farabee,Skater 2,sk2,2nd Penalty Kill Unit,pk2,86.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Yan Kuznetsov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,37.0,,False,2025-12-18
+calgary-flames,seattle-kraken,Rasmus Andersson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,4.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Tyler Bertuzzi,Left Wing,lw,Forwards 1,f1,59.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Frank Nazar,Center,c,Forwards 1,f1,,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Andre Burakovsky,Right Wing,rw,Forwards 1,f1,28.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Teuvo Teravainen,Left Wing,lw,Forwards 2,f2,86.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Jason Dickinson,Center,c,Forwards 2,f2,16.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ilya Mikheyev,Right Wing,rw,Forwards 2,f2,95.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Oliver Moore,Left Wing,lw,Forwards 3,f3,11.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ryan Greene,Center,c,Forwards 3,f3,20.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Nick Lardis,Right Wing,rw,Forwards 3,f3,76.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Colton Dach,Left Wing,lw,Forwards 4,f4,34.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Dominic Toninato,Center,c,Forwards 4,f4,,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ryan Donato,Right Wing,rw,Forwards 4,f4,8.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Alex Vlasic,Left Defense,ld,Defense 1,d1,72.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Louis Crevier,Right Defense,rd,Defense 1,d1,46.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Wyatt Kaiser,Left Defense,ld,Defense 2,d2,,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Matt Grzelcyk,Right Defense,rd,Defense 2,d2,24.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ethan Del Mastro,Left Defense,ld,Defense 3,d3,38.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Connor Murphy,Right Defense,rd,Defense 3,d3,5.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Tyler Bertuzzi,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Frank Nazar,Skater 2,sk2,1st Powerplay Unit,pp1,,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Nick Lardis,Skater 3,sk3,1st Powerplay Unit,pp1,76.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Andre Burakovsky,Skater 4,sk4,1st Powerplay Unit,pp1,28.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Matt Grzelcyk,Skater 5,sk5,1st Powerplay Unit,pp1,24.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Colton Dach,Skater 1,sk1,2nd Powerplay Unit,pp2,34.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ryan Greene,Skater 2,sk2,2nd Powerplay Unit,pp2,20.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ryan Donato,Skater 3,sk3,2nd Powerplay Unit,pp2,8.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Wyatt Kaiser,Skater 4,sk4,2nd Powerplay Unit,pp2,,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Teuvo Teravainen,Skater 5,sk5,2nd Powerplay Unit,pp2,86.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Laurent Brossoit,Injured Reserve 1,ir1,Injured Reserve,ir,39.0,ir,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Nick Foligno,Injured Reserve 2,ir2,Injured Reserve,ir,17.0,ir,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Connor Bedard,Injured Reserve 3,ir3,Injured Reserve,ir,98.0,out,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Jason Dickinson,Skater 1,sk1,1st Penalty Kill Unit,pk1,16.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ilya Mikheyev,Skater 2,sk2,1st Penalty Kill Unit,pk1,95.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Alex Vlasic,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Connor Murphy,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Ryan Greene,Skater 1,sk1,2nd Penalty Kill Unit,pk2,20.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Teuvo Teravainen,Skater 2,sk2,2nd Penalty Kill Unit,pk2,86.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Matt Grzelcyk,Skater 3,sk3,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-18
+chicago-blackhawks,montreal-canadiens,Louis Crevier,Skater 4,sk4,2nd Penalty Kill Unit,pk2,46.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Dmitri Voronkov,Left Wing,lw,Forwards 1,f1,10.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Adam Fantilli,Center,c,Forwards 1,f1,19.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Kirill Marchenko,Right Wing,rw,Forwards 1,f1,86.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Boone Jenner,Left Wing,lw,Forwards 2,f2,38.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Sean Monahan,Center,c,Forwards 2,f2,23.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Yegor Chinakhov,Right Wing,rw,Forwards 2,f2,59.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Miles Wood,Left Wing,lw,Forwards 3,f3,28.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Charlie Coyle,Center,c,Forwards 3,f3,3.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Cole Sillinger,Right Wing,rw,Forwards 3,f3,4.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Isac Lundestrom,Left Wing,lw,Forwards 4,f4,21.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Brendan Gaunce,Center,c,Forwards 4,f4,16.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Kent Johnson,Right Wing,rw,Forwards 4,f4,91.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Zach Werenski,Left Defense,ld,Defense 1,d1,8.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Denton Mateychuk,Right Defense,rd,Defense 1,d1,5.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Ivan Provorov,Left Defense,ld,Defense 2,d2,9.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Damon Severson,Right Defense,rd,Defense 2,d2,78.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Brendan Smith,Left Defense,ld,Defense 3,d3,2.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Dante Fabbro,Right Defense,rd,Defense 3,d3,15.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Dmitri Voronkov,Skater 1,sk1,1st Powerplay Unit,pp1,10.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Adam Fantilli,Skater 2,sk2,1st Powerplay Unit,pp1,19.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Yegor Chinakhov,Skater 3,sk3,1st Powerplay Unit,pp1,59.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Kirill Marchenko,Skater 4,sk4,1st Powerplay Unit,pp1,86.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Zach Werenski,Skater 5,sk5,1st Powerplay Unit,pp1,8.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Charlie Coyle,Skater 1,sk1,2nd Powerplay Unit,pp2,3.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Sean Monahan,Skater 2,sk2,2nd Powerplay Unit,pp2,23.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Boone Jenner,Skater 3,sk3,2nd Powerplay Unit,pp2,38.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Ivan Provorov,Skater 4,sk4,2nd Powerplay Unit,pp2,9.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Zach Werenski,Skater 5,sk5,2nd Powerplay Unit,pp2,8.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Erik Gudbranson,Injured Reserve 1,ir1,Injured Reserve,ir,44.0,ir,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Mathieu Olivier,Injured Reserve 2,ir2,Injured Reserve,ir,24.0,ir,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Sean Monahan,Skater 1,sk1,1st Penalty Kill Unit,pk1,23.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Brendan Gaunce,Skater 2,sk2,1st Penalty Kill Unit,pk1,16.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Denton Mateychuk,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Ivan Provorov,Skater 4,sk4,1st Penalty Kill Unit,pk1,9.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Isac Lundestrom,Skater 1,sk1,2nd Penalty Kill Unit,pk2,21.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Miles Wood,Skater 2,sk2,2nd Penalty Kill Unit,pk2,28.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Zach Werenski,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False,2025-12-18
+columbus-blue-jackets,minnesota-wild,Dante Fabbro,Skater 4,sk4,2nd Penalty Kill Unit,pk2,15.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Jason Robertson,Left Wing,lw,Forwards 1,f1,21.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Roope Hintz,Center,c,Forwards 1,f1,24.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Jamie Benn,Right Wing,rw,Forwards 1,f1,14.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Matt Duchene,Left Wing,lw,Forwards 2,f2,95.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Wyatt Johnston,Center,c,Forwards 2,f2,53.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Mikko Rantanen,Right Wing,rw,Forwards 2,f2,96.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Justin Hryckowian,Left Wing,lw,Forwards 3,f3,49.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Sam Steel,Center,c,Forwards 3,f3,18.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Mavrik Bourque,Right Wing,rw,Forwards 3,f3,22.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Oskar Back,Left Wing,lw,Forwards 4,f4,10.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Radek Faksa,Center,c,Forwards 4,f4,12.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Colin Blackwell,Right Wing,rw,Forwards 4,f4,15.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Esa Lindell,Left Defense,ld,Defense 1,d1,23.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Miro Heiskanen,Right Defense,rd,Defense 1,d1,4.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Thomas Harley,Left Defense,ld,Defense 2,d2,55.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Alex Petrovic,Right Defense,rd,Defense 2,d2,,,False,2025-12-18
+dallas-stars,san-jose-sharks,Nils Lundkvist,Left Defense,ld,Defense 3,d3,5.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Ilya Lyubushkin,Right Defense,rd,Defense 3,d3,46.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Wyatt Johnston,Skater 1,sk1,1st Powerplay Unit,pp1,53.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Roope Hintz,Skater 2,sk2,1st Powerplay Unit,pp1,24.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Mikko Rantanen,Skater 3,sk3,1st Powerplay Unit,pp1,96.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Jason Robertson,Skater 4,sk4,1st Powerplay Unit,pp1,21.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Miro Heiskanen,Skater 5,sk5,1st Powerplay Unit,pp1,4.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Jamie Benn,Skater 1,sk1,2nd Powerplay Unit,pp2,14.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Matt Duchene,Skater 2,sk2,2nd Powerplay Unit,pp2,95.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Mavrik Bourque,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Thomas Harley,Skater 4,sk4,2nd Powerplay Unit,pp2,55.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Esa Lindell,Skater 5,sk5,2nd Powerplay Unit,pp2,23.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Lian Bichsel,Injured Reserve 1,ir1,Injured Reserve,ir,6.0,out,False,2025-12-18
+dallas-stars,san-jose-sharks,Tyler Seguin,Injured Reserve 3,ir3,Injured Reserve,ir,91.0,out,False,2025-12-18
+dallas-stars,san-jose-sharks,Sam Steel,Skater 1,sk1,1st Penalty Kill Unit,pk1,18.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Oskar Back,Skater 2,sk2,1st Penalty Kill Unit,pk1,10.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Alex Petrovic,Skater 3,sk3,1st Penalty Kill Unit,pk1,,,False,2025-12-18
+dallas-stars,san-jose-sharks,Miro Heiskanen,Skater 4,sk4,1st Penalty Kill Unit,pk1,4.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Radek Faksa,Skater 1,sk1,2nd Penalty Kill Unit,pk2,12.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Colin Blackwell,Skater 2,sk2,2nd Penalty Kill Unit,pk2,15.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Thomas Harley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-18
+dallas-stars,san-jose-sharks,Ilya Lyubushkin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,46.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Ryan Nugent-Hopkins,Left Wing,lw,Forwards 1,f1,93.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Connor McDavid,Center,c,Forwards 1,f1,97.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Zach Hyman,Right Wing,rw,Forwards 1,f1,18.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Vasily Podkolzin,Left Wing,lw,Forwards 2,f2,92.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Leon Draisaitl,Center,c,Forwards 2,f2,29.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Matthew Savoie,Right Wing,rw,Forwards 2,f2,22.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Andrew Mangiapane,Left Wing,lw,Forwards 3,f3,88.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Adam Henrique,Center,c,Forwards 3,f3,19.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Mattias Janmark,Right Wing,rw,Forwards 3,f3,13.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Trent Frederic,Left Wing,lw,Forwards 4,f4,10.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Curtis Lazar,Center,c,Forwards 4,f4,20.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Quinn Hutson,Right Wing,rw,Forwards 4,f4,20.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Mattias Ekholm,Left Defense,ld,Defense 1,d1,14.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Evan Bouchard,Right Defense,rd,Defense 1,d1,2.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Darnell Nurse,Left Defense,ld,Defense 2,d2,25.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Alec Regula,Right Defense,rd,Defense 2,d2,,,False,2025-12-18
+edmonton-oilers,boston-bruins,Spencer Stastney,Left Defense,ld,Defense 3,d3,,,False,2025-12-18
+edmonton-oilers,boston-bruins,Ty Emberson,Right Defense,rd,Defense 3,d3,49.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Zach Hyman,Skater 1,sk1,1st Powerplay Unit,pp1,18.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Ryan Nugent-Hopkins,Skater 2,sk2,1st Powerplay Unit,pp1,93.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Leon Draisaitl,Skater 3,sk3,1st Powerplay Unit,pp1,29.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Connor McDavid,Skater 4,sk4,1st Powerplay Unit,pp1,97.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Evan Bouchard,Skater 5,sk5,1st Powerplay Unit,pp1,2.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Andrew Mangiapane,Skater 1,sk1,2nd Powerplay Unit,pp2,88.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Adam Henrique,Skater 2,sk2,2nd Powerplay Unit,pp2,19.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Matthew Savoie,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Mattias Ekholm,Skater 4,sk4,2nd Powerplay Unit,pp2,14.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Darnell Nurse,Skater 5,sk5,2nd Powerplay Unit,pp2,25.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Jake Walman,Injured Reserve 1,ir1,Injured Reserve,ir,96.0,ir,False,2025-12-18
+edmonton-oilers,boston-bruins,Kasperi Kapanen,Injured Reserve 2,ir2,Injured Reserve,ir,42.0,ir,False,2025-12-18
+edmonton-oilers,boston-bruins,Connor Clattenburg,Injured Reserve 3,ir3,Injured Reserve,ir,64.0,ir,False,2025-12-18
+edmonton-oilers,boston-bruins,Jack Roslovic,Injured Reserve 4,ir4,Injured Reserve,ir,28.0,ir,False,2025-12-18
+edmonton-oilers,boston-bruins,Adam Henrique,Skater 1,sk1,1st Penalty Kill Unit,pk1,19.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Matthew Savoie,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Darnell Nurse,Skater 3,sk3,1st Penalty Kill Unit,pk1,25.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Mattias Ekholm,Skater 4,sk4,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Connor McDavid,Skater 1,sk1,2nd Penalty Kill Unit,pk2,97.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Ryan Nugent-Hopkins,Skater 2,sk2,2nd Penalty Kill Unit,pk2,93.0,,False,2025-12-18
+edmonton-oilers,boston-bruins,Spencer Stastney,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False,2025-12-18
+edmonton-oilers,boston-bruins,Alec Regula,Skater 4,sk4,2nd Penalty Kill Unit,pk2,,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Alex Laferriere,Left Wing,lw,Forwards 1,f1,14.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Anze Kopitar,Center,c,Forwards 1,f1,11.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Adrian Kempe,Right Wing,rw,Forwards 1,f1,9.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Kevin Fiala,Left Wing,lw,Forwards 2,f2,22.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Quinton Byfield,Center,c,Forwards 2,f2,55.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Warren Foegele,Right Wing,rw,Forwards 2,f2,37.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Andrei Kuzmenko,Left Wing,lw,Forwards 3,f3,96.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Alex Turcotte,Center,c,Forwards 3,f3,15.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Trevor Moore,Right Wing,rw,Forwards 3,f3,12.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Joel Armia,Left Wing,lw,Forwards 4,f4,40.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Samuel Helenius,Center,c,Forwards 4,f4,,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Corey Perry,Right Wing,rw,Forwards 4,f4,90.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Mikey Anderson,Left Defense,ld,Defense 1,d1,44.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Drew Doughty,Right Defense,rd,Defense 1,d1,8.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Joel Edmundson,Left Defense,ld,Defense 2,d2,6.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Brandt Clarke,Right Defense,rd,Defense 2,d2,92.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Brian Dumoulin,Left Defense,ld,Defense 3,d3,2.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Cody Ceci,Right Defense,rd,Defense 3,d3,44.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Quinton Byfield,Skater 1,sk1,1st Powerplay Unit,pp1,55.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Anze Kopitar,Skater 2,sk2,1st Powerplay Unit,pp1,11.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Adrian Kempe,Skater 3,sk3,1st Powerplay Unit,pp1,9.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Andrei Kuzmenko,Skater 4,sk4,1st Powerplay Unit,pp1,96.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Kevin Fiala,Skater 5,sk5,1st Powerplay Unit,pp1,22.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Corey Perry,Skater 1,sk1,2nd Powerplay Unit,pp2,90.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Alex Turcotte,Skater 2,sk2,2nd Powerplay Unit,pp2,15.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Alex Laferriere,Skater 3,sk3,2nd Powerplay Unit,pp2,14.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Drew Doughty,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Brandt Clarke,Skater 5,sk5,2nd Powerplay Unit,pp2,92.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Phillip Danault,Injured Reserve 1,ir1,Injured Reserve,ir,24.0,dtd,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Quinton Byfield,Injured Reserve 2,ir2,Injured Reserve,ir,55.0,dtd,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Darcy Kuemper,Injured Reserve 3,ir3,Injured Reserve,ir,35.0,ir,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Alex Laferriere,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Trevor Moore,Skater 2,sk2,1st Penalty Kill Unit,pk1,12.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Mikey Anderson,Skater 3,sk3,1st Penalty Kill Unit,pk1,44.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Joel Edmundson,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Warren Foegele,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Joel Armia,Skater 2,sk2,2nd Penalty Kill Unit,pk2,40.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Brian Dumoulin,Skater 3,sk3,2nd Penalty Kill Unit,pk2,2.0,,False,2025-12-18
+los-angeles-kings,tampa-bay-lightning,Cody Ceci,Skater 4,sk4,2nd Penalty Kill Unit,pk2,44.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Kirill Kaprizov,Left Wing,lw,Forwards 1,f1,97.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Joel Eriksson Ek,Center,c,Forwards 1,f1,14.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Matt Boldy,Right Wing,rw,Forwards 1,f1,12.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Yakov Trenin,Left Wing,lw,Forwards 2,f2,13.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Danila Yurov,Center,c,Forwards 2,f2,22.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Vladimir Tarasenko,Right Wing,rw,Forwards 2,f2,11.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Marcus Foligno,Left Wing,lw,Forwards 3,f3,17.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Ryan Hartman,Center,c,Forwards 3,f3,38.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Nicolas Aube-Kubel,Right Wing,rw,Forwards 3,f3,,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Ben Jones,Left Wing,lw,Forwards 4,f4,39.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Nico Sturm,Center,c,Forwards 4,f4,78.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Tyler Pitlick,Right Wing,rw,Forwards 4,f4,19.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Quinn Hughes,Left Defense,ld,Defense 1,d1,43.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Brock Faber,Right Defense,rd,Defense 1,d1,7.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Daemon Hunt,Left Defense,ld,Defense 2,d2,48.0,,True,2025-12-18
+minnesota-wild,columbus-blue-jackets,Jared Spurgeon,Right Defense,rd,Defense 2,d2,46.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Matt Kiersted,Left Defense,ld,Defense 3,d3,,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,David Jiricek,Right Defense,rd,Defense 3,d3,,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Vladimir Tarasenko,Skater 1,sk1,1st Powerplay Unit,pp1,11.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Joel Eriksson Ek,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Matt Boldy,Skater 3,sk3,1st Powerplay Unit,pp1,12.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Quinn Hughes,Skater 4,sk4,1st Powerplay Unit,pp1,43.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Kirill Kaprizov,Skater 5,sk5,1st Powerplay Unit,pp1,97.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Marcus Foligno,Skater 1,sk1,2nd Powerplay Unit,pp2,17.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Ryan Hartman,Skater 2,sk2,2nd Powerplay Unit,pp2,38.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Danila Yurov,Skater 3,sk3,2nd Powerplay Unit,pp2,22.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Brock Faber,Skater 4,sk4,2nd Powerplay Unit,pp2,7.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Jared Spurgeon,Skater 5,sk5,2nd Powerplay Unit,pp2,46.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Marcus Johansson,Injured Reserve 2,ir2,Injured Reserve,ir,90.0,dtd,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Vinnie Hinostroza,Injured Reserve 3,ir3,Injured Reserve,ir,18.0,ir,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Daemon Hunt,Injured Reserve 4,ir4,Injured Reserve,ir,48.0,dtd,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Mats Zuccarello,Injured Reserve 5,ir5,Injured Reserve,ir,36.0,ir,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Jacob Middleton,Injured Reserve 6,ir6,Injured Reserve,ir,5.0,ir,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Jonas Brodin,Injured Reserve 7,ir7,Injured Reserve,ir,25.0,dtd,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Joel Eriksson Ek,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Matt Boldy,Skater 2,sk2,1st Penalty Kill Unit,pk1,12.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Brock Faber,Skater 3,sk3,1st Penalty Kill Unit,pk1,7.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Jared Spurgeon,Skater 4,sk4,1st Penalty Kill Unit,pk1,46.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Nico Sturm,Skater 1,sk1,2nd Penalty Kill Unit,pk2,78.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Marcus Foligno,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False,2025-12-18
+minnesota-wild,columbus-blue-jackets,Daemon Hunt,Skater 3,sk3,2nd Penalty Kill Unit,pk2,48.0,,True,2025-12-18
+minnesota-wild,columbus-blue-jackets,Zach Bogosian,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Cole Caufield,Left Wing,lw,Forwards 1,f1,13.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Nick Suzuki,Center,c,Forwards 1,f1,14.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Zack Bolduc,Right Wing,rw,Forwards 1,f1,76.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Juraj Slafkovsky,Left Wing,lw,Forwards 2,f2,20.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Oliver Kapanen,Center,c,Forwards 2,f2,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Ivan Demidov,Right Wing,rw,Forwards 2,f2,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Josh Anderson,Left Wing,lw,Forwards 3,f3,17.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Jake Evans,Center,c,Forwards 3,f3,71.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Alexandre Texier,Right Wing,rw,Forwards 3,f3,9.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Owen Beck,Left Wing,lw,Forwards 4,f4,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Joe Veleno,Center,c,Forwards 4,f4,90.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Brendan Gallagher,Right Wing,rw,Forwards 4,f4,11.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Jayden Struble,Left Defense,ld,Defense 1,d1,47.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Noah Dobson,Right Defense,rd,Defense 1,d1,8.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Lane Hutson,Left Defense,ld,Defense 2,d2,48.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Alexandre Carrier,Right Defense,rd,Defense 2,d2,45.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Arber Xhekaj,Left Defense,ld,Defense 3,d3,72.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Adam Engstrom,Right Defense,rd,Defense 3,d3,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Juraj Slafkovsky,Skater 1,sk1,1st Powerplay Unit,pp1,20.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Nick Suzuki,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Ivan Demidov,Skater 3,sk3,1st Powerplay Unit,pp1,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Cole Caufield,Skater 4,sk4,1st Powerplay Unit,pp1,13.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Lane Hutson,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Brendan Gallagher,Skater 1,sk1,2nd Powerplay Unit,pp2,11.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Oliver Kapanen,Skater 2,sk2,2nd Powerplay Unit,pp2,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Zack Bolduc,Skater 3,sk3,2nd Powerplay Unit,pp2,76.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Alexandre Texier,Skater 4,sk4,2nd Powerplay Unit,pp2,9.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Noah Dobson,Skater 5,sk5,2nd Powerplay Unit,pp2,8.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Kaiden Guhle,Injured Reserve 1,ir1,Injured Reserve,ir,21.0,ir,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,David Reinbacher,Injured Reserve 2,ir2,Injured Reserve,ir,64.0,out,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Patrik Laine,Injured Reserve 3,ir3,Injured Reserve,ir,92.0,out,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Alex Newhook,Injured Reserve 4,ir4,Injured Reserve,ir,15.0,out,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Sam Montembeault,Injured Reserve 6,ir6,Injured Reserve,ir,35.0,out,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Mike Matheson,Injured Reserve 7,ir7,Injured Reserve,ir,8.0,dtd,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Jake Evans,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Josh Anderson,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Arber Xhekaj,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Alexandre Carrier,Skater 4,sk4,1st Penalty Kill Unit,pk1,45.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Oliver Kapanen,Skater 1,sk1,2nd Penalty Kill Unit,pk2,,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Joe Veleno,Skater 2,sk2,2nd Penalty Kill Unit,pk2,90.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Lane Hutson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,48.0,,False,2025-12-18
+montreal-canadiens,chicago-blackhawks,Noah Dobson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,8.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Artemi Panarin,Left Wing,lw,Forwards 1,f1,10.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Mika Zibanejad,Center,c,Forwards 1,f1,93.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Alexis Lafrenière,Right Wing,rw,Forwards 1,f1,13.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Will Cuylle,Left Wing,lw,Forwards 2,f2,50.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Vincent Trocheck,Center,c,Forwards 2,f2,16.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,J.T. Miller,Right Wing,rw,Forwards 2,f2,9.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Conor Sheary,Left Wing,lw,Forwards 3,f3,,,False,2025-12-18
+new-york-rangers,st-louis-blues,Noah Laba,Center,c,Forwards 3,f3,42.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Taylor Raddysh,Right Wing,rw,Forwards 3,f3,14.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Jaroslav Chmelar,Left Wing,lw,Forwards 4,f4,49.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Sam Carrick,Center,c,Forwards 4,f4,39.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Matt Rempe,Right Wing,rw,Forwards 4,f4,73.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Vladislav Gavrikov,Left Defense,ld,Defense 1,d1,44.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Braden Schneider,Right Defense,rd,Defense 1,d1,4.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Carson Soucy,Left Defense,ld,Defense 2,d2,24.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Will Borgen,Right Defense,rd,Defense 2,d2,17.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Matthew Robertson,Left Defense,ld,Defense 3,d3,29.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Scott Morrow,Right Defense,rd,Defense 3,d3,60.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Will Cuylle,Skater 1,sk1,1st Powerplay Unit,pp1,50.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Vincent Trocheck,Skater 2,sk2,1st Powerplay Unit,pp1,16.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,J.T. Miller,Skater 3,sk3,1st Powerplay Unit,pp1,9.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Artemi Panarin,Skater 4,sk4,1st Powerplay Unit,pp1,10.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Mika Zibanejad,Skater 5,sk5,1st Powerplay Unit,pp1,93.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Alexis Lafrenière,Skater 1,sk1,2nd Powerplay Unit,pp2,13.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Noah Laba,Skater 2,sk2,2nd Powerplay Unit,pp2,42.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Matt Rempe,Skater 3,sk3,2nd Powerplay Unit,pp2,73.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Conor Sheary,Skater 4,sk4,2nd Powerplay Unit,pp2,,,False,2025-12-18
+new-york-rangers,st-louis-blues,Vladislav Gavrikov,Skater 5,sk5,2nd Powerplay Unit,pp2,44.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Adam Fox,Injured Reserve 2,ir2,Injured Reserve,ir,23.0,ir,False,2025-12-18
+new-york-rangers,st-louis-blues,Adam Edstrom,Injured Reserve 3,ir3,Injured Reserve,ir,84.0,out,False,2025-12-18
+new-york-rangers,st-louis-blues,Vincent Trocheck,Skater 1,sk1,1st Penalty Kill Unit,pk1,16.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,J.T. Miller,Skater 2,sk2,1st Penalty Kill Unit,pk1,9.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Vladislav Gavrikov,Skater 3,sk3,1st Penalty Kill Unit,pk1,44.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Will Borgen,Skater 4,sk4,1st Penalty Kill Unit,pk1,17.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Sam Carrick,Skater 1,sk1,2nd Penalty Kill Unit,pk2,39.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Will Cuylle,Skater 2,sk2,2nd Penalty Kill Unit,pk2,50.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Carson Soucy,Skater 3,sk3,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-18
+new-york-rangers,st-louis-blues,Braden Schneider,Skater 4,sk4,2nd Penalty Kill Unit,pk2,4.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Brady Tkachuk,Left Wing,lw,Forwards 1,f1,7.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Tim Stützle,Center,c,Forwards 1,f1,18.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Fabian Zetterlund,Right Wing,rw,Forwards 1,f1,20.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,David Perron,Left Wing,lw,Forwards 2,f2,57.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Dylan Cozens,Center,c,Forwards 2,f2,24.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Drake Batherson,Right Wing,rw,Forwards 2,f2,19.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Michael Amadio,Left Wing,lw,Forwards 3,f3,22.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Ridly Greig,Center,c,Forwards 3,f3,71.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Claude Giroux,Right Wing,rw,Forwards 3,f3,28.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Kurtis MacDermid,Left Wing,lw,Forwards 4,f4,23.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Stephen Halliday,Center,c,Forwards 4,f4,83.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Nick Cousins,Right Wing,rw,Forwards 4,f4,21.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Jake Sanderson,Left Defense,ld,Defense 1,d1,85.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Artem Zub,Right Defense,rd,Defense 1,d1,2.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Tyler Kleven,Left Defense,ld,Defense 2,d2,43.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Jordan Spence,Right Defense,rd,Defense 2,d2,21.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Nikolas Matinpalo,Left Defense,ld,Defense 3,d3,33.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Nick Jensen,Right Defense,rd,Defense 3,d3,3.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Brady Tkachuk,Skater 1,sk1,1st Powerplay Unit,pp1,7.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Tim Stützle,Skater 2,sk2,1st Powerplay Unit,pp1,18.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Dylan Cozens,Skater 3,sk3,1st Powerplay Unit,pp1,24.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Jake Sanderson,Skater 4,sk4,1st Powerplay Unit,pp1,85.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Drake Batherson,Skater 5,sk5,1st Powerplay Unit,pp1,19.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Fabian Zetterlund,Skater 1,sk1,2nd Powerplay Unit,pp2,20.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Stephen Halliday,Skater 2,sk2,2nd Powerplay Unit,pp2,83.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Claude Giroux,Skater 3,sk3,2nd Powerplay Unit,pp2,28.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,David Perron,Skater 4,sk4,2nd Powerplay Unit,pp2,57.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Jordan Spence,Skater 5,sk5,2nd Powerplay Unit,pp2,21.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Thomas Chabot,Injured Reserve 1,ir1,Injured Reserve,ir,72.0,ir,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Lars Eller,Injured Reserve 2,ir2,Injured Reserve,ir,89.0,ir,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Shane Pinto,Injured Reserve 3,ir3,Injured Reserve,ir,12.0,ir,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Ridly Greig,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Claude Giroux,Skater 2,sk2,1st Penalty Kill Unit,pk1,28.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Jake Sanderson,Skater 3,sk3,1st Penalty Kill Unit,pk1,85.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Artem Zub,Skater 4,sk4,1st Penalty Kill Unit,pk1,2.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Tim Stützle,Skater 1,sk1,2nd Penalty Kill Unit,pk2,18.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Michael Amadio,Skater 2,sk2,2nd Penalty Kill Unit,pk2,22.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Tyler Kleven,Skater 3,sk3,2nd Penalty Kill Unit,pk2,43.0,,False,2025-12-18
+ottawa-senators,pittsburgh-penguins,Nikolas Matinpalo,Skater 4,sk4,2nd Penalty Kill Unit,pk2,33.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Trevor Zegras,Left Wing,lw,Forwards 1,f1,46.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Christian Dvorak,Center,c,Forwards 1,f1,22.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Travis Konecny,Right Wing,rw,Forwards 1,f1,11.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Carl Grundstrom,Left Wing,lw,Forwards 2,f2,91.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Sean Couturier,Center,c,Forwards 2,f2,14.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Owen Tippett,Right Wing,rw,Forwards 2,f2,74.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Matvei Michkov,Left Wing,lw,Forwards 3,f3,39.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Noah Cates,Center,c,Forwards 3,f3,27.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Bobby Brink,Right Wing,rw,Forwards 3,f3,10.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Nicolas Deslauriers,Left Wing,lw,Forwards 4,f4,44.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Rodrigo Abols,Center,c,Forwards 4,f4,18.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Garnet Hathaway,Right Wing,rw,Forwards 4,f4,19.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Cam York,Left Defense,ld,Defense 1,d1,8.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Travis Sanheim,Right Defense,rd,Defense 1,d1,6.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Emil Andrae,Left Defense,ld,Defense 2,d2,,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Jamie Drysdale,Right Defense,rd,Defense 2,d2,9.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Nick Seeler,Left Defense,ld,Defense 3,d3,24.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Rasmus Ristolainen,Right Defense,rd,Defense 3,d3,55.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Travis Konecny,Skater 1,sk1,1st Powerplay Unit,pp1,11.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Sean Couturier,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Matvei Michkov,Skater 3,sk3,1st Powerplay Unit,pp1,39.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Cam York,Skater 4,sk4,1st Powerplay Unit,pp1,8.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Travis Sanheim,Skater 5,sk5,1st Powerplay Unit,pp1,6.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Noah Cates,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Trevor Zegras,Skater 2,sk2,2nd Powerplay Unit,pp2,46.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Bobby Brink,Skater 3,sk3,2nd Powerplay Unit,pp2,10.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Owen Tippett,Skater 4,sk4,2nd Powerplay Unit,pp2,74.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Jamie Drysdale,Skater 5,sk5,2nd Powerplay Unit,pp2,9.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Tyson Foerster,Injured Reserve 2,ir2,Injured Reserve,ir,71.0,out,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Sean Couturier,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Christian Dvorak,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Nick Seeler,Skater 3,sk3,1st Penalty Kill Unit,pk1,24.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Travis Sanheim,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Noah Cates,Skater 1,sk1,2nd Penalty Kill Unit,pk2,27.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Garnet Hathaway,Skater 2,sk2,2nd Penalty Kill Unit,pk2,19.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Cam York,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False,2025-12-18
+philadelphia-flyers,buffalo-sabres,Rasmus Ristolainen,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Rickard Rakell,Left Wing,lw,Forwards 1,f1,67.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Sidney Crosby,Center,c,Forwards 1,f1,87.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Bryan Rust,Right Wing,rw,Forwards 1,f1,17.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Anthony Mantha,Left Wing,lw,Forwards 2,f2,39.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Tommy Novak,Center,c,Forwards 2,f2,18.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Justin Brazeau,Right Wing,rw,Forwards 2,f2,15.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Kevin Hayes,Left Wing,lw,Forwards 3,f3,13.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Ben Kindel,Center,c,Forwards 3,f3,81.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Rutger McGroarty,Right Wing,rw,Forwards 3,f3,2.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Connor Dewar,Left Wing,lw,Forwards 4,f4,19.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Danton Heinen,Center,c,Forwards 4,f4,43.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Noel Acciari,Right Wing,rw,Forwards 4,f4,55.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Parker Wotherspoon,Left Defense,ld,Defense 1,d1,29.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Erik Karlsson,Right Defense,rd,Defense 1,d1,65.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Ryan Shea,Left Defense,ld,Defense 2,d2,5.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Kris Letang,Right Defense,rd,Defense 2,d2,58.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Brett Kulak,Left Defense,ld,Defense 3,d3,27.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Jack St. Ivany,Right Defense,rd,Defense 3,d3,,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Bryan Rust,Skater 1,sk1,1st Powerplay Unit,pp1,17.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Sidney Crosby,Skater 2,sk2,1st Powerplay Unit,pp1,87.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Anthony Mantha,Skater 3,sk3,1st Powerplay Unit,pp1,39.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Erik Karlsson,Skater 4,sk4,1st Powerplay Unit,pp1,65.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Rickard Rakell,Skater 5,sk5,1st Powerplay Unit,pp1,67.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Justin Brazeau,Skater 1,sk1,2nd Powerplay Unit,pp2,15.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Kevin Hayes,Skater 2,sk2,2nd Powerplay Unit,pp2,13.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Ben Kindel,Skater 3,sk3,2nd Powerplay Unit,pp2,81.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Kris Letang,Skater 4,sk4,2nd Powerplay Unit,pp2,58.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Tommy Novak,Skater 5,sk5,2nd Powerplay Unit,pp2,18.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Filip Hallander,Injured Reserve 2,ir2,Injured Reserve,ir,11.0,ir,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Evgeni Malkin,Injured Reserve 7,ir7,Injured Reserve,ir,71.0,ir,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Blake Lizotte,Injured Reserve 8,ir8,Injured Reserve,ir,46.0,ir,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Blake Lizotte,Skater 1,sk1,1st Penalty Kill Unit,pk1,46.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Connor Dewar,Skater 2,sk2,1st Penalty Kill Unit,pk1,19.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Parker Wotherspoon,Skater 3,sk3,1st Penalty Kill Unit,pk1,29.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Ryan Shea,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Kevin Hayes,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Bryan Rust,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Brett Kulak,Skater 3,sk3,2nd Penalty Kill Unit,pk2,27.0,,False,2025-12-18
+pittsburgh-penguins,ottawa-senators,Kris Letang,Skater 4,sk4,2nd Penalty Kill Unit,pk2,58.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Igor Chernyshov,Left Wing,lw,Forwards 1,f1,,,False,2025-12-18
+san-jose-sharks,dallas-stars,Macklin Celebrini,Center,c,Forwards 1,f1,71.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Collin Graf,Right Wing,rw,Forwards 1,f1,51.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,William Eklund,Left Wing,lw,Forwards 2,f2,72.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Alexander Wennberg,Center,c,Forwards 2,f2,21.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Tyler Toffoli,Right Wing,rw,Forwards 2,f2,73.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Jeff Skinner,Left Wing,lw,Forwards 3,f3,53.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Adam Gaudette,Center,c,Forwards 3,f3,81.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Ethan Cardwell,Right Wing,rw,Forwards 3,f3,56.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Barclay Goodrow,Left Wing,lw,Forwards 4,f4,23.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Zack Ostapchuk,Center,c,Forwards 4,f4,63.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Ryan Reaves,Right Wing,rw,Forwards 4,f4,75.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Mario Ferraro,Left Defense,ld,Defense 1,d1,38.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Timothy Liljegren,Right Defense,rd,Defense 1,d1,37.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Dmitry Orlov,Left Defense,ld,Defense 2,d2,9.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,John Klingberg,Right Defense,rd,Defense 2,d2,3.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Shakir Mukhamadullin,Left Defense,ld,Defense 3,d3,,,False,2025-12-18
+san-jose-sharks,dallas-stars,Vincent Iorio,Right Defense,rd,Defense 3,d3,,,False,2025-12-18
+san-jose-sharks,dallas-stars,William Eklund,Skater 1,sk1,1st Powerplay Unit,pp1,72.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Alexander Wennberg,Skater 2,sk2,1st Powerplay Unit,pp1,21.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Tyler Toffoli,Skater 3,sk3,1st Powerplay Unit,pp1,73.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Macklin Celebrini,Skater 4,sk4,1st Powerplay Unit,pp1,71.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,John Klingberg,Skater 5,sk5,1st Powerplay Unit,pp1,3.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Igor Chernyshov,Skater 1,sk1,2nd Powerplay Unit,pp2,,,False,2025-12-18
+san-jose-sharks,dallas-stars,Collin Graf,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Jeff Skinner,Skater 3,sk3,2nd Powerplay Unit,pp2,53.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Timothy Liljegren,Skater 4,sk4,2nd Powerplay Unit,pp2,37.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Dmitry Orlov,Skater 5,sk5,2nd Powerplay Unit,pp2,9.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Carey Price,Injured Reserve 1,ir1,Injured Reserve,ir,31.0,ir,False,2025-12-18
+san-jose-sharks,dallas-stars,Ryan Ellis,Injured Reserve 2,ir2,Injured Reserve,ir,94.0,ir,False,2025-12-18
+san-jose-sharks,dallas-stars,Vincent Desharnais,Injured Reserve 3,ir3,Injured Reserve,ir,5.0,ir,False,2025-12-18
+san-jose-sharks,dallas-stars,Philipp Kurashev,Injured Reserve 5,ir5,Injured Reserve,ir,96.0,ir,False,2025-12-18
+san-jose-sharks,dallas-stars,Will Smith,Injured Reserve 6,ir6,Injured Reserve,ir,2.0,ir,False,2025-12-18
+san-jose-sharks,dallas-stars,Ty Dellandrea,Injured Reserve 7,ir7,Injured Reserve,ir,10.0,dtd,False,2025-12-18
+san-jose-sharks,dallas-stars,Alexander Wennberg,Skater 1,sk1,1st Penalty Kill Unit,pk1,21.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Collin Graf,Skater 2,sk2,1st Penalty Kill Unit,pk1,51.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Mario Ferraro,Skater 3,sk3,1st Penalty Kill Unit,pk1,38.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Nick Leddy,Skater 4,sk4,1st Penalty Kill Unit,pk1,4.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Barclay Goodrow,Skater 1,sk1,2nd Penalty Kill Unit,pk2,23.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,William Eklund,Skater 2,sk2,2nd Penalty Kill Unit,pk2,72.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Dmitry Orlov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,9.0,,False,2025-12-18
+san-jose-sharks,dallas-stars,Vincent Iorio,Skater 4,sk4,2nd Penalty Kill Unit,pk2,,,False,2025-12-18
+seattle-kraken,calgary-flames,Eeli Tolvanen,Left Wing,lw,Forwards 1,f1,20.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Chandler Stephenson,Center,c,Forwards 1,f1,9.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Frederick Gaudreau,Right Wing,rw,Forwards 1,f1,89.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Mason Marchment,Left Wing,lw,Forwards 2,f2,27.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Matty Beniers,Center,c,Forwards 2,f2,10.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jordan Eberle,Right Wing,rw,Forwards 2,f2,7.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jani Nyman,Left Wing,lw,Forwards 3,f3,38.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Shane Wright,Center,c,Forwards 3,f3,51.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Kaapo Kakko,Right Wing,rw,Forwards 3,f3,84.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Tye Kartye,Left Wing,lw,Forwards 4,f4,12.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ben Meyers,Center,c,Forwards 4,f4,59.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ryan Winterton,Right Wing,rw,Forwards 4,f4,26.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Vince Dunn,Left Defense,ld,Defense 1,d1,29.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jamie Oleksiak,Right Defense,rd,Defense 1,d1,24.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ryan Lindgren,Left Defense,ld,Defense 2,d2,55.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ryker Evans,Right Defense,rd,Defense 2,d2,41.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Joshua Mahura,Left Defense,ld,Defense 3,d3,28.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Adam Larsson,Right Defense,rd,Defense 3,d3,6.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Chandler Stephenson,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Matty Beniers,Skater 2,sk2,1st Powerplay Unit,pp1,10.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jordan Eberle,Skater 3,sk3,1st Powerplay Unit,pp1,7.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Vince Dunn,Skater 4,sk4,1st Powerplay Unit,pp1,29.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Eeli Tolvanen,Skater 5,sk5,1st Powerplay Unit,pp1,20.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Mason Marchment,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Shane Wright,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jani Nyman,Skater 3,sk3,2nd Powerplay Unit,pp2,38.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ryker Evans,Skater 4,sk4,2nd Powerplay Unit,pp2,41.0,,True,2025-12-18
+seattle-kraken,calgary-flames,Kaapo Kakko,Skater 5,sk5,2nd Powerplay Unit,pp2,84.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jaden Schwartz,Injured Reserve 1,ir1,Injured Reserve,ir,17.0,ir,False,2025-12-18
+seattle-kraken,calgary-flames,Matt Murray,Injured Reserve 2,ir2,Injured Reserve,ir,30.0,ir,False,2025-12-18
+seattle-kraken,calgary-flames,Berkly Catton,Injured Reserve 3,ir3,Injured Reserve,ir,77.0,out,False,2025-12-18
+seattle-kraken,calgary-flames,Jared McCann,Injured Reserve 4,ir4,Injured Reserve,ir,19.0,out,False,2025-12-18
+seattle-kraken,calgary-flames,Brandon Montour,Injured Reserve 5,ir5,Injured Reserve,ir,62.0,dtd,False,2025-12-18
+seattle-kraken,calgary-flames,Chandler Stephenson,Skater 1,sk1,1st Penalty Kill Unit,pk1,9.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ryan Winterton,Skater 2,sk2,1st Penalty Kill Unit,pk1,26.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Ryan Lindgren,Skater 3,sk3,1st Penalty Kill Unit,pk1,55.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Adam Larsson,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Frederick Gaudreau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,89.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Eeli Tolvanen,Skater 2,sk2,2nd Penalty Kill Unit,pk2,20.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Joshua Mahura,Skater 3,sk3,2nd Penalty Kill Unit,pk2,28.0,,False,2025-12-18
+seattle-kraken,calgary-flames,Jamie Oleksiak,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Robby Fabbri,Left Wing,lw,Forwards 1,f1,13.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Robert Thomas,Center,c,Forwards 1,f1,18.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Pavel Buchnevich,Right Wing,rw,Forwards 1,f1,89.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Jake Neighbours,Left Wing,lw,Forwards 2,f2,63.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Brayden Schenn,Center,c,Forwards 2,f2,10.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Otto Stenberg,Right Wing,rw,Forwards 2,f2,,,False,2025-12-18
+st-louis-blues,new-york-rangers,Pius Suter,Left Wing,lw,Forwards 3,f3,24.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Dalibor Dvorsky,Center,c,Forwards 3,f3,54.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Jonatan Berggren,Right Wing,rw,Forwards 3,f3,48.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Alexey Toropchenko,Left Wing,lw,Forwards 4,f4,13.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Oskar Sundqvist,Center,c,Forwards 4,f4,70.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Mathieu Joseph,Right Wing,rw,Forwards 4,f4,71.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Philip Broberg,Left Defense,ld,Defense 1,d1,6.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Colton Parayko,Right Defense,rd,Defense 1,d1,55.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Matthew Kessel,Left Defense,ld,Defense 2,d2,,,False,2025-12-18
+st-louis-blues,new-york-rangers,Justin Faulk,Right Defense,rd,Defense 2,d2,72.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Cam Fowler,Left Defense,ld,Defense 3,d3,17.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Logan Mailloux,Right Defense,rd,Defense 3,d3,23.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Jake Neighbours,Skater 1,sk1,1st Powerplay Unit,pp1,63.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Dalibor Dvorsky,Skater 2,sk2,1st Powerplay Unit,pp1,54.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Pavel Buchnevich,Skater 3,sk3,1st Powerplay Unit,pp1,89.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Cam Fowler,Skater 4,sk4,1st Powerplay Unit,pp1,17.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Robert Thomas,Skater 5,sk5,1st Powerplay Unit,pp1,18.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Pius Suter,Skater 1,sk1,2nd Powerplay Unit,pp2,24.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Oskar Sundqvist,Skater 2,sk2,2nd Powerplay Unit,pp2,70.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Brayden Schenn,Skater 3,sk3,2nd Powerplay Unit,pp2,10.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Justin Faulk,Skater 4,sk4,2nd Powerplay Unit,pp2,72.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Logan Mailloux,Skater 5,sk5,2nd Powerplay Unit,pp2,23.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Torey Krug,Injured Reserve 1,ir1,Injured Reserve,ir,47.0,ir,False,2025-12-18
+st-louis-blues,new-york-rangers,Alexey Toropchenko,Injured Reserve 2,ir2,Injured Reserve,ir,13.0,out,False,2025-12-18
+st-louis-blues,new-york-rangers,Jimmy Snuggerud,Injured Reserve 3,ir3,Injured Reserve,ir,21.0,out,False,2025-12-18
+st-louis-blues,new-york-rangers,Jordan Kyrou,Injured Reserve 4,ir4,Injured Reserve,ir,25.0,ir,False,2025-12-18
+st-louis-blues,new-york-rangers,Nick Bjugstad,Injured Reserve 5,ir5,Injured Reserve,ir,77.0,ir,False,2025-12-18
+st-louis-blues,new-york-rangers,Dylan Holloway,Injured Reserve 6,ir6,Injured Reserve,ir,81.0,out,False,2025-12-18
+st-louis-blues,new-york-rangers,Oskar Sundqvist,Skater 1,sk1,1st Penalty Kill Unit,pk1,70.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Mathieu Joseph,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Philip Broberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Justin Faulk,Skater 4,sk4,1st Penalty Kill Unit,pk1,72.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Robby Fabbri,Skater 1,sk1,2nd Penalty Kill Unit,pk2,13.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Brayden Schenn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,10.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Cam Fowler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,17.0,,False,2025-12-18
+st-louis-blues,new-york-rangers,Colton Parayko,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Brandon Hagel,Left Wing,lw,Forwards 1,f1,38.0,,True,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Anthony Cirelli,Center,c,Forwards 1,f1,71.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Nikita Kucherov,Right Wing,rw,Forwards 1,f1,86.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Jake Guentzel,Left Wing,lw,Forwards 2,f2,59.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Brayden Point,Center,c,Forwards 2,f2,21.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Oliver Bjorkstrand,Right Wing,rw,Forwards 2,f2,22.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Zemgus Girgensons,Left Wing,lw,Forwards 3,f3,28.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Yanni Gourde,Center,c,Forwards 3,f3,37.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Pontus Holmberg,Right Wing,rw,Forwards 3,f3,29.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Curtis Douglas,Left Wing,lw,Forwards 4,f4,42.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Nick Paul,Center,c,Forwards 4,f4,20.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Scott Sabourin,Right Wing,rw,Forwards 4,f4,,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,J.J. Moser,Left Defense,ld,Defense 1,d1,90.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Darren Raddysh,Right Defense,rd,Defense 1,d1,43.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Charle-Edouard D'Astous,Left Defense,ld,Defense 2,d2,51.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Ryan McDonagh,Right Defense,rd,Defense 2,d2,27.0,,True,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Declan Carlile,Left Defense,ld,Defense 3,d3,67.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Maxwell Crozier,Right Defense,rd,Defense 3,d3,24.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Jake Guentzel,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Brayden Point,Skater 2,sk2,1st Powerplay Unit,pp1,21.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Nikita Kucherov,Skater 3,sk3,1st Powerplay Unit,pp1,86.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Oliver Bjorkstrand,Skater 4,sk4,1st Powerplay Unit,pp1,22.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Darren Raddysh,Skater 5,sk5,1st Powerplay Unit,pp1,43.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Nick Paul,Skater 1,sk1,2nd Powerplay Unit,pp2,20.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Anthony Cirelli,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Gage Goncalves,Skater 3,sk3,2nd Powerplay Unit,pp2,93.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Brandon Hagel,Skater 4,sk4,2nd Powerplay Unit,pp2,38.0,,True,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Charle-Edouard D'Astous,Skater 5,sk5,2nd Powerplay Unit,pp2,51.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Ryan McDonagh,Injured Reserve 1,ir1,Injured Reserve,ir,27.0,ir,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Erik Cernak,Injured Reserve 3,ir3,Injured Reserve,ir,81.0,dtd,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Emil Lilleberg,Injured Reserve 4,ir4,Injured Reserve,ir,,dtd,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Victor Hedman,Injured Reserve 5,ir5,Injured Reserve,ir,77.0,ir,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Brandon Hagel,Injured Reserve 6,ir6,Injured Reserve,ir,38.0,out,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Anthony Cirelli,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Jake Guentzel,Skater 2,sk2,1st Penalty Kill Unit,pk1,59.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,J.J. Moser,Skater 3,sk3,1st Penalty Kill Unit,pk1,90.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Ryan McDonagh,Skater 4,sk4,1st Penalty Kill Unit,pk1,27.0,,True,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Yanni Gourde,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Zemgus Girgensons,Skater 2,sk2,2nd Penalty Kill Unit,pk2,28.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Charle-Edouard D'Astous,Skater 3,sk3,2nd Penalty Kill Unit,pk2,51.0,,False,2025-12-18
+tampa-bay-lightning,los-angeles-kings,Darren Raddysh,Skater 4,sk4,2nd Penalty Kill Unit,pk2,43.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Matthew Knies,Left Wing,lw,Forwards 1,f1,23.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Auston Matthews,Center,c,Forwards 1,f1,34.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,William Nylander,Right Wing,rw,Forwards 1,f1,88.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Nicholas Robertson,Left Wing,lw,Forwards 2,f2,89.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,John Tavares,Center,c,Forwards 2,f2,91.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Bobby McMann,Right Wing,rw,Forwards 2,f2,74.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Dakota Joshua,Left Wing,lw,Forwards 3,f3,81.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Nicolas Roy,Center,c,Forwards 3,f3,55.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Max Domi,Right Wing,rw,Forwards 3,f3,11.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Steven Lorentz,Left Wing,lw,Forwards 4,f4,18.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Scott Laughton,Center,c,Forwards 4,f4,24.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Easton Cowan,Right Wing,rw,Forwards 4,f4,53.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Morgan Rielly,Left Defense,ld,Defense 1,d1,44.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Oliver Ekman-Larsson,Right Defense,rd,Defense 1,d1,95.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Jake McCabe,Left Defense,ld,Defense 2,d2,22.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Troy Stecher,Right Defense,rd,Defense 2,d2,28.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Simon Benoit,Left Defense,ld,Defense 3,d3,2.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Henry Thrun,Right Defense,rd,Defense 3,d3,3.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Matthew Knies,Skater 1,sk1,1st Powerplay Unit,pp1,23.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,John Tavares,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Auston Matthews,Skater 3,sk3,1st Powerplay Unit,pp1,34.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Morgan Rielly,Skater 4,sk4,1st Powerplay Unit,pp1,44.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,William Nylander,Skater 5,sk5,1st Powerplay Unit,pp1,88.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Nicolas Roy,Skater 1,sk1,2nd Powerplay Unit,pp2,55.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Max Domi,Skater 2,sk2,2nd Powerplay Unit,pp2,11.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Bobby McMann,Skater 3,sk3,2nd Powerplay Unit,pp2,74.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Easton Cowan,Skater 4,sk4,2nd Powerplay Unit,pp2,53.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Oliver Ekman-Larsson,Skater 5,sk5,2nd Powerplay Unit,pp2,95.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Anthony Stolarz,Injured Reserve 1,ir1,Injured Reserve,ir,41.0,ir,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Chris Tanev,Injured Reserve 2,ir2,Injured Reserve,ir,8.0,ir,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Brandon Carlo,Injured Reserve 3,ir3,Injured Reserve,ir,25.0,ir,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Dakota Joshua,Injured Reserve 4,ir4,Injured Reserve,ir,81.0,out,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Dakota Mermis,Injured Reserve 7,ir7,Injured Reserve,ir,36.0,ir,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Scott Laughton,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Steven Lorentz,Skater 2,sk2,1st Penalty Kill Unit,pk1,18.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Jake McCabe,Skater 3,sk3,1st Penalty Kill Unit,pk1,22.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Henry Thrun,Skater 4,sk4,1st Penalty Kill Unit,pk1,3.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Nicolas Roy,Skater 1,sk1,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Matthew Knies,Skater 2,sk2,2nd Penalty Kill Unit,pk2,23.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Simon Benoit,Skater 3,sk3,2nd Penalty Kill Unit,pk2,2.0,,False,2025-12-18
+toronto-maple-leafs,washington-capitals,Troy Stecher,Skater 4,sk4,2nd Penalty Kill Unit,pk2,28.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Alex Ovechkin,Left Wing,lw,Forwards 1,f1,8.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Dylan Strome,Center,c,Forwards 1,f1,17.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Anthony Beauvillier,Right Wing,rw,Forwards 1,f1,72.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Aliaksei Protas,Left Wing,lw,Forwards 2,f2,21.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Justin Sourdif,Center,c,Forwards 2,f2,34.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Tom Wilson,Right Wing,rw,Forwards 2,f2,43.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Sonny Milano,Left Wing,lw,Forwards 3,f3,15.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Hendrix Lapierre,Center,c,Forwards 3,f3,,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Ethen Frank,Right Wing,rw,Forwards 3,f3,53.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Brandon Duhaime,Left Wing,lw,Forwards 4,f4,22.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Nic Dowd,Center,c,Forwards 4,f4,26.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Connor McMichael,Right Wing,rw,Forwards 4,f4,24.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Martin Fehervary,Left Defense,ld,Defense 1,d1,42.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,John Carlson,Right Defense,rd,Defense 1,d1,74.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Jakob Chychrun,Left Defense,ld,Defense 2,d2,6.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Matt Roy,Right Defense,rd,Defense 2,d2,3.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Rasmus Sandin,Left Defense,ld,Defense 3,d3,38.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Trevor van Riemsdyk,Right Defense,rd,Defense 3,d3,57.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Tom Wilson,Skater 1,sk1,1st Powerplay Unit,pp1,43.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Dylan Strome,Skater 2,sk2,1st Powerplay Unit,pp1,17.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Ethen Frank,Skater 3,sk3,1st Powerplay Unit,pp1,53.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Alex Ovechkin,Skater 4,sk4,1st Powerplay Unit,pp1,8.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Jakob Chychrun,Skater 5,sk5,1st Powerplay Unit,pp1,6.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Sonny Milano,Skater 1,sk1,2nd Powerplay Unit,pp2,15.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Connor McMichael,Skater 2,sk2,2nd Powerplay Unit,pp2,24.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Anthony Beauvillier,Skater 3,sk3,2nd Powerplay Unit,pp2,72.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Alex Ovechkin,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,John Carlson,Skater 5,sk5,2nd Powerplay Unit,pp2,74.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Pierre-Luc Dubois,Injured Reserve 1,ir1,Injured Reserve,ir,80.0,ir,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Nic Dowd,Injured Reserve 2,ir2,Injured Reserve,ir,26.0,ir,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Justin Sourdif,Injured Reserve 3,ir3,Injured Reserve,ir,34.0,out,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Ryan Leonard,Injured Reserve 6,ir6,Injured Reserve,ir,9.0,ir,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Connor McMichael,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Brandon Duhaime,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Martin Fehervary,Skater 3,sk3,1st Penalty Kill Unit,pk1,42.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Trevor van Riemsdyk,Skater 4,sk4,1st Penalty Kill Unit,pk1,57.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Aliaksei Protas,Skater 1,sk1,2nd Penalty Kill Unit,pk2,21.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Anthony Beauvillier,Skater 2,sk2,2nd Penalty Kill Unit,pk2,72.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,John Carlson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,74.0,,False,2025-12-18
+washington-capitals,toronto-maple-leafs,Matt Roy,Skater 4,sk4,2nd Penalty Kill Unit,pk2,3.0,,False,2025-12-18
