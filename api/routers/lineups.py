@@ -133,6 +133,7 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
     for _, player in team_lines.iterrows():
         line_combinations.append(
             LineupPlayer(
+                player_id=int(player['player_id']),
                 player_name=player['player_name'],
                 position=player['position'],
                 position_id=player['position_id'],
@@ -149,6 +150,7 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
     for _, player in team_goalies.iterrows():
         goalies.append(
             LineupPlayer(
+                player_id=int(player['player_id']),
                 player_name=player['player_name'],
                 position=player['position'],
                 position_id=player['position_id'],
@@ -165,6 +167,7 @@ def get_team_lineup(team_slug: str, df_lines: pd.DataFrame, df_goalies: pd.DataF
     for _, player in team_injuries.iterrows():
         injuries.append(
             LineupPlayer(
+                player_id=int(player['player_id']),
                 player_name=player['player_name'],
                 position=player['position'],
                 position_id=player['position_id'],

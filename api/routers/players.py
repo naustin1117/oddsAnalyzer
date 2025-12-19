@@ -6,8 +6,8 @@ from datetime import datetime
 import pandas as pd
 
 from ..auth import verify_api_key
-from ..models import PlayerGame, PlayerGamesResponse, Prediction, PlayerPredictionsResponse
-from ..services.data_loader import load_predictions, load_player_logs, load_player_name_mapping, load_team_logos
+from ..models import PlayerGame, PlayerGamesResponse, Prediction, PlayerPredictionsResponse, PlayerNewsItem, PlayerNewsResponse
+from ..services.data_loader import load_predictions, load_player_logs, load_player_name_mapping, load_team_logos, load_player_news
 from ..team_names import get_team_name, get_team_abbrev
 
 router = APIRouter(prefix="/players", tags=["Players"])
@@ -200,4 +200,60 @@ async def get_player_predictions(
         historical_count=len(historical_predictions),
         upcoming=upcoming_predictions,
         historical=historical_predictions,
+    )
+
+
+@router.get("/news", response_model=PlayerNewsResponse)
+async def get_player_news(
+    player_name: str = Query(..., description="Player name to search for"),
+    limit: int = Query(10, ge=1, le=50, description="Number of recent news items to fetch"),
+    api_key: str = Depends(verify_api_key),
+):
+    """
+    Get recent news for a specific player by name.
+
+    Args:
+        player_name: Player name (e.g., "Connor McDavid")
+        limit: Number of recent news items (1-50, default 10)
+        api_key: API key from header (required)
+
+    Returns:
+        PlayerNewsResponse: Player's recent news items
+    """
+    df = load_player_news()
+
+    # Filter for this player (case-insensitive)
+    player_news = df[df['player_name'].str.lower() == player_name.lower()].copy()
+
+    if len(player_news) == 0:
+        raise HTTPException(status_code=404, detail=f"No news found for player '{player_name}'")
+
+    # Sort by created_at (most recent first) and limit
+    player_news = player_news.sort_values('created_at', ascending=False).head(limit)
+
+    # Get player_id from first record (if available)
+    player_id = None
+    if pd.notna(player_news.iloc[0].get('player_id')):
+        player_id = int(player_news.iloc[0]['player_id'])
+
+    # Convert to PlayerNewsItem models
+    news_items = []
+    for _, news in player_news.iterrows():
+        news_items.append(
+            PlayerNewsItem(
+                team=news['team'],
+                player_id=int(news['player_id']) if pd.notna(news.get('player_id')) else None,
+                player_name=news['player_name'],
+                created_at=news['created_at'].isoformat(),
+                details=news['details'],
+                fantasy_details=news['fantasy_details'],
+                scrape_date=news['scrape_date'],
+            )
+        )
+
+    return PlayerNewsResponse(
+        player_id=player_id,
+        player_name=player_name,
+        news_count=len(news_items),
+        news=news_items,
     )

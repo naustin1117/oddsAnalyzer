@@ -136,6 +136,7 @@ class PlayerPredictionsResponse(BaseModel):
 
 class LineupPlayer(BaseModel):
     """Single player in a lineup"""
+    player_id: int
     player_name: str
     position: str
     position_id: str
@@ -165,3 +166,22 @@ class LineupsResponse(BaseModel):
     """Response containing lineups for a team and their opponent"""
     team: TeamLineup
     opponent: Optional[TeamLineup] = None
+
+
+class PlayerNewsItem(BaseModel):
+    """Single news item for a player"""
+    team: str
+    player_id: Optional[int] = None
+    player_name: str
+    created_at: str
+    details: str
+    fantasy_details: str
+    scrape_date: str
+
+
+class PlayerNewsResponse(BaseModel):
+    """Response containing news for a player"""
+    player_id: Optional[int] = None
+    player_name: str
+    news_count: int
+    news: List[PlayerNewsItem]

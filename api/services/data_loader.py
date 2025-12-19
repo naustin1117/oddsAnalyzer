@@ -4,7 +4,7 @@ Data loading service for predictions and player logs.
 from fastapi import HTTPException
 import pandas as pd
 
-from ..config import PREDICTIONS_FILE, PLAYER_LOGS_FILE, PLAYER_NAME_MAPPING_FILE, TEAM_LOGOS_FILE
+from ..config import PREDICTIONS_FILE, PLAYER_LOGS_FILE, PLAYER_NAME_MAPPING_FILE, TEAM_LOGOS_FILE, LINEUP_NEWS_FILE
 
 
 def load_predictions() -> pd.DataFrame:
@@ -50,3 +50,15 @@ def load_team_logos() -> pd.DataFrame:
         raise HTTPException(status_code=500, detail="Team logos file not found")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error loading team logos: {str(e)}")
+
+
+def load_player_news() -> pd.DataFrame:
+    """Load player news from CSV file."""
+    try:
+        df = pd.read_csv(LINEUP_NEWS_FILE)
+        df['created_at'] = pd.to_datetime(df['created_at'])
+        return df
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="Player news file not found")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error loading player news: {str(e)}")

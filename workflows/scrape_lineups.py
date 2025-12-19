@@ -31,6 +31,15 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
     print("="*60)
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
+    # Load player name to ID mapping
+    try:
+        player_mapping = pd.read_csv('data/player_name_to_id.csv')
+        player_name_to_id = dict(zip(player_mapping['player_name'], player_mapping['player_id']))
+        print(f"✓ Loaded {len(player_name_to_id)} player name mappings\n")
+    except Exception as e:
+        print(f"⚠️  Warning: Could not load player name mapping: {e}")
+        player_name_to_id = {}
+
     url = f"https://www.dailyfaceoff.com/teams/{team_slug}/line-combinations"
 
     try:
@@ -48,6 +57,7 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
         line_combinations = []
         goalies = []
         injuries = []
+        news = []
 
         # Look for Next.js script tag with JSON data
         script_tags = soup.find_all('script', id='__NEXT_DATA__')
@@ -70,10 +80,14 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
 
             # Process players
             for player in players:
+                player_name = player.get('name', 'Unknown')
+                player_id = player_name_to_id.get(player_name, None)
+
                 player_info = {
                     'team': team_slug,
                     'opponent': opponent or '',
-                    'player_name': player.get('name', 'Unknown'),
+                    'player_id': player_id,
+                    'player_name': player_name,
                     'position': player.get('positionName', ''),
                     'position_id': player.get('positionIdentifier', ''),
                     'line': player.get('groupName', ''),
@@ -83,13 +97,30 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
                     'game_time_decision': player.get('gameTimeDecision', False)
                 }
 
-                # Categorize player - line assignment trumps injury status
+                # Categorize player by line assignment
                 if player_info['line_id'] == 'g':
                     goalies.append(player_info)
                 elif player_info['line_id']:  # Has a line assignment (f1, d1, pp1, pk1, etc.)
-                    line_combinations.append(player_info)  # Keep in lineup with injury flags
-                else:  # No line assignment - pure scratch/IR
+                    line_combinations.append(player_info)
+                else:  # No line assignment - scratch
                     injuries.append(player_info)
+
+                # ALSO add to injuries if they have an injury status (independent of lineup)
+                if player_info['injury_status']:
+                    injuries.append(player_info)
+
+                # Extract latest news if available
+                latest_news = player.get('latestNews')
+                if latest_news:
+                    news_item = {
+                        'team': team_slug,
+                        'player_id': player_id,
+                        'player_name': player_name,
+                        'created_at': latest_news.get('createdAt', ''),
+                        'details': latest_news.get('details', ''),
+                        'fantasy_details': latest_news.get('fantasyDetails', '')
+                    }
+                    news.append(news_item)
 
         else:
             # Fallback: Parse HTML structure
@@ -124,6 +155,17 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
         df_lines = pd.DataFrame(line_combinations)
         df_goalies = pd.DataFrame(goalies)
         df_injuries = pd.DataFrame(injuries)
+        df_news = pd.DataFrame(news)
+
+        # Convert player_id columns to nullable integers (avoids .0 suffix)
+        if len(df_lines) > 0 and 'player_id' in df_lines.columns:
+            df_lines['player_id'] = df_lines['player_id'].astype('Int64')
+        if len(df_goalies) > 0 and 'player_id' in df_goalies.columns:
+            df_goalies['player_id'] = df_goalies['player_id'].astype('Int64')
+        if len(df_injuries) > 0 and 'player_id' in df_injuries.columns:
+            df_injuries['player_id'] = df_injuries['player_id'].astype('Int64')
+        if len(df_news) > 0 and 'player_id' in df_news.columns:
+            df_news['player_id'] = df_news['player_id'].astype('Int64')
 
         # Print summary
         print("="*60)
@@ -132,6 +174,7 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
         print(f"Line combinations players: {len(df_lines)}")
         print(f"Goalies: {len(df_goalies)}")
         print(f"Injuries/Scratches: {len(df_injuries)}")
+        print(f"Latest News: {len(df_news)}")
 
         # Save to CSV if output file specified
         if output_file:
@@ -152,6 +195,11 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
                 injuries_file = f"{base_name}_injuries.csv"
                 df_injuries.to_csv(injuries_file, index=False)
                 print(f"✓ Injuries saved to: {injuries_file}")
+
+            if len(df_news) > 0:
+                news_file = f"{base_name}_news.csv"
+                df_news.to_csv(news_file, index=False)
+                print(f"✓ Latest news saved to: {news_file}")
 
         # Display sample data
         if len(df_lines) > 0:
@@ -201,6 +249,14 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
             print("="*60)
             print(df_injuries[['player_name', 'position', 'injury_status']].to_string(index=False))
 
+        if len(df_news) > 0:
+            print("\n" + "="*60)
+            print("LATEST NEWS")
+            print("="*60)
+            print(df_news[['player_name', 'created_at', 'details']].head(10).to_string(index=False))
+            if len(df_news) > 10:
+                print(f"\n... and {len(df_news) - 10} more news items")
+
         print("\n" + "="*60)
         print("COMPLETE!")
         print("="*60)
@@ -208,7 +264,8 @@ def scrape_team_lineup(team_slug, opponent=None, output_file=None):
         return {
             'line_combinations': df_lines,
             'goalies': df_goalies,
-            'injuries': df_injuries
+            'injuries': df_injuries,
+            'news': df_news
         }
 
     except requests.RequestException as e:
@@ -412,6 +469,7 @@ def scrape_todays_lineups(output_dir='data'):
     all_lines = []
     all_goalies = []
     all_injuries = []
+    all_news = []
 
     print("="*60)
     print(f"SCRAPING LINEUPS FOR {len(teams)} TEAMS")
@@ -436,6 +494,9 @@ def scrape_todays_lineups(output_dir='data'):
             if len(result['injuries']) > 0:
                 result['injuries']['scrape_date'] = scrape_date
                 all_injuries.append(result['injuries'])
+            if len(result['news']) > 0:
+                result['news']['scrape_date'] = scrape_date
+                all_news.append(result['news'])
 
         # Small delay to be respectful to the server
         if i < len(teams):
@@ -445,6 +506,7 @@ def scrape_todays_lineups(output_dir='data'):
     df_new_lines = pd.concat(all_lines, ignore_index=True) if all_lines else pd.DataFrame()
     df_new_goalies = pd.concat(all_goalies, ignore_index=True) if all_goalies else pd.DataFrame()
     df_new_injuries = pd.concat(all_injuries, ignore_index=True) if all_injuries else pd.DataFrame()
+    df_new_news = pd.concat(all_news, ignore_index=True) if all_news else pd.DataFrame()
 
     # Save to CSV files
     from pathlib import Path
@@ -457,6 +519,7 @@ def scrape_todays_lineups(output_dir='data'):
     lines_file = f"{output_dir}/lineup_lines.csv"
     goalies_file = f"{output_dir}/lineup_goalies.csv"
     injuries_file = f"{output_dir}/lineup_injuries.csv"
+    news_file = f"{output_dir}/lineup_news.csv"
 
     # Helper function to append to CSV or create new
     def append_to_csv(df_new, file_path, dedup_columns):
@@ -515,6 +578,17 @@ def scrape_todays_lineups(output_dir='data'):
     else:
         print(f"⚠️  No injuries to save")
 
+    # Save news
+    if len(df_new_news) > 0:
+        total, new = append_to_csv(
+            df_new_news,
+            news_file,
+            dedup_columns=['team', 'player_name', 'created_at']
+        )
+        print(f"✓ News: {total} total records ({new} new)")
+    else:
+        print(f"⚠️  No news to save")
+
     # Print summary
     print("\n" + "="*60)
     print("SUMMARY")
@@ -524,6 +598,7 @@ def scrape_todays_lineups(output_dir='data'):
     print(f"New skaters: {len(df_new_lines)}")
     print(f"New goalies: {len(df_new_goalies)}")
     print(f"New injuries: {len(df_new_injuries)}")
+    print(f"New news items: {len(df_new_news)}")
 
     print("\n" + "="*60)
     print("COMPLETE!")
@@ -532,7 +607,8 @@ def scrape_todays_lineups(output_dir='data'):
     return {
         'line_combinations': df_new_lines,
         'goalies': df_new_goalies,
-        'injuries': df_new_injuries
+        'injuries': df_new_injuries,
+        'news': df_new_news
     }
 
 
