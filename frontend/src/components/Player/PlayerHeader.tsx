@@ -46,9 +46,9 @@ function PlayerHeader({
     <>
       <div
         className="player-header-top"
-        style={{
-          background: `linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%), linear-gradient(to right, ${primary_color}, ${secondary_color})`
-        }}
+        // style={{
+        //   background: `linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%), linear-gradient(to right, ${primary_color}, ${secondary_color})`
+        // }}
       >
         <div className="player-header-content">
           <Link to="/" className="back-link-header">← Back to Predictions</Link>

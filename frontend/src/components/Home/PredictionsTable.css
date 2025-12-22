@@ -69,22 +69,33 @@
 }
 
 .table-wrapper {
-  background:
-    radial-gradient(ellipse at 20% 10%, rgba(100, 108, 255, 0.12) 0%, transparent 40%),
-    radial-gradient(ellipse at 80% 5%, rgba(160, 160, 180, 0.10) 0%, transparent 35%),
-    radial-gradient(ellipse at 50% 15%, rgba(140, 140, 160, 0.08) 0%, transparent 45%),
-    radial-gradient(ellipse at 10% 8%, rgba(100, 108, 255, 0.08) 0%, transparent 30%),
-    radial-gradient(ellipse at 90% 12%, rgba(180, 180, 200, 0.10) 0%, transparent 38%),
-    linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+  /*background:*/
+  /*  radial-gradient(ellipse at 20% 10%, rgba(100, 108, 255, 0.12) 0%, transparent 40%),*/
+  /*  radial-gradient(ellipse at 80% 5%, rgba(160, 160, 180, 0.10) 0%, transparent 35%),*/
+  /*  radial-gradient(ellipse at 50% 15%, rgba(140, 140, 160, 0.08) 0%, transparent 45%),*/
+  /*  radial-gradient(ellipse at 10% 8%, rgba(100, 108, 255, 0.08) 0%, transparent 30%),*/
+  /*  radial-gradient(ellipse at 90% 12%, rgba(180, 180, 200, 0.10) 0%, transparent 38%),*/
+  /*  linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);*/
+  background:#000;
   border-radius: 12px;
+  border: 2px #333333;
   padding: 1.5rem;
 }
 
 .predictions-table {
   width: 100%;
-  border-collapse: collapse;
-  background: #1a1a1a;
+  /*border-collapse: collapse;*/
+  /*background: #1a0a0a;*/
+    /*radial-gradient(ellipse at 20% 10%, rgba(100, 108, 255, 0.12) 0%, transparent 40%),*/
+      /*radial-gradient(ellipse at 80% 5%, rgba(160, 160, 180, 0.10) 0%, transparent 35%),*/
+      /*radial-gradient(ellipse at 50% 15%, rgba(140, 140, 160, 0.08) 0%, transparent 45%),*/
+      /*radial-gradient(ellipse at 10% 8%, rgba(100, 108, 255, 0.08) 0%, transparent 30%),*/
+      /*radial-gradient(ellipse at 90% 12%, rgba(180, 180, 200, 0.10) 0%, transparent 38%),*/
+      /*linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);*/
+
+  /*border: 1px solid #333;*/
   border-radius: 8px;
+  border: 1px solid #333;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
@@ -111,7 +122,7 @@
 }
 
 .predictions-table tbody tr:hover {
-  background-color: #252525;
+  background-color: rgba(100, 108, 255, 0.2);;
 }
 
 .predictions-table tbody tr.clickable {

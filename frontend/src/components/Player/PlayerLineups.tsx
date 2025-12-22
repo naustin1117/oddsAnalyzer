@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import { LineupsResponse } from '../../types'
+import { LineupsResponse, PlayerNewsMap } from '../../types'
 import './PlayerLineups.css'
 
 interface PlayerLineupsProps {
   lineupData: LineupsResponse
+  newsData: PlayerNewsMap
 }
 
-function PlayerLineups({ lineupData }: PlayerLineupsProps) {
+function PlayerLineups({ lineupData, newsData }: PlayerLineupsProps) {
   const [activeMainTab, setActiveMainTab] = useState<'lineups' | 'injuries'>('lineups')
   const [activeLineupTab, setActiveLineupTab] = useState<'team' | 'opponent'>('team')
   const [selectedLine, setSelectedLine] = useState<string>('')
@@ -52,6 +53,12 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
     return lineId === 'pp1' || lineId === 'pp2' || lineId === 'pk1' || lineId === 'pk2'
   }
 
+  // Helper function to format news date
+  const formatNewsDate = (dateString: string) => {
+    const date = new Date(dateString)
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  }
+
   return (
     <div className="lineups-column">
       <div className="lineups-section">
@@ -80,14 +87,16 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
             className={`lineup-tab ${activeLineupTab === 'team' ? 'active' : ''}`}
             onClick={() => setActiveLineupTab('team')}
           >
-            {lineupData.team.team_name}
+            <span>{lineupData.team.team_name}</span>
+            <img src={lineupData.team.team_logo_url} alt={lineupData.team.team_name} className="lineup-tab-logo" />
           </button>
           {lineupData.opponent && (
             <button
               className={`lineup-tab ${activeLineupTab === 'opponent' ? 'active' : ''}`}
               onClick={() => setActiveLineupTab('opponent')}
             >
-              {lineupData.opponent.team_name}
+              <span>{lineupData.opponent.team_name}</span>
+              <img src={lineupData.opponent.team_logo_url} alt={lineupData.opponent.team_name} className="lineup-tab-logo" />
             </button>
           )}
         </div>
@@ -148,10 +157,6 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
           {/* Player's Team Lineup */}
           {activeLineupTab === 'team' && (
             <div className="team-lineup">
-              <h3>{lineupData.team.team_name}</h3>
-              {lineupData.team.opponent_name && (
-                <p className="opponent-info">vs {lineupData.team.opponent_name}</p>
-              )}
 
               {/* Hockey Formation Display */}
               {selectedLine ? (
@@ -379,11 +384,6 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
           {/* Opponent's Team Lineup */}
           {activeLineupTab === 'opponent' && lineupData.opponent && (
             <div className="team-lineup">
-              <h3>{lineupData.opponent.team_name}</h3>
-              {lineupData.opponent.opponent_name && (
-                <p className="opponent-info">vs {lineupData.opponent.opponent_name}</p>
-              )}
-
               {/* Hockey Formation Display for Opponent */}
               {selectedLine ? (
                 // Show single line formation
@@ -615,7 +615,10 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
           <div>
             {/* Player's Team Injuries */}
             <div className="injuries-team-section">
-              <h3 className="injuries-title">{lineupData.team.team_name}</h3>
+              <h3 className="injuries-title">
+                <span>{lineupData.team.team_name}</span>
+                <img src={lineupData.team.team_logo_url} alt={lineupData.team.team_name} className="injuries-title-logo" />
+              </h3>
               {lineupData.team.injuries.length > 0 ? (
                 <div className="injuries-grid">
                   {lineupData.team.injuries.map((player, idx) => (
@@ -636,6 +639,22 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                           <span className="injury-status-badge">{player.injury_status}</span>
                         </div>
                       )}
+
+                      {/* Display news for IR players */}
+                      {player.injury_status?.toUpperCase().includes('IR') && newsData[player.player_name] && (
+                        <div className="injury-news-section">
+                          <h4 className="news-header">Recent News:</h4>
+                          {newsData[player.player_name].map((newsItem, newsIdx) => (
+                            <div key={newsIdx} className="news-item">
+                              <div className="news-date">{formatNewsDate(newsItem.created_at)}</div>
+                              <div className="news-details">{newsItem.details}</div>
+                              {newsItem.fantasy_details && (
+                                <div className="news-fantasy-details">{newsItem.fantasy_details}</div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -649,7 +668,10 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
             {/* Opponent's Team Injuries */}
             {lineupData.opponent && (
               <div className="injuries-team-section">
-                <h3 className="injuries-title opponent">{lineupData.opponent.team_name}</h3>
+                <h3 className="injuries-title opponent">
+                  <span>{lineupData.opponent.team_name}</span>
+                  <img src={lineupData.opponent.team_logo_url} alt={lineupData.opponent.team_name} className="injuries-title-logo" />
+                </h3>
                 {lineupData.opponent.injuries.length > 0 ? (
                   <div className="injuries-grid">
                     {lineupData.opponent.injuries.map((player, idx) => (
@@ -668,6 +690,22 @@ function PlayerLineups({ lineupData }: PlayerLineupsProps) {
                         {player.injury_status && (
                           <div className="injury-card-status">
                             <span className="injury-status-badge">{player.injury_status}</span>
+                          </div>
+                        )}
+
+                        {/* Display news for IR players */}
+                        {player.injury_status?.toUpperCase().includes('IR') && newsData[player.player_name] && (
+                          <div className="injury-news-section">
+                            <h4 className="news-header">Recent News:</h4>
+                            {newsData[player.player_name].map((newsItem, newsIdx) => (
+                              <div key={newsIdx} className="news-item">
+                                <div className="news-date">{formatNewsDate(newsItem.created_at)}</div>
+                                <div className="news-details">{newsItem.details}</div>
+                                {newsItem.fantasy_details && (
+                                  <div className="news-fantasy-details">{newsItem.fantasy_details}</div>
+                                )}
+                              </div>
+                            ))}
                           </div>
                         )}
                       </div>

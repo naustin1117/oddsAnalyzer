@@ -7,7 +7,7 @@
 /* Lineups Section */
 .lineups-section {
   padding: 1.5rem;
-  background: #1a1a1a;
+  /*background: #1a1a1a;*/
   border: 1px solid #333;
   border-radius: 8px;
   height: 100%;
@@ -20,6 +20,41 @@
   margin: 0 0 1rem 0;
   font-size: 1.4rem;
   text-align: center;
+}
+
+/* Main Tabs - Button Style */
+.main-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.main-tab {
+  padding: 0.5rem 2rem;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #888;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.main-tab:hover {
+  color: #aaa;
+  border-color: #646cff;
+  background: #252525;
+}
+
+.main-tab.active {
+  color: #fff;
+  border-color: #646cff;
+  background: #646cff;
+  box-shadow: 0 0 12px rgba(100, 108, 255, 0.4);
 }
 
 /* Main Tabs with Glider Effect */
@@ -170,15 +205,25 @@
   color: #ff6b6b;
   font-size: 0.8rem;
   margin: 0 0 1.5rem 0;
-  text-align: center;
+  text-align: left;
   font-weight: 700;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
   letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 .injuries-title.opponent {
   border-top: 1px solid #333;
   padding-top: 2rem;
+}
+
+.injuries-title-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .injuries-grid {
@@ -189,8 +234,8 @@
 
 .injury-card {
   background: #0a0a0a;
-  padding: 1rem;
-  border-radius: 8px;
+  padding: 0.5rem;
+  border-radius: 6px;
   border: 1px solid #ff6b6b33;
   transition: all 0.2s;
 }
@@ -203,13 +248,13 @@
 .injury-card-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .injury-player-headshot-container {
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
 }
 
@@ -224,33 +269,76 @@
 .injury-card-header .player-number {
   color: #ff6b6b;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 .injury-card-header .player-name {
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   flex: 1;
 }
 
 .injury-card-header .player-position {
   color: #888;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
 }
 
 .injury-card-status {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .injury-status-badge {
   background: #ff6b6b22;
   color: #ff6b6b;
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.65rem;
   font-style: italic;
   border: 1px solid #ff6b6b44;
+}
+
+.injury-news-section {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #333;
+}
+
+.news-header {
+  color: #aaa;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+.news-item {
+  margin-bottom: 0.5rem;
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-date {
+  color: #646cff;
+  font-size: 0.65rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.news-details {
+  color: #ccc;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+
+.news-fantasy-details {
+  color: #888;
+  font-size: 0.65rem;
+  line-height: 1.3;
+  font-style: italic;
 }
 
 .no-injuries {
@@ -268,13 +356,13 @@
 .lineup-tabs {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #333;
+  margin-bottom: 1rem;
+  /*border-bottom: 2px solid #333;*/
 }
 
 .lineup-tab {
   flex: 1;
-  padding: 0.75rem 1rem;
+  /*padding: 0.5rem 0.5rem;*/
   background: transparent;
   border: none;
   border-bottom: 2px solid transparent;
@@ -286,6 +374,10 @@
   position: relative;
   bottom: -2px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*gap: 0.5rem;*/
 }
 
 .lineup-tab:hover {
@@ -297,6 +389,19 @@
   color: #646cff;
   border-bottom-color: #646cff;
   background: #0a0a0a;
+}
+
+.lineup-tab-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.lineup-tab:hover .lineup-tab-logo,
+.lineup-tab.active .lineup-tab-logo {
+  opacity: 1;
 }
 
 /* Line Filter */

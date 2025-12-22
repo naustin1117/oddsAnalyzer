@@ -136,7 +136,7 @@ class PlayerPredictionsResponse(BaseModel):
 
 class LineupPlayer(BaseModel):
     """Single player in a lineup"""
-    player_id: int
+    player_id: Optional[int] = None
     player_name: str
     position: str
     position_id: str

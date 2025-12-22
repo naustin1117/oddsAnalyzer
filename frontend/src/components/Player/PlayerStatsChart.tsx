@@ -7,7 +7,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   ReferenceLine,
   Cell,
@@ -48,8 +47,13 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
       }
     }
 
+    // Format date as MM/DD
+    const dateObj = new Date(game.game_date)
+    const formattedDate = `${String(dateObj.getMonth() + 1).padStart(2, '0')}/${String(dateObj.getDate()).padStart(2, '0')}`
+
     return {
       date: game.game_date,
+      formattedDate,
       shots: game.shots,
       goals: game.goals,
       assists: game.assists,
@@ -59,6 +63,70 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
       barColor,
     }
   })
+
+  // Custom tick component for X-axis with opponent logo
+  const CustomXAxisTick = (props: any) => {
+    const { x, y, payload } = props
+    const data = chartData.find(d => d.date === payload.value)
+
+    if (!data) {
+      console.log('No data found for tick:', payload.value)
+      return (
+        <g transform={`translate(${x},${y})`}>
+          <text
+            x={0}
+            y={20}
+            textAnchor="middle"
+            fill="#888"
+            fontSize={11}
+            fontFamily={'Segoe UI'}
+          >
+            {payload.value}
+          </text>
+        </g>
+      )
+    }
+
+    return (
+      <g transform={`translate(${x},${y})`}>
+        {/* Opponent logo */}
+        {data.opponent_logo_url ? (
+          <image
+            x={-12}
+            y={0}
+            width={24}
+            height={24}
+            href={data.opponent_logo_url}
+            onError={() => {
+              console.log('Failed to load logo for:', data.opponent, data.opponent_logo_url)
+            }}
+          />
+        ) : (
+          <text
+            x={0}
+            y={12}
+            textAnchor="middle"
+            fill="#646cff"
+            fontSize={10}
+            fontWeight="bold"
+            fontFamily={"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif"}
+          >
+            {data.opponent}
+          </text>
+        )}
+        {/* Date text */}
+        <text
+          x={0}
+          y={32}
+          textAnchor="middle"
+          fill="#888"
+          fontSize={11}
+        >
+          {data.formattedDate}
+        </text>
+      </g>
+    )
+  }
 
   return (
     <div className="player-stats-chart">
@@ -80,15 +148,14 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
         </div>
       </div>
       <ResponsiveContainer width="100%" height={400}>
-        <ComposedChart data={chartData} margin={{ top: 20, right: 30, left: 0, bottom: 20 }}>
+        <ComposedChart data={chartData} margin={{ top: 0, right: 40, left: -30, bottom: -20 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#333" />
           <XAxis
             dataKey="date"
             stroke="#888"
-            tick={{ fill: '#888' }}
-            angle={-45}
-            textAnchor="end"
-            height={80}
+            tick={<CustomXAxisTick />}
+            height={60}
+            interval={0}
           />
           <YAxis stroke="#888" tick={{ fill: '#888' }} />
           <Tooltip
@@ -148,10 +215,6 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
               )
             }}
           />
-          <Legend
-            wrapperStyle={{ paddingTop: '20px' }}
-            iconType="line"
-          />
           <Bar dataKey="shots" name="Shots">
             {chartData.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={entry.barColor} />
@@ -186,7 +249,7 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
               y={line}
               stroke="#ffffff"
               strokeWidth={2}
-              label={{ value: `Line: ${line}`, position: 'right', fill: '#ffffff' }}
+              label={{ value: `${line}`, position: 'right', fill: '#ffffff' }}
             />
           )}
           {prediction !== undefined && (
@@ -195,7 +258,7 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
               stroke="#4ade80"
               strokeWidth={2}
               strokeDasharray="5 5"
-              label={{ value: `Prediction: ${prediction.toFixed(2)}`, position: 'right', fill: '#4ade80' }}
+              label={{ value: `${prediction.toFixed(2)}`, position: 'right', fill: '#4ade80' }}
             />
           )}
         </ComposedChart>

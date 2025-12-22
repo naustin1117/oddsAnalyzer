@@ -56,7 +56,7 @@ def load_player_news() -> pd.DataFrame:
     """Load player news from CSV file."""
     try:
         df = pd.read_csv(LINEUP_NEWS_FILE)
-        df['created_at'] = pd.to_datetime(df['created_at'])
+        df['created_at'] = pd.to_datetime(df['created_at'], utc=True)
         return df
     except FileNotFoundError:
         raise HTTPException(status_code=500, detail="Player news file not found")

@@ -4,6 +4,7 @@ Player-specific endpoints.
 from fastapi import APIRouter, Depends, HTTPException, Query
 from datetime import datetime
 import pandas as pd
+import logging
 
 from ..auth import verify_api_key
 from ..models import PlayerGame, PlayerGamesResponse, Prediction, PlayerPredictionsResponse, PlayerNewsItem, PlayerNewsResponse
@@ -203,17 +204,17 @@ async def get_player_predictions(
     )
 
 
-@router.get("/news", response_model=PlayerNewsResponse)
+@router.get("/{player_id}/news", response_model=PlayerNewsResponse)
 async def get_player_news(
-    player_name: str = Query(..., description="Player name to search for"),
+    player_id: int,
     limit: int = Query(10, ge=1, le=50, description="Number of recent news items to fetch"),
     api_key: str = Depends(verify_api_key),
 ):
     """
-    Get recent news for a specific player by name.
+    Get recent news for a specific player by player ID.
 
     Args:
-        player_name: Player name (e.g., "Connor McDavid")
+        player_id: Player ID (e.g., 8478402)
         limit: Number of recent news items (1-50, default 10)
         api_key: API key from header (required)
 
@@ -222,19 +223,17 @@ async def get_player_news(
     """
     df = load_player_news()
 
-    # Filter for this player (case-insensitive)
-    player_news = df[df['player_name'].str.lower() == player_name.lower()].copy()
+    # Filter for this player by player_id
+    player_news = df[df['player_id'] == player_id].copy()
 
     if len(player_news) == 0:
-        raise HTTPException(status_code=404, detail=f"No news found for player '{player_name}'")
+        raise HTTPException(status_code=404, detail=f"No news found for player ID {player_id}")
 
     # Sort by created_at (most recent first) and limit
     player_news = player_news.sort_values('created_at', ascending=False).head(limit)
 
-    # Get player_id from first record (if available)
-    player_id = None
-    if pd.notna(player_news.iloc[0].get('player_id')):
-        player_id = int(player_news.iloc[0]['player_id'])
+    # Get player_name from first record
+    player_name = player_news.iloc[0]['player_name']
 
     # Convert to PlayerNewsItem models
     news_items = []
@@ -245,8 +244,8 @@ async def get_player_news(
                 player_id=int(news['player_id']) if pd.notna(news.get('player_id')) else None,
                 player_name=news['player_name'],
                 created_at=news['created_at'].isoformat(),
-                details=news['details'],
-                fantasy_details=news['fantasy_details'],
+                details=news['details'] if pd.notna(news['details']) else '',
+                fantasy_details=news['fantasy_details'] if pd.notna(news['fantasy_details']) else '',
                 scrape_date=news['scrape_date'],
             )
         )

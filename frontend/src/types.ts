@@ -102,12 +102,14 @@ export interface PlayerPredictionsResponse {
 }
 
 export interface LineupPlayer {
+  player_id: number | null;
   player_name: string;
   position: string;
   position_id: string;
   line: string;
   line_id: string;
   jersey_number: number | null;
+  headshot_url?: string;
   injury_status: string | null;
   game_time_decision: boolean | null;
 }
@@ -115,6 +117,9 @@ export interface LineupPlayer {
 export interface TeamLineup {
   team: string;
   team_name: string;
+  team_logo_url: string;
+  primary_color: string;
+  secondary_color: string;
   opponent: string | null;
   opponent_name: string | null;
   line_combinations: LineupPlayer[];
@@ -125,4 +130,25 @@ export interface TeamLineup {
 export interface LineupsResponse {
   team: TeamLineup;
   opponent: TeamLineup | null;
+}
+
+export interface PlayerNewsItem {
+  team: string;
+  player_id: number | null;
+  player_name: string;
+  created_at: string;
+  details: string;
+  fantasy_details: string;
+  scrape_date: string;
+}
+
+export interface PlayerNewsResponse {
+  player_id: number | null;
+  player_name: string;
+  news_count: number;
+  news: PlayerNewsItem[];
+}
+
+export interface PlayerNewsMap {
+  [player_name: string]: PlayerNewsItem[];
 }

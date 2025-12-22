@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { PulseLoader } from 'react-spinners'
 import { apiGet } from '../api'
 import PlayerHeader from '../components/Player/PlayerHeader'
 import RecentGamesTable from '../components/Player/RecentGamesTable'
 import PlayerStatsChart from '../components/Player/PlayerStatsChart'
 import SeasonAverages from '../components/Player/SeasonAverages'
 import PlayerLineups from '../components/Player/PlayerLineups'
-import { PlayerGamesResponse, PlayerPredictionsResponse, LineupsResponse } from '../types'
+import { PlayerGamesResponse, PlayerPredictionsResponse, LineupsResponse, PlayerNewsMap, PlayerNewsResponse } from '../types'
 import '../styles/Player.css'
 
 function Player() {
@@ -14,6 +15,7 @@ function Player() {
   const [playerData, setPlayerData] = useState<PlayerGamesResponse | null>(null)
   const [predictionsData, setPredictionsData] = useState<PlayerPredictionsResponse | null>(null)
   const [lineupData, setLineupData] = useState<LineupsResponse | null>(null)
+  const [newsData, setNewsData] = useState<PlayerNewsMap>({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -35,6 +37,52 @@ function Player() {
         try {
           const lineup = await apiGet<LineupsResponse>(`/lineups/${gamesData.team_abbrev}`)
           setLineupData(lineup)
+
+          // Fetch news for IR players
+          const fetchNewsForIRPlayers = async () => {
+            const allPlayers = [
+              ...lineup.team.line_combinations,
+              ...lineup.team.goalies,
+              ...lineup.team.injuries
+            ]
+
+            // Also check opponent if available
+            if (lineup.opponent) {
+              allPlayers.push(
+                ...lineup.opponent.line_combinations,
+                ...lineup.opponent.goalies,
+                ...lineup.opponent.injuries
+              )
+            }
+
+            // Filter for IR players with valid player_ids
+            const irPlayers = allPlayers.filter(player =>
+              player.injury_status?.toUpperCase().includes('IR') && player.player_id !== null
+            )
+
+            // Fetch news for each IR player
+            const newsMap: PlayerNewsMap = {}
+
+            await Promise.all(
+              irPlayers.map(async (player) => {
+                try {
+                  const response = await apiGet<PlayerNewsResponse>(
+                    `/players/${player.player_id}/news?limit=3`
+                  )
+                  if (response.news && response.news.length > 0) {
+                    newsMap[player.player_name] = response.news
+                  }
+                } catch (err) {
+                  // Silently fail for individual players - some might not have news
+                  console.log(`No news found for ${player.player_name}`)
+                }
+              })
+            )
+
+            setNewsData(newsMap)
+          }
+
+          fetchNewsForIRPlayers()
         } catch (lineupErr) {
           // Lineup data is optional - team might not be playing today
           console.log('Lineup data not available:', lineupErr)
@@ -54,7 +102,21 @@ function Player() {
     return (
       <div className="Player">
         <Link to="/" className="back-link">← Back to Predictions</Link>
-        <p>Loading...</p>
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '50vh',
+          gap: '2rem'
+        }}>
+          <PulseLoader
+            color="#646cff"
+            size={15}
+            speedMultiplier={0.8}
+          />
+          <p style={{ color: '#888' }}>Loading player data...</p>
+        </div>
       </div>
     )
   }
@@ -82,7 +144,10 @@ function Player() {
 
   return (
     <div className="Player">
-      <div className="player-content-wrapper">
+      <div className="player-content-wrapper"
+           style={{
+        background: `linear-gradient(to bottom, transparent 0%, black 10%), linear-gradient(to right, ${playerData.primary_color}, ${playerData.secondary_color})`
+      }}>
         <PlayerHeader
           headshot_url={playerData.headshot_url}
           team_logo_url={playerData.team_logo_url}
@@ -110,7 +175,7 @@ function Player() {
           </div>
 
           {/* Lineup Information */}
-          {lineupData && <PlayerLineups lineupData={lineupData} />}
+          {lineupData && <PlayerLineups lineupData={lineupData} newsData={newsData} />}
         </div>
 
         <RecentGamesTable games={playerData.games} />
