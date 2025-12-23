@@ -1,0 +1,35 @@
+.player-performance {
+  margin: 1rem 0;
+}
+
+.performance-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.performance-tab {
+  padding: 0.5rem 1rem;
+  background: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  transition: all 0.2s;
+}
+
+.performance-tab:hover {
+  background: #333;
+  border-color: #646cff;
+  color: #fff;
+}
+
+.performance-tab.active {
+  background: #646cff;
+  border-color: #646cff;
+  color: #fff;
+  font-weight: 600;
+}

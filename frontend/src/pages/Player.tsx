@@ -3,8 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { PulseLoader } from 'react-spinners'
 import { apiGet } from '../api'
 import PlayerHeader from '../components/Player/PlayerHeader'
-import RecentGamesTable from '../components/Player/RecentGamesTable'
-import PlayerStatsChart from '../components/Player/PlayerStatsChart'
+import PlayerPerformance from '../components/Player/PlayerPerformance'
 import SeasonAverages from '../components/Player/SeasonAverages'
 import PlayerLineups from '../components/Player/PlayerLineups'
 import { PlayerGamesResponse, PlayerPredictionsResponse, LineupsResponse, PlayerNewsMap, PlayerNewsResponse } from '../types'
@@ -166,7 +165,7 @@ function Player() {
         {/* Main content: Graph + Season Averages on left, Lineups on right */}
         <div className="chart-and-lineups-wrapper">
           <div className="chart-column">
-            <PlayerStatsChart
+            <PlayerPerformance
               games={playerData.games}
               line={upcomingGame?.line}
               prediction={upcomingGame?.prediction ?? undefined}
@@ -177,8 +176,6 @@ function Player() {
           {/* Lineup Information */}
           {lineupData && <PlayerLineups lineupData={lineupData} newsData={newsData} />}
         </div>
-
-        <RecentGamesTable games={playerData.games} />
       </div>
     </div>
   )

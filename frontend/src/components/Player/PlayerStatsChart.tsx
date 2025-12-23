@@ -148,7 +148,7 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
         </div>
       </div>
       <ResponsiveContainer width="100%" height={400}>
-        <ComposedChart data={chartData} margin={{ top: 0, right: 40, left: -30, bottom: -20 }}>
+        <ComposedChart data={chartData} margin={{ top: 0, right: 40, left: -30, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#333" />
           <XAxis
             dataKey="date"
