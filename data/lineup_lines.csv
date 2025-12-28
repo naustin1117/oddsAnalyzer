@@ -7609,3 +7609,402 @@ winnipeg-jets,minnesota-wild,8476392.0,Adam Lowry,Skater 1,sk1,2nd Penalty Kill 
 winnipeg-jets,minnesota-wild,8478398.0,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2025-12-27
 winnipeg-jets,minnesota-wild,8479378.0,Logan Stanley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,64.0,,False,2025-12-27
 winnipeg-jets,minnesota-wild,8480145.0,Neal Pionk,Skater 4,sk4,2nd Penalty Kill Unit,pk2,4.0,,False,2025-12-27
+chicago-blackhawks,pittsburgh-penguins,8477479.0,Tyler Bertuzzi,Left Wing,lw,Forwards 1,f1,59.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477450.0,Jason Dickinson,Center,c,Forwards 1,f1,16.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8482172.0,Landon Slaggert,Right Wing,rw,Forwards 1,f1,84.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476882.0,Teuvo Teravainen,Left Wing,lw,Forwards 2,f2,86.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477987.0,Ryan Donato,Center,c,Forwards 2,f2,8.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477444.0,Andre Burakovsky,Right Wing,rw,Forwards 2,f2,28.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8484197.0,Oliver Moore,Left Wing,lw,Forwards 3,f3,11.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8483450.0,Ryan Greene,Center,c,Forwards 3,f3,20.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8482703.0,Colton Dach,Right Wing,rw,Forwards 3,f3,34.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,,Nick Lardis,Left Wing,lw,Forwards 4,f4,76.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,,Dominic Toninato,Center,c,Forwards 4,f4,25.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8478043.0,Sam Lafferty,Right Wing,rw,Forwards 4,f4,24.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8481568.0,Alex Vlasic,Left Defense,ld,Defense 1,d1,72.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8481806.0,Louis Crevier,Right Defense,rd,Defense 1,d1,46.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8482176.0,Wyatt Kaiser,Left Defense,ld,Defense 2,d2,,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476473.0,Connor Murphy,Right Defense,rd,Defense 2,d2,5.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476891.0,Matt Grzelcyk,Left Defense,ld,Defense 3,d3,24.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8484783.0,Artyom Levshunov,Right Defense,rd,Defense 3,d3,55.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477479.0,Tyler Bertuzzi,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476882.0,Teuvo Teravainen,Skater 2,sk2,1st Powerplay Unit,pp1,86.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,,Nick Lardis,Skater 3,sk3,1st Powerplay Unit,pp1,76.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477444.0,Andre Burakovsky,Skater 4,sk4,1st Powerplay Unit,pp1,28.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8484783.0,Artyom Levshunov,Skater 5,sk5,1st Powerplay Unit,pp1,55.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8482703.0,Colton Dach,Skater 1,sk1,2nd Powerplay Unit,pp2,34.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8483450.0,Ryan Greene,Skater 2,sk2,2nd Powerplay Unit,pp2,20.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477987.0,Ryan Donato,Skater 3,sk3,2nd Powerplay Unit,pp2,8.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8484197.0,Oliver Moore,Skater 4,sk4,2nd Powerplay Unit,pp2,11.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476891.0,Matt Grzelcyk,Skater 5,sk5,2nd Powerplay Unit,pp2,24.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8484144.0,Connor Bedard,Injured Reserve 1,ir1,Injured Reserve,ir,98.0,ir,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8473422.0,Nick Foligno,Injured Reserve 2,ir2,Injured Reserve,ir,17.0,ir,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8483493.0,Frank Nazar,Injured Reserve 3,ir3,Injured Reserve,ir,,out,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8477450.0,Jason Dickinson,Skater 1,sk1,1st Penalty Kill Unit,pk1,16.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476882.0,Teuvo Teravainen,Skater 2,sk2,1st Penalty Kill Unit,pk1,86.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8481568.0,Alex Vlasic,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8476473.0,Connor Murphy,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8483450.0,Ryan Greene,Skater 1,sk1,2nd Penalty Kill Unit,pk2,20.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8484197.0,Oliver Moore,Skater 2,sk2,2nd Penalty Kill Unit,pk2,11.0,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8482176.0,Wyatt Kaiser,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False,2025-12-28
+chicago-blackhawks,pittsburgh-penguins,8481806.0,Louis Crevier,Skater 4,sk4,2nd Penalty Kill Unit,pk2,46.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478975.0,Mason Marchment,Left Wing,lw,Forwards 1,f1,27.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8484166.0,Adam Fantilli,Center,c,Forwards 1,f1,19.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8480893.0,Kirill Marchenko,Right Wing,rw,Forwards 1,f1,86.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8481716.0,Dmitri Voronkov,Left Wing,lw,Forwards 2,f2,10.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8477497.0,Sean Monahan,Center,c,Forwards 2,f2,23.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8482660.0,Kent Johnson,Right Wing,rw,Forwards 2,f2,91.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8476432.0,Boone Jenner,Left Wing,lw,Forwards 3,f3,38.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8475745.0,Charlie Coyle,Center,c,Forwards 3,f3,3.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8479671.0,Mathieu Olivier,Right Wing,rw,Forwards 3,f3,24.0,,True,2025-12-28
+columbus-blue-jackets,new-york-islanders,8477425.0,Miles Wood,Left Wing,lw,Forwards 4,f4,28.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,,Isac Lundestrom,Center,c,Forwards 4,f4,21.0,,True,2025-12-28
+columbus-blue-jackets,new-york-islanders,8482705.0,Cole Sillinger,Right Wing,rw,Forwards 4,f4,4.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478500.0,Ivan Provorov,Left Defense,ld,Defense 1,d1,9.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8479371.0,Dante Fabbro,Right Defense,rd,Defense 1,d1,15.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8483485.0,Denton Mateychuk,Left Defense,ld,Defense 2,d2,5.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8476923.0,Damon Severson,Right Defense,rd,Defense 2,d2,78.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8481161.0,Jake Christiansen,Left Defense,ld,Defense 3,d3,2.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,,Brendan Smith,Right Defense,rd,Defense 3,d3,2.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8481716.0,Dmitri Voronkov,Skater 1,sk1,1st Powerplay Unit,pp1,10.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8484166.0,Adam Fantilli,Skater 2,sk2,1st Powerplay Unit,pp1,19.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8477497.0,Sean Monahan,Skater 3,sk3,1st Powerplay Unit,pp1,23.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8480893.0,Kirill Marchenko,Skater 4,sk4,1st Powerplay Unit,pp1,86.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8483485.0,Denton Mateychuk,Skater 5,sk5,1st Powerplay Unit,pp1,5.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478975.0,Mason Marchment,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8475745.0,Charlie Coyle,Skater 2,sk2,2nd Powerplay Unit,pp2,3.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8476432.0,Boone Jenner,Skater 3,sk3,2nd Powerplay Unit,pp2,38.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478500.0,Ivan Provorov,Skater 4,sk4,2nd Powerplay Unit,pp2,9.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8476923.0,Damon Severson,Skater 5,sk5,2nd Powerplay Unit,pp2,78.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8475790.0,Erik Gudbranson,Injured Reserve 1,ir1,Injured Reserve,ir,44.0,ir,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8479671.0,Mathieu Olivier,Injured Reserve 2,ir2,Injured Reserve,ir,24.0,ir,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8476867.0,Brendan Gaunce,Injured Reserve 3,ir3,Injured Reserve,ir,16.0,ir,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478460.0,Zach Werenski,Injured Reserve 4,ir4,Injured Reserve,ir,8.0,dtd,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8477497.0,Sean Monahan,Skater 1,sk1,1st Penalty Kill Unit,pk1,23.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8476432.0,Boone Jenner,Skater 2,sk2,1st Penalty Kill Unit,pk1,38.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478460.0,Zach Werenski,Skater 3,sk3,1st Penalty Kill Unit,pk1,8.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8478500.0,Ivan Provorov,Skater 4,sk4,1st Penalty Kill Unit,pk1,9.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8475745.0,Charlie Coyle,Skater 1,sk1,2nd Penalty Kill Unit,pk2,3.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8482705.0,Cole Sillinger,Skater 2,sk2,2nd Penalty Kill Unit,pk2,4.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8479371.0,Dante Fabbro,Skater 3,sk3,2nd Penalty Kill Unit,pk2,15.0,,False,2025-12-28
+columbus-blue-jackets,new-york-islanders,8483485.0,Denton Mateychuk,Skater 4,sk4,2nd Penalty Kill Unit,pk2,5.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8484471.0,Emmitt Finnie,Left Wing,lw,Forwards 1,f1,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477946.0,Dylan Larkin,Center,c,Forwards 1,f1,71.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8482078.0,Lucas Raymond,Right Wing,rw,Forwards 1,f1,23.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8479337.0,Alex DeBrincat,Left Wing,lw,Forwards 2,f2,93.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477429.0,Andrew Copp,Center,c,Forwards 2,f2,18.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,,John Leonard,Right Wing,rw,Forwards 2,f2,43.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8479992.0,Michael Rasmussen,Left Wing,lw,Forwards 3,f3,27.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477456.0,J.T. Compher,Center,c,Forwards 3,f3,37.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8478891.0,Mason Appleton,Right Wing,rw,Forwards 3,f3,22.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8481725.0,Elmer Soderblom,Left Wing,lw,Forwards 4,f4,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8484160.0,Nate Danielson,Center,c,Forwards 4,f4,29.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8483464.0,Marco Kasper,Right Wing,rw,Forwards 4,f4,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8482762.0,Simon Edvinsson,Left Defense,ld,Defense 1,d1,77.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8481542.0,Moritz Seider,Right Defense,rd,Defense 1,d1,53.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8475279.0,Ben Chiarot,Left Defense,ld,Defense 2,d2,8.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8484223.0,Axel Sandin-Pellikka,Right Defense,rd,Defense 2,d2,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8481607.0,Albert Johansson,Left Defense,ld,Defense 3,d3,20.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8480879.0,Jacob Bernard-Docker,Right Defense,rd,Defense 3,d3,24.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8484471.0,Emmitt Finnie,Skater 1,sk1,1st Powerplay Unit,pp1,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477946.0,Dylan Larkin,Skater 2,sk2,1st Powerplay Unit,pp1,71.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8482078.0,Lucas Raymond,Skater 3,sk3,1st Powerplay Unit,pp1,23.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8479337.0,Alex DeBrincat,Skater 4,sk4,1st Powerplay Unit,pp1,93.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8481542.0,Moritz Seider,Skater 5,sk5,1st Powerplay Unit,pp1,53.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8483464.0,Marco Kasper,Skater 1,sk1,2nd Powerplay Unit,pp2,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477429.0,Andrew Copp,Skater 2,sk2,2nd Powerplay Unit,pp2,18.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,,John Leonard,Skater 3,sk3,2nd Powerplay Unit,pp2,43.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8484160.0,Nate Danielson,Skater 4,sk4,2nd Powerplay Unit,pp2,29.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8484223.0,Axel Sandin-Pellikka,Skater 5,sk5,2nd Powerplay Unit,pp2,,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8474141.0,Patrick Kane,Injured Reserve 1,ir1,Injured Reserve,ir,88.0,dtd,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8479992.0,Michael Rasmussen,Skater 1,sk1,1st Penalty Kill Unit,pk1,27.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8478891.0,Mason Appleton,Skater 2,sk2,1st Penalty Kill Unit,pk1,22.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8482762.0,Simon Edvinsson,Skater 3,sk3,1st Penalty Kill Unit,pk1,77.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8481542.0,Moritz Seider,Skater 4,sk4,1st Penalty Kill Unit,pk1,53.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477456.0,J.T. Compher,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8477429.0,Andrew Copp,Skater 2,sk2,2nd Penalty Kill Unit,pk2,18.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8475279.0,Ben Chiarot,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False,2025-12-28
+detroit-red-wings,toronto-maple-leafs,8480879.0,Jacob Bernard-Docker,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8481540.0,Cole Caufield,Left Wing,lw,Forwards 1,f1,13.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480018.0,Nick Suzuki,Center,c,Forwards 1,f1,14.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482737.0,Zack Bolduc,Right Wing,rw,Forwards 1,f1,76.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,,Juraj Slafkovsky,Left Wing,lw,Forwards 2,f2,20.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482775.0,Oliver Kapanen,Center,c,Forwards 2,f2,,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8484984.0,Ivan Demidov,Right Wing,rw,Forwards 2,f2,,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480074.0,Alexandre Texier,Left Wing,lw,Forwards 3,f3,85.0,,True,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8476479.0,Phillip Danault,Center,c,Forwards 3,f3,24.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8476981.0,Josh Anderson,Right Wing,rw,Forwards 3,f3,17.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8478104.0,Sammy Blais,Left Wing,lw,Forwards 4,f4,79.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480813.0,Joe Veleno,Center,c,Forwards 4,f4,90.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8475848.0,Brendan Gallagher,Right Wing,rw,Forwards 4,f4,11.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8476875.0,Mike Matheson,Left Defense,ld,Defense 1,d1,8.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480865.0,Noah Dobson,Right Defense,rd,Defense 1,d1,8.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8483457.0,Lane Hutson,Left Defense,ld,Defense 2,d2,48.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8478851.0,Alexandre Carrier,Right Defense,rd,Defense 2,d2,45.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8481593.0,Jayden Struble,Left Defense,ld,Defense 3,d3,47.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482964.0,Arber Xhekaj,Right Defense,rd,Defense 3,d3,72.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,,Juraj Slafkovsky,Skater 1,sk1,1st Powerplay Unit,pp1,20.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480018.0,Nick Suzuki,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482737.0,Zack Bolduc,Skater 3,sk3,1st Powerplay Unit,pp1,76.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8481540.0,Cole Caufield,Skater 4,sk4,1st Powerplay Unit,pp1,13.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8483457.0,Lane Hutson,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8475848.0,Brendan Gallagher,Skater 1,sk1,2nd Powerplay Unit,pp2,11.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482775.0,Oliver Kapanen,Skater 2,sk2,2nd Powerplay Unit,pp2,,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8476981.0,Josh Anderson,Skater 3,sk3,2nd Powerplay Unit,pp2,17.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8484984.0,Ivan Demidov,Skater 4,sk4,2nd Powerplay Unit,pp2,,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480865.0,Noah Dobson,Skater 5,sk5,2nd Powerplay Unit,pp2,8.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482087.0,Kaiden Guhle,Injured Reserve 1,ir1,Injured Reserve,ir,21.0,ir,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8479339.0,Patrik Laine,Injured Reserve 2,ir2,Injured Reserve,ir,92.0,ir,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8481618.0,Alex Newhook,Injured Reserve 3,ir3,Injured Reserve,ir,15.0,ir,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,,David Reinbacher,Injured Reserve 4,ir4,Injured Reserve,ir,64.0,out,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8478133.0,Jake Evans,Injured Reserve 5,ir5,Injured Reserve,ir,71.0,dtd,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,,Sam Montembeault,Injured Reserve 6,ir6,Injured Reserve,ir,35.0,dtd,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480074.0,Alexandre Texier,Injured Reserve 7,ir7,Injured Reserve,ir,85.0,out,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8482775.0,Oliver Kapanen,Skater 1,sk1,1st Penalty Kill Unit,pk1,,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8476981.0,Josh Anderson,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8476875.0,Mike Matheson,Skater 3,sk3,1st Penalty Kill Unit,pk1,8.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8478851.0,Alexandre Carrier,Skater 4,sk4,1st Penalty Kill Unit,pk1,45.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480018.0,Nick Suzuki,Skater 1,sk1,2nd Penalty Kill Unit,pk2,14.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480813.0,Joe Veleno,Skater 2,sk2,2nd Penalty Kill Unit,pk2,90.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8483457.0,Lane Hutson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,48.0,,False,2025-12-28
+montreal-canadiens,tampa-bay-lightning,8480865.0,Noah Dobson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,8.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477494.0,Jonathan Drouin,Left Wing,lw,Forwards 1,f1,29.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477500.0,Bo Horvat,Center,c,Forwards 1,f1,14.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8482476.0,Emil Heineman,Right Wing,rw,Forwards 1,f1,51.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8475314.0,Anders Lee,Left Wing,lw,Forwards 2,f2,27.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8478445.0,Mathew Barzal,Center,c,Forwards 2,f2,13.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481601.0,Simon Holmstrom,Right Wing,rw,Forwards 2,f2,10.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,,Maxim Shabanov,Left Wing,lw,Forwards 3,f3,49.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8484221.0,Calum Ritchie,Center,c,Forwards 3,f3,64.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8476419.0,Jean-Gabriel Pageau,Right Wing,rw,Forwards 3,f3,44.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481237.0,Kyle MacLean,Left Wing,lw,Forwards 4,f4,32.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8475231.0,Casey Cizikas,Center,c,Forwards 4,f4,53.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8483553.0,Marc Gatcomb,Right Wing,rw,Forwards 4,f4,16.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8485366.0,Matthew Schaefer,Left Defense,ld,Defense 1,d1,48.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477506.0,Ryan Pulock,Right Defense,rd,Defense 1,d1,6.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8476917.0,Adam Pelech,Left Defense,ld,Defense 2,d2,3.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477950.0,Tony DeAngelo,Right Defense,rd,Defense 2,d2,77.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481569.0,Marshall Warren,Left Defense,ld,Defense 3,d3,,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8476429.0,Scott Mayfield,Right Defense,rd,Defense 3,d3,24.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8484221.0,Calum Ritchie,Skater 1,sk1,1st Powerplay Unit,pp1,64.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477500.0,Bo Horvat,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477494.0,Jonathan Drouin,Skater 3,sk3,1st Powerplay Unit,pp1,29.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8485366.0,Matthew Schaefer,Skater 4,sk4,1st Powerplay Unit,pp1,48.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8478445.0,Mathew Barzal,Skater 5,sk5,1st Powerplay Unit,pp1,13.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,,Maxim Shabanov,Skater 1,sk1,2nd Powerplay Unit,pp2,49.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8475314.0,Anders Lee,Skater 2,sk2,2nd Powerplay Unit,pp2,27.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8482476.0,Emil Heineman,Skater 3,sk3,2nd Powerplay Unit,pp2,51.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477950.0,Tony DeAngelo,Skater 4,sk4,2nd Powerplay Unit,pp2,77.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481601.0,Simon Holmstrom,Skater 5,sk5,2nd Powerplay Unit,pp2,10.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,,Semyon Varlamov,Injured Reserve 1,ir1,Injured Reserve,ir,40.0,ir,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,,Pierre Engvall,Injured Reserve 2,ir2,Injured Reserve,ir,18.0,ir,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,,Ethan Bear,Injured Reserve 3,ir3,Injured Reserve,ir,,ir,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481014.0,Alexander Romanov,Injured Reserve 4,ir4,Injured Reserve,ir,28.0,ir,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8475151.0,Kyle Palmieri,Injured Reserve 5,ir5,Injured Reserve,ir,21.0,ir,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,,Ilya Sorokin,Injured Reserve 6,ir6,Injured Reserve,ir,30.0,ir,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8475231.0,Casey Cizikas,Skater 1,sk1,1st Penalty Kill Unit,pk1,53.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481237.0,Kyle MacLean,Skater 2,sk2,1st Penalty Kill Unit,pk1,32.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8476917.0,Adam Pelech,Skater 3,sk3,1st Penalty Kill Unit,pk1,3.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8477506.0,Ryan Pulock,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8476419.0,Jean-Gabriel Pageau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,44.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8481601.0,Simon Holmstrom,Skater 2,sk2,2nd Penalty Kill Unit,pk2,10.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8485366.0,Matthew Schaefer,Skater 3,sk3,2nd Penalty Kill Unit,pk2,48.0,,False,2025-12-28
+new-york-islanders,columbus-blue-jackets,8476429.0,Scott Mayfield,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481533.0,Trevor Zegras,Left Wing,lw,Forwards 1,f1,46.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8477989.0,Christian Dvorak,Center,c,Forwards 1,f1,22.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8478439.0,Travis Konecny,Right Wing,rw,Forwards 1,f1,11.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,,Denver Barkey,Left Wing,lw,Forwards 2,f2,,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8476461.0,Sean Couturier,Center,c,Forwards 2,f2,14.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8480015.0,Owen Tippett,Right Wing,rw,Forwards 2,f2,74.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8484387.0,Matvei Michkov,Left Wing,lw,Forwards 3,f3,39.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8480220.0,Noah Cates,Center,c,Forwards 3,f3,27.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481553.0,Bobby Brink,Right Wing,rw,Forwards 3,f3,10.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8479336.0,Carl Grundstrom,Left Wing,lw,Forwards 4,f4,91.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8479022.0,Rodrigo Abols,Center,c,Forwards 4,f4,18.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8483733.0,Nikita Grebenkin,Right Wing,rw,Forwards 4,f4,29.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481546.0,Cam York,Left Defense,ld,Defense 1,d1,8.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8477948.0,Travis Sanheim,Right Defense,rd,Defense 1,d1,6.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8482126.0,Emil Andrae,Left Defense,ld,Defense 2,d2,,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8482142.0,Jamie Drysdale,Right Defense,rd,Defense 2,d2,9.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8476372.0,Nick Seeler,Left Defense,ld,Defense 3,d3,24.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,,Rasmus Ristolainen,Right Defense,rd,Defense 3,d3,55.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8478439.0,Travis Konecny,Skater 1,sk1,1st Powerplay Unit,pp1,11.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8480220.0,Noah Cates,Skater 2,sk2,1st Powerplay Unit,pp1,27.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481553.0,Bobby Brink,Skater 3,sk3,1st Powerplay Unit,pp1,10.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8482142.0,Jamie Drysdale,Skater 4,sk4,1st Powerplay Unit,pp1,9.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481533.0,Trevor Zegras,Skater 5,sk5,1st Powerplay Unit,pp1,46.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8480015.0,Owen Tippett,Skater 1,sk1,2nd Powerplay Unit,pp2,74.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,,Denver Barkey,Skater 2,sk2,2nd Powerplay Unit,pp2,,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8484387.0,Matvei Michkov,Skater 3,sk3,2nd Powerplay Unit,pp2,39.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481546.0,Cam York,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8477948.0,Travis Sanheim,Skater 5,sk5,2nd Powerplay Unit,pp2,6.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8482159.0,Tyson Foerster,Injured Reserve 1,ir1,Injured Reserve,ir,71.0,ir,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8476461.0,Sean Couturier,Skater 1,sk1,1st Penalty Kill Unit,pk1,14.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8478439.0,Travis Konecny,Skater 2,sk2,1st Penalty Kill Unit,pk1,11.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8481546.0,Cam York,Skater 3,sk3,1st Penalty Kill Unit,pk1,8.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8477948.0,Travis Sanheim,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8479022.0,Rodrigo Abols,Skater 1,sk1,2nd Penalty Kill Unit,pk2,18.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8479336.0,Carl Grundstrom,Skater 2,sk2,2nd Penalty Kill Unit,pk2,91.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,8476372.0,Nick Seeler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-28
+philadelphia-flyers,seattle-kraken,,Rasmus Ristolainen,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8476483.0,Rickard Rakell,Left Wing,lw,Forwards 1,f1,67.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8471675.0,Sidney Crosby,Center,c,Forwards 1,f1,87.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8475810.0,Bryan Rust,Right Wing,rw,Forwards 1,f1,17.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8477511.0,Anthony Mantha,Left Wing,lw,Forwards 2,f2,39.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478438.0,Tommy Novak,Center,c,Forwards 2,f2,18.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8479638.0,Justin Brazeau,Right Wing,rw,Forwards 2,f2,15.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,,Rutger McGroarty,Left Wing,lw,Forwards 3,f3,2.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8485414.0,Ben Kindel,Center,c,Forwards 3,f3,81.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8482758.0,Ville Koivunen,Right Wing,rw,Forwards 3,f3,41.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8480980.0,Connor Dewar,Left Wing,lw,Forwards 4,f4,19.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8481481.0,Blake Lizotte,Center,c,Forwards 4,f4,46.0,,True,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478569.0,Noel Acciari,Right Wing,rw,Forwards 4,f4,55.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478450.0,Parker Wotherspoon,Left Defense,ld,Defense 1,d1,29.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8474578.0,Erik Karlsson,Right Defense,rd,Defense 1,d1,65.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8476967.0,Brett Kulak,Left Defense,ld,Defense 2,d2,77.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8471724.0,Kris Letang,Right Defense,rd,Defense 2,d2,58.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478854.0,Ryan Shea,Left Defense,ld,Defense 3,d3,5.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,,Jack St. Ivany,Right Defense,rd,Defense 3,d3,,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8475810.0,Bryan Rust,Skater 1,sk1,1st Powerplay Unit,pp1,17.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8471675.0,Sidney Crosby,Skater 2,sk2,1st Powerplay Unit,pp1,87.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8477511.0,Anthony Mantha,Skater 3,sk3,1st Powerplay Unit,pp1,39.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8474578.0,Erik Karlsson,Skater 4,sk4,1st Powerplay Unit,pp1,65.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8476483.0,Rickard Rakell,Skater 5,sk5,1st Powerplay Unit,pp1,67.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8479638.0,Justin Brazeau,Skater 1,sk1,2nd Powerplay Unit,pp2,15.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8485414.0,Ben Kindel,Skater 2,sk2,2nd Powerplay Unit,pp2,81.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,,Rutger McGroarty,Skater 3,sk3,2nd Powerplay Unit,pp2,2.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8471724.0,Kris Letang,Skater 4,sk4,2nd Powerplay Unit,pp2,58.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478438.0,Tommy Novak,Skater 5,sk5,2nd Powerplay Unit,pp2,18.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8480842.0,Filip Hallander,Injured Reserve 2,ir2,Injured Reserve,ir,11.0,ir,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8471215.0,Evgeni Malkin,Injured Reserve 7,ir7,Injured Reserve,ir,71.0,ir,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8481481.0,Blake Lizotte,Injured Reserve 8,ir8,Injured Reserve,ir,46.0,ir,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8481481.0,Blake Lizotte,Skater 1,sk1,1st Penalty Kill Unit,pk1,46.0,,True,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8480980.0,Connor Dewar,Skater 2,sk2,1st Penalty Kill Unit,pk1,19.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478450.0,Parker Wotherspoon,Skater 3,sk3,1st Penalty Kill Unit,pk1,29.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478854.0,Ryan Shea,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8478569.0,Noel Acciari,Skater 1,sk1,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8475810.0,Bryan Rust,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8476967.0,Brett Kulak,Skater 3,sk3,2nd Penalty Kill Unit,pk2,77.0,,False,2025-12-28
+pittsburgh-penguins,chicago-blackhawks,8471724.0,Kris Letang,Skater 4,sk4,2nd Penalty Kill Unit,pk2,58.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8481554.0,Kaapo Kakko,Left Wing,lw,Forwards 1,f1,84.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8482665.0,Matty Beniers,Center,c,Forwards 1,f1,10.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8474586.0,Jordan Eberle,Right Wing,rw,Forwards 1,f1,7.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8480009.0,Eeli Tolvanen,Left Wing,lw,Forwards 2,f2,20.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8476905.0,Chandler Stephenson,Center,c,Forwards 2,f2,9.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8477919.0,Frederick Gaudreau,Right Wing,rw,Forwards 2,f2,89.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8484800.0,Berkly Catton,Left Wing,lw,Forwards 3,f3,77.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8483524.0,Shane Wright,Center,c,Forwards 3,f3,51.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8477955.0,Jared McCann,Right Wing,rw,Forwards 3,f3,19.0,,True,2025-12-28
+seattle-kraken,philadelphia-flyers,8481789.0,Tye Kartye,Left Wing,lw,Forwards 4,f4,12.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8483570.0,Ben Meyers,Center,c,Forwards 4,f4,59.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,,Jacob Melanson,Right Wing,rw,Forwards 4,f4,,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8478407.0,Vince Dunn,Left Defense,ld,Defense 1,d1,29.0,,True,2025-12-28
+seattle-kraken,philadelphia-flyers,8476457.0,Adam Larsson,Right Defense,rd,Defense 1,d1,6.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8479324.0,Ryan Lindgren,Left Defense,ld,Defense 2,d2,55.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8479985.0,Cale Fleury,Right Defense,rd,Defense 2,d2,8.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8482858.0,Ryker Evans,Left Defense,ld,Defense 3,d3,41.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8476467.0,Jamie Oleksiak,Right Defense,rd,Defense 3,d3,24.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8476905.0,Chandler Stephenson,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8482665.0,Matty Beniers,Skater 2,sk2,1st Powerplay Unit,pp1,10.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8474586.0,Jordan Eberle,Skater 3,sk3,1st Powerplay Unit,pp1,7.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8478407.0,Vince Dunn,Skater 4,sk4,1st Powerplay Unit,pp1,29.0,,True,2025-12-28
+seattle-kraken,philadelphia-flyers,8477955.0,Jared McCann,Skater 5,sk5,1st Powerplay Unit,pp1,19.0,,True,2025-12-28
+seattle-kraken,philadelphia-flyers,8481554.0,Kaapo Kakko,Skater 1,sk1,2nd Powerplay Unit,pp2,84.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8483524.0,Shane Wright,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8484800.0,Berkly Catton,Skater 3,sk3,2nd Powerplay Unit,pp2,77.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8482858.0,Ryker Evans,Skater 4,sk4,2nd Powerplay Unit,pp2,41.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8480009.0,Eeli Tolvanen,Skater 5,sk5,2nd Powerplay Unit,pp2,20.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8475768.0,Jaden Schwartz,Injured Reserve 1,ir1,Injured Reserve,ir,17.0,ir,False,2025-12-28
+seattle-kraken,philadelphia-flyers,,Matt Murray,Injured Reserve 2,ir2,Injured Reserve,ir,30.0,ir,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8477955.0,Jared McCann,Injured Reserve 4,ir4,Injured Reserve,ir,19.0,out,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8477986.0,Brandon Montour,Injured Reserve 5,ir5,Injured Reserve,ir,62.0,dtd,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8478407.0,Vince Dunn,Injured Reserve 6,ir6,Injured Reserve,ir,29.0,dtd,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8476905.0,Chandler Stephenson,Skater 1,sk1,1st Penalty Kill Unit,pk1,9.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8480009.0,Eeli Tolvanen,Skater 2,sk2,1st Penalty Kill Unit,pk1,20.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8479324.0,Ryan Lindgren,Skater 3,sk3,1st Penalty Kill Unit,pk1,55.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8476457.0,Adam Larsson,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8477919.0,Frederick Gaudreau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,89.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8483570.0,Ben Meyers,Skater 2,sk2,2nd Penalty Kill Unit,pk2,59.0,,False,2025-12-28
+seattle-kraken,philadelphia-flyers,8478407.0,Vince Dunn,Skater 3,sk3,2nd Penalty Kill Unit,pk2,29.0,,True,2025-12-28
+seattle-kraken,philadelphia-flyers,8476467.0,Jamie Oleksiak,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8482201.0,Gage Goncalves,Left Wing,lw,Forwards 1,f1,93.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478010.0,Brayden Point,Center,c,Forwards 1,f1,21.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8476453.0,Nikita Kucherov,Right Wing,rw,Forwards 1,f1,86.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477404.0,Jake Guentzel,Left Wing,lw,Forwards 2,f2,59.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478519.0,Anthony Cirelli,Center,c,Forwards 2,f2,71.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477416.0,Oliver Bjorkstrand,Right Wing,rw,Forwards 2,f2,22.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8480995.0,Pontus Holmberg,Left Wing,lw,Forwards 3,f3,29.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8476826.0,Yanni Gourde,Center,c,Forwards 3,f3,37.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8476878.0,Zemgus Girgensons,Right Wing,rw,Forwards 3,f3,28.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8480876.0,Curtis Douglas,Left Wing,lw,Forwards 4,f4,42.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477426.0,Nick Paul,Center,c,Forwards 4,f4,20.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477149.0,Scott Sabourin,Right Wing,rw,Forwards 4,f4,,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8482655.0,J.J. Moser,Left Defense,ld,Defense 1,d1,90.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478178.0,Darren Raddysh,Right Defense,rd,Defense 1,d1,43.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8480426.0,Charle-Edouard D'Astous,Left Defense,ld,Defense 2,d2,51.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,,Maxwell Crozier,Right Defense,rd,Defense 2,d2,24.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8483398.0,Declan Carlile,Left Defense,ld,Defense 3,d3,67.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477463.0,Steven Santini,Right Defense,rd,Defense 3,d3,,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477404.0,Jake Guentzel,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477416.0,Oliver Bjorkstrand,Skater 2,sk2,1st Powerplay Unit,pp1,22.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8476453.0,Nikita Kucherov,Skater 3,sk3,1st Powerplay Unit,pp1,86.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478010.0,Brayden Point,Skater 4,sk4,1st Powerplay Unit,pp1,21.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478178.0,Darren Raddysh,Skater 5,sk5,1st Powerplay Unit,pp1,43.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477426.0,Nick Paul,Skater 1,sk1,2nd Powerplay Unit,pp2,20.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8476826.0,Yanni Gourde,Skater 2,sk2,2nd Powerplay Unit,pp2,37.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478519.0,Anthony Cirelli,Skater 3,sk3,2nd Powerplay Unit,pp2,71.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8482201.0,Gage Goncalves,Skater 4,sk4,2nd Powerplay Unit,pp2,93.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8480426.0,Charle-Edouard D'Astous,Skater 5,sk5,2nd Powerplay Unit,pp2,51.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478416.0,Erik Cernak,Injured Reserve 3,ir3,Injured Reserve,ir,81.0,out,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8482929.0,Emil Lilleberg,Injured Reserve 4,ir4,Injured Reserve,ir,,out,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8475167.0,Victor Hedman,Injured Reserve 5,ir5,Injured Reserve,ir,77.0,ir,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8479542.0,Brandon Hagel,Injured Reserve 6,ir6,Injured Reserve,ir,38.0,dtd,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8474151.0,Ryan McDonagh,Injured Reserve 7,ir7,Injured Reserve,ir,27.0,dtd,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8478519.0,Anthony Cirelli,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477404.0,Jake Guentzel,Skater 2,sk2,1st Penalty Kill Unit,pk1,59.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8482655.0,J.J. Moser,Skater 3,sk3,1st Penalty Kill Unit,pk1,90.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,,Maxwell Crozier,Skater 4,sk4,1st Penalty Kill Unit,pk1,24.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8476826.0,Yanni Gourde,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477426.0,Nick Paul,Skater 2,sk2,2nd Penalty Kill Unit,pk2,20.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8483398.0,Declan Carlile,Skater 3,sk3,2nd Penalty Kill Unit,pk2,67.0,,False,2025-12-28
+tampa-bay-lightning,montreal-canadiens,8477463.0,Steven Santini,Skater 4,sk4,2nd Penalty Kill Unit,pk2,,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8482259.0,Bobby McMann,Left Wing,lw,Forwards 1,f1,74.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8479318.0,Auston Matthews,Center,c,Forwards 1,f1,34.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8477503.0,Max Domi,Right Wing,rw,Forwards 1,f1,11.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8481711.0,Matias Maccelli,Left Wing,lw,Forwards 2,f2,63.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8475166.0,John Tavares,Center,c,Forwards 2,f2,91.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8477939.0,William Nylander,Right Wing,rw,Forwards 2,f2,88.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8482720.0,Matthew Knies,Left Wing,lw,Forwards 3,f3,23.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478462.0,Nicolas Roy,Center,c,Forwards 3,f3,55.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8481582.0,Nicholas Robertson,Right Wing,rw,Forwards 3,f3,89.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478057.0,Dakota Joshua,Left Wing,lw,Forwards 4,f4,81.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476872.0,Scott Laughton,Center,c,Forwards 4,f4,24.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478904.0,Steven Lorentz,Right Wing,rw,Forwards 4,f4,18.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476853.0,Morgan Rielly,Left Defense,ld,Defense 1,d1,44.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8479026.0,Philippe Myers,Right Defense,rd,Defense 1,d1,51.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476931.0,Jake McCabe,Left Defense,ld,Defense 2,d2,22.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8475690.0,Chris Tanev,Right Defense,rd,Defense 2,d2,8.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8475171.0,Oliver Ekman-Larsson,Left Defense,ld,Defense 3,d3,95.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8479442.0,Troy Stecher,Right Defense,rd,Defense 3,d3,28.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8481711.0,Matias Maccelli,Skater 1,sk1,1st Powerplay Unit,pp1,63.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8475166.0,John Tavares,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8477939.0,William Nylander,Skater 3,sk3,1st Powerplay Unit,pp1,88.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476853.0,Morgan Rielly,Skater 4,sk4,1st Powerplay Unit,pp1,44.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8479318.0,Auston Matthews,Skater 5,sk5,1st Powerplay Unit,pp1,34.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8482720.0,Matthew Knies,Skater 1,sk1,2nd Powerplay Unit,pp2,23.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478462.0,Nicolas Roy,Skater 2,sk2,2nd Powerplay Unit,pp2,55.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8481582.0,Nicholas Robertson,Skater 3,sk3,2nd Powerplay Unit,pp2,89.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8477503.0,Max Domi,Skater 4,sk4,2nd Powerplay Unit,pp2,11.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8475171.0,Oliver Ekman-Larsson,Skater 5,sk5,2nd Powerplay Unit,pp2,95.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,,Anthony Stolarz,Injured Reserve 1,ir1,Injured Reserve,ir,41.0,ir,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478443.0,Brandon Carlo,Injured Reserve 3,ir3,Injured Reserve,ir,25.0,ir,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478057.0,Dakota Joshua,Injured Reserve 4,ir4,Injured Reserve,ir,81.0,out,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8477541.0,Dakota Mermis,Injured Reserve 7,ir7,Injured Reserve,ir,36.0,ir,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476872.0,Scott Laughton,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478904.0,Steven Lorentz,Skater 2,sk2,1st Penalty Kill Unit,pk1,18.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476853.0,Morgan Rielly,Skater 3,sk3,1st Penalty Kill Unit,pk1,44.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8475690.0,Chris Tanev,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8478462.0,Nicolas Roy,Skater 1,sk1,2nd Penalty Kill Unit,pk2,55.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8482720.0,Matthew Knies,Skater 2,sk2,2nd Penalty Kill Unit,pk2,23.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8476931.0,Jake McCabe,Skater 3,sk3,2nd Penalty Kill Unit,pk2,22.0,,False,2025-12-28
+toronto-maple-leafs,detroit-red-wings,8479442.0,Troy Stecher,Skater 4,sk4,2nd Penalty Kill Unit,pk2,28.0,,False,2025-12-28
