@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import './Login.css'
 
@@ -12,6 +12,10 @@ function Login() {
   const [loading, setLoading] = useState(false)
   const { signIn, signUp, signInWithGoogle, user } = useAuth()
   const navigate = useNavigate()
+  const location = useLocation()
+
+  // Get the page they were trying to access, or default to home
+  const from = (location.state as any)?.from || '/'
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -32,12 +36,12 @@ function Login() {
           setEmail('')
           setPassword('')
         } else {
-          // Auto-confirmed, redirect to home
-          navigate('/')
+          // Auto-confirmed, redirect to original page
+          navigate(from, { replace: true })
         }
       } else {
         await signIn(email, password)
-        navigate('/')
+        navigate(from, { replace: true })
       }
     } catch (err: any) {
       setError(err.message || 'An error occurred')
@@ -62,6 +66,12 @@ function Login() {
     <div className="login-container">
       <div className="login-card">
         <h1>{isSignUp ? 'Create Account' : 'Sign In'}</h1>
+
+        {from !== '/' && (
+          <div className="info-message">
+            Please sign in to view player details
+          </div>
+        )}
 
         {error && <div className="error-message">{error}</div>}
         {success && <div className="success-message">{success}</div>}

@@ -4,6 +4,7 @@ import Player from './pages/Player'
 import About from './pages/About'
 import Login from './pages/Login'
 import Sidebar from './components/common/Sidebar'
+import { ProtectedRoute } from './components/auth/ProtectedRoute'
 
 function App() {
   return (
@@ -14,7 +15,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/player/:playerId" element={<Player />} />
+          <Route path="/player/:playerId" element={
+            <ProtectedRoute>
+              <Player />
+            </ProtectedRoute>
+          } />
         </Routes>
       </div>
     </>

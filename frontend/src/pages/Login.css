@@ -48,6 +48,16 @@
   line-height: 1.5;
 }
 
+.info-message {
+  background-color: #1e40af;
+  color: white;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 .form-group {
   margin-bottom: 24px;
 }
