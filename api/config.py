@@ -9,6 +9,10 @@ API_KEYS: Set[str] = {
     os.getenv("API_KEY_1", "dev-key-123"),  # Default key for development
 }
 
+# Supabase Configuration
+SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+SUPABASE_JWT_SECRET = os.getenv("SUPABASE_JWT_SECRET", "")
+
 # CORS Settings
 ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React default

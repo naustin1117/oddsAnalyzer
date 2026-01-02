@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PulseLoader } from 'react-spinners'
-import '../styles/App.css'
+import './App.css'
 import { apiGet } from '../api'
 import RecordStats from '../components/Home/RecordStats'
 import PredictionsTable from '../components/Home/PredictionsTable'

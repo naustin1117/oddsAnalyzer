@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .config import ALLOWED_ORIGINS
-from .routers import health, predictions, results, stats, players, lineups
+from .routers import health, predictions, results, stats, players, lineups, auth
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -32,6 +32,7 @@ app.include_router(results.router)
 app.include_router(stats.router)
 app.include_router(players.router)
 app.include_router(lineups.router)
+app.include_router(auth.router)
 
 
 if __name__ == "__main__":

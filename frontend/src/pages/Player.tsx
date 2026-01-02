@@ -7,7 +7,7 @@ import PlayerPerformance from '../components/Player/PlayerPerformance'
 import SeasonAverages from '../components/Player/SeasonAverages'
 import PlayerLineups from '../components/Player/PlayerLineups'
 import { PlayerGamesResponse, PlayerPredictionsResponse, LineupsResponse, PlayerNewsMap, PlayerNewsResponse } from '../types'
-import '../styles/Player.css'
+import './Player.css'
 
 function Player() {
   const { playerId } = useParams<{ playerId: string }>()
