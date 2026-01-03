@@ -185,3 +185,15 @@ class PlayerNewsResponse(BaseModel):
     player_name: str
     news_count: int
     news: List[PlayerNewsItem]
+
+
+class BulkPlayerGamesRequest(BaseModel):
+    """Request for bulk player games data"""
+    player_ids: List[int]
+    limit: int = 10
+
+
+class BulkPlayerGamesResponse(BaseModel):
+    """Response containing recent games for multiple players"""
+    count: int
+    players: List[PlayerGamesResponse]

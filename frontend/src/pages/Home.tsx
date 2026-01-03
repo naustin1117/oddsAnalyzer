@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PulseLoader } from 'react-spinners'
 import './App.css'
-import { apiGet } from '../api'
+import { apiGet, apiPost } from '../api'
 import RecordStats from '../components/Home/RecordStats'
 import PredictionsTable from '../components/Home/PredictionsTable'
 import { HealthResponse, PredictionsResponse, ResultsSummaryResponse, PlayerGamesResponse } from '../types'
@@ -34,23 +34,17 @@ function Home() {
         const summaryData = await apiGet<ResultsSummaryResponse>('/results/summary?confidence=HIGH')
         setResultsSummary(summaryData)
 
-        // Fetch recent games for each unique player in predictions
+        // Fetch recent games for all players in a single bulk request
         const uniquePlayerIds = [...new Set(predictionsData.predictions.map(pred => pred.player_id))]
-        const playerGamesPromises = uniquePlayerIds.map(playerId =>
-          apiGet<PlayerGamesResponse>(`/players/${playerId}/recent-games?limit=5`)
-            .then(data => ({ playerId, data }))
-            .catch(err => {
-              console.error(`Failed to fetch games for player ${playerId}:`, err)
-              return null
-            })
+        const bulkGamesResponse = await apiPost<{ count: number; players: PlayerGamesResponse[] }>(
+          '/players/bulk/recent-games',
+          { player_ids: uniquePlayerIds, limit: 5 }
         )
 
-        const playerGamesResults = await Promise.all(playerGamesPromises)
+        // Convert array response to map keyed by player_id
         const playerGamesMap: Record<number, PlayerGamesResponse> = {}
-        playerGamesResults.forEach(result => {
-          if (result) {
-            playerGamesMap[result.playerId] = result.data
-          }
+        bulkGamesResponse.players.forEach(playerData => {
+          playerGamesMap[playerData.player_id] = playerData
         })
         setPlayerRecentGames(playerGamesMap)
 
