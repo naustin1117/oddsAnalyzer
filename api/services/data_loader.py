@@ -11,8 +11,7 @@ def load_predictions() -> pd.DataFrame:
     """Load predictions from CSV file."""
     try:
         df = pd.read_csv(PREDICTIONS_FILE)
-        # Parse game_time as UTC (Odds API returns UTC timestamps)
-        df['game_time'] = pd.to_datetime(df['game_time'], utc=True)
+        df['game_time'] = pd.to_datetime(df['game_time'])
         return df
     except FileNotFoundError:
         raise HTTPException(status_code=500, detail="Predictions file not found")

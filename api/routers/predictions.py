@@ -32,6 +32,7 @@ async def get_todays_predictions(
 
     # Filter for today's games (in EST timezone)
     today = datetime.now()
+    # Convert timezone-aware datetimes to EST
     df['game_date'] = df['game_time'].dt.tz_convert('America/New_York').dt.date
 
     today_predictions = df[df['game_date'] == today.date()].copy()
@@ -100,6 +101,7 @@ async def get_upcoming_predictions(
     now = datetime.now()
     end_date = (now + timedelta(days=days)).date()
 
+    # Convert timezone-aware datetimes to EST
     df['game_date'] = df['game_time'].dt.tz_convert('America/New_York').dt.date
     upcoming = df[
         (df['game_date'] >= now.date()) &
