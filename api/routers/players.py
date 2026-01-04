@@ -26,7 +26,8 @@ router = APIRouter(prefix="/players", tags=["Players"])
 @router.get("/{player_id}/recent-games", response_model=PlayerGamesResponse)
 async def get_player_recent_games(
     player_id: int,
-    limit: int = Query(10, ge=1, le=50, description="Number of recent games to fetch"),
+    limit: int = Query(10, ge=1, le=82, description="Number of recent games to fetch"),
+    full_season: bool = Query(False, description="If true, returns all games from current season (ignores limit)"),
     api_key: str = Depends(verify_api_key),
 ):
     """
@@ -34,7 +35,8 @@ async def get_player_recent_games(
 
     Args:
         player_id: NHL player ID
-        limit: Number of recent games (1-50, default 10)
+        limit: Number of recent games (1-82, default 10)
+        full_season: If True, returns all current season games
         api_key: API key from header (required)
 
     Returns:
@@ -48,9 +50,13 @@ async def get_player_recent_games(
     if len(player_games) == 0:
         raise HTTPException(status_code=404, detail=f"No games found for player ID {player_id}")
 
-    # Sort by date (most recent first) and limit
+    # Sort by date (most recent first)
     player_games['game_date'] = pd.to_datetime(player_games['game_date'])
-    player_games = player_games.sort_values('game_date', ascending=False).head(limit)
+    player_games = player_games.sort_values('game_date', ascending=False)
+
+    # Apply limit unless full_season is requested
+    if not full_season:
+        player_games = player_games.head(limit)
 
     # Get player info from name mapping
     player_mapping = load_player_name_mapping()

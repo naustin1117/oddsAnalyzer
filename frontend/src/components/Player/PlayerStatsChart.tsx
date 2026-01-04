@@ -18,17 +18,18 @@ interface PlayerStatsChartProps {
   games: PlayerGame[]
   line?: number
   prediction?: number
+  initialFilter?: 5 | 10 | 'all'
 }
 
-function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
-  const [gamesFilter, setGamesFilter] = useState<5 | 10>(5)
+function PlayerStatsChart({ games, line, prediction, initialFilter = 5 }: PlayerStatsChartProps) {
+  const [gamesFilter, setGamesFilter] = useState<5 | 10 | 'all'>(initialFilter)
 
   if (!games || games.length === 0) {
     return <p>No game data available</p>
   }
 
   // Filter games based on selected view
-  const filteredGames = games.slice(0, gamesFilter)
+  const filteredGames = gamesFilter === 'all' ? games : games.slice(0, gamesFilter)
 
   // Reverse games to show chronologically (oldest to newest)
   const chartData = [...filteredGames].reverse().map((game) => {
@@ -144,6 +145,12 @@ function PlayerStatsChart({ games, line, prediction }: PlayerStatsChartProps) {
             onClick={() => setGamesFilter(10)}
           >
             Last 10 Games
+          </button>
+          <button
+            className={`filter-btn ${gamesFilter === 'all' ? 'active' : ''}`}
+            onClick={() => setGamesFilter('all')}
+          >
+            Entire Season
           </button>
         </div>
       </div>

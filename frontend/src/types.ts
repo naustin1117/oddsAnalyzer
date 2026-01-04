@@ -27,6 +27,8 @@ export interface Prediction {
   result: string | null;
   units_won: number | null;
   prediction_date: string;
+  ai_summary?: string | null;
+  suggested_time_filter?: string | null;
 }
 
 export interface PredictionsResponse {

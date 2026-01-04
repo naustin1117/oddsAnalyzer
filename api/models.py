@@ -32,6 +32,8 @@ class Prediction(BaseModel):
     result: Optional[str] = None
     units_won: Optional[float] = None
     prediction_date: str
+    ai_summary: Optional[str] = None
+    suggested_time_filter: Optional[str] = None
 
 
 class PredictionsResponse(BaseModel):

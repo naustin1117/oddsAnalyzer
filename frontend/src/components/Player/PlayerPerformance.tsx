@@ -8,9 +8,10 @@ interface PlayerPerformanceProps {
   games: PlayerGame[]
   line?: number
   prediction?: number
+  initialFilter?: 5 | 10 | 'all'
 }
 
-function PlayerPerformance({ games, line, prediction }: PlayerPerformanceProps) {
+function PlayerPerformance({ games, line, prediction, initialFilter }: PlayerPerformanceProps) {
   const [activeTab, setActiveTab] = useState<'chart' | 'table'>('chart')
 
   return (
@@ -31,7 +32,7 @@ function PlayerPerformance({ games, line, prediction }: PlayerPerformanceProps) 
       </div>
 
       {activeTab === 'chart' ? (
-        <PlayerStatsChart games={games} line={line} prediction={prediction} />
+        <PlayerStatsChart games={games} line={line} prediction={prediction} initialFilter={initialFilter} />
       ) : (
         <RecentGamesTable games={games} />
       )}

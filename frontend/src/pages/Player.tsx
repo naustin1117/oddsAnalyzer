@@ -6,6 +6,7 @@ import PlayerHeader from '../components/Player/PlayerHeader'
 import PlayerPerformance from '../components/Player/PlayerPerformance'
 import SeasonAverages from '../components/Player/SeasonAverages'
 import PlayerLineups from '../components/Player/PlayerLineups'
+import AISummary from '../components/Player/AISummary'
 import { PlayerGamesResponse, PlayerPredictionsResponse, LineupsResponse, PlayerNewsMap, PlayerNewsResponse } from '../types'
 import './Player.css'
 
@@ -25,7 +26,7 @@ function Player() {
 
         // Fetch player games and predictions first
         const [gamesData, predictions] = await Promise.all([
-          apiGet<PlayerGamesResponse>(`/players/${playerId}/recent-games?limit=10`),
+          apiGet<PlayerGamesResponse>(`/players/${playerId}/recent-games?full_season=true`),
           apiGet<PlayerPredictionsResponse>(`/players/${playerId}/predictions`)
         ])
 
@@ -141,6 +142,22 @@ function Player() {
   // Get upcoming game info if available
   const upcomingGame = predictionsData?.upcoming?.[0]
 
+  // Map suggested_time_filter to chart filter format
+  const getInitialFilter = (suggestedFilter?: string | null): 5 | 10 | 'all' => {
+    if (!suggestedFilter) return 5 // Default to Last 5
+
+    switch (suggestedFilter) {
+      case 'L5':
+        return 5
+      case 'L10':
+        return 10
+      case 'Season':
+        return 'all'
+      default:
+        return 5
+    }
+  }
+
   return (
     <div className="Player">
       <div className="player-content-wrapper"
@@ -165,10 +182,12 @@ function Player() {
         {/* Main content: Graph + Season Averages on left, Lineups on right */}
         <div className="chart-and-lineups-wrapper">
           <div className="chart-column">
+            {upcomingGame?.ai_summary && <AISummary summary={upcomingGame.ai_summary} />}
             <PlayerPerformance
               games={playerData.games}
               line={upcomingGame?.line}
               prediction={upcomingGame?.prediction ?? undefined}
+              initialFilter={getInitialFilter(upcomingGame?.suggested_time_filter)}
             />
             <SeasonAverages averages={playerData.averages} games_count={playerData.games_count} />
           </div>

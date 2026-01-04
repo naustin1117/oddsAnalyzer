@@ -536,7 +536,7 @@ def update_player_data():
         return False
 
 
-def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fanduel', update_data=True):
+def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fanduel', update_data=True, generate_summaries=True):
     """
     Main function to run daily NHL betting analysis.
 
@@ -546,11 +546,13 @@ def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fa
     2. Pull lines for each game
     3. Run predictions with updated data
     4. Save results
+    5. Generate AI summaries for HIGH confidence picks (if generate_summaries=True)
 
     Args:
         api_key (str): The Odds API key
         bookmaker (str): Bookmaker to pull lines from (default: fanduel)
         update_data (bool): Whether to update player data first (default: True)
+        generate_summaries (bool): Whether to generate AI summaries (default: True)
 
     Returns:
         DataFrame: All predictions made
@@ -645,6 +647,19 @@ def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fa
 
         # Step 5: Print summary
         print_summary(predictions_df, len(events), games_with_props)
+
+        # Step 6: Generate AI summaries (optional)
+        if generate_summaries:
+            print("\n" + "="*80)
+            print("PHASE 3: AI SUMMARY GENERATION")
+            print("="*80)
+
+            try:
+                from generate_ai_summaries import generate_summaries_for_high_confidence
+                generate_summaries_for_high_confidence()
+            except Exception as e:
+                print(f"\n⚠️  Warning: Could not generate AI summaries: {e}")
+                print("Continuing without summaries...\n")
 
         print("\n" + "="*80)
         print("ANALYSIS COMPLETE!")

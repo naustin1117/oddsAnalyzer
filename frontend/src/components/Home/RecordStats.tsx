@@ -75,12 +75,6 @@ function RecordStats({ resultsSummary }: RecordStatsProps) {
           </div>
         </div>
         <div className="record-tile">
-          <div className="tile-label">ROI</div>
-          <div className={`tile-value ${resultsSummary.total.roi >= 0 ? 'positive' : 'negative'}`}>
-            {resultsSummary.total.roi >= 0 ? '+' : ''}{resultsSummary.total.roi}%
-          </div>
-        </div>
-        <div className="record-tile">
           <div className="tile-label">Total Bets</div>
           <div className="tile-value">{resultsSummary.total.total_bets}</div>
         </div>
