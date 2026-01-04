@@ -43,8 +43,8 @@ def get_unverified_predictions(days_ago=1):
     # Filter for unverified predictions (result is None or UNKNOWN)
     unverified = df[(df['result'].isna()) | (df['result'] == 'UNKNOWN')].copy()
 
-    # Convert game_time to datetime (handle mixed formats)
-    unverified['game_time'] = pd.to_datetime(unverified['game_time'], format='mixed')
+    # Convert game_time to datetime
+    unverified['game_time'] = pd.to_datetime(unverified['game_time'])
 
     # Get the target date (N days ago)
     target_date = (datetime.now() - timedelta(days=days_ago)).date()
