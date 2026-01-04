@@ -24,9 +24,18 @@ async def root():
 @router.get("/health", response_model=HealthResponse)
 async def health_check():
     """Health check endpoint - no authentication required."""
-    df = load_predictions()
-    return HealthResponse(
-        status="healthy",
-        timestamp=datetime.now().isoformat(),
-        predictions_count=len(df),
-    )
+    try:
+        df = load_predictions()
+        return HealthResponse(
+            status="healthy",
+            timestamp=datetime.now().isoformat(),
+            predictions_count=len(df),
+        )
+    except Exception as e:
+        # Return degraded status if predictions can't be loaded
+        # but the API itself is running
+        return HealthResponse(
+            status="degraded",
+            timestamp=datetime.now().isoformat(),
+            predictions_count=0,
+        )
