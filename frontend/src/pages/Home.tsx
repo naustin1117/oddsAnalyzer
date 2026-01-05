@@ -5,10 +5,9 @@ import './App.css'
 import { apiGet, apiPost } from '../api'
 import RecordStats from '../components/Home/RecordStats'
 import PredictionsTable from '../components/Home/PredictionsTable'
-import { HealthResponse, PredictionsResponse, ResultsSummaryResponse, PlayerGamesResponse } from '../types'
+import { PredictionsResponse, ResultsSummaryResponse, PlayerGamesResponse } from '../types'
 
 function Home() {
-  const [health, setHealth] = useState<HealthResponse | null>(null)
   const [predictions, setPredictions] = useState<PredictionsResponse | null>(null)
   const [resultsSummary, setResultsSummary] = useState<ResultsSummaryResponse | null>(null)
   const [playerRecentGames, setPlayerRecentGames] = useState<Record<number, PlayerGamesResponse>>({})
@@ -17,14 +16,10 @@ function Home() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    // Fetch health status and predictions on mount
+    // Fetch predictions on mount
     const fetchData = async () => {
       try {
         setLoading(true)
-
-        // Fetch health (no auth required)
-        const healthData = await apiGet<HealthResponse>('/health')
-        setHealth(healthData)
 
         // Fetch today's predictions (auth required)
         const predictionsData = await apiGet<PredictionsResponse>('/predictions/today')
@@ -118,14 +113,6 @@ function Home() {
           {resultsSummary && <RecordStats resultsSummary={resultsSummary} />}
         </div>
       </div>
-
-      {/* API Status - Bottom Right Corner */}
-      {health && (
-        <div className="api-status-pill">
-          <span className={`status-dot ${health.status === 'healthy' ? 'healthy' : 'error'}`}></span>
-          <span className="status-text">API</span>
-        </div>
-      )}
     </div>
   )
 }

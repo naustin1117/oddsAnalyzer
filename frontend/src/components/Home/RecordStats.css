@@ -81,6 +81,10 @@
 }
 
 @media (max-width: 768px) {
+  .record-stats {
+    margin-bottom: 80px;
+  }
+
   .record-tiles {
     grid-template-columns: repeat(2, 1fr);
   }
