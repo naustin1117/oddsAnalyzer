@@ -60,6 +60,7 @@ async def get_todays_predictions(
 
     # Apply confidence filter if provided
     if confidence:
+
         confidence = confidence.upper()
         if confidence not in ['HIGH', 'MEDIUM', 'LOW']:
             raise HTTPException(status_code=400, detail="Invalid confidence level. Must be HIGH, MEDIUM, or LOW")
