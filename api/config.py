@@ -18,13 +18,12 @@ ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React default
     "http://localhost:5173",  # Vite default
     "http://localhost:8080",  # Vue default
-    os.getenv("FRONTEND_URL", ""),  # Production frontend from env var
-    # Add specific origins below for additional security
 ]
 
-# If FRONTEND_URL is set, also allow it
-if os.getenv("FRONTEND_URL"):
-    ALLOWED_ORIGINS.append(os.getenv("FRONTEND_URL"))
+# Add production frontend URL if set
+frontend_url = os.getenv("FRONTEND_URL")
+if frontend_url:
+    ALLOWED_ORIGINS.append(frontend_url)
 
 # Data file paths
 PREDICTIONS_FILE = "data/predictions_history_v2.csv"
