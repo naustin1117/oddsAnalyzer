@@ -18,12 +18,16 @@ ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React default
     "http://localhost:5173",  # Vite default
     "http://localhost:8080",  # Vue default
+    "https://odds-analyzer-three.vercel.app",  # Production frontend (hardcoded fallback)
 ]
 
-# Add production frontend URL if set
+# Add production frontend URL from env if set
 frontend_url = os.getenv("FRONTEND_URL")
-if frontend_url:
+if frontend_url and frontend_url not in ALLOWED_ORIGINS:
     ALLOWED_ORIGINS.append(frontend_url)
+
+# Debug: Print allowed origins on startup
+print(f"🔒 CORS Allowed Origins: {ALLOWED_ORIGINS}")
 
 # Data file paths
 PREDICTIONS_FILE = "data/predictions_history_v2.csv"
