@@ -401,8 +401,12 @@ def save_predictions(predictions_df):
         combined = combined.drop_duplicates(subset=['game_id', 'player_id'], keep='last')
         duplicates_removed = initial_count - len(combined)
 
-        # Convert prediction_date back to string format
+        # Convert datetime columns back to string format
         combined['prediction_date'] = combined['prediction_date'].dt.strftime('%Y-%m-%d %H:%M:%S')
+
+        # Normalize game_time format (handle both ISO8601 and standard formats)
+        combined['game_time'] = pd.to_datetime(combined['game_time'])
+        combined['game_time'] = combined['game_time'].dt.strftime('%Y-%m-%d %H:%M:%S+00:00')
 
         combined.to_csv(predictions_file, index=False)
 
@@ -412,6 +416,10 @@ def save_predictions(predictions_df):
             print(f"✓ Appended {len(predictions_df)} predictions (no duplicates found)")
         print(f"  Total predictions in file: {len(combined)}")
     else:
+        # Normalize game_time format for new file
+        predictions_df['game_time'] = pd.to_datetime(predictions_df['game_time'])
+        predictions_df['game_time'] = predictions_df['game_time'].dt.strftime('%Y-%m-%d %H:%M:%S+00:00')
+
         predictions_df.to_csv(predictions_file, index=False)
         print(f"✓ Created {predictions_file} with {len(predictions_df)} predictions")
 
