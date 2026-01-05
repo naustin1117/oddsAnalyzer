@@ -38,6 +38,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# Request logging middleware
+@app.middleware("http")
+async def log_requests(request, call_next):
+    """Log all incoming requests for debugging"""
+    logger.info(f"🌐 Incoming {request.method} {request.url.path}")
+    logger.info(f"   Origin: {request.headers.get('origin', 'No origin header')}")
+    logger.info(f"   Headers: {dict(request.headers)}")
+
+    response = await call_next(request)
+
+    logger.info(f"   Response: {response.status_code}")
+    return response
+
 # Include routers
 app.include_router(health.router)
 app.include_router(predictions.router)
