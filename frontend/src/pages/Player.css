@@ -69,3 +69,44 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .Player {
+    padding: 0;
+  }
+
+  .player-content-wrapper {
+    padding: 0 0.5rem 1rem 0.5rem;
+    border-radius: 0;
+  }
+
+  .back-link {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+  }
+
+  .player-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+  }
+
+  .player-info h1 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
+  .player-team {
+    font-size: 1rem;
+  }
+
+  .chart-and-lineups-wrapper {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}

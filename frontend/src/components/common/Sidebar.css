@@ -106,7 +106,7 @@
   .sidebar-content {
     flex: 1;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0;
     gap: 1rem;
   }

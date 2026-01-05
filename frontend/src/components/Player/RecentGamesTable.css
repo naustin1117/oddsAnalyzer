@@ -52,16 +52,25 @@
 /* Responsive design */
 @media (max-width: 768px) {
   .recent-games-table {
-    overflow-x: auto;
+    margin: 1rem 0;
+  }
+
+  .recent-games-table h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
   }
 
   .recent-games-table table {
-    min-width: 600px;
+    font-size: 0.6rem;
   }
 
-  .recent-games-table th,
+  .recent-games-table th {
+    padding: 0.5rem 0.3rem;
+    font-size: 0.55rem;
+  }
+
   .recent-games-table td {
-    padding: 0.5rem;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.3rem;
+    font-size: 0.6rem;
   }
 }

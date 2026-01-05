@@ -19,7 +19,6 @@ function RecentGamesTable({ games }: RecentGamesTableProps) {
 
   return (
     <div className="recent-games-table">
-      <h2>Last {games.length} Games</h2>
       <table>
         <thead>
           <tr>

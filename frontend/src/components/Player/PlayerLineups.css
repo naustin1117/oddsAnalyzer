@@ -157,18 +157,6 @@
   box-shadow: 0 0 8px 0 rgba(255, 70, 70, 0.7);
 }
 
-/* Main Content */
-.main-content {
-  margin: 0px auto;
-  text-align: left;
-  line-height: 20px;
-  min-height: 400px;
-  border-radius: 0 0 8px 8px;
-  display: block;
-  padding: 1.25rem;
-  z-index: 2;
-  position: relative;
-}
 
 .main-content-item {
   opacity: 0;
@@ -682,6 +670,10 @@
 }
 
 @media (max-width: 768px) {
+  .main-content {
+    padding: 0;
+  }
+
   .lineup-player {
     grid-template-columns: 40px 1fr;
     gap: 0.5rem;
@@ -706,5 +698,42 @@
 
   .lineup-section h4 {
     font-size: 1rem;
+  }
+
+  /* Formation Player - Smaller for mobile */
+  .formation-container {
+    padding: 1rem 0.5rem;
+    gap: 1rem;
+  }
+
+  .formation-row {
+    gap: 1rem;
+  }
+
+  .formation-row.forwards {
+    gap: 1.25rem;
+  }
+
+  .formation-row.defense {
+    gap: 2rem;
+  }
+
+  .formation-row.special-teams {
+    gap: 1rem;
+  }
+
+  .formation-player {
+    gap: 0.3rem;
+  }
+
+  .player-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .player-label {
+    font-size: 0.65rem;
+    max-width: 60px;
   }
 }

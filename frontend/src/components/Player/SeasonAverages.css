@@ -43,3 +43,34 @@
   font-weight: 700;
   color: #fff;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .player-averages {
+    margin-top: 0.75rem;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .player-averages h2 {
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .averages-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.4rem;
+  }
+
+  .average-stat {
+    padding: 0.4rem 0.25rem;
+  }
+
+  .stat-label {
+    font-size: 0.5rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .stat-value {
+    font-size: 0.65rem;
+  }
+}
