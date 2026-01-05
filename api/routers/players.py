@@ -290,23 +290,39 @@ async def get_bulk_player_recent_games(
     Returns:
         BulkPlayerGamesResponse: Recent games for all requested players
     """
+    logger.info("="*60)
+    logger.info("🏒 BULK PLAYER GAMES REQUEST START")
     logger.info(
-        "bulk_recent_games start: num_player_ids=%d limit=%d sample_ids=%s",
+        "Request: num_players=%d, limit=%d, sample_ids=%s",
         len(request.player_ids),
         request.limit,
         request.player_ids[:5],
     )
-    # Load data once for all players
-    df = load_player_logs()
-    player_mapping = load_player_name_mapping()
-    team_logos = load_team_logos()
 
-    logger.info(
-        "Loaded dataframes: player_logs=%s player_mapping=%s team_logos=%s",
-        df.shape,
-        player_mapping.shape,
-        team_logos.shape,
-    )
+    # Load data once for all players
+    logger.info("📂 Loading data files...")
+    try:
+        df = load_player_logs()
+        logger.info("✅ Loaded player_logs: shape=%s", df.shape)
+    except Exception as e:
+        logger.error("❌ Failed to load player_logs: %s", str(e))
+        raise
+
+    try:
+        player_mapping = load_player_name_mapping()
+        logger.info("✅ Loaded player_mapping: shape=%s", player_mapping.shape)
+    except Exception as e:
+        logger.error("❌ Failed to load player_mapping: %s", str(e))
+        raise
+
+    try:
+        team_logos = load_team_logos()
+        logger.info("✅ Loaded team_logos: shape=%s", team_logos.shape)
+    except Exception as e:
+        logger.error("❌ Failed to load team_logos: %s", str(e))
+        raise
+
+    logger.info("📊 Data files loaded successfully!")
 
     # Dtype checks (common prod bug: player_id is str in CSV)
     if "player_id" in df.columns:
@@ -411,8 +427,11 @@ async def get_bulk_player_recent_games(
             )
 
         except Exception as e:
-            logging.error(f"Error processing player ID {player_id}: {str(e)}")
+            logger.error("❌ Error processing player ID %d: %s", player_id, str(e))
             continue
+
+    logger.info("✅ BULK REQUEST COMPLETE: Processed %d/%d players successfully", len(players_data), len(request.player_ids))
+    logger.info("="*60)
 
     return BulkPlayerGamesResponse(
         count=len(players_data),

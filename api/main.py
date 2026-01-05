@@ -3,11 +3,24 @@ NHL Shots Betting Analysis API
 
 FastAPI backend to expose betting predictions and historical results.
 """
+import logging
+import sys
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .config import ALLOWED_ORIGINS
 from .routers import health, predictions, results, stats, players, lineups, auth, ai_summaries
+
+# Configure logging to output to stdout (required for Railway)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -34,6 +47,14 @@ app.include_router(players.router)
 app.include_router(lineups.router)
 app.include_router(auth.router)
 app.include_router(ai_summaries.router)
+
+
+@app.on_event("startup")
+async def startup_event():
+    """Log app startup"""
+    logger.info("="*50)
+    logger.info("🚀 NHL Shots Betting API Starting Up")
+    logger.info("="*50)
 
 
 if __name__ == "__main__":
