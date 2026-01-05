@@ -1,6 +1,7 @@
 """
 Predictions endpoints.
 """
+import logging
 from fastapi import APIRouter, Depends, HTTPException, Query
 from datetime import datetime, timedelta
 from typing import Optional
@@ -11,6 +12,7 @@ from ..models import Prediction, PredictionsResponse
 from ..services.data_loader import load_predictions
 
 router = APIRouter(prefix="/predictions", tags=["Predictions"])
+logger = logging.getLogger(__name__)
 
 
 @router.get("/today", response_model=PredictionsResponse)
@@ -28,14 +30,30 @@ async def get_todays_predictions(
     Returns:
         PredictionsResponse: Today's predictions
     """
+    logger.info("="*60)
+    logger.info("📅 GET TODAY'S PREDICTIONS")
+    logger.info(f"  Confidence filter: {confidence}")
+
     df = load_predictions()
+    logger.info(f"  Total predictions loaded: {len(df)}")
 
     # Filter for today's games (in EST timezone)
     today = datetime.now()
+    logger.info(f"  Today's date (server): {today.date()}")
+
     # Convert timezone-aware datetimes to EST
     df['game_date'] = df['game_time'].dt.tz_convert('America/New_York').dt.date
 
+    # Show sample dates
+    unique_dates = df['game_date'].unique()
+    logger.info(f"  Unique dates in predictions: {sorted(unique_dates)[:10]}")
+
     today_predictions = df[df['game_date'] == today.date()].copy()
+    logger.info(f"  Predictions for today: {len(today_predictions)}")
+
+    if len(today_predictions) > 0:
+        logger.info(f"  Sample player_ids: {today_predictions['player_id'].head(5).tolist()}")
+        logger.info(f"  Confidence breakdown: {today_predictions['confidence'].value_counts().to_dict()}")
 
     # Apply confidence filter if provided
     if confidence:
@@ -43,6 +61,7 @@ async def get_todays_predictions(
         if confidence not in ['HIGH', 'MEDIUM', 'LOW']:
             raise HTTPException(status_code=400, detail="Invalid confidence level. Must be HIGH, MEDIUM, or LOW")
         today_predictions = today_predictions[today_predictions['confidence'] == confidence]
+        logger.info(f"  After confidence filter: {len(today_predictions)} predictions")
 
     # Sort by confidence (HIGH to LOW) then by game time
     today_predictions['confidence_order'] = pd.Categorical(
@@ -71,6 +90,11 @@ async def get_todays_predictions(
         row_dict = {k: (None if pd.isna(v) else v) for k, v in row_dict.items()}
 
         predictions.append(Prediction(**row_dict))
+
+    logger.info(f"✅ Returning {len(predictions)} predictions to client")
+    if len(predictions) > 0:
+        logger.info(f"  Player IDs being returned: {[p.player_id for p in predictions[:5]]}")
+    logger.info("="*60)
 
     return PredictionsResponse(
         count=len(predictions),
