@@ -655,8 +655,9 @@ def run_daily_analysis(api_key='2b7aa5b8da44c20602b4aa972245c181', bookmaker='fa
             print("="*80)
 
             try:
-                from generate_ai_summaries import generate_summaries_for_high_confidence
-                generate_summaries_for_high_confidence()
+                # Import from workflows directory
+                import generate_ai_summaries
+                generate_ai_summaries.generate_summaries_for_high_confidence()
             except Exception as e:
                 print(f"\n⚠️  Warning: Could not generate AI summaries: {e}")
                 print("Continuing without summaries...\n")

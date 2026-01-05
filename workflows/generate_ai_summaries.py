@@ -67,14 +67,11 @@ def build_summary_prompt(
     direction = "OVER" if is_over else "UNDER"
     tone_rule = "positive" if is_over else "negative"
 
-    # Optional hit-rate sentence fragment
+    # Optional hit-rate sentence fragment - use "X out of Y games" format
     hit_rate_fragment = ""
-    if season_hit_rate is not None and season_hit_side is not None:
-        pct = season_hit_rate * 100.0
-        if season_games is not None and season_games > 0:
-            hit_rate_fragment = f"{season_hit_side.title()} {line:g} in {pct:.0f}% of games this season ({season_games}g)."
-        else:
-            hit_rate_fragment = f"{season_hit_side.title()} {line:g} in {pct:.0f}% of games this season."
+    if season_hit_rate is not None and season_hit_side is not None and season_games is not None and season_games > 0:
+        hit_count = int(season_hit_rate * season_games)
+        hit_rate_fragment = f"{season_hit_side.title()} {line:g} in {hit_count} of {season_games} games this season."
 
     prompt = f"""
 You write NHL shots-on-goal betting notes. Output should be 2–3 sentences, max 50 words.
@@ -89,25 +86,27 @@ Hard bans:
 
 Requirements:
 - MUST use the player's name as the subject (e.g., "{player} under {line:g}" NOT "The {team} under {line:g}").
-- Write naturally: "{player} under {line:g} has a 68% hit rate" NOT "{player} under {line:g}: 68% hit rate"
-- Include at least TWO numbers chosen from: recent avg, season avg, model projection, model-vs-line delta, hit rate %, edge%.
-- Prefer SHOTS delta (projection - line) over % edge when possible.
-- If hit rate is provided, try to use it (especially for UNDERs) as the lead stat.
+- Write naturally: "{player} under {line:g} has hit in 12 of 18 games" NOT "{player} under {line:g}: hit rate 67%"
+- Include at least TWO numbers chosen from: season avg (if it supports the pick), model projection, model-vs-line delta, hit rate, edge%.
+- Prefer SHOTS delta (projection - line) and hit rate over other stats.
+- If hit rate is provided, ALWAYS use it as the lead stat.
 - Tone must be {tone_rule}: OVER = strong form/volume; UNDER = cooled off/low volume.
+- CRITICAL: Only mention averages that SUPPORT the pick. For OVER picks, only use averages ABOVE the line. For UNDER picks, only use averages BELOW the line.
 
 Data:
 - Player: {player} ({team}) vs {opponent}
 - Pick: {direction} {line:g}
 - Model projection: {pred:.1f} SOG (delta vs line: {model_delta:+.1f})
-- Recent form: {best_avg:.1f} SOG/game ({avg_label}) (delta vs line: {recent_delta:+.1f})
 - Season avg: {season_avg:.1f} SOG/game (delta vs line: {season_delta:+.1f})
 - Edge: {edge_pct:.1f}%
-- Season hit rate (optional): {hit_rate_fragment if hit_rate_fragment else "N/A"}
+- Season hit rate: {hit_rate_fragment if hit_rate_fragment else "N/A"}
 
 Writing guidance:
-- Start with PLAYER NAME and pick, then add supporting evidence.
+- Start with PLAYER NAME and pick, then add hit rate (most important stat).
+- Focus on model projection and season average - do NOT use recent form that contradicts the pick.
 - Use action verbs: "has", "posts", "averages", "projects to"
-- Example good structure: "{player} under {line:g} has hit in 68% of games, posting just 2.4 SOG/game recently."
+- Example UNDER: "{player} under {line:g} has hit in 12 of 18 games this season, with the model projecting just {pred:.1f} SOG."
+- Example OVER: "{player} over {line:g} has hit in 15 of 20 games, averaging {season_avg:.1f} SOG/game this season."
 - Avoid repeating the player name twice.
 - No filler like "tonight", "I like", "we love".
 

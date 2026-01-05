@@ -1,5 +1,6 @@
+import { useState, useEffect } from 'react'
 import { Prediction, PlayerGamesResponse } from '../../types'
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, Brain } from 'lucide-react'
 import './PredictionsTable.css'
 import './PredictionsTableRow.css'
 
@@ -10,6 +11,29 @@ interface PredictionsTableRowProps {
 }
 
 function PredictionsTableRow({ prediction, playerRecentGames, onPlayerClick }: PredictionsTableRowProps) {
+  const [revealedIndex, setRevealedIndex] = useState(0)
+  const summaryLength = prediction.ai_summary?.length || 0
+  const isTyping = revealedIndex < summaryLength
+
+  useEffect(() => {
+    if (!prediction.ai_summary) return
+
+    let currentIndex = 0
+    const typingSpeed = 20 // milliseconds per character
+
+    const typeNextCharacter = () => {
+      if (currentIndex < summaryLength) {
+        setRevealedIndex(currentIndex + 1)
+        currentIndex++
+        setTimeout(typeNextCharacter, typingSpeed)
+      }
+    }
+
+    // Wait 1.5 seconds before starting the animation
+    setTimeout(() => {
+      typeNextCharacter()
+    }, 1500)
+  }, [prediction.ai_summary, summaryLength])
   const checkGameHitLine = (shots: number, line: number, recommendation: string): boolean => {
     if (recommendation.includes('OVER')) {
       return shots > line
@@ -99,6 +123,32 @@ function PredictionsTableRow({ prediction, playerRecentGames, onPlayerClick }: P
               </span>
             </div>
           </div>
+
+          {/* AI Description (if present) */}
+          {prediction.ai_summary && (
+            <div className="prediction-ai-description">
+              <span className="prediction-ai-badge">
+                AI Analysis
+                <span className="prediction-ai-icon-container">
+                  <span className={`prediction-ai-spinner ${isTyping ? 'visible' : 'hidden'}`}></span>
+                  <Brain
+                    size={12}
+                    className={`prediction-ai-complete-icon ${!isTyping ? 'visible' : 'hidden'}`}
+                  />
+                </span>
+              </span>
+              <p className="prediction-ai-text">
+                {prediction.ai_summary.split('').map((char, index) => (
+                  <span
+                    key={index}
+                    className={index < revealedIndex ? 'revealed' : 'hidden-char'}
+                  >
+                    {char}
+                  </span>
+                ))}
+              </p>
+            </div>
+          )}
 
           {/* Bottom Row: Recommendation, Prediction, Odds */}
           <div className="prediction-row-bottom">
