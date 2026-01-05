@@ -2,6 +2,7 @@
 Predictions endpoints.
 """
 import logging
+import pytz
 from fastapi import APIRouter, Depends, HTTPException, Query
 from datetime import datetime, timedelta
 from typing import Optional
@@ -38,8 +39,10 @@ async def get_todays_predictions(
     logger.info(f"  Total predictions loaded: {len(df)}")
 
     # Filter for today's games (in EST timezone)
-    today = datetime.now()
-    logger.info(f"  Today's date (server): {today.date()}")
+    est = pytz.timezone('America/New_York')
+    today = datetime.now(est)
+    logger.info(f"  Today's date (EST): {today.date()}")
+    logger.info(f"  Server UTC time: {datetime.utcnow()}")
 
     # Convert timezone-aware datetimes to EST
     df['game_date'] = df['game_time'].dt.tz_convert('America/New_York').dt.date
@@ -121,8 +124,9 @@ async def get_upcoming_predictions(
     """
     df = load_predictions()
 
-    # Filter for future games
-    now = datetime.now()
+    # Filter for future games (in EST timezone)
+    est = pytz.timezone('America/New_York')
+    now = datetime.now(est)
     end_date = (now + timedelta(days=days)).date()
 
     # Convert timezone-aware datetimes to EST
