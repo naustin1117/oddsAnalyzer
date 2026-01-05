@@ -54,6 +54,21 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Main content area - adjust for sidebar */
+.main-content {
+  margin-left: 60px;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    border-top: 1px solid #3b3d3f;
+    padding-bottom: 65px; /* Space for bottom nav */
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Sidebar />
-      <div style={{ marginLeft: '60px' }}>
+      <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

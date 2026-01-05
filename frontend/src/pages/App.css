@@ -4,6 +4,13 @@
   padding: 1rem 1rem 1rem 1rem;
 }
 
+/* Mobile: Reduce padding to maximize screen space */
+@media (max-width: 768px) {
+  #root {
+    padding: 0.5rem 0.25rem;
+  }
+}
+
 .App {
   text-align: center;
 }

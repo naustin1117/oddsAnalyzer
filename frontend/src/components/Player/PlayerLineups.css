@@ -167,8 +167,6 @@
   display: block;
   padding: 1.25rem;
   z-index: 2;
-  border-top: 1px solid #3b3d3f;
-  background: hsl(232deg 16% 15%);
   position: relative;
 }
 
