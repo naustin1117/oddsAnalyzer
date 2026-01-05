@@ -115,16 +115,18 @@ function PlayerStatsChart({ games, line, prediction, initialFilter = 5 }: Player
             {data.opponent}
           </text>
         )}
-        {/* Date text */}
-        <text
-          x={0}
-          y={32}
-          textAnchor="middle"
-          fill="#888"
-          fontSize={11}
-        >
-          {data.formattedDate}
-        </text>
+        {/* Date text - only show when not viewing entire season */}
+        {gamesFilter !== 'all' && (
+          <text
+            x={0}
+            y={32}
+            textAnchor="middle"
+            fill="#888"
+            fontSize={11}
+          >
+            {data.formattedDate}
+          </text>
+        )}
       </g>
     )
   }
