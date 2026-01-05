@@ -30,6 +30,7 @@ jobs:
       - name: Run daily predictions
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python workflows/automated_daily_analysis.py
 
