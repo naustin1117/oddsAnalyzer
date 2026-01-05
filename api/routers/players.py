@@ -22,6 +22,8 @@ from ..team_names import get_team_name, get_team_abbrev
 
 router = APIRouter(prefix="/players", tags=["Players"])
 
+logger = logging.getLogger(__name__)
+
 
 @router.get("/{player_id}/recent-games", response_model=PlayerGamesResponse)
 async def get_player_recent_games(
@@ -288,10 +290,34 @@ async def get_bulk_player_recent_games(
     Returns:
         BulkPlayerGamesResponse: Recent games for all requested players
     """
+    logger.info(
+        "bulk_recent_games start: num_player_ids=%d limit=%d sample_ids=%s",
+        len(request.player_ids),
+        request.limit,
+        request.player_ids[:5],
+    )
     # Load data once for all players
     df = load_player_logs()
     player_mapping = load_player_name_mapping()
     team_logos = load_team_logos()
+
+    logger.info(
+        "Loaded dataframes: player_logs=%s player_mapping=%s team_logos=%s",
+        df.shape,
+        player_mapping.shape,
+        team_logos.shape,
+    )
+
+    # Dtype checks (common prod bug: player_id is str in CSV)
+    if "player_id" in df.columns:
+        logger.info("player_logs dtype: player_id=%s", df["player_id"].dtype)
+    else:
+        logger.error("player_logs is missing column: player_id")
+
+    if "game_date" in df.columns:
+        logger.info("player_logs dtype: game_date=%s sample_dates=%s", df["game_date"].dtype, df["game_date"].head(3).tolist())
+    else:
+        logger.error("player_logs is missing column: game_date")
 
     players_data = []
 
