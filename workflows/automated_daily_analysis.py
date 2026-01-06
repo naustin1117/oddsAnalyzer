@@ -344,11 +344,14 @@ def run_predictions_for_game(game_lines, game_info, player_mapping, bookmaker='f
                 else:
                     confidence = "LOW"
 
+            # Normalize game_time format
+            game_time_normalized = pd.to_datetime(game_info['commence_time']).strftime('%Y-%m-%d %H:%M:%S+00:00')
+
             # Store prediction
             predictions.append({
                 'game_id': game_info['id'],
                 'nhl_game_id': nhl_game_id,  # NHL game ID from schedule API
-                'game_time': game_info['commence_time'],
+                'game_time': game_time_normalized,
                 'away_team': game_info['away_team'],
                 'home_team': game_info['home_team'],
                 'prediction_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
@@ -393,7 +396,7 @@ def save_predictions(predictions_df):
 
         # Deduplicate: keep most recent prediction for each game_id + player_id
         # Sort by prediction_date to ensure we keep the latest
-        combined['prediction_date'] = pd.to_datetime(combined['prediction_date'])
+        combined['prediction_date'] = pd.to_datetime(combined['prediction_date'], format='mixed')
         combined = combined.sort_values('prediction_date', ascending=True)
 
         # Drop duplicates, keeping the last (most recent) entry
@@ -405,7 +408,7 @@ def save_predictions(predictions_df):
         combined['prediction_date'] = combined['prediction_date'].dt.strftime('%Y-%m-%d %H:%M:%S')
 
         # Normalize game_time format (handle both ISO8601 and standard formats)
-        combined['game_time'] = pd.to_datetime(combined['game_time'])
+        combined['game_time'] = pd.to_datetime(combined['game_time'], format='mixed')
         combined['game_time'] = combined['game_time'].dt.strftime('%Y-%m-%d %H:%M:%S+00:00')
 
         combined.to_csv(predictions_file, index=False)
@@ -417,7 +420,7 @@ def save_predictions(predictions_df):
         print(f"  Total predictions in file: {len(combined)}")
     else:
         # Normalize game_time format for new file
-        predictions_df['game_time'] = pd.to_datetime(predictions_df['game_time'])
+        predictions_df['game_time'] = pd.to_datetime(predictions_df['game_time'], format='mixed')
         predictions_df['game_time'] = predictions_df['game_time'].dt.strftime('%Y-%m-%d %H:%M:%S+00:00')
 
         predictions_df.to_csv(predictions_file, index=False)
