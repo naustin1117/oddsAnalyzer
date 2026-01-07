@@ -2,7 +2,6 @@ import { useState } from 'react'
 import {
   ComposedChart,
   Bar,
-  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -229,30 +228,6 @@ function PlayerStatsChart({ games, line, prediction, initialFilter = 5 }: Player
               <Cell key={`cell-${index}`} fill={entry.barColor} />
             ))}
           </Bar>
-          <Line
-            type="monotone"
-            dataKey="goals"
-            stroke="#4ade80"
-            strokeWidth={2}
-            name="Goals"
-            dot={{ fill: '#4ade80', r: 4 }}
-          />
-          <Line
-            type="monotone"
-            dataKey="assists"
-            stroke="#fbbf24"
-            strokeWidth={2}
-            name="Assists"
-            dot={{ fill: '#fbbf24', r: 4 }}
-          />
-          <Line
-            type="monotone"
-            dataKey="points"
-            stroke="#f87171"
-            strokeWidth={2}
-            name="Points"
-            dot={{ fill: '#f87171', r: 4 }}
-          />
           {line !== undefined && (
             <ReferenceLine
               y={line}
