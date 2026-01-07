@@ -196,6 +196,12 @@
   margin-right: 0.5rem;
 }
 
+.fanduel-logo {
+  height: 28px;
+  width: auto;
+  opacity: 0.9;
+}
+
 .prediction-stat-value {
   color: #fff;
 }
