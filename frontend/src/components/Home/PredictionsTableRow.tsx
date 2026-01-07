@@ -163,7 +163,10 @@ function PredictionsTableRow({ prediction, playerRecentGames, onPlayerClick }: P
               <span className="prediction-stat-value">{prediction.prediction ? prediction.prediction.toFixed(2) : 'N/A'}</span>
             </div>
             <div>
-              <span className="prediction-stat-label">Odds:</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', marginBottom: '0.25rem' }}>
+                <span className="prediction-stat-label">Odds:</span>
+                <span className="fanduel-badge">FanDuel</span>
+              </div>
               <div className="prediction-odds-container">
                 <span className={`prediction-odds-side ${prediction.recommendation.includes('OVER') ? 'highlighted' : ''}`}>
                   {prediction.over_odds > 0 ? '+' : ''}{prediction.over_odds}
