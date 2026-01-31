@@ -6933,3 +6933,5 @@ game_id,game_date,team_abbrev,home_away,shots_for,shots_against,goals_for,goals_
 2025020856,2026-01-29,DAL,away,27,21,5,4
 2025020857,2026-01-29,SEA,home,22,31,5,2
 2025020857,2026-01-29,TOR,away,31,22,2,5
+2025020858,2026-01-30,CHI,home,24,26,2,4
+2025020858,2026-01-30,CBJ,away,26,24,4,2
