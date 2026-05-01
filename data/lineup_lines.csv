@@ -66994,3 +66994,235 @@ minnesota-wild,dallas-stars,8478493.0,Joel Eriksson Ek,Skater 1,sk1,2nd Penalty 
 minnesota-wild,dallas-stars,8481557.0,Matt Boldy,Skater 2,sk2,2nd Penalty Kill Unit,pk2,12.0,,False,2026-04-30
 minnesota-wild,dallas-stars,8482122.0,Brock Faber,Skater 3,sk3,2nd Penalty Kill Unit,pk2,7.0,,False,2026-04-30
 minnesota-wild,dallas-stars,8476463.0,Jonas Brodin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,25.0,,True,2026-04-30
+boston-bruins,buffalo-sabres,8482177.0,Marat Khusnutdinov,Left Wing,lw,Forwards 1,f1,92.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8478401.0,Pavel Zacha,Center,c,Forwards 1,f1,18.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8477956.0,David Pastrnak,Right Wing,rw,Forwards 1,f1,88.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479999.0,Casey Mittelstadt,Left Wing,lw,Forwards 2,f2,11.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8483489.0,Fraser Minten,Center,c,Forwards 2,f2,93.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479987.0,Morgan Geekie,Right Wing,rw,Forwards 2,f2,39.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,,Alexander Steeves,Left Wing,lw,Forwards 3,f3,21.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8477496.0,Elias Lindholm,Center,c,Forwards 3,f3,28.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479591.0,Michael Eyssimont,Right Wing,rw,Forwards 3,f3,81.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479661.0,Tanner Jeannot,Left Wing,lw,Forwards 4,f4,84.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8476374.0,Sean Kuraly,Center,c,Forwards 4,f4,7.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8480355.0,Mark Kastelic,Right Wing,rw,Forwards 4,f4,47.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8481219.0,Jonathan Aspirot,Left Defense,ld,Defense 1,d1,45.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479325.0,Charlie McAvoy,Right Defense,rd,Defense 1,d1,73.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8476854.0,Hampus Lindholm,Left Defense,ld,Defense 2,d2,27.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8480035.0,Henri Jokiharju,Right Defense,rd,Defense 2,d2,20.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8477507.0,Nikita Zadorov,Left Defense,ld,Defense 3,d3,91.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479369.0,Andrew Peeke,Right Defense,rd,Defense 3,d3,52.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479987.0,Morgan Geekie,Skater 1,sk1,1st Powerplay Unit,pp1,39.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8477496.0,Elias Lindholm,Skater 2,sk2,1st Powerplay Unit,pp1,28.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8478401.0,Pavel Zacha,Skater 3,sk3,1st Powerplay Unit,pp1,18.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8477956.0,David Pastrnak,Skater 4,sk4,1st Powerplay Unit,pp1,88.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479325.0,Charlie McAvoy,Skater 5,sk5,1st Powerplay Unit,pp1,73.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,,Alexander Steeves,Skater 1,sk1,2nd Powerplay Unit,pp2,21.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8483489.0,Fraser Minten,Skater 2,sk2,2nd Powerplay Unit,pp2,93.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8482177.0,Marat Khusnutdinov,Skater 3,sk3,2nd Powerplay Unit,pp2,92.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479999.0,Casey Mittelstadt,Skater 4,sk4,2nd Powerplay Unit,pp2,11.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8476854.0,Hampus Lindholm,Skater 5,sk5,2nd Powerplay Unit,pp2,27.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8478042.0,Viktor Arvidsson,Injured Reserve 1,ir1,Injured Reserve,ir,71.0,dtd,False,2026-05-01
+boston-bruins,buffalo-sabres,8476374.0,Sean Kuraly,Skater 1,sk1,1st Penalty Kill Unit,pk1,7.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8480355.0,Mark Kastelic,Skater 2,sk2,1st Penalty Kill Unit,pk1,47.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8476854.0,Hampus Lindholm,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479369.0,Andrew Peeke,Skater 4,sk4,1st Penalty Kill Unit,pk1,52.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8482177.0,Marat Khusnutdinov,Skater 1,sk1,2nd Penalty Kill Unit,pk2,92.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479661.0,Tanner Jeannot,Skater 2,sk2,2nd Penalty Kill Unit,pk2,84.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8477507.0,Nikita Zadorov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,91.0,,False,2026-05-01
+boston-bruins,buffalo-sabres,8479325.0,Charlie McAvoy,Skater 4,sk4,2nd Penalty Kill Unit,pk2,73.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8481522.0,Peyton Krebs,Left Wing,lw,Forwards 1,f1,19.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479420.0,Tage Thompson,Center,c,Forwards 1,f1,72.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8477949.0,Alex Tuch,Right Wing,rw,Forwards 1,f1,89.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8475722.0,Jason Zucker,Left Wing,lw,Forwards 2,f2,17.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8480802.0,Ryan McLeod,Center,c,Forwards 2,f2,71.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8482097.0,Jack Quinn,Right Wing,rw,Forwards 2,f2,22.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8484145.0,Zach Benson,Left Wing,lw,Forwards 3,f3,6.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8483500.0,Noah Ostlund,Center,c,Forwards 3,f3,86.0,,True,2026-05-01
+buffalo-sabres,boston-bruins,8482659.0,Josh Doan,Right Wing,rw,Forwards 3,f3,91.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8478413.0,Jordan Greenway,Left Wing,lw,Forwards 4,f4,12.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8482896.0,Tyson Kozak,Center,c,Forwards 4,f4,48.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479359.0,Beck Malenstyn,Right Wing,rw,Forwards 4,f4,29.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8480839.0,Rasmus Dahlin,Left Defense,ld,Defense 1,d1,26.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8480807.0,Mattias Samuelsson,Right Defense,rd,Defense 1,d1,23.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8481524.0,Bowen Byram,Left Defense,ld,Defense 2,d2,4.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8482671.0,Owen Power,Right Defense,rd,Defense 2,d2,25.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479378.0,Logan Stanley,Left Defense,ld,Defense 3,d3,64.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479982.0,Conor Timmins,Right Defense,rd,Defense 3,d3,21.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8475722.0,Jason Zucker,Skater 1,sk1,1st Powerplay Unit,pp1,17.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8483500.0,Noah Ostlund,Skater 2,sk2,1st Powerplay Unit,pp1,86.0,,True,2026-05-01
+buffalo-sabres,boston-bruins,8477949.0,Alex Tuch,Skater 3,sk3,1st Powerplay Unit,pp1,89.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479420.0,Tage Thompson,Skater 4,sk4,1st Powerplay Unit,pp1,72.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8480839.0,Rasmus Dahlin,Skater 5,sk5,1st Powerplay Unit,pp1,26.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8484145.0,Zach Benson,Skater 1,sk1,2nd Powerplay Unit,pp2,6.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8480802.0,Ryan McLeod,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8482659.0,Josh Doan,Skater 3,sk3,2nd Powerplay Unit,pp2,91.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8482097.0,Jack Quinn,Skater 4,sk4,2nd Powerplay Unit,pp2,22.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8481524.0,Bowen Byram,Skater 5,sk5,2nd Powerplay Unit,pp2,4.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479941.0,Justin Danforth,Injured Reserve 1,ir1,Injured Reserve,ir,15.0,ir,False,2026-05-01
+buffalo-sabres,boston-bruins,8483468.0,Jiri Kulich,Injured Reserve 2,ir2,Injured Reserve,ir,20.0,ir,False,2026-05-01
+buffalo-sabres,boston-bruins,8480064.0,Josh Norris,Injured Reserve 3,ir3,Injured Reserve,ir,9.0,dtd,False,2026-05-01
+buffalo-sabres,boston-bruins,8475842.0,Sam Carrick,Injured Reserve 4,ir4,Injured Reserve,ir,39.0,dtd,False,2026-05-01
+buffalo-sabres,boston-bruins,,Colten Ellis,Injured Reserve 5,ir5,Injured Reserve,ir,92.0,dtd,False,2026-05-01
+buffalo-sabres,boston-bruins,8483500.0,Noah Ostlund,Injured Reserve 6,ir6,Injured Reserve,ir,86.0,dtd,False,2026-05-01
+buffalo-sabres,boston-bruins,8480802.0,Ryan McLeod,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8477949.0,Alex Tuch,Skater 2,sk2,1st Penalty Kill Unit,pk1,89.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8480807.0,Mattias Samuelsson,Skater 3,sk3,1st Penalty Kill Unit,pk1,23.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479982.0,Conor Timmins,Skater 4,sk4,1st Penalty Kill Unit,pk1,21.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8484145.0,Zach Benson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,6.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479359.0,Beck Malenstyn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,29.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8479378.0,Logan Stanley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,64.0,,False,2026-05-01
+buffalo-sabres,boston-bruins,8482671.0,Owen Power,Skater 4,sk4,2nd Penalty Kill Unit,pk2,25.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481540.0,Cole Caufield,Left Wing,lw,Forwards 1,f1,13.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8480018.0,Nick Suzuki,Center,c,Forwards 1,f1,14.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476981.0,Josh Anderson,Right Wing,rw,Forwards 1,f1,17.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,,Juraj Slafkovsky,Left Wing,lw,Forwards 2,f2,20.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8478133.0,Jake Evans,Center,c,Forwards 2,f2,71.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8484984.0,Ivan Demidov,Right Wing,rw,Forwards 2,f2,,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481618.0,Alex Newhook,Left Wing,lw,Forwards 3,f3,15.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476479.0,Phillip Danault,Center,c,Forwards 3,f3,24.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8475848.0,Brendan Gallagher,Right Wing,rw,Forwards 3,f3,11.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8482737.0,Zack Bolduc,Left Wing,lw,Forwards 4,f4,76.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481523.0,Kirby Dach,Center,c,Forwards 4,f4,77.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8480074.0,Alexandre Texier,Right Wing,rw,Forwards 4,f4,85.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476875.0,Mike Matheson,Left Defense,ld,Defense 1,d1,8.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8478851.0,Alexandre Carrier,Right Defense,rd,Defense 1,d1,45.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8482087.0,Kaiden Guhle,Left Defense,ld,Defense 2,d2,21.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8483457.0,Lane Hutson,Right Defense,rd,Defense 2,d2,48.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481593.0,Jayden Struble,Left Defense,ld,Defense 3,d3,47.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8482964.0,Arber Xhekaj,Right Defense,rd,Defense 3,d3,72.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,,Juraj Slafkovsky,Skater 1,sk1,1st Powerplay Unit,pp1,20.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8480018.0,Nick Suzuki,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8484984.0,Ivan Demidov,Skater 3,sk3,1st Powerplay Unit,pp1,,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481540.0,Cole Caufield,Skater 4,sk4,1st Powerplay Unit,pp1,13.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8483457.0,Lane Hutson,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481618.0,Alex Newhook,Skater 1,sk1,2nd Powerplay Unit,pp2,15.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8481523.0,Kirby Dach,Skater 2,sk2,2nd Powerplay Unit,pp2,77.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8482737.0,Zack Bolduc,Skater 3,sk3,2nd Powerplay Unit,pp2,76.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476875.0,Mike Matheson,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8480074.0,Alexandre Texier,Skater 5,sk5,2nd Powerplay Unit,pp2,85.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8479339.0,Patrik Laine,Injured Reserve 1,ir1,Injured Reserve,ir,92.0,ir,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8480865.0,Noah Dobson,Injured Reserve 2,ir2,Injured Reserve,ir,8.0,out,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8478133.0,Jake Evans,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476981.0,Josh Anderson,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476875.0,Mike Matheson,Skater 3,sk3,1st Penalty Kill Unit,pk1,8.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8478851.0,Alexandre Carrier,Skater 4,sk4,1st Penalty Kill Unit,pk1,45.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8476479.0,Phillip Danault,Skater 1,sk1,2nd Penalty Kill Unit,pk2,24.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8475848.0,Brendan Gallagher,Skater 2,sk2,2nd Penalty Kill Unit,pk2,11.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8482087.0,Kaiden Guhle,Skater 3,sk3,2nd Penalty Kill Unit,pk2,21.0,,False,2026-05-01
+montreal-canadiens,tampa-bay-lightning,8482964.0,Arber Xhekaj,Skater 4,sk4,2nd Penalty Kill Unit,pk2,72.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8479542.0,Brandon Hagel,Left Wing,lw,Forwards 1,f1,38.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478010.0,Brayden Point,Center,c,Forwards 1,f1,21.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8476453.0,Nikita Kucherov,Right Wing,rw,Forwards 1,f1,86.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8476826.0,Yanni Gourde,Left Wing,lw,Forwards 2,f2,37.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478519.0,Anthony Cirelli,Center,c,Forwards 2,f2,71.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8477404.0,Jake Guentzel,Right Wing,rw,Forwards 2,f2,59.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482201.0,Gage Goncalves,Left Wing,lw,Forwards 3,f3,93.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8483752.0,Dominic James,Center,c,Forwards 3,f3,17.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8477416.0,Oliver Bjorkstrand,Right Wing,rw,Forwards 3,f3,22.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8476878.0,Zemgus Girgensons,Left Wing,lw,Forwards 4,f4,28.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8483447.0,Conor Geekie,Center,c,Forwards 4,f4,14.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8470621.0,Corey Perry,Right Wing,rw,Forwards 4,f4,90.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482655.0,J.J. Moser,Left Defense,ld,Defense 1,d1,90.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478178.0,Darren Raddysh,Right Defense,rd,Defense 1,d1,43.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8474151.0,Ryan McDonagh,Left Defense,ld,Defense 2,d2,27.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478416.0,Erik Cernak,Right Defense,rd,Defense 2,d2,81.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482929.0,Emil Lilleberg,Left Defense,ld,Defense 3,d3,,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,,Maxwell Crozier,Right Defense,rd,Defense 3,d3,24.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8477404.0,Jake Guentzel,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478010.0,Brayden Point,Skater 2,sk2,1st Powerplay Unit,pp1,21.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8476453.0,Nikita Kucherov,Skater 3,sk3,1st Powerplay Unit,pp1,86.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8479542.0,Brandon Hagel,Skater 4,sk4,1st Powerplay Unit,pp1,38.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478178.0,Darren Raddysh,Skater 5,sk5,1st Powerplay Unit,pp1,43.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482201.0,Gage Goncalves,Skater 1,sk1,2nd Powerplay Unit,pp2,93.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478519.0,Anthony Cirelli,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8470621.0,Corey Perry,Skater 3,sk3,2nd Powerplay Unit,pp2,90.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8477416.0,Oliver Bjorkstrand,Skater 4,sk4,2nd Powerplay Unit,pp2,22.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482655.0,J.J. Moser,Skater 5,sk5,2nd Powerplay Unit,pp2,90.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8475167.0,Victor Hedman,Injured Reserve 1,ir1,Injured Reserve,ir,77.0,out,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8480995.0,Pontus Holmberg,Injured Reserve 2,ir2,Injured Reserve,ir,29.0,out,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8480426.0,Charle-Edouard D'Astous,Injured Reserve 3,ir3,Injured Reserve,ir,51.0,dtd,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8477426.0,Nick Paul,Injured Reserve 4,ir4,Injured Reserve,ir,20.0,dtd,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478519.0,Anthony Cirelli,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8479542.0,Brandon Hagel,Skater 2,sk2,1st Penalty Kill Unit,pk1,38.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8474151.0,Ryan McDonagh,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8478416.0,Erik Cernak,Skater 4,sk4,1st Penalty Kill Unit,pk1,81.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8476826.0,Yanni Gourde,Skater 1,sk1,2nd Penalty Kill Unit,pk2,37.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8476878.0,Zemgus Girgensons,Skater 2,sk2,2nd Penalty Kill Unit,pk2,28.0,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482929.0,Emil Lilleberg,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False,2026-05-01
+tampa-bay-lightning,montreal-canadiens,8482655.0,J.J. Moser,Skater 4,sk4,2nd Penalty Kill Unit,pk2,90.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479343.0,Clayton Keller,Left Wing,lw,Forwards 1,f1,9.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477951.0,Nick Schmaltz,Center,c,Forwards 1,f1,8.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478474.0,Lawson Crouse,Right Wing,rw,Forwards 1,f1,67.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479977.0,Kailer Yamamoto,Left Wing,lw,Forwards 2,f2,56.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8483431.0,Logan Cooley,Center,c,Forwards 2,f2,92.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8482699.0,Dylan Guenther,Right Wing,rw,Forwards 2,f2,11.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8482175.0,JJ Peterka,Left Wing,lw,Forwards 3,f3,77.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,,Alex Kerfoot,Center,c,Forwards 3,f3,15.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479619.0,Michael Carcone,Right Wing,rw,Forwards 3,f3,53.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478831.0,Kevin Stenlund,Left Wing,lw,Forwards 4,f4,82.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8480849.0,Barrett Hayton,Center,c,Forwards 4,f4,27.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479293.0,Brandon Tanev,Right Wing,rw,Forwards 4,f4,13.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479410.0,Mikhail Sergachev,Left Defense,ld,Defense 1,d1,98.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477346.0,MacKenzie Weegar,Right Defense,rd,Defense 1,d1,52.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477220.0,Nate Schmidt,Left Defense,ld,Defense 2,d2,88.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478507.0,John Marino,Right Defense,rd,Defense 2,d2,6.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8474013.0,Ian Cole,Left Defense,ld,Defense 3,d3,28.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8480434.0,Sean Durzi,Right Defense,rd,Defense 3,d3,50.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477951.0,Nick Schmaltz,Skater 1,sk1,1st Powerplay Unit,pp1,8.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8483431.0,Logan Cooley,Skater 2,sk2,1st Powerplay Unit,pp1,92.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479343.0,Clayton Keller,Skater 3,sk3,1st Powerplay Unit,pp1,9.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8482699.0,Dylan Guenther,Skater 4,sk4,1st Powerplay Unit,pp1,11.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479410.0,Mikhail Sergachev,Skater 5,sk5,1st Powerplay Unit,pp1,98.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478474.0,Lawson Crouse,Skater 1,sk1,2nd Powerplay Unit,pp2,67.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,,Alex Kerfoot,Skater 2,sk2,2nd Powerplay Unit,pp2,15.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479619.0,Michael Carcone,Skater 3,sk3,2nd Powerplay Unit,pp2,53.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8482175.0,JJ Peterka,Skater 4,sk4,2nd Powerplay Unit,pp2,77.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477346.0,MacKenzie Weegar,Skater 5,sk5,2nd Powerplay Unit,pp2,52.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8480855.0,Jack McBain,Injured Reserve 1,ir1,Injured Reserve,ir,22.0,dtd,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478831.0,Kevin Stenlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,82.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478474.0,Lawson Crouse,Skater 2,sk2,1st Penalty Kill Unit,pk1,67.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8474013.0,Ian Cole,Skater 3,sk3,1st Penalty Kill Unit,pk1,28.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8478507.0,John Marino,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477951.0,Nick Schmaltz,Skater 1,sk1,2nd Penalty Kill Unit,pk2,8.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,,Alex Kerfoot,Skater 2,sk2,2nd Penalty Kill Unit,pk2,15.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8479410.0,Mikhail Sergachev,Skater 3,sk3,2nd Penalty Kill Unit,pk2,98.0,,False,2026-05-01
+utah-hockey-club,vegas-golden-knights,8477220.0,Nate Schmidt,Skater 4,sk4,2nd Penalty Kill Unit,pk2,88.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8477964.0,Ivan Barbashev,Left Wing,lw,Forwards 1,f1,49.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478403.0,Jack Eichel,Center,c,Forwards 1,f1,9.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8481604.0,Pavel Dorofeyev,Right Wing,rw,Forwards 1,f1,16.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475191.0,Reilly Smith,Left Wing,lw,Forwards 2,f2,19.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478483.0,Mitch Marner,Center,c,Forwards 2,f2,16.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475913.0,Mark Stone,Right Wing,rw,Forwards 2,f2,61.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8479353.0,Brett Howden,Left Wing,lw,Forwards 3,f3,21.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8476881.0,Tomas Hertl,Center,c,Forwards 3,f3,48.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478434.0,Keegan Kolesar,Right Wing,rw,Forwards 3,f3,55.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8482062.0,Cole Smith,Left Wing,lw,Forwards 4,f4,36.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475343.0,Nic Dowd,Center,c,Forwards 4,f4,26.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8476925.0,Colton Sissons,Right Wing,rw,Forwards 4,f4,10.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475188.0,Brayden McNabb,Left Defense,ld,Defense 1,d1,3.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8477447.0,Shea Theodore,Right Defense,rd,Defense 1,d1,27.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478396.0,Noah Hanifin,Left Defense,ld,Defense 2,d2,15.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478397.0,Rasmus Andersson,Right Defense,rd,Defense 2,d2,4.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478468.0,Jeremy Lauzon,Left Defense,ld,Defense 3,d3,3.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8481527.0,Kaedan Korczak,Right Defense,rd,Defense 3,d3,6.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475913.0,Mark Stone,Skater 1,sk1,1st Powerplay Unit,pp1,61.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478403.0,Jack Eichel,Skater 2,sk2,1st Powerplay Unit,pp1,9.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8476881.0,Tomas Hertl,Skater 3,sk3,1st Powerplay Unit,pp1,48.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8477447.0,Shea Theodore,Skater 4,sk4,1st Powerplay Unit,pp1,27.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8481604.0,Pavel Dorofeyev,Skater 5,sk5,1st Powerplay Unit,pp1,16.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8477964.0,Ivan Barbashev,Skater 1,sk1,2nd Powerplay Unit,pp2,49.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8479353.0,Brett Howden,Skater 2,sk2,2nd Powerplay Unit,pp2,21.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478483.0,Mitch Marner,Skater 3,sk3,2nd Powerplay Unit,pp2,16.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478397.0,Rasmus Andersson,Skater 4,sk4,2nd Powerplay Unit,pp2,4.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478396.0,Noah Hanifin,Skater 5,sk5,2nd Powerplay Unit,pp2,15.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8476448.0,William Karlsson,Injured Reserve 1,ir1,Injured Reserve,ir,71.0,ir,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8482125.0,Alexander Holtz,Injured Reserve 2,ir2,Injured Reserve,ir,26.0,dtd,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478483.0,Mitch Marner,Skater 1,sk1,1st Penalty Kill Unit,pk1,16.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8479353.0,Brett Howden,Skater 2,sk2,1st Penalty Kill Unit,pk1,21.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478396.0,Noah Hanifin,Skater 3,sk3,1st Penalty Kill Unit,pk1,15.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478397.0,Rasmus Andersson,Skater 4,sk4,1st Penalty Kill Unit,pk1,4.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478403.0,Jack Eichel,Skater 1,sk1,2nd Penalty Kill Unit,pk2,9.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475913.0,Mark Stone,Skater 2,sk2,2nd Penalty Kill Unit,pk2,61.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8475188.0,Brayden McNabb,Skater 3,sk3,2nd Penalty Kill Unit,pk2,3.0,,False,2026-05-01
+vegas-golden-knights,utah-hockey-club,8478468.0,Jeremy Lauzon,Skater 4,sk4,2nd Penalty Kill Unit,pk2,3.0,,False,2026-05-01
