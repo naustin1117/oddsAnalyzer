@@ -7781,3 +7781,5 @@ game_id,game_date,team_abbrev,home_away,shots_for,shots_against,goals_for,goals_
 2025030126,2026-05-01,TBL,away,33,30,1,0
 2025030176,2026-05-01,UTA,home,23,26,1,5
 2025030176,2026-05-01,VGK,away,26,23,5,1
+2025030221,2026-05-02,CAR,home,23,19,3,0
+2025030221,2026-05-02,PHI,away,19,23,0,3
