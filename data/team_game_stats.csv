@@ -7825,3 +7825,5 @@ game_id,game_date,team_abbrev,home_away,shots_for,shots_against,goals_for,goals_
 2025030217,2026-05-18,MTL,away,25,39,3,2
 2025030321,2026-05-20,COL,home,38,28,2,4
 2025030321,2026-05-20,VGK,away,28,38,4,2
+2025030311,2026-05-21,CAR,home,28,22,2,6
+2025030311,2026-05-21,MTL,away,22,28,6,2
