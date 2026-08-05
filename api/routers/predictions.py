@@ -48,11 +48,20 @@ async def get_todays_predictions(
     df['game_date'] = df['game_time'].dt.tz_convert('America/New_York').dt.date
 
     # Show sample dates
-    unique_dates = df['game_date'].unique()
-    logger.info(f"  Unique dates in predictions: {sorted(unique_dates)[:10]}")
+    unique_dates = sorted(df['game_date'].unique())
+    logger.info(f"  Unique dates in predictions: {unique_dates[:10]}")
 
     today_predictions = df[df['game_date'] == today.date()].copy()
     logger.info(f"  Predictions for today: {len(today_predictions)}")
+
+    # Fallback: if no predictions for today, show the most recent date
+    is_fallback = False
+    if len(today_predictions) == 0 and len(unique_dates) > 0:
+        most_recent_date = unique_dates[-1]
+        today_predictions = df[df['game_date'] == most_recent_date].copy()
+        is_fallback = True
+        logger.info(f"  ⚠️  No predictions for today, falling back to most recent date: {most_recent_date}")
+        logger.info(f"  Fallback predictions: {len(today_predictions)}")
 
     if len(today_predictions) > 0:
         logger.info(f"  Sample player_ids: {today_predictions['player_id'].head(5).tolist()}")
@@ -100,9 +109,17 @@ async def get_todays_predictions(
         logger.info(f"  Player IDs being returned: {[p.player_id for p in predictions[:5]]}")
     logger.info("="*60)
 
+    # Determine the date label for the response
+    if is_fallback:
+        prediction_date_label = str(most_recent_date)
+    else:
+        prediction_date_label = str(today.date())
+
     return PredictionsResponse(
         count=len(predictions),
         predictions=predictions,
+        prediction_date=prediction_date_label,
+        is_fallback=is_fallback,
     )
 
 

@@ -40,6 +40,8 @@ class PredictionsResponse(BaseModel):
     """Response containing multiple predictions"""
     count: int
     predictions: List[Prediction]
+    prediction_date: Optional[str] = None
+    is_fallback: bool = False
 
 
 class PerformanceStats(BaseModel):

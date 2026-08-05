@@ -34,6 +34,8 @@ export interface Prediction {
 export interface PredictionsResponse {
   count: number;
   predictions: Prediction[];
+  prediction_date?: string | null;
+  is_fallback: boolean;
 }
 
 export interface BetTypeStats {

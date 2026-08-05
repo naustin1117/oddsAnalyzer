@@ -99,6 +99,11 @@ function Home() {
         <div className="left-column">
           {predictions && (
             <div className="predictions-section">
+              {predictions.is_fallback && predictions.prediction_date && (
+                <div className="fallback-banner">
+                  No games today — showing predictions from {new Date(predictions.prediction_date + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' })}
+                </div>
+              )}
               <PredictionsTable
                 predictions={predictions.predictions}
                 playerRecentGames={playerRecentGames}
