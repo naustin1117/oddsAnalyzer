@@ -83535,3 +83535,154 @@ winnipeg-jets,chicago-blackhawks,8476392.0,Adam Lowry,Skater 1,sk1,2nd Penalty K
 winnipeg-jets,chicago-blackhawks,8478398.0,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2026-10-15
 winnipeg-jets,chicago-blackhawks,8479983.0,Mario Ferraro,Skater 3,sk3,2nd Penalty Kill Unit,pk2,38.0,,False,2026-10-15
 winnipeg-jets,chicago-blackhawks,8476331.0,Dylan DeMelo,Skater 4,sk4,2nd Penalty Kill Unit,pk2,2.0,,False,2026-10-15
+anaheim-ducks,boston-bruins,8473986.0,Alex Killorn,Left Wing,lw,Forwards 1,f1,17.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8484153.0,Leo Carlsson,Center,c,Forwards 1,f1,91.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Nikita Klepov,Right Wing,rw,Forwards 1,f1,40.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8481754.0,Nikita Nesterenko,Left Wing,lw,Forwards 2,f2,13.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8483445.0,Cutter Gauthier,Center,c,Forwards 2,f2,61.0,,True,2026-10-16
+anaheim-ducks,boston-bruins,8484762.0,Beckett Sennecke,Right Wing,rw,Forwards 2,f2,45.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8478366.0,Frank Vatrano,Left Wing,lw,Forwards 3,f3,77.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Roger McQueen,Center,c,Forwards 3,f3,95.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Judd Caulfield,Right Wing,rw,Forwards 3,f3,28.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8482408.0,Jeff Malott,Left Wing,lw,Forwards 4,f4,39.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Tim Washe,Center,c,Forwards 4,f4,,,False,2026-10-16
+anaheim-ducks,boston-bruins,8478421.0,A.J. Greer,Right Wing,rw,Forwards 4,f4,18.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Jackson Lacombe,Left Defense,ld,Defense 1,d1,2.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Noah Warren,Right Defense,rd,Defense 1,d1,47.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8483490.0,Pavel Mintyukov,Left Defense,ld,Defense 2,d2,34.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Tristan Luneau,Right Defense,rd,Defense 2,d2,,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Tyson Hinds,Left Defense,ld,Defense 3,d3,55.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8481563.0,Drew Helleson,Right Defense,rd,Defense 3,d3,14.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Judd Caulfield,Skater 1,sk1,1st Powerplay Unit,pp1,28.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8484153.0,Leo Carlsson,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8483445.0,Cutter Gauthier,Skater 3,sk3,1st Powerplay Unit,pp1,61.0,,True,2026-10-16
+anaheim-ducks,boston-bruins,8484762.0,Beckett Sennecke,Skater 4,sk4,1st Powerplay Unit,pp1,45.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Jackson Lacombe,Skater 5,sk5,1st Powerplay Unit,pp1,2.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8473986.0,Alex Killorn,Skater 1,sk1,2nd Powerplay Unit,pp2,17.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Roger McQueen,Skater 2,sk2,2nd Powerplay Unit,pp2,95.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Nikita Klepov,Skater 3,sk3,2nd Powerplay Unit,pp2,40.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8478366.0,Frank Vatrano,Skater 4,sk4,2nd Powerplay Unit,pp2,77.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Tristan Luneau,Skater 5,sk5,2nd Powerplay Unit,pp2,,,False,2026-10-16
+anaheim-ducks,boston-bruins,8478873.0,Troy Terry,Injured Reserve 1,ir1,Injured Reserve,ir,19.0,ir,False,2026-10-16
+anaheim-ducks,boston-bruins,8482178.0,Ian Moore,Injured Reserve 2,ir2,Injured Reserve,ir,,ir,False,2026-10-16
+anaheim-ducks,boston-bruins,8480068.0,Ryan Poehling,Injured Reserve 3,ir3,Injured Reserve,ir,25.0,ir,False,2026-10-16
+anaheim-ducks,boston-bruins,8475798.0,Mikael Granlund,Injured Reserve 4,ir4,Injured Reserve,ir,64.0,dtd,False,2026-10-16
+anaheim-ducks,boston-bruins,,Tim Washe,Skater 1,sk1,1st Penalty Kill Unit,pk1,,,False,2026-10-16
+anaheim-ducks,boston-bruins,8473986.0,Alex Killorn,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Jackson Lacombe,Skater 3,sk3,1st Penalty Kill Unit,pk1,2.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8483490.0,Pavel Mintyukov,Skater 4,sk4,1st Penalty Kill Unit,pk1,34.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8484153.0,Leo Carlsson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,91.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,8478366.0,Frank Vatrano,Skater 2,sk2,2nd Penalty Kill Unit,pk2,77.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Noah Warren,Skater 3,sk3,2nd Penalty Kill Unit,pk2,47.0,,False,2026-10-16
+anaheim-ducks,boston-bruins,,Tyson Hinds,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479987.0,Morgan Geekie,Left Wing,lw,Forwards 1,f1,39.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8478401.0,Pavel Zacha,Center,c,Forwards 1,f1,18.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477956.0,David Pastrnak,Right Wing,rw,Forwards 1,f1,88.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8482177.0,Marat Khusnutdinov,Left Wing,lw,Forwards 2,f2,92.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8483489.0,Fraser Minten,Center,c,Forwards 2,f2,93.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8482175.0,JJ Peterka,Right Wing,rw,Forwards 2,f2,10.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479999.0,Casey Mittelstadt,Left Wing,lw,Forwards 3,f3,11.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477496.0,Elias Lindholm,Center,c,Forwards 3,f3,28.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,,James Hagens,Right Wing,rw,Forwards 3,f3,44.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479661.0,Tanner Jeannot,Left Wing,lw,Forwards 4,f4,84.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,,Matthew Poitras,Center,c,Forwards 4,f4,51.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8480355.0,Mark Kastelic,Right Wing,rw,Forwards 4,f4,47.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8476854.0,Hampus Lindholm,Left Defense,ld,Defense 1,d1,27.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479325.0,Charlie McAvoy,Right Defense,rd,Defense 1,d1,73.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477507.0,Nikita Zadorov,Left Defense,ld,Defense 2,d2,91.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8478840.0,Will Borgen,Right Defense,rd,Defense 2,d2,17.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,,Frederic Brunet,Left Defense,ld,Defense 3,d3,42.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8482511.0,Mason Lohrei,Right Defense,rd,Defense 3,d3,6.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479987.0,Morgan Geekie,Skater 1,sk1,1st Powerplay Unit,pp1,39.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477496.0,Elias Lindholm,Skater 2,sk2,1st Powerplay Unit,pp1,28.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8478401.0,Pavel Zacha,Skater 3,sk3,1st Powerplay Unit,pp1,18.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477956.0,David Pastrnak,Skater 4,sk4,1st Powerplay Unit,pp1,88.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479325.0,Charlie McAvoy,Skater 5,sk5,1st Powerplay Unit,pp1,73.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,,James Hagens,Skater 1,sk1,2nd Powerplay Unit,pp2,44.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479999.0,Casey Mittelstadt,Skater 2,sk2,2nd Powerplay Unit,pp2,11.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8483489.0,Fraser Minten,Skater 3,sk3,2nd Powerplay Unit,pp2,93.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,,Frederic Brunet,Skater 4,sk4,2nd Powerplay Unit,pp2,42.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8482175.0,JJ Peterka,Skater 5,sk5,2nd Powerplay Unit,pp2,10.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477496.0,Elias Lindholm,Skater 1,sk1,1st Penalty Kill Unit,pk1,28.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8482177.0,Marat Khusnutdinov,Skater 2,sk2,1st Penalty Kill Unit,pk1,92.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8476854.0,Hampus Lindholm,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8479325.0,Charlie McAvoy,Skater 4,sk4,1st Penalty Kill Unit,pk1,73.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8483489.0,Fraser Minten,Skater 1,sk1,2nd Penalty Kill Unit,pk2,93.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8478401.0,Pavel Zacha,Skater 2,sk2,2nd Penalty Kill Unit,pk2,18.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8477507.0,Nikita Zadorov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,91.0,,False,2026-10-16
+boston-bruins,anaheim-ducks,8478840.0,Will Borgen,Skater 4,sk4,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8477476.0,Artturi Lehkonen,Left Wing,lw,Forwards 1,f1,62.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8477492.0,Nathan MacKinnon,Center,c,Forwards 1,f1,29.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475172.0,Nazem Kadri,Right Wing,rw,Forwards 1,f1,91.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8476455.0,Gabriel Landeskog,Left Wing,lw,Forwards 2,f2,92.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475754.0,Brock Nelson,Center,c,Forwards 2,f2,11.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480039.0,Martin Necas,Right Wing,rw,Forwards 2,f2,88.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475768.0,Jaden Schwartz,Left Wing,lw,Forwards 3,f3,71.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8482768.0,Fedor Svechkov,Center,c,Forwards 3,f3,9.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,,T.J. Hughes,Right Wing,rw,Forwards 3,f3,13.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480448.0,Parker Kelly,Center,c,Forwards 4,f4,17.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8484149.0,Gavin Brindley,Right Wing,rw,Forwards 4,f4,54.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8478038.0,Devon Toews,Left Defense,ld,Defense 1,d1,7.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480069.0,Cale Makar,Right Defense,rd,Defense 1,d1,8.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8476967.0,Brett Kulak,Left Defense,ld,Defense 2,d2,77.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8484258.0,Sam Malinski,Right Defense,rd,Defense 2,d2,70.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8476312.0,Josh Manson,Left Defense,ld,Defense 3,d3,42.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8470613.0,Brent Burns,Right Defense,rd,Defense 3,d3,84.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8478454.0,Noah Juulsen,Left Defense,ld,Defense 4,d4,47.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,,T.J. Hughes,Skater 1,sk1,1st Powerplay Unit,pp1,13.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475172.0,Nazem Kadri,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475768.0,Jaden Schwartz,Skater 3,sk3,1st Powerplay Unit,pp1,71.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480069.0,Cale Makar,Skater 4,sk4,1st Powerplay Unit,pp1,8.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8477492.0,Nathan MacKinnon,Skater 5,sk5,1st Powerplay Unit,pp1,29.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8477476.0,Artturi Lehkonen,Skater 1,sk1,2nd Powerplay Unit,pp2,62.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8476455.0,Gabriel Landeskog,Skater 2,sk2,2nd Powerplay Unit,pp2,92.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475754.0,Brock Nelson,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8478038.0,Devon Toews,Skater 4,sk4,2nd Powerplay Unit,pp2,7.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480039.0,Martin Necas,Skater 5,sk5,2nd Powerplay Unit,pp2,88.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,,Logan O'Connor,Injured Reserve 1,ir1,Injured Reserve,ir,25.0,dtd,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8478462.0,Nicolas Roy,Injured Reserve 2,ir2,Injured Reserve,ir,10.0,dtd,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480448.0,Parker Kelly,Skater 1,sk1,1st Penalty Kill Unit,pk1,17.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8477476.0,Artturi Lehkonen,Skater 2,sk2,1st Penalty Kill Unit,pk1,62.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8478038.0,Devon Toews,Skater 3,sk3,1st Penalty Kill Unit,pk1,7.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8480069.0,Cale Makar,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475754.0,Brock Nelson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,11.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8475768.0,Jaden Schwartz,Skater 2,sk2,2nd Penalty Kill Unit,pk2,71.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8476312.0,Josh Manson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,42.0,,False,2026-10-16
+colorado-avalanche,pittsburgh-penguins,8470613.0,Brent Burns,Skater 4,sk4,2nd Penalty Kill Unit,pk2,84.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8476483.0,Rickard Rakell,Left Wing,lw,Forwards 1,f1,67.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471675.0,Sidney Crosby,Center,c,Forwards 1,f1,87.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8475810.0,Bryan Rust,Right Wing,rw,Forwards 1,f1,17.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,,Egor Chinakhov,Left Wing,lw,Forwards 2,f2,59.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8478438.0,Tommy Novak,Center,c,Forwards 2,f2,18.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471215.0,Evgeni Malkin,Right Wing,rw,Forwards 2,f2,71.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8483808.0,Andrei Kuzmenko,Left Wing,lw,Forwards 3,f3,10.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8485414.0,Ben Kindel,Center,c,Forwards 3,f3,81.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481582.0,Nicholas Robertson,Right Wing,rw,Forwards 3,f3,14.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8480980.0,Connor Dewar,Left Wing,lw,Forwards 4,f4,19.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481481.0,Blake Lizotte,Center,c,Forwards 4,f4,46.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481725.0,Elmer Soderblom,Right Wing,rw,Forwards 4,f4,,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8483398.0,Declan Carlile,Left Defense,ld,Defense 1,d1,72.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8474578.0,Erik Karlsson,Right Defense,rd,Defense 1,d1,65.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8479398.0,Samuel Girard,Left Defense,ld,Defense 2,d2,49.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481527.0,Kaedan Korczak,Right Defense,rd,Defense 2,d2,6.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481056.0,Spencer Stastney,Left Defense,ld,Defense 3,d3,24.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471724.0,Kris Letang,Right Defense,rd,Defense 3,d3,58.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8485414.0,Ben Kindel,Skater 1,sk1,1st Powerplay Unit,pp1,81.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471215.0,Evgeni Malkin,Skater 2,sk2,1st Powerplay Unit,pp1,71.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8476483.0,Rickard Rakell,Skater 3,sk3,1st Powerplay Unit,pp1,67.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8474578.0,Erik Karlsson,Skater 4,sk4,1st Powerplay Unit,pp1,65.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471675.0,Sidney Crosby,Skater 5,sk5,1st Powerplay Unit,pp1,87.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8483808.0,Andrei Kuzmenko,Skater 1,sk1,2nd Powerplay Unit,pp2,10.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8475810.0,Bryan Rust,Skater 2,sk2,2nd Powerplay Unit,pp2,17.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,,Egor Chinakhov,Skater 3,sk3,2nd Powerplay Unit,pp2,59.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471724.0,Kris Letang,Skater 4,sk4,2nd Powerplay Unit,pp2,58.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8478438.0,Tommy Novak,Skater 5,sk5,2nd Powerplay Unit,pp2,18.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8479638.0,Justin Brazeau,Injured Reserve 1,ir1,Injured Reserve,ir,15.0,dtd,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481481.0,Blake Lizotte,Skater 1,sk1,1st Penalty Kill Unit,pk1,46.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8480980.0,Connor Dewar,Skater 2,sk2,1st Penalty Kill Unit,pk1,19.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8479398.0,Samuel Girard,Skater 3,sk3,1st Penalty Kill Unit,pk1,49.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8471724.0,Kris Letang,Skater 4,sk4,1st Penalty Kill Unit,pk1,58.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8485414.0,Ben Kindel,Skater 1,sk1,2nd Penalty Kill Unit,pk2,81.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8476483.0,Rickard Rakell,Skater 2,sk2,2nd Penalty Kill Unit,pk2,67.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8481056.0,Spencer Stastney,Skater 3,sk3,2nd Penalty Kill Unit,pk2,24.0,,False,2026-10-16
+pittsburgh-penguins,colorado-avalanche,8474578.0,Erik Karlsson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,65.0,,False,2026-10-16
