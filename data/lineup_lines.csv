@@ -90990,3 +90990,237 @@ winnipeg-jets,tampa-bay-lightning,8476392.0,Adam Lowry,Skater 1,sk1,2nd Penalty 
 winnipeg-jets,tampa-bay-lightning,8478398.0,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2026-10-29
 winnipeg-jets,tampa-bay-lightning,8479983.0,Mario Ferraro,Skater 3,sk3,2nd Penalty Kill Unit,pk2,38.0,,False,2026-10-29
 winnipeg-jets,tampa-bay-lightning,8476331.0,Dylan DeMelo,Skater 4,sk4,2nd Penalty Kill Unit,pk2,2.0,,False,2026-10-29
+calgary-flames,seattle-kraken,8480797.0,Joel Farabee,Left Wing,lw,Forwards 1,f1,86.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8474150.0,Mikael Backlund,Center,c,Forwards 1,f1,11.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8482679.0,Matt Coronato,Right Wing,rw,Forwards 1,f1,27.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8481068.0,Yegor Sharangovich,Left Wing,lw,Forwards 2,f2,17.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480028.0,Morgan Frost,Center,c,Forwards 2,f2,48.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Aydar Suniev,Right Wing,rw,Forwards 2,f2,61.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8484860.0,Matvei Gridin,Left Wing,lw,Forwards 3,f3,92.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Martin Pospisil,Center,c,Forwards 3,f3,76.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8476458.0,Ryan Strome,Right Wing,rw,Forwards 3,f3,16.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8484958.0,Maxim Tsyplakov,Left Wing,lw,Forwards 4,f4,72.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Jonathan Castagna,Center,c,Forwards 4,f4,38.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8483609.0,Adam Klapka,Right Wing,rw,Forwards 4,f4,43.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480860.0,Kevin Bahl,Left Defense,ld,Defense 1,d1,7.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8483495.0,Simon Nemec,Right Defense,rd,Defense 1,d1,71.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Jacob Middleton,Left Defense,ld,Defense 2,d2,5.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480727.0,Zach Whitecloud,Right Defense,rd,Defense 2,d2,28.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8482165.0,Yan Kuznetsov,Left Defense,ld,Defense 3,d3,37.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8484768.0,Zayne Parekh,Right Defense,rd,Defense 3,d3,19.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480797.0,Joel Farabee,Skater 1,sk1,1st Powerplay Unit,pp1,86.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480028.0,Morgan Frost,Skater 2,sk2,1st Powerplay Unit,pp1,48.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8482679.0,Matt Coronato,Skater 3,sk3,1st Powerplay Unit,pp1,27.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8484860.0,Matvei Gridin,Skater 4,sk4,1st Powerplay Unit,pp1,92.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8484768.0,Zayne Parekh,Skater 5,sk5,1st Powerplay Unit,pp1,19.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8483609.0,Adam Klapka,Skater 1,sk1,2nd Powerplay Unit,pp2,43.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8476458.0,Ryan Strome,Skater 2,sk2,2nd Powerplay Unit,pp2,16.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Aydar Suniev,Skater 3,sk3,2nd Powerplay Unit,pp2,61.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8483495.0,Simon Nemec,Skater 4,sk4,2nd Powerplay Unit,pp2,71.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8481068.0,Yegor Sharangovich,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8476456.0,Jonathan Huberdeau,Injured Reserve 1,ir1,Injured Reserve,ir,10.0,ir,False,2026-10-30
+calgary-flames,seattle-kraken,8484180.0,Samuel Honzek,Injured Reserve 2,ir2,Injured Reserve,ir,29.0,out,False,2026-10-30
+calgary-flames,seattle-kraken,8482747.0,Brennan Othmann,Injured Reserve 3,ir3,Injured Reserve,ir,78.0,dtd,False,2026-10-30
+calgary-flames,seattle-kraken,,Devin Cooley,Injured Reserve 4,ir4,Injured Reserve,ir,,dtd,False,2026-10-30
+calgary-flames,seattle-kraken,8474150.0,Mikael Backlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,11.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Jonathan Castagna,Skater 2,sk2,1st Penalty Kill Unit,pk1,38.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Jacob Middleton,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480727.0,Zach Whitecloud,Skater 4,sk4,1st Penalty Kill Unit,pk1,28.0,,False,2026-10-30
+calgary-flames,seattle-kraken,,Martin Pospisil,Skater 1,sk1,2nd Penalty Kill Unit,pk2,76.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8481068.0,Yegor Sharangovich,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8482165.0,Yan Kuznetsov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,37.0,,False,2026-10-30
+calgary-flames,seattle-kraken,8480860.0,Kevin Bahl,Skater 4,sk4,2nd Penalty Kill Unit,pk2,7.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8480801.0,Brady Tkachuk,Left Wing,lw,Forwards 1,f1,8.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477935.0,Sam Bennett,Center,c,Forwards 1,f1,9.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,,Matthew Tkachuk,Right Wing,rw,Forwards 1,f1,19.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477409.0,Carter Verhaeghe,Left Wing,lw,Forwards 2,f2,23.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477933.0,Sam Reinhart,Center,c,Forwards 2,f2,13.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,,Sandis Vilmanis,Right Wing,rw,Forwards 2,f2,95.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8480185.0,Eetu Luostarinen,Left Wing,lw,Forwards 3,f3,27.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8482113.0,Anton Lundell,Center,c,Forwards 3,f3,15.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8474189.0,Lars Eller,Right Wing,rw,Forwards 3,f3,20.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,,Bokondji Imama,Left Wing,lw,Forwards 4,f4,14.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8481655.0,Cole Schwindt,Center,c,Forwards 4,f4,79.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477903.0,Garnet Hathaway,Right Wing,rw,Forwards 4,f4,21.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8478055.0,Gustav Forsling,Left Defense,ld,Defense 1,d1,42.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477932.0,Aaron Ekblad,Right Defense,rd,Defense 1,d1,5.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8478859.0,Niko Mikkola,Left Defense,ld,Defense 2,d2,77.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477495.0,Seth Jones,Right Defense,rd,Defense 2,d2,3.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8475179.0,Dmitry Kulikov,Left Defense,ld,Defense 3,d3,7.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8475462.0,Radko Gudas,Right Defense,rd,Defense 3,d3,6.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8480801.0,Brady Tkachuk,Skater 1,sk1,1st Powerplay Unit,pp1,8.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477933.0,Sam Reinhart,Skater 2,sk2,1st Powerplay Unit,pp1,13.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477409.0,Carter Verhaeghe,Skater 3,sk3,1st Powerplay Unit,pp1,23.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477495.0,Seth Jones,Skater 4,sk4,1st Powerplay Unit,pp1,3.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,,Matthew Tkachuk,Skater 5,sk5,1st Powerplay Unit,pp1,19.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477935.0,Sam Bennett,Skater 1,sk1,2nd Powerplay Unit,pp2,9.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8474189.0,Lars Eller,Skater 2,sk2,2nd Powerplay Unit,pp2,20.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8480185.0,Eetu Luostarinen,Skater 3,sk3,2nd Powerplay Unit,pp2,27.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477932.0,Aaron Ekblad,Skater 4,sk4,2nd Powerplay Unit,pp2,5.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8482113.0,Anton Lundell,Skater 5,sk5,2nd Powerplay Unit,pp2,15.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,,Aleksander Barkov,Injured Reserve 1,ir1,Injured Reserve,ir,16.0,ir,False,2026-10-30
+florida-panthers,winnipeg-jets,8479981.0,Jonah Gadjovich,Injured Reserve 2,ir2,Injured Reserve,ir,12.0,ir,False,2026-10-30
+florida-panthers,winnipeg-jets,8473419.0,Brad Marchand,Injured Reserve 3,ir3,Injured Reserve,ir,63.0,ir,False,2026-10-30
+florida-panthers,winnipeg-jets,,Jacob Markstrom,Injured Reserve 4,ir4,Injured Reserve,ir,25.0,dtd,False,2026-10-30
+florida-panthers,winnipeg-jets,8482113.0,Anton Lundell,Skater 1,sk1,1st Penalty Kill Unit,pk1,15.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8480185.0,Eetu Luostarinen,Skater 2,sk2,1st Penalty Kill Unit,pk1,27.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8478859.0,Niko Mikkola,Skater 3,sk3,1st Penalty Kill Unit,pk1,77.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477495.0,Seth Jones,Skater 4,sk4,1st Penalty Kill Unit,pk1,3.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8474189.0,Lars Eller,Skater 1,sk1,2nd Penalty Kill Unit,pk2,20.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477903.0,Garnet Hathaway,Skater 2,sk2,2nd Penalty Kill Unit,pk2,21.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8478055.0,Gustav Forsling,Skater 3,sk3,2nd Penalty Kill Unit,pk2,42.0,,False,2026-10-30
+florida-panthers,winnipeg-jets,8477932.0,Aaron Ekblad,Skater 4,sk4,2nd Penalty Kill Unit,pk2,5.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478414.0,Timo Meier,Left Wing,lw,Forwards 1,f1,28.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8480002.0,Nico Hischier,Center,c,Forwards 1,f1,13.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8482146.0,Luke Evangelista,Right Wing,rw,Forwards 1,f1,77.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8481721.0,Arseny Gritsyuk,Left Wing,lw,Forwards 2,f2,81.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8481559.0,Jack Hughes,Center,c,Forwards 2,f2,86.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8479407.0,Jesper Bratt,Right Wing,rw,Forwards 2,f2,63.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8477511.0,Anthony Mantha,Left Wing,lw,Forwards 3,f3,39.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478542.0,Evan Rodrigues,Center,c,Forwards 3,f3,17.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8480003.0,Jesper Boqvist,Right Wing,rw,Forwards 3,f3,70.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,,Amadeus Lombardi,Left Wing,lw,Forwards 4,f4,93.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8479996.0,Cody Glass,Center,c,Forwards 4,f4,12.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8477015.0,Connor Brown,Right Wing,rw,Forwards 4,f4,16.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8482684.0,Luke Hughes,Left Defense,ld,Defense 1,d1,43.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8477488.0,Brett Pesce,Right Defense,rd,Defense 1,d1,22.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478399.0,Jonas Siegenthaler,Left Defense,ld,Defense 2,d2,71.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8476462.0,Dougie Hamilton,Right Defense,rd,Defense 2,d2,7.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8475455.0,Brenden Dillon,Left Defense,ld,Defense 3,d3,5.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8480990.0,Declan Chisholm,Right Defense,rd,Defense 3,d3,47.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8479407.0,Jesper Bratt,Skater 1,sk1,1st Powerplay Unit,pp1,63.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8480002.0,Nico Hischier,Skater 2,sk2,1st Powerplay Unit,pp1,13.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8482146.0,Luke Evangelista,Skater 3,sk3,1st Powerplay Unit,pp1,77.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8481559.0,Jack Hughes,Skater 4,sk4,1st Powerplay Unit,pp1,86.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8482684.0,Luke Hughes,Skater 5,sk5,1st Powerplay Unit,pp1,43.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478414.0,Timo Meier,Skater 1,sk1,2nd Powerplay Unit,pp2,28.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478542.0,Evan Rodrigues,Skater 2,sk2,2nd Powerplay Unit,pp2,17.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8477511.0,Anthony Mantha,Skater 3,sk3,2nd Powerplay Unit,pp2,39.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8481721.0,Arseny Gritsyuk,Skater 4,sk4,2nd Powerplay Unit,pp2,81.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8476462.0,Dougie Hamilton,Skater 5,sk5,2nd Powerplay Unit,pp2,7.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8483429.0,Seamus Casey,Injured Reserve 1,ir1,Injured Reserve,ir,,ir,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8480002.0,Nico Hischier,Skater 1,sk1,1st Penalty Kill Unit,pk1,13.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478542.0,Evan Rodrigues,Skater 2,sk2,1st Penalty Kill Unit,pk1,17.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478399.0,Jonas Siegenthaler,Skater 3,sk3,1st Penalty Kill Unit,pk1,71.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8476462.0,Dougie Hamilton,Skater 4,sk4,1st Penalty Kill Unit,pk1,7.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8478414.0,Timo Meier,Skater 1,sk1,2nd Penalty Kill Unit,pk2,28.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8481721.0,Arseny Gritsyuk,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8477488.0,Brett Pesce,Skater 3,sk3,2nd Penalty Kill Unit,pk2,22.0,,False,2026-10-30
+new-jersey-devils,vegas-golden-knights,8482684.0,Luke Hughes,Skater 4,sk4,2nd Penalty Kill Unit,pk2,43.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482259.0,Bobby McMann,Left Wing,lw,Forwards 1,f1,74.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482665.0,Matty Beniers,Center,c,Forwards 1,f1,10.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8474586.0,Jordan Eberle,Right Wing,rw,Forwards 1,f1,7.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8476905.0,Chandler Stephenson,Left Wing,lw,Forwards 2,f2,9.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8477919.0,Frederick Gaudreau,Center,c,Forwards 2,f2,89.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482713.0,Mackie Samoskevich,Right Wing,rw,Forwards 2,f2,11.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8481554.0,Kaapo Kakko,Left Wing,lw,Forwards 3,f3,84.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8484800.0,Berkly Catton,Center,c,Forwards 3,f3,27.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8483524.0,Shane Wright,Right Wing,rw,Forwards 3,f3,51.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8483570.0,Ben Meyers,Left Wing,lw,Forwards 4,f4,59.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482751.0,Ryan Winterton,Center,c,Forwards 4,f4,26.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8483497.0,Jani Nyman,Right Wing,rw,Forwards 4,f4,38.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8478407.0,Vince Dunn,Left Defense,ld,Defense 1,d1,29.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8476457.0,Adam Larsson,Right Defense,rd,Defense 1,d1,6.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482858.0,Ryker Evans,Left Defense,ld,Defense 2,d2,41.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8477986.0,Brandon Montour,Right Defense,rd,Defense 2,d2,62.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8479372.0,Joshua Mahura,Left Defense,ld,Defense 3,d3,28.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8479985.0,Cale Fleury,Right Defense,rd,Defense 3,d3,8.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8474586.0,Jordan Eberle,Skater 1,sk1,1st Powerplay Unit,pp1,7.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482665.0,Matty Beniers,Skater 2,sk2,1st Powerplay Unit,pp1,10.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482259.0,Bobby McMann,Skater 3,sk3,1st Powerplay Unit,pp1,74.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8476905.0,Chandler Stephenson,Skater 4,sk4,1st Powerplay Unit,pp1,9.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8478407.0,Vince Dunn,Skater 5,sk5,1st Powerplay Unit,pp1,29.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8481554.0,Kaapo Kakko,Skater 1,sk1,2nd Powerplay Unit,pp2,84.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8483524.0,Shane Wright,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8484800.0,Berkly Catton,Skater 3,sk3,2nd Powerplay Unit,pp2,27.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482713.0,Mackie Samoskevich,Skater 4,sk4,2nd Powerplay Unit,pp2,11.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8477986.0,Brandon Montour,Skater 5,sk5,2nd Powerplay Unit,pp2,62.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8477955.0,Jared McCann,Injured Reserve 1,ir1,Injured Reserve,ir,19.0,ir,False,2026-10-30
+seattle-kraken,calgary-flames,,Jacob Melanson,Injured Reserve 2,ir2,Injured Reserve,ir,63.0,ir,False,2026-10-30
+seattle-kraken,calgary-flames,8479324.0,Ryan Lindgren,Injured Reserve 3,ir3,Injured Reserve,ir,55.0,out,False,2026-10-30
+seattle-kraken,calgary-flames,8477919.0,Frederick Gaudreau,Skater 1,sk1,1st Penalty Kill Unit,pk1,89.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8483570.0,Ben Meyers,Skater 2,sk2,1st Penalty Kill Unit,pk1,59.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8478407.0,Vince Dunn,Skater 3,sk3,1st Penalty Kill Unit,pk1,29.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8476457.0,Adam Larsson,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8476905.0,Chandler Stephenson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,9.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482751.0,Ryan Winterton,Skater 2,sk2,2nd Penalty Kill Unit,pk2,26.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8482858.0,Ryker Evans,Skater 3,sk3,2nd Penalty Kill Unit,pk2,41.0,,False,2026-10-30
+seattle-kraken,calgary-flames,8477986.0,Brandon Montour,Skater 4,sk4,2nd Penalty Kill Unit,pk2,62.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8477964.0,Ivan Barbashev,Left Wing,lw,Forwards 1,f1,49.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478403.0,Jack Eichel,Center,c,Forwards 1,f1,9.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8475913.0,Mark Stone,Right Wing,rw,Forwards 1,f1,61.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8479353.0,Brett Howden,Left Wing,lw,Forwards 2,f2,21.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8476448.0,William Karlsson,Center,c,Forwards 2,f2,71.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478483.0,Mitch Marner,Right Wing,rw,Forwards 2,f2,16.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,,Trevor Connelly,Left Wing,lw,Forwards 3,f3,24.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8476881.0,Tomas Hertl,Center,c,Forwards 3,f3,48.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8483890.0,Braeden Bowman,Right Wing,rw,Forwards 3,f3,42.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,,Raphael Lavoie,Left Wing,lw,Forwards 4,f4,36.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8475343.0,Nic Dowd,Center,c,Forwards 4,f4,26.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8483553.0,Marc Gatcomb,Right Wing,rw,Forwards 4,f4,17.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8475188.0,Brayden McNabb,Left Defense,ld,Defense 1,d1,3.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8477447.0,Shea Theodore,Right Defense,rd,Defense 1,d1,27.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478468.0,Jeremy Lauzon,Left Defense,ld,Defense 2,d2,3.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478396.0,Noah Hanifin,Right Defense,rd,Defense 2,d2,15.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,,Ville Heinola,Left Defense,ld,Defense 3,d3,34.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478397.0,Rasmus Andersson,Right Defense,rd,Defense 3,d3,4.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8475913.0,Mark Stone,Skater 1,sk1,1st Powerplay Unit,pp1,61.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8476881.0,Tomas Hertl,Skater 2,sk2,1st Powerplay Unit,pp1,48.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,,Trevor Connelly,Skater 3,sk3,1st Powerplay Unit,pp1,24.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478403.0,Jack Eichel,Skater 4,sk4,1st Powerplay Unit,pp1,9.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478483.0,Mitch Marner,Skater 5,sk5,1st Powerplay Unit,pp1,16.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8477964.0,Ivan Barbashev,Skater 1,sk1,2nd Powerplay Unit,pp2,49.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8476448.0,William Karlsson,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8483890.0,Braeden Bowman,Skater 3,sk3,2nd Powerplay Unit,pp2,42.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478397.0,Rasmus Andersson,Skater 4,sk4,2nd Powerplay Unit,pp2,4.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8477447.0,Shea Theodore,Skater 5,sk5,2nd Powerplay Unit,pp2,27.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478450.0,Parker Wotherspoon,Injured Reserve 1,ir1,Injured Reserve,ir,29.0,ir,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478109.0,Victor Olofsson,Injured Reserve 2,ir2,Injured Reserve,ir,95.0,out,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,,Carter Hart,Injured Reserve 3,ir3,Injured Reserve,ir,79.0,dtd,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8476448.0,William Karlsson,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8475913.0,Mark Stone,Skater 2,sk2,1st Penalty Kill Unit,pk1,61.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8475188.0,Brayden McNabb,Skater 3,sk3,1st Penalty Kill Unit,pk1,3.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8477447.0,Shea Theodore,Skater 4,sk4,1st Penalty Kill Unit,pk1,27.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478403.0,Jack Eichel,Skater 1,sk1,2nd Penalty Kill Unit,pk2,9.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8479353.0,Brett Howden,Skater 2,sk2,2nd Penalty Kill Unit,pk2,21.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478468.0,Jeremy Lauzon,Skater 3,sk3,2nd Penalty Kill Unit,pk2,3.0,,False,2026-10-30
+vegas-golden-knights,new-jersey-devils,8478396.0,Noah Hanifin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,15.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8482149.0,Cole Perfetti,Left Wing,lw,Forwards 1,f1,91.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8476460.0,Mark Scheifele,Center,c,Forwards 1,f1,55.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480014.0,Gabriel Vilardi,Right Wing,rw,Forwards 1,f1,13.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8478398.0,Kyle Connor,Left Wing,lw,Forwards 2,f2,81.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,,Viggo Björck,Center,c,Forwards 2,f2,61.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8482110.0,Dawson Mercer,Right Wing,rw,Forwards 2,f2,91.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8482765.0,Isak Rosen,Left Wing,lw,Forwards 3,f3,63.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8476392.0,Adam Lowry,Center,c,Forwards 3,f3,17.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480113.0,Alex Iafallo,Right Wing,rw,Forwards 3,f3,9.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8481043.0,Cole Koepke,Left Wing,lw,Forwards 4,f4,45.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480289.0,Morgan Barron,Center,c,Forwards 4,f4,36.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8483471.0,Brad Lambert,Right Wing,rw,Forwards 4,f4,93.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480049.0,Dylan Samberg,Left Defense,ld,Defense 1,d1,54.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480145.0,Neal Pionk,Right Defense,rd,Defense 1,d1,4.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8479983.0,Mario Ferraro,Left Defense,ld,Defense 2,d2,38.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8476331.0,Dylan DeMelo,Right Defense,rd,Defense 2,d2,2.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8477938.0,Haydn Fleury,Left Defense,ld,Defense 3,d3,24.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,,Elias Salomonsson,Right Defense,rd,Defense 3,d3,57.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480014.0,Gabriel Vilardi,Skater 1,sk1,1st Powerplay Unit,pp1,13.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8476460.0,Mark Scheifele,Skater 2,sk2,1st Powerplay Unit,pp1,55.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8482149.0,Cole Perfetti,Skater 3,sk3,1st Powerplay Unit,pp1,91.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,,Elias Salomonsson,Skater 4,sk4,1st Powerplay Unit,pp1,57.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8478398.0,Kyle Connor,Skater 5,sk5,1st Powerplay Unit,pp1,81.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8483471.0,Brad Lambert,Skater 1,sk1,2nd Powerplay Unit,pp2,93.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,,Viggo Björck,Skater 2,sk2,2nd Powerplay Unit,pp2,61.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8482110.0,Dawson Mercer,Skater 3,sk3,2nd Powerplay Unit,pp2,91.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480145.0,Neal Pionk,Skater 4,sk4,2nd Powerplay Unit,pp2,4.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8482765.0,Isak Rosen,Skater 5,sk5,2nd Powerplay Unit,pp2,63.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8475760.0,Nick Bjugstad,Injured Reserve 1,ir1,Injured Reserve,ir,77.0,ir,False,2026-10-30
+winnipeg-jets,florida-panthers,8476480.0,Vladislav Namestnikov,Injured Reserve 2,ir2,Injured Reserve,ir,7.0,ir,False,2026-10-30
+winnipeg-jets,florida-panthers,8477504.0,Josh Morrissey,Injured Reserve 3,ir3,Injured Reserve,ir,44.0,ir,False,2026-10-30
+winnipeg-jets,florida-panthers,,Viggo Björck,Skater 1,sk1,1st Penalty Kill Unit,pk1,61.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480113.0,Alex Iafallo,Skater 2,sk2,1st Penalty Kill Unit,pk1,9.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480049.0,Dylan Samberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,54.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8480145.0,Neal Pionk,Skater 4,sk4,1st Penalty Kill Unit,pk1,4.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8476392.0,Adam Lowry,Skater 1,sk1,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8478398.0,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8479983.0,Mario Ferraro,Skater 3,sk3,2nd Penalty Kill Unit,pk2,38.0,,False,2026-10-30
+winnipeg-jets,florida-panthers,8476331.0,Dylan DeMelo,Skater 4,sk4,2nd Penalty Kill Unit,pk2,2.0,,False,2026-10-30
