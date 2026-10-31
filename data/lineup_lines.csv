@@ -91224,3 +91224,788 @@ winnipeg-jets,florida-panthers,8476392.0,Adam Lowry,Skater 1,sk1,2nd Penalty Kil
 winnipeg-jets,florida-panthers,8478398.0,Kyle Connor,Skater 2,sk2,2nd Penalty Kill Unit,pk2,81.0,,False,2026-10-30
 winnipeg-jets,florida-panthers,8479983.0,Mario Ferraro,Skater 3,sk3,2nd Penalty Kill Unit,pk2,38.0,,False,2026-10-30
 winnipeg-jets,florida-panthers,8476331.0,Dylan DeMelo,Skater 4,sk4,2nd Penalty Kill Unit,pk2,2.0,,False,2026-10-30
+boston-bruins,chicago-blackhawks,8482175.0,JJ Peterka,Left Wing,lw,Forwards 1,f1,10.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8478401.0,Pavel Zacha,Center,c,Forwards 1,f1,18.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477956.0,David Pastrnak,Right Wing,rw,Forwards 1,f1,88.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8482177.0,Marat Khusnutdinov,Left Wing,lw,Forwards 2,f2,92.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8483489.0,Fraser Minten,Center,c,Forwards 2,f2,93.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479987.0,Morgan Geekie,Right Wing,rw,Forwards 2,f2,39.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479999.0,Casey Mittelstadt,Left Wing,lw,Forwards 3,f3,11.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477496.0,Elias Lindholm,Center,c,Forwards 3,f3,28.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,,James Hagens,Right Wing,rw,Forwards 3,f3,44.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479661.0,Tanner Jeannot,Left Wing,lw,Forwards 4,f4,84.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8476374.0,Sean Kuraly,Center,c,Forwards 4,f4,7.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8480355.0,Mark Kastelic,Right Wing,rw,Forwards 4,f4,47.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8476854.0,Hampus Lindholm,Left Defense,ld,Defense 1,d1,27.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479325.0,Charlie McAvoy,Right Defense,rd,Defense 1,d1,73.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477507.0,Nikita Zadorov,Left Defense,ld,Defense 2,d2,91.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8478840.0,Will Borgen,Right Defense,rd,Defense 2,d2,17.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8482511.0,Mason Lohrei,Left Defense,ld,Defense 3,d3,6.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8481219.0,Jonathan Aspirot,Right Defense,rd,Defense 3,d3,45.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479987.0,Morgan Geekie,Skater 1,sk1,1st Powerplay Unit,pp1,39.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477496.0,Elias Lindholm,Skater 2,sk2,1st Powerplay Unit,pp1,28.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8478401.0,Pavel Zacha,Skater 3,sk3,1st Powerplay Unit,pp1,18.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477956.0,David Pastrnak,Skater 4,sk4,1st Powerplay Unit,pp1,88.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479325.0,Charlie McAvoy,Skater 5,sk5,1st Powerplay Unit,pp1,73.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,,James Hagens,Skater 1,sk1,2nd Powerplay Unit,pp2,44.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8483489.0,Fraser Minten,Skater 2,sk2,2nd Powerplay Unit,pp2,93.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479999.0,Casey Mittelstadt,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8482511.0,Mason Lohrei,Skater 4,sk4,2nd Powerplay Unit,pp2,6.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8482175.0,JJ Peterka,Skater 5,sk5,2nd Powerplay Unit,pp2,10.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477496.0,Elias Lindholm,Skater 1,sk1,1st Penalty Kill Unit,pk1,28.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8482177.0,Marat Khusnutdinov,Skater 2,sk2,1st Penalty Kill Unit,pk1,92.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8476854.0,Hampus Lindholm,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479325.0,Charlie McAvoy,Skater 4,sk4,1st Penalty Kill Unit,pk1,73.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8483489.0,Fraser Minten,Skater 1,sk1,2nd Penalty Kill Unit,pk2,93.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8479661.0,Tanner Jeannot,Skater 2,sk2,2nd Penalty Kill Unit,pk2,84.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8477507.0,Nikita Zadorov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,91.0,,False,2026-10-31
+boston-bruins,chicago-blackhawks,8478840.0,Will Borgen,Skater 4,sk4,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8481522.0,Peyton Krebs,Left Wing,lw,Forwards 1,f1,19.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8479420.0,Tage Thompson,Center,c,Forwards 1,f1,72.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8484145.0,Zach Benson,Right Wing,rw,Forwards 1,f1,6.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482659.0,Josh Doan,Left Wing,lw,Forwards 2,f2,91.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8483500.0,Noah Ostlund,Center,c,Forwards 2,f2,86.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482097.0,Jack Quinn,Right Wing,rw,Forwards 2,f2,22.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8475722.0,Jason Zucker,Left Wing,lw,Forwards 3,f3,17.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480802.0,Ryan McLeod,Center,c,Forwards 3,f3,71.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480064.0,Josh Norris,Right Wing,rw,Forwards 3,f3,9.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482896.0,Tyson Kozak,Left Wing,lw,Forwards 4,f4,48.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8475842.0,Sam Carrick,Center,c,Forwards 4,f4,39.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8479359.0,Beck Malenstyn,Right Wing,rw,Forwards 4,f4,29.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480807.0,Mattias Samuelsson,Left Defense,ld,Defense 1,d1,23.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480839.0,Rasmus Dahlin,Right Defense,rd,Defense 1,d1,26.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482803.0,Olen Zellweger,Left Defense,ld,Defense 2,d2,8.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482671.0,Owen Power,Right Defense,rd,Defense 2,d2,25.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,,Dennis Gilbert,Left Defense,ld,Defense 3,d3,8.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8481806.0,Louis Crevier,Right Defense,rd,Defense 3,d3,46.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482097.0,Jack Quinn,Skater 1,sk1,1st Powerplay Unit,pp1,22.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8484145.0,Zach Benson,Skater 2,sk2,1st Powerplay Unit,pp1,6.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8483500.0,Noah Ostlund,Skater 3,sk3,1st Powerplay Unit,pp1,86.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8479420.0,Tage Thompson,Skater 4,sk4,1st Powerplay Unit,pp1,72.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480839.0,Rasmus Dahlin,Skater 5,sk5,1st Powerplay Unit,pp1,26.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8475722.0,Jason Zucker,Skater 1,sk1,2nd Powerplay Unit,pp2,17.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480802.0,Ryan McLeod,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482659.0,Josh Doan,Skater 3,sk3,2nd Powerplay Unit,pp2,91.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482671.0,Owen Power,Skater 4,sk4,2nd Powerplay Unit,pp2,25.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480064.0,Josh Norris,Skater 5,sk5,2nd Powerplay Unit,pp2,9.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8476891.0,Matt Grzelcyk,Injured Reserve 1,ir1,Injured Reserve,ir,24.0,ir,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8479982.0,Conor Timmins,Injured Reserve 2,ir2,Injured Reserve,ir,21.0,ir,False,2026-10-31
+buffalo-sabres,los-angeles-kings,,Alex Lyon,Injured Reserve 3,ir3,Injured Reserve,ir,34.0,ir,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8483468.0,Jiri Kulich,Injured Reserve 4,ir4,Injured Reserve,ir,20.0,dtd,False,2026-10-31
+buffalo-sabres,los-angeles-kings,,Konsta Helenius,Injured Reserve 5,ir5,Injured Reserve,ir,94.0,dtd,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480802.0,Ryan McLeod,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8484145.0,Zach Benson,Skater 2,sk2,1st Penalty Kill Unit,pk1,6.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480807.0,Mattias Samuelsson,Skater 3,sk3,1st Penalty Kill Unit,pk1,23.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482671.0,Owen Power,Skater 4,sk4,1st Penalty Kill Unit,pk1,25.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8480064.0,Josh Norris,Skater 1,sk1,2nd Penalty Kill Unit,pk2,9.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8479359.0,Beck Malenstyn,Skater 2,sk2,2nd Penalty Kill Unit,pk2,29.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,,Dennis Gilbert,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False,2026-10-31
+buffalo-sabres,los-angeles-kings,8482803.0,Olen Zellweger,Skater 4,sk4,2nd Penalty Kill Unit,pk2,8.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480797.0,Joel Farabee,Left Wing,lw,Forwards 1,f1,86.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8474150.0,Mikael Backlund,Center,c,Forwards 1,f1,11.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8482679.0,Matt Coronato,Right Wing,rw,Forwards 1,f1,27.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8484860.0,Matvei Gridin,Left Wing,lw,Forwards 2,f2,92.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Martin Pospisil,Center,c,Forwards 2,f2,76.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8476458.0,Ryan Strome,Right Wing,rw,Forwards 2,f2,16.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Aydar Suniev,Left Wing,lw,Forwards 3,f3,61.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480028.0,Morgan Frost,Center,c,Forwards 3,f3,48.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8481068.0,Yegor Sharangovich,Right Wing,rw,Forwards 3,f3,17.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8484958.0,Maxim Tsyplakov,Left Wing,lw,Forwards 4,f4,72.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Jonathan Castagna,Center,c,Forwards 4,f4,38.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8483609.0,Adam Klapka,Right Wing,rw,Forwards 4,f4,43.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480860.0,Kevin Bahl,Left Defense,ld,Defense 1,d1,7.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8483495.0,Simon Nemec,Right Defense,rd,Defense 1,d1,71.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Jacob Middleton,Left Defense,ld,Defense 2,d2,5.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480727.0,Zach Whitecloud,Right Defense,rd,Defense 2,d2,28.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8482165.0,Yan Kuznetsov,Left Defense,ld,Defense 3,d3,37.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8484768.0,Zayne Parekh,Right Defense,rd,Defense 3,d3,19.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480797.0,Joel Farabee,Skater 1,sk1,1st Powerplay Unit,pp1,86.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480028.0,Morgan Frost,Skater 2,sk2,1st Powerplay Unit,pp1,48.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8482679.0,Matt Coronato,Skater 3,sk3,1st Powerplay Unit,pp1,27.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8484860.0,Matvei Gridin,Skater 4,sk4,1st Powerplay Unit,pp1,92.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8484768.0,Zayne Parekh,Skater 5,sk5,1st Powerplay Unit,pp1,19.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8483609.0,Adam Klapka,Skater 1,sk1,2nd Powerplay Unit,pp2,43.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8476458.0,Ryan Strome,Skater 2,sk2,2nd Powerplay Unit,pp2,16.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Aydar Suniev,Skater 3,sk3,2nd Powerplay Unit,pp2,61.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8483495.0,Simon Nemec,Skater 4,sk4,2nd Powerplay Unit,pp2,71.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8481068.0,Yegor Sharangovich,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8476456.0,Jonathan Huberdeau,Injured Reserve 1,ir1,Injured Reserve,ir,10.0,ir,False,2026-10-31
+calgary-flames,colorado-avalanche,8484180.0,Samuel Honzek,Injured Reserve 2,ir2,Injured Reserve,ir,29.0,out,False,2026-10-31
+calgary-flames,colorado-avalanche,8482747.0,Brennan Othmann,Injured Reserve 3,ir3,Injured Reserve,ir,78.0,dtd,False,2026-10-31
+calgary-flames,colorado-avalanche,,Devin Cooley,Injured Reserve 4,ir4,Injured Reserve,ir,,dtd,False,2026-10-31
+calgary-flames,colorado-avalanche,8474150.0,Mikael Backlund,Skater 1,sk1,1st Penalty Kill Unit,pk1,11.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Jonathan Castagna,Skater 2,sk2,1st Penalty Kill Unit,pk1,38.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Jacob Middleton,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480727.0,Zach Whitecloud,Skater 4,sk4,1st Penalty Kill Unit,pk1,28.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,,Martin Pospisil,Skater 1,sk1,2nd Penalty Kill Unit,pk2,76.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8481068.0,Yegor Sharangovich,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8482165.0,Yan Kuznetsov,Skater 3,sk3,2nd Penalty Kill Unit,pk2,37.0,,False,2026-10-31
+calgary-flames,colorado-avalanche,8480860.0,Kevin Bahl,Skater 4,sk4,2nd Penalty Kill Unit,pk2,7.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,,Roman Kantserov,Left Wing,lw,Forwards 1,f1,80.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8484144.0,Connor Bedard,Center,c,Forwards 1,f1,98.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8477987.0,Ryan Donato,Right Wing,rw,Forwards 1,f1,8.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8477479.0,Tyler Bertuzzi,Left Wing,lw,Forwards 2,f2,59.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,,Anton Frondell,Center,c,Forwards 2,f2,16.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8478233.0,Andrew Mangiapane,Right Wing,rw,Forwards 2,f2,88.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8484197.0,Oliver Moore,Left Wing,lw,Forwards 3,f3,11.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483493.0,Frank Nazar,Center,c,Forwards 3,f3,,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8474141.0,Patrick Kane,Right Wing,rw,Forwards 3,f3,88.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8482062.0,Cole Smith,Left Wing,lw,Forwards 4,f4,22.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483450.0,Ryan Greene,Center,c,Forwards 4,f4,20.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8478413.0,Jordan Greenway,Right Wing,rw,Forwards 4,f4,12.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8481568.0,Alex Vlasic,Left Defense,ld,Defense 1,d1,72.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8474013.0,Ian Cole,Right Defense,rd,Defense 1,d1,28.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8482176.0,Wyatt Kaiser,Left Defense,ld,Defense 2,d2,,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8484783.0,Artyom Levshunov,Right Defense,rd,Defense 2,d2,55.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483506.0,Sam Rinzel,Left Defense,ld,Defense 3,d3,6.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8482807.0,Ethan Del Mastro,Right Defense,rd,Defense 3,d3,38.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8477479.0,Tyler Bertuzzi,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,,Roman Kantserov,Skater 2,sk2,1st Powerplay Unit,pp1,80.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8474141.0,Patrick Kane,Skater 3,sk3,1st Powerplay Unit,pp1,88.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,,Anton Frondell,Skater 4,sk4,1st Powerplay Unit,pp1,16.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8484144.0,Connor Bedard,Skater 5,sk5,1st Powerplay Unit,pp1,98.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8484197.0,Oliver Moore,Skater 1,sk1,2nd Powerplay Unit,pp2,11.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483493.0,Frank Nazar,Skater 2,sk2,2nd Powerplay Unit,pp2,,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8477987.0,Ryan Donato,Skater 3,sk3,2nd Powerplay Unit,pp2,8.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483506.0,Sam Rinzel,Skater 4,sk4,2nd Powerplay Unit,pp2,6.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8478233.0,Andrew Mangiapane,Skater 5,sk5,2nd Powerplay Unit,pp2,88.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8481524.0,Bowen Byram,Injured Reserve 2,ir2,Injured Reserve,ir,24.0,dtd,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483493.0,Frank Nazar,Skater 1,sk1,1st Penalty Kill Unit,pk1,,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8478413.0,Jordan Greenway,Skater 2,sk2,1st Penalty Kill Unit,pk1,12.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8481568.0,Alex Vlasic,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8474013.0,Ian Cole,Skater 4,sk4,1st Penalty Kill Unit,pk1,28.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8483450.0,Ryan Greene,Skater 1,sk1,2nd Penalty Kill Unit,pk2,20.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8482062.0,Cole Smith,Skater 2,sk2,2nd Penalty Kill Unit,pk2,22.0,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8482176.0,Wyatt Kaiser,Skater 3,sk3,2nd Penalty Kill Unit,pk2,,,False,2026-10-31
+chicago-blackhawks,boston-bruins,8484783.0,Artyom Levshunov,Skater 4,sk4,2nd Penalty Kill Unit,pk2,55.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8477476.0,Artturi Lehkonen,Left Wing,lw,Forwards 1,f1,62.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8477492.0,Nathan MacKinnon,Center,c,Forwards 1,f1,29.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8480039.0,Martin Necas,Right Wing,rw,Forwards 1,f1,88.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8476455.0,Gabriel Landeskog,Left Wing,lw,Forwards 2,f2,92.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475754.0,Brock Nelson,Center,c,Forwards 2,f2,11.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8478462.0,Nicolas Roy,Right Wing,rw,Forwards 2,f2,10.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475768.0,Jaden Schwartz,Left Wing,lw,Forwards 3,f3,71.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475172.0,Nazem Kadri,Center,c,Forwards 3,f3,91.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,,T.J. Hughes,Right Wing,rw,Forwards 3,f3,13.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8480448.0,Parker Kelly,Left Wing,lw,Forwards 4,f4,17.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8482768.0,Fedor Svechkov,Center,c,Forwards 4,f4,9.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8484149.0,Gavin Brindley,Right Wing,rw,Forwards 4,f4,54.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8478038.0,Devon Toews,Left Defense,ld,Defense 1,d1,7.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8480069.0,Cale Makar,Right Defense,rd,Defense 1,d1,8.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8476967.0,Brett Kulak,Left Defense,ld,Defense 2,d2,77.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8484258.0,Sam Malinski,Right Defense,rd,Defense 2,d2,70.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8470613.0,Brent Burns,Left Defense,ld,Defense 3,d3,84.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8478454.0,Noah Juulsen,Right Defense,rd,Defense 3,d3,47.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,,T.J. Hughes,Skater 1,sk1,1st Powerplay Unit,pp1,13.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475172.0,Nazem Kadri,Skater 2,sk2,1st Powerplay Unit,pp1,91.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8480039.0,Martin Necas,Skater 3,sk3,1st Powerplay Unit,pp1,88.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8480069.0,Cale Makar,Skater 4,sk4,1st Powerplay Unit,pp1,8.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8477492.0,Nathan MacKinnon,Skater 5,sk5,1st Powerplay Unit,pp1,29.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8477476.0,Artturi Lehkonen,Skater 1,sk1,2nd Powerplay Unit,pp2,62.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8476455.0,Gabriel Landeskog,Skater 2,sk2,2nd Powerplay Unit,pp2,92.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475768.0,Jaden Schwartz,Skater 3,sk3,2nd Powerplay Unit,pp2,71.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8478038.0,Devon Toews,Skater 4,sk4,2nd Powerplay Unit,pp2,7.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475754.0,Brock Nelson,Skater 5,sk5,2nd Powerplay Unit,pp2,11.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8476312.0,Josh Manson,Injured Reserve 1,ir1,Injured Reserve,ir,42.0,ir,False,2026-10-31
+colorado-avalanche,calgary-flames,,Zachary L'Heureux,Injured Reserve 3,ir3,Injured Reserve,ir,68.0,out,False,2026-10-31
+colorado-avalanche,calgary-flames,8480448.0,Parker Kelly,Skater 1,sk1,1st Penalty Kill Unit,pk1,17.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8478462.0,Nicolas Roy,Skater 2,sk2,1st Penalty Kill Unit,pk1,10.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8478038.0,Devon Toews,Skater 3,sk3,1st Penalty Kill Unit,pk1,7.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8480069.0,Cale Makar,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8475754.0,Brock Nelson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,11.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8477476.0,Artturi Lehkonen,Skater 2,sk2,2nd Penalty Kill Unit,pk2,62.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8476967.0,Brett Kulak,Skater 3,sk3,2nd Penalty Kill Unit,pk2,77.0,,False,2026-10-31
+colorado-avalanche,calgary-flames,8470613.0,Brent Burns,Skater 4,sk4,2nd Penalty Kill Unit,pk2,84.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8477501.0,Valeri Nichushkin,Left Wing,lw,Forwards 1,f1,43.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8484166.0,Adam Fantilli,Center,c,Forwards 1,f1,19.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8482660.0,Kent Johnson,Right Wing,rw,Forwards 1,f1,91.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8482720.0,Matthew Knies,Left Wing,lw,Forwards 2,f2,89.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8475745.0,Charlie Coyle,Center,c,Forwards 2,f2,3.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8479671.0,Mathieu Olivier,Right Wing,rw,Forwards 2,f2,24.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8477497.0,Sean Monahan,Left Wing,lw,Forwards 3,f3,23.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8482705.0,Cole Sillinger,Center,c,Forwards 3,f3,4.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478856.0,Conor Garland,Right Wing,rw,Forwards 3,f3,8.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478046.0,Danton Heinen,Left Wing,lw,Forwards 4,f4,58.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8483432.0,Luca Del Bel Belluz,Center,c,Forwards 4,f4,93.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8479066.0,Ryan Lomberg,Right Wing,rw,Forwards 4,f4,94.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478460.0,Zach Werenski,Left Defense,ld,Defense 1,d1,8.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8476923.0,Damon Severson,Right Defense,rd,Defense 1,d1,78.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8481161.0,Jake Christiansen,Left Defense,ld,Defense 2,d2,2.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8483485.0,Denton Mateychuk,Right Defense,rd,Defense 2,d2,5.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8479371.0,Dante Fabbro,Left Defense,ld,Defense 3,d3,15.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8475790.0,Erik Gudbranson,Right Defense,rd,Defense 3,d3,44.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8482720.0,Matthew Knies,Skater 1,sk1,1st Powerplay Unit,pp1,89.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8484166.0,Adam Fantilli,Skater 2,sk2,1st Powerplay Unit,pp1,19.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8482660.0,Kent Johnson,Skater 3,sk3,1st Powerplay Unit,pp1,91.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8475745.0,Charlie Coyle,Skater 4,sk4,1st Powerplay Unit,pp1,3.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478460.0,Zach Werenski,Skater 5,sk5,1st Powerplay Unit,pp1,8.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8477501.0,Valeri Nichushkin,Skater 1,sk1,2nd Powerplay Unit,pp2,43.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8477497.0,Sean Monahan,Skater 2,sk2,2nd Powerplay Unit,pp2,23.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478856.0,Conor Garland,Skater 3,sk3,2nd Powerplay Unit,pp2,8.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8483485.0,Denton Mateychuk,Skater 4,sk4,2nd Powerplay Unit,pp2,5.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8476923.0,Damon Severson,Skater 5,sk5,2nd Powerplay Unit,pp2,78.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,,Isac Lundestrom,Injured Reserve 1,ir1,Injured Reserve,ir,21.0,ir,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478500.0,Ivan Provorov,Injured Reserve 2,ir2,Injured Reserve,ir,9.0,ir,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8477497.0,Sean Monahan,Skater 1,sk1,1st Penalty Kill Unit,pk1,23.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8477501.0,Valeri Nichushkin,Skater 2,sk2,1st Penalty Kill Unit,pk1,43.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8483485.0,Denton Mateychuk,Skater 3,sk3,1st Penalty Kill Unit,pk1,5.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8475790.0,Erik Gudbranson,Skater 4,sk4,1st Penalty Kill Unit,pk1,44.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8475745.0,Charlie Coyle,Skater 1,sk1,2nd Penalty Kill Unit,pk2,3.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8479671.0,Mathieu Olivier,Skater 2,sk2,2nd Penalty Kill Unit,pk2,24.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8478460.0,Zach Werenski,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False,2026-10-31
+columbus-blue-jackets,dallas-stars,8476923.0,Damon Severson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,78.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8479351.0,Sam Steel,Left Wing,lw,Forwards 1,f1,18.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8482740.0,Wyatt Johnston,Center,c,Forwards 1,f1,53.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8478420.0,Mikko Rantanen,Right Wing,rw,Forwards 1,f1,96.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480027.0,Jason Robertson,Left Wing,lw,Forwards 2,f2,21.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8478449.0,Roope Hintz,Center,c,Forwards 2,f2,24.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8475794.0,Tyler Seguin,Right Wing,rw,Forwards 2,f2,91.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8481641.0,Joel Kiviranta,Left Wing,lw,Forwards 3,f3,94.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,,Arttu Hyry,Center,c,Forwards 3,f3,25.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8473994.0,Jamie Benn,Right Wing,rw,Forwards 3,f3,14.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8474102.0,David Perron,Left Wing,lw,Forwards 4,f4,57.0,,True,2026-10-31
+dallas-stars,columbus-blue-jackets,8484829.0,Justin Hryckowian,Center,c,Forwards 4,f4,49.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8476278.0,Colin Blackwell,Right Wing,rw,Forwards 4,f4,15.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8476902.0,Esa Lindell,Left Defense,ld,Defense 1,d1,23.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480036.0,Miro Heiskanen,Right Defense,rd,Defense 1,d1,4.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8481581.0,Thomas Harley,Left Defense,ld,Defense 2,d2,55.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480878.0,Nils Lundkvist,Right Defense,rd,Defense 2,d2,5.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8483425.0,Lian Bichsel,Left Defense,ld,Defense 3,d3,6.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8474574.0,Tyler Myers,Right Defense,rd,Defense 3,d3,57.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8482740.0,Wyatt Johnston,Skater 1,sk1,1st Powerplay Unit,pp1,53.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8478449.0,Roope Hintz,Skater 2,sk2,1st Powerplay Unit,pp1,24.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8478420.0,Mikko Rantanen,Skater 3,sk3,1st Powerplay Unit,pp1,96.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480036.0,Miro Heiskanen,Skater 4,sk4,1st Powerplay Unit,pp1,4.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480027.0,Jason Robertson,Skater 5,sk5,1st Powerplay Unit,pp1,21.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8484829.0,Justin Hryckowian,Skater 1,sk1,2nd Powerplay Unit,pp2,49.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8475794.0,Tyler Seguin,Skater 2,sk2,2nd Powerplay Unit,pp2,91.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8473994.0,Jamie Benn,Skater 3,sk3,2nd Powerplay Unit,pp2,14.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8481581.0,Thomas Harley,Skater 4,sk4,2nd Powerplay Unit,pp2,55.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8478420.0,Mikko Rantanen,Skater 5,sk5,2nd Powerplay Unit,pp2,96.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8475168.0,Matt Duchene,Injured Reserve 1,ir1,Injured Reserve,ir,95.0,ir,False,2026-10-31
+dallas-stars,columbus-blue-jackets,,Oskar Back,Injured Reserve 2,ir2,Injured Reserve,ir,10.0,ir,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8478476.0,Kyle Capobianco,Injured Reserve 3,ir3,Injured Reserve,ir,20.0,ir,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8476889.0,Radek Faksa,Injured Reserve 4,ir4,Injured Reserve,ir,12.0,out,False,2026-10-31
+dallas-stars,columbus-blue-jackets,,Arttu Hyry,Skater 1,sk1,1st Penalty Kill Unit,pk1,25.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8481641.0,Joel Kiviranta,Skater 2,sk2,1st Penalty Kill Unit,pk1,94.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8481581.0,Thomas Harley,Skater 3,sk3,1st Penalty Kill Unit,pk1,55.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480036.0,Miro Heiskanen,Skater 4,sk4,1st Penalty Kill Unit,pk1,4.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8484829.0,Justin Hryckowian,Skater 1,sk1,2nd Penalty Kill Unit,pk2,49.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8476278.0,Colin Blackwell,Skater 2,sk2,2nd Penalty Kill Unit,pk2,15.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8480878.0,Nils Lundkvist,Skater 3,sk3,2nd Penalty Kill Unit,pk2,5.0,,False,2026-10-31
+dallas-stars,columbus-blue-jackets,8474574.0,Tyler Myers,Skater 4,sk4,2nd Penalty Kill Unit,pk2,57.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8479337.0,Alex DeBrincat,Left Wing,lw,Forwards 1,f1,93.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484471.0,Emmitt Finnie,Center,c,Forwards 1,f1,,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8478042.0,Viktor Arvidsson,Right Wing,rw,Forwards 1,f1,33.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484794.0,Michael Brandsegg-Nygård,Left Wing,lw,Forwards 2,f2,,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8477429.0,Andrew Copp,Center,c,Forwards 2,f2,18.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8482078.0,Lucas Raymond,Right Wing,rw,Forwards 2,f2,23.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8479992.0,Michael Rasmussen,Left Wing,lw,Forwards 3,f3,27.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8477456.0,J.T. Compher,Center,c,Forwards 3,f3,37.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484160.0,Nate Danielson,Right Wing,rw,Forwards 3,f3,29.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,,Carter Mazur,Left Wing,lw,Forwards 4,f4,43.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,,Sheldon Dries,Center,c,Forwards 4,f4,15.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8478434.0,Keegan Kolesar,Right Wing,rw,Forwards 4,f4,55.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8475279.0,Ben Chiarot,Left Defense,ld,Defense 1,d1,8.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8481542.0,Moritz Seider,Right Defense,rd,Defense 1,d1,53.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,,William Wallinder,Left Defense,ld,Defense 2,d2,54.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8475753.0,Justin Faulk,Right Defense,rd,Defense 2,d2,72.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,,Andreas Englund,Left Defense,ld,Defense 3,d3,5.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,,Anton Johansson,Right Defense,rd,Defense 3,d3,42.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8478042.0,Viktor Arvidsson,Skater 1,sk1,1st Powerplay Unit,pp1,33.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484471.0,Emmitt Finnie,Skater 2,sk2,1st Powerplay Unit,pp1,,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8482078.0,Lucas Raymond,Skater 3,sk3,1st Powerplay Unit,pp1,23.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8479337.0,Alex DeBrincat,Skater 4,sk4,1st Powerplay Unit,pp1,93.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8481542.0,Moritz Seider,Skater 5,sk5,1st Powerplay Unit,pp1,53.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8479992.0,Michael Rasmussen,Skater 1,sk1,2nd Powerplay Unit,pp2,27.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484160.0,Nate Danielson,Skater 2,sk2,2nd Powerplay Unit,pp2,29.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8477429.0,Andrew Copp,Skater 3,sk3,2nd Powerplay Unit,pp2,18.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484794.0,Michael Brandsegg-Nygård,Skater 4,sk4,2nd Powerplay Unit,pp2,,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8475753.0,Justin Faulk,Skater 5,sk5,2nd Powerplay Unit,pp2,72.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8483464.0,Marco Kasper,Injured Reserve 2,ir2,Injured Reserve,ir,,ir,False,2026-10-31
+detroit-red-wings,st-louis-blues,8478891.0,Mason Appleton,Injured Reserve 3,ir3,Injured Reserve,ir,22.0,ir,False,2026-10-31
+detroit-red-wings,st-louis-blues,8482762.0,Simon Edvinsson,Injured Reserve 4,ir4,Injured Reserve,ir,77.0,out,False,2026-10-31
+detroit-red-wings,st-louis-blues,8477946.0,Dylan Larkin,Injured Reserve 5,ir5,Injured Reserve,ir,71.0,out,False,2026-10-31
+detroit-red-wings,st-louis-blues,8477456.0,J.T. Compher,Skater 1,sk1,1st Penalty Kill Unit,pk1,37.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8484471.0,Emmitt Finnie,Skater 2,sk2,1st Penalty Kill Unit,pk1,,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8475279.0,Ben Chiarot,Skater 3,sk3,1st Penalty Kill Unit,pk1,8.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8481542.0,Moritz Seider,Skater 4,sk4,1st Penalty Kill Unit,pk1,53.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8479992.0,Michael Rasmussen,Skater 1,sk1,2nd Penalty Kill Unit,pk2,27.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8478434.0,Keegan Kolesar,Skater 2,sk2,2nd Penalty Kill Unit,pk2,55.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,,Andreas Englund,Skater 3,sk3,2nd Penalty Kill Unit,pk2,5.0,,False,2026-10-31
+detroit-red-wings,st-louis-blues,8475753.0,Justin Faulk,Skater 4,sk4,2nd Penalty Kill Unit,pk2,72.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8481617.0,Vasily Podkolzin,Left Wing,lw,Forwards 1,f1,92.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478402.0,Connor McDavid,Center,c,Forwards 1,f1,97.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477934.0,Leon Draisaitl,Right Wing,rw,Forwards 1,f1,29.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8482703.0,Colton Dach,Left Wing,lw,Forwards 2,f2,34.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8476454.0,Ryan Nugent-Hopkins,Center,c,Forwards 2,f2,93.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477953.0,Kasperi Kapanen,Right Wing,rw,Forwards 2,f2,42.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,,Alex Formenton,Left Wing,lw,Forwards 3,f3,26.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477450.0,Jason Dickinson,Center,c,Forwards 3,f3,16.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478472.0,Mathieu Joseph,Right Wing,rw,Forwards 3,f3,21.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8479365.0,Trent Frederic,Left Wing,lw,Forwards 4,f4,10.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,,Owen Michaels,Center,c,Forwards 4,f4,43.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8483455.0,Isaac Howard,Right Wing,rw,Forwards 4,f4,53.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8475218.0,Mattias Ekholm,Left Defense,ld,Defense 1,d1,14.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8480803.0,Evan Bouchard,Right Defense,rd,Defense 1,d1,2.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478854.0,Ryan Shea,Left Defense,ld,Defense 2,d2,6.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8476473.0,Connor Murphy,Right Defense,rd,Defense 2,d2,5.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8482166.0,Shakir Mukhamadullin,Left Defense,ld,Defense 3,d3,85.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8480834.0,Ty Emberson,Right Defense,rd,Defense 3,d3,49.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477953.0,Kasperi Kapanen,Skater 1,sk1,1st Powerplay Unit,pp1,42.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8476454.0,Ryan Nugent-Hopkins,Skater 2,sk2,1st Powerplay Unit,pp1,93.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477934.0,Leon Draisaitl,Skater 3,sk3,1st Powerplay Unit,pp1,29.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478402.0,Connor McDavid,Skater 4,sk4,1st Powerplay Unit,pp1,97.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8480803.0,Evan Bouchard,Skater 5,sk5,1st Powerplay Unit,pp1,2.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8481617.0,Vasily Podkolzin,Skater 1,sk1,2nd Powerplay Unit,pp2,92.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8479365.0,Trent Frederic,Skater 2,sk2,2nd Powerplay Unit,pp2,10.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8482703.0,Colton Dach,Skater 3,sk3,2nd Powerplay Unit,pp2,34.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478854.0,Ryan Shea,Skater 4,sk4,2nd Powerplay Unit,pp2,6.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8483455.0,Isaac Howard,Skater 5,sk5,2nd Powerplay Unit,pp2,53.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8480831.0,Alec Regula,Injured Reserve 1,ir1,Injured Reserve,ir,,ir,False,2026-10-31
+edmonton-oilers,new-york-islanders,,Frederik Andersen,Injured Reserve 2,ir2,Injured Reserve,ir,30.0,ir,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477406.0,Mattias Janmark,Injured Reserve 3,ir3,Injured Reserve,ir,13.0,ir,False,2026-10-31
+edmonton-oilers,new-york-islanders,,Matthew Savoie,Injured Reserve 4,ir4,Injured Reserve,ir,22.0,ir,False,2026-10-31
+edmonton-oilers,new-york-islanders,,Devon Levi,Injured Reserve 6,ir6,Injured Reserve,ir,27.0,ir,False,2026-10-31
+edmonton-oilers,new-york-islanders,8475786.0,Zach Hyman,Injured Reserve 7,ir7,Injured Reserve,ir,18.0,ir,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478472.0,Mathieu Joseph,Skater 1,sk1,1st Penalty Kill Unit,pk1,21.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477953.0,Kasperi Kapanen,Skater 2,sk2,1st Penalty Kill Unit,pk1,42.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8478854.0,Ryan Shea,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8476473.0,Connor Murphy,Skater 4,sk4,1st Penalty Kill Unit,pk1,5.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,,Owen Michaels,Skater 1,sk1,2nd Penalty Kill Unit,pk2,43.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8477450.0,Jason Dickinson,Skater 2,sk2,2nd Penalty Kill Unit,pk2,16.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8475218.0,Mattias Ekholm,Skater 3,sk3,2nd Penalty Kill Unit,pk2,14.0,,False,2026-10-31
+edmonton-oilers,new-york-islanders,8482166.0,Shakir Mukhamadullin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,85.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8478550.0,Artemi Panarin,Left Wing,lw,Forwards 1,f1,10.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482155.0,Alex Laferriere,Center,c,Forwards 1,f1,14.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8477960.0,Adrian Kempe,Right Wing,rw,Forwards 1,f1,9.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8479675.0,Trevor Moore,Left Wing,lw,Forwards 2,f2,12.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482124.0,Quinton Byfield,Center,c,Forwards 2,f2,55.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8470621.0,Corey Perry,Right Wing,rw,Forwards 2,f2,90.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,,Andre Lee,Left Wing,lw,Forwards 3,f3,,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8476872.0,Scott Laughton,Center,c,Forwards 3,f3,21.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8476469.0,Joel Armia,Right Wing,rw,Forwards 3,f3,40.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8475287.0,Erik Haula,Left Wing,lw,Forwards 4,f4,56.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482726.0,Samuel Helenius,Center,c,Forwards 4,f4,,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,,Taylor Ward,Right Wing,rw,Forwards 4,f4,17.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,,Erik Gustafsson,Left Defense,ld,Defense 1,d1,64.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482730.0,Brandt Clarke,Right Defense,rd,Defense 1,d1,92.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8476441.0,Joel Edmundson,Left Defense,ld,Defense 2,d2,6.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8474563.0,Drew Doughty,Right Defense,rd,Defense 2,d2,8.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8479998.0,Mikey Anderson,Left Defense,ld,Defense 3,d3,44.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8475208.0,Brian Dumoulin,Right Defense,rd,Defense 3,d3,2.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8477960.0,Adrian Kempe,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482124.0,Quinton Byfield,Skater 2,sk2,1st Powerplay Unit,pp1,55.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482155.0,Alex Laferriere,Skater 3,sk3,1st Powerplay Unit,pp1,14.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8478550.0,Artemi Panarin,Skater 4,sk4,1st Powerplay Unit,pp1,10.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,,Erik Gustafsson,Skater 5,sk5,1st Powerplay Unit,pp1,64.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8470621.0,Corey Perry,Skater 1,sk1,2nd Powerplay Unit,pp2,90.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8475287.0,Erik Haula,Skater 2,sk2,2nd Powerplay Unit,pp2,56.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8479675.0,Trevor Moore,Skater 3,sk3,2nd Powerplay Unit,pp2,12.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8474563.0,Drew Doughty,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8482730.0,Brandt Clarke,Skater 5,sk5,2nd Powerplay Unit,pp2,92.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8481532.0,Alex Turcotte,Injured Reserve 1,ir1,Injured Reserve,ir,15.0,ir,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8477942.0,Kevin Fiala,Injured Reserve 2,ir2,Injured Reserve,ir,22.0,ir,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8475692.0,Mats Zuccarello,Injured Reserve 3,ir3,Injured Reserve,ir,36.0,ir,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8476872.0,Scott Laughton,Skater 1,sk1,1st Penalty Kill Unit,pk1,21.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8479675.0,Trevor Moore,Skater 2,sk2,1st Penalty Kill Unit,pk1,12.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8476441.0,Joel Edmundson,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8474563.0,Drew Doughty,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8475287.0,Erik Haula,Skater 1,sk1,2nd Penalty Kill Unit,pk2,56.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8476469.0,Joel Armia,Skater 2,sk2,2nd Penalty Kill Unit,pk2,40.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8479998.0,Mikey Anderson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,44.0,,False,2026-10-31
+los-angeles-kings,buffalo-sabres,8475208.0,Brian Dumoulin,Skater 4,sk4,2nd Penalty Kill Unit,pk2,2.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481540.0,Cole Caufield,Left Wing,lw,Forwards 1,f1,13.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481618.0,Alex Newhook,Center,c,Forwards 1,f1,15.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,,Juraj Slafkovsky,Right Wing,rw,Forwards 1,f1,20.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8475184.0,Chris Kreider,Left Wing,lw,Forwards 2,f2,22.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482775.0,Oliver Kapanen,Center,c,Forwards 2,f2,,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8476981.0,Josh Anderson,Right Wing,rw,Forwards 2,f2,17.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482737.0,Zack Bolduc,Left Wing,lw,Forwards 3,f3,76.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8476479.0,Phillip Danault,Center,c,Forwards 3,f3,24.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8480074.0,Alexandre Texier,Right Wing,rw,Forwards 3,f3,85.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8484403.0,Florian Xhekaj,Left Wing,lw,Forwards 4,f4,63.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8478133.0,Jake Evans,Center,c,Forwards 4,f4,71.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481523.0,Kirby Dach,Right Wing,rw,Forwards 4,f4,77.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8483457.0,Lane Hutson,Left Defense,ld,Defense 1,d1,48.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8480865.0,Noah Dobson,Right Defense,rd,Defense 1,d1,8.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482087.0,Kaiden Guhle,Left Defense,ld,Defense 2,d2,21.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8478851.0,Alexandre Carrier,Right Defense,rd,Defense 2,d2,45.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482964.0,Arber Xhekaj,Left Defense,ld,Defense 3,d3,72.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,,Adam Engstrom,Right Defense,rd,Defense 3,d3,42.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,,Juraj Slafkovsky,Skater 1,sk1,1st Powerplay Unit,pp1,20.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481523.0,Kirby Dach,Skater 2,sk2,1st Powerplay Unit,pp1,77.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482737.0,Zack Bolduc,Skater 3,sk3,1st Powerplay Unit,pp1,76.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481540.0,Cole Caufield,Skater 4,sk4,1st Powerplay Unit,pp1,13.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8483457.0,Lane Hutson,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8475184.0,Chris Kreider,Skater 1,sk1,2nd Powerplay Unit,pp2,22.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481618.0,Alex Newhook,Skater 2,sk2,2nd Powerplay Unit,pp2,15.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482775.0,Oliver Kapanen,Skater 3,sk3,2nd Powerplay Unit,pp2,,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8480865.0,Noah Dobson,Skater 4,sk4,2nd Powerplay Unit,pp2,8.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8480074.0,Alexandre Texier,Skater 5,sk5,2nd Powerplay Unit,pp2,85.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8484984.0,Ivan Demidov,Injured Reserve 1,ir1,Injured Reserve,ir,,ir,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,,Sam Montembeault,Injured Reserve 3,ir3,Injured Reserve,ir,35.0,ir,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8476875.0,Mike Matheson,Injured Reserve 4,ir4,Injured Reserve,ir,8.0,dtd,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8476479.0,Phillip Danault,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8478133.0,Jake Evans,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8482087.0,Kaiden Guhle,Skater 3,sk3,1st Penalty Kill Unit,pk1,21.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8478851.0,Alexandre Carrier,Skater 4,sk4,1st Penalty Kill Unit,pk1,45.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8481523.0,Kirby Dach,Skater 1,sk1,2nd Penalty Kill Unit,pk2,77.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8476981.0,Josh Anderson,Skater 2,sk2,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,,Adam Engstrom,Skater 3,sk3,2nd Penalty Kill Unit,pk2,42.0,,False,2026-10-31
+montreal-canadiens,pittsburgh-penguins,8480865.0,Noah Dobson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,8.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8474564.0,Steven Stamkos,Left Wing,lw,Forwards 1,f1,91.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8475158.0,Ryan O'Reilly,Center,c,Forwards 1,f1,90.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8482145.0,Mavrik Bourque,Right Wing,rw,Forwards 1,f1,22.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476887.0,Filip Forsberg,Left Wing,lw,Forwards 2,f2,9.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,Alex Kerfoot,Center,c,Forwards 2,f2,14.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,Nils Hoglander,Right Wing,rw,Forwards 2,f2,21.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,Reid Schaefer,Left Wing,lw,Forwards 3,f3,49.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476539.0,Jonathan Marchessault,Center,c,Forwards 3,f3,81.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8484241.0,Matthew Wood,Right Wing,rw,Forwards 3,f3,71.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8479525.0,Ross Colton,Left Wing,lw,Forwards 4,f4,79.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8480835.0,Jack Drury,Center,c,Forwards 4,f4,18.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8481726.0,Adam Edstrom,Right Wing,rw,Forwards 4,f4,84.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8474600.0,Roman Josi,Left Defense,ld,Defense 1,d1,59.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8482482.0,Adam Wilsby,Right Defense,rd,Defense 1,d1,83.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476869.0,Brady Skjei,Left Defense,ld,Defense 2,d2,76.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8480246.0,Nick Perbix,Right Defense,rd,Defense 2,d2,48.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8482094.0,Daemon Hunt,Left Defense,ld,Defense 3,d3,48.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8481593.0,Jayden Struble,Right Defense,rd,Defense 3,d3,3.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476887.0,Filip Forsberg,Skater 1,sk1,1st Powerplay Unit,pp1,9.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8475158.0,Ryan O'Reilly,Skater 2,sk2,1st Powerplay Unit,pp1,90.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476539.0,Jonathan Marchessault,Skater 3,sk3,1st Powerplay Unit,pp1,81.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8474564.0,Steven Stamkos,Skater 4,sk4,1st Powerplay Unit,pp1,91.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8474600.0,Roman Josi,Skater 5,sk5,1st Powerplay Unit,pp1,59.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,Alex Kerfoot,Skater 1,sk1,2nd Powerplay Unit,pp2,14.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8482145.0,Mavrik Bourque,Skater 2,sk2,2nd Powerplay Unit,pp2,22.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8484241.0,Matthew Wood,Skater 3,sk3,2nd Powerplay Unit,pp2,71.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,Nils Hoglander,Skater 4,sk4,2nd Powerplay Unit,pp2,21.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476869.0,Brady Skjei,Skater 5,sk5,2nd Powerplay Unit,pp2,76.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,William Trudeau,Injured Reserve 1,ir1,Injured Reserve,ir,85.0,ir,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8480835.0,Jack Drury,Skater 1,sk1,1st Penalty Kill Unit,pk1,18.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,,Alex Kerfoot,Skater 2,sk2,1st Penalty Kill Unit,pk1,14.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8476869.0,Brady Skjei,Skater 3,sk3,1st Penalty Kill Unit,pk1,76.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8480246.0,Nick Perbix,Skater 4,sk4,1st Penalty Kill Unit,pk1,48.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8475158.0,Ryan O'Reilly,Skater 1,sk1,2nd Penalty Kill Unit,pk2,90.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8481726.0,Adam Edstrom,Skater 2,sk2,2nd Penalty Kill Unit,pk2,84.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8482094.0,Daemon Hunt,Skater 3,sk3,2nd Penalty Kill Unit,pk2,48.0,,False,2026-10-31
+nashville-predators,tampa-bay-lightning,8482482.0,Adam Wilsby,Skater 4,sk4,2nd Penalty Kill Unit,pk2,83.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8481601.0,Simon Holmstrom,Left Wing,lw,Forwards 1,f1,92.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477500.0,Bo Horvat,Center,c,Forwards 1,f1,14.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8475151.0,Kyle Palmieri,Right Wing,rw,Forwards 1,f1,21.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8482476.0,Emil Heineman,Left Wing,lw,Forwards 2,f2,51.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8475170.0,Brayden Schenn,Center,c,Forwards 2,f2,10.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,,Victor Eklund,Right Wing,rw,Forwards 2,f2,73.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476292.0,Ondrej Palat,Left Wing,lw,Forwards 3,f3,18.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476419.0,Jean-Gabriel Pageau,Center,c,Forwards 3,f3,44.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477407.0,Anthony Duclair,Right Wing,rw,Forwards 3,f3,11.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8481237.0,Kyle MacLean,Left Wing,lw,Forwards 4,f4,32.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8475231.0,Casey Cizikas,Center,c,Forwards 4,f4,53.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8482070.0,Mitchell Chaffee,Right Wing,rw,Forwards 4,f4,41.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476917.0,Adam Pelech,Left Defense,ld,Defense 1,d1,3.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8485366.0,Matthew Schaefer,Right Defense,rd,Defense 1,d1,48.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8479378.0,Logan Stanley,Left Defense,ld,Defense 2,d2,8.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477950.0,Tony DeAngelo,Right Defense,rd,Defense 2,d2,77.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8482516.0,Matthew Kessel,Left Defense,ld,Defense 3,d3,,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476429.0,Scott Mayfield,Right Defense,rd,Defense 3,d3,24.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8475151.0,Kyle Palmieri,Skater 1,sk1,1st Powerplay Unit,pp1,21.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477500.0,Bo Horvat,Skater 2,sk2,1st Powerplay Unit,pp1,14.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8475170.0,Brayden Schenn,Skater 3,sk3,1st Powerplay Unit,pp1,10.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8481601.0,Simon Holmstrom,Skater 4,sk4,1st Powerplay Unit,pp1,92.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8485366.0,Matthew Schaefer,Skater 5,sk5,1st Powerplay Unit,pp1,48.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476292.0,Ondrej Palat,Skater 1,sk1,2nd Powerplay Unit,pp2,18.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8482476.0,Emil Heineman,Skater 2,sk2,2nd Powerplay Unit,pp2,51.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477407.0,Anthony Duclair,Skater 3,sk3,2nd Powerplay Unit,pp2,11.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,,Victor Eklund,Skater 4,sk4,2nd Powerplay Unit,pp2,73.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477950.0,Tony DeAngelo,Skater 5,sk5,2nd Powerplay Unit,pp2,77.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8478445.0,Mathew Barzal,Injured Reserve 1,ir1,Injured Reserve,ir,13.0,ir,False,2026-10-31
+new-york-islanders,edmonton-oilers,8481014.0,Alexander Romanov,Injured Reserve 2,ir2,Injured Reserve,ir,28.0,ir,False,2026-10-31
+new-york-islanders,edmonton-oilers,8481711.0,Matias Maccelli,Injured Reserve 3,ir3,Injured Reserve,ir,63.0,ir,False,2026-10-31
+new-york-islanders,edmonton-oilers,8484221.0,Calum Ritchie,Injured Reserve 4,ir4,Injured Reserve,ir,64.0,ir,False,2026-10-31
+new-york-islanders,edmonton-oilers,8477506.0,Ryan Pulock,Injured Reserve 5,ir5,Injured Reserve,ir,6.0,dtd,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476292.0,Ondrej Palat,Skater 1,sk1,1st Penalty Kill Unit,pk1,18.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8475231.0,Casey Cizikas,Skater 2,sk2,1st Penalty Kill Unit,pk1,53.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476917.0,Adam Pelech,Skater 3,sk3,1st Penalty Kill Unit,pk1,3.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8482516.0,Matthew Kessel,Skater 4,sk4,1st Penalty Kill Unit,pk1,,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476419.0,Jean-Gabriel Pageau,Skater 1,sk1,2nd Penalty Kill Unit,pk2,44.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8481601.0,Simon Holmstrom,Skater 2,sk2,2nd Penalty Kill Unit,pk2,92.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8479378.0,Logan Stanley,Skater 3,sk3,2nd Penalty Kill Unit,pk2,8.0,,False,2026-10-31
+new-york-islanders,edmonton-oilers,8476429.0,Scott Mayfield,Skater 4,sk4,2nd Penalty Kill Unit,pk2,24.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8480188.0,Fabian Zetterlund,Left Wing,lw,Forwards 1,f1,20.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482116.0,Tim Stützle,Center,c,Forwards 1,f1,18.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8473512.0,Claude Giroux,Right Wing,rw,Forwards 1,f1,28.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8477444.0,Andre Burakovsky,Left Wing,lw,Forwards 2,f2,28.0,,True,2026-10-31
+ottawa-senators,san-jose-sharks,8481528.0,Dylan Cozens,Center,c,Forwards 2,f2,24.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8480208.0,Drake Batherson,Right Wing,rw,Forwards 2,f2,19.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482092.0,Ridly Greig,Left Wing,lw,Forwards 3,f3,71.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8481596.0,Shane Pinto,Center,c,Forwards 3,f3,12.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8478020.0,Michael Amadio,Right Wing,rw,Forwards 3,f3,22.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8483676.0,Stephen Halliday,Center,c,Forwards 4,f4,83.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8476393.0,Nick Cousins,Right Wing,rw,Forwards 4,f4,21.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482105.0,Jake Sanderson,Left Defense,ld,Defense 1,d1,85.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482245.0,Artem Zub,Right Defense,rd,Defense 1,d1,2.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8478469.0,Thomas Chabot,Left Defense,ld,Defense 2,d2,72.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8481606.0,Jordan Spence,Right Defense,rd,Defense 2,d2,21.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482095.0,Tyler Kleven,Left Defense,ld,Defense 3,d3,43.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8484321.0,Nikolas Matinpalo,Right Defense,rd,Defense 3,d3,33.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,,Carter Yakemchuk,Right Defense,rd,Defense 4,d4,26.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8480208.0,Drake Batherson,Skater 1,sk1,1st Powerplay Unit,pp1,19.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8483676.0,Stephen Halliday,Skater 2,sk2,1st Powerplay Unit,pp1,83.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8481528.0,Dylan Cozens,Skater 3,sk3,1st Powerplay Unit,pp1,24.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482116.0,Tim Stützle,Skater 4,sk4,1st Powerplay Unit,pp1,18.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482105.0,Jake Sanderson,Skater 5,sk5,1st Powerplay Unit,pp1,85.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8477444.0,Andre Burakovsky,Skater 1,sk1,2nd Powerplay Unit,pp2,28.0,,True,2026-10-31
+ottawa-senators,san-jose-sharks,8481596.0,Shane Pinto,Skater 2,sk2,2nd Powerplay Unit,pp2,12.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8473512.0,Claude Giroux,Skater 3,sk3,2nd Powerplay Unit,pp2,28.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8480188.0,Fabian Zetterlund,Skater 4,sk4,2nd Powerplay Unit,pp2,20.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8478469.0,Thomas Chabot,Skater 5,sk5,2nd Powerplay Unit,pp2,72.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482667.0,William Eklund,Injured Reserve 1,ir1,Injured Reserve,ir,72.0,ir,False,2026-10-31
+ottawa-senators,san-jose-sharks,,Linus Ullmark,Injured Reserve 2,ir2,Injured Reserve,ir,35.0,ir,False,2026-10-31
+ottawa-senators,san-jose-sharks,8477998.0,Warren Foegele,Injured Reserve 3,ir3,Injured Reserve,ir,37.0,ir,False,2026-10-31
+ottawa-senators,san-jose-sharks,8478173.0,Hayden Hodgson,Injured Reserve 4,ir4,Injured Reserve,ir,42.0,out,False,2026-10-31
+ottawa-senators,san-jose-sharks,8477444.0,Andre Burakovsky,Injured Reserve 5,ir5,Injured Reserve,ir,28.0,dtd,False,2026-10-31
+ottawa-senators,san-jose-sharks,8481596.0,Shane Pinto,Skater 1,sk1,1st Penalty Kill Unit,pk1,12.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482092.0,Ridly Greig,Skater 2,sk2,1st Penalty Kill Unit,pk1,71.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482105.0,Jake Sanderson,Skater 3,sk3,1st Penalty Kill Unit,pk1,85.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482245.0,Artem Zub,Skater 4,sk4,1st Penalty Kill Unit,pk1,2.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482116.0,Tim Stützle,Skater 1,sk1,2nd Penalty Kill Unit,pk2,18.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8478020.0,Michael Amadio,Skater 2,sk2,2nd Penalty Kill Unit,pk2,22.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8482095.0,Tyler Kleven,Skater 3,sk3,2nd Penalty Kill Unit,pk2,43.0,,False,2026-10-31
+ottawa-senators,san-jose-sharks,8478469.0,Thomas Chabot,Skater 4,sk4,2nd Penalty Kill Unit,pk2,72.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8478438.0,Tommy Novak,Left Wing,lw,Forwards 1,f1,18.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8471675.0,Sidney Crosby,Center,c,Forwards 1,f1,87.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8476483.0,Rickard Rakell,Right Wing,rw,Forwards 1,f1,67.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,,Egor Chinakhov,Left Wing,lw,Forwards 2,f2,59.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8485414.0,Ben Kindel,Center,c,Forwards 2,f2,81.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8471215.0,Evgeni Malkin,Right Wing,rw,Forwards 2,f2,71.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8483808.0,Andrei Kuzmenko,Left Wing,lw,Forwards 3,f3,10.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8482148.0,Hendrix Lapierre,Center,c,Forwards 3,f3,22.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8482758.0,Ville Koivunen,Right Wing,rw,Forwards 3,f3,41.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8480980.0,Connor Dewar,Left Wing,lw,Forwards 4,f4,19.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481481.0,Blake Lizotte,Center,c,Forwards 4,f4,46.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481582.0,Nicholas Robertson,Right Wing,rw,Forwards 4,f4,14.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481056.0,Spencer Stastney,Left Defense,ld,Defense 1,d1,24.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8474578.0,Erik Karlsson,Right Defense,rd,Defense 1,d1,65.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8479398.0,Samuel Girard,Left Defense,ld,Defense 2,d2,49.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481527.0,Kaedan Korczak,Right Defense,rd,Defense 2,d2,6.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8483398.0,Declan Carlile,Left Defense,ld,Defense 3,d3,72.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8471724.0,Kris Letang,Right Defense,rd,Defense 3,d3,58.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8482758.0,Ville Koivunen,Skater 1,sk1,1st Powerplay Unit,pp1,41.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8478438.0,Tommy Novak,Skater 2,sk2,1st Powerplay Unit,pp1,18.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8476483.0,Rickard Rakell,Skater 3,sk3,1st Powerplay Unit,pp1,67.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8474578.0,Erik Karlsson,Skater 4,sk4,1st Powerplay Unit,pp1,65.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8471675.0,Sidney Crosby,Skater 5,sk5,1st Powerplay Unit,pp1,87.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8483808.0,Andrei Kuzmenko,Skater 1,sk1,2nd Powerplay Unit,pp2,10.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8485414.0,Ben Kindel,Skater 2,sk2,2nd Powerplay Unit,pp2,81.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,,Egor Chinakhov,Skater 3,sk3,2nd Powerplay Unit,pp2,59.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8471724.0,Kris Letang,Skater 4,sk4,2nd Powerplay Unit,pp2,58.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8471215.0,Evgeni Malkin,Skater 5,sk5,2nd Powerplay Unit,pp2,71.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8477845.0,Trevor van Riemsdyk,Injured Reserve 2,ir2,Injured Reserve,ir,57.0,ir,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8477435.0,Ryan Graves,Injured Reserve 3,ir3,Injured Reserve,ir,27.0,ir,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8475810.0,Bryan Rust,Injured Reserve 4,ir4,Injured Reserve,ir,17.0,ir,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481481.0,Blake Lizotte,Skater 1,sk1,1st Penalty Kill Unit,pk1,46.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8480980.0,Connor Dewar,Skater 2,sk2,1st Penalty Kill Unit,pk1,19.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8483398.0,Declan Carlile,Skater 3,sk3,1st Penalty Kill Unit,pk1,72.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481527.0,Kaedan Korczak,Skater 4,sk4,1st Penalty Kill Unit,pk1,6.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8476483.0,Rickard Rakell,Skater 1,sk1,2nd Penalty Kill Unit,pk2,67.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481582.0,Nicholas Robertson,Skater 2,sk2,2nd Penalty Kill Unit,pk2,14.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8481056.0,Spencer Stastney,Skater 3,sk3,2nd Penalty Kill Unit,pk2,24.0,,False,2026-10-31
+pittsburgh-penguins,montreal-canadiens,8474578.0,Erik Karlsson,Skater 4,sk4,2nd Penalty Kill Unit,pk2,65.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,,Ivar Stenberg,Left Wing,lw,Forwards 1,f1,41.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484801.0,Macklin Celebrini,Center,c,Forwards 1,f1,71.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484911.0,Collin Graf,Right Wing,rw,Forwards 1,f1,51.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8478975.0,Mason Marchment,Left Wing,lw,Forwards 2,f2,27.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8485402.0,Michael Misa,Center,c,Forwards 2,f2,77.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484227.0,Will Smith,Right Wing,rw,Forwards 2,f2,2.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480748.0,Kiefer Sherwood,Left Wing,lw,Forwards 3,f3,44.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,,Filip Bystedt,Center,c,Forwards 3,f3,,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8475726.0,Tyler Toffoli,Right Wing,rw,Forwards 3,f3,73.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8476624.0,Barclay Goodrow,Left Wing,lw,Forwards 4,f4,23.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480848.0,Ty Dellandrea,Center,c,Forwards 4,f4,10.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8478874.0,Adam Gaudette,Right Wing,rw,Forwards 4,f4,81.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484806.0,Sam Dickinson,Left Defense,ld,Defense 1,d1,,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8476885.0,Jacob Trouba,Right Defense,rd,Defense 1,d1,65.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8477498.0,Darnell Nurse,Left Defense,ld,Defense 2,d2,25.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480891.0,Michael Kesselring,Right Defense,rd,Defense 2,d2,7.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8475200.0,Dmitry Orlov,Left Defense,ld,Defense 3,d3,9.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,,Nolan Allan,Right Defense,rd,Defense 3,d3,5.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8478975.0,Mason Marchment,Skater 1,sk1,1st Powerplay Unit,pp1,27.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484227.0,Will Smith,Skater 2,sk2,1st Powerplay Unit,pp1,2.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484801.0,Macklin Celebrini,Skater 3,sk3,1st Powerplay Unit,pp1,71.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,,Ivar Stenberg,Skater 4,sk4,1st Powerplay Unit,pp1,41.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8475200.0,Dmitry Orlov,Skater 5,sk5,1st Powerplay Unit,pp1,9.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480748.0,Kiefer Sherwood,Skater 1,sk1,2nd Powerplay Unit,pp2,44.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8485402.0,Michael Misa,Skater 2,sk2,2nd Powerplay Unit,pp2,77.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8475726.0,Tyler Toffoli,Skater 3,sk3,2nd Powerplay Unit,pp2,73.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8478874.0,Adam Gaudette,Skater 4,sk4,2nd Powerplay Unit,pp2,81.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8476885.0,Jacob Trouba,Skater 5,sk5,2nd Powerplay Unit,pp2,65.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8477505.0,Alexander Wennberg,Injured Reserve 1,ir1,Injured Reserve,ir,21.0,ir,False,2026-10-31
+san-jose-sharks,ottawa-senators,,Igor Chernyshov,Injured Reserve 2,ir2,Injured Reserve,ir,92.0,ir,False,2026-10-31
+san-jose-sharks,ottawa-senators,8476624.0,Barclay Goodrow,Skater 1,sk1,1st Penalty Kill Unit,pk1,23.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484911.0,Collin Graf,Skater 2,sk2,1st Penalty Kill Unit,pk1,51.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8484806.0,Sam Dickinson,Skater 3,sk3,1st Penalty Kill Unit,pk1,,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8476885.0,Jacob Trouba,Skater 4,sk4,1st Penalty Kill Unit,pk1,65.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480848.0,Ty Dellandrea,Skater 1,sk1,2nd Penalty Kill Unit,pk2,10.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480748.0,Kiefer Sherwood,Skater 2,sk2,2nd Penalty Kill Unit,pk2,44.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8477498.0,Darnell Nurse,Skater 3,sk3,2nd Penalty Kill Unit,pk2,25.0,,False,2026-10-31
+san-jose-sharks,ottawa-senators,8480891.0,Michael Kesselring,Skater 4,sk4,2nd Penalty Kill Unit,pk2,7.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482089.0,Jake Neighbours,Left Wing,lw,Forwards 1,f1,63.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480023.0,Robert Thomas,Center,c,Forwards 1,f1,18.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8483516.0,Jimmy Snuggerud,Right Wing,rw,Forwards 1,f1,21.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8477402.0,Pavel Buchnevich,Left Wing,lw,Forwards 2,f2,89.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482745.0,Mason McTavish,Center,c,Forwards 2,f2,83.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481013.0,Jonatan Berggren,Right Wing,rw,Forwards 2,f2,29.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482077.0,Dylan Holloway,Left Wing,lw,Forwards 3,f3,81.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8484164.0,Dalibor Dvorsky,Center,c,Forwards 3,f3,15.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481580.0,Connor McMichael,Right Wing,rw,Forwards 3,f3,77.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480281.0,Alexey Toropchenko,Left Wing,lw,Forwards 4,f4,13.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480459.0,Pius Suter,Center,c,Forwards 4,f4,24.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,,Aleksanteri Kaskimaki,Right Wing,rw,Forwards 4,f4,,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481598.0,Philip Broberg,Left Defense,ld,Defense 1,d1,6.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8478443.0,Brandon Carlo,Right Defense,rd,Defense 1,d1,25.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8475764.0,Cam Fowler,Left Defense,ld,Defense 2,d2,17.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,,Adam Jiříček,Right Defense,rd,Defense 2,d2,36.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,,Theo Lindstein,Left Defense,ld,Defense 3,d3,41.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482111.0,Justin Barron,Right Defense,rd,Defense 3,d3,72.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8483516.0,Jimmy Snuggerud,Skater 1,sk1,1st Powerplay Unit,pp1,21.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482089.0,Jake Neighbours,Skater 2,sk2,1st Powerplay Unit,pp1,63.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482745.0,Mason McTavish,Skater 3,sk3,1st Powerplay Unit,pp1,83.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480023.0,Robert Thomas,Skater 4,sk4,1st Powerplay Unit,pp1,18.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481598.0,Philip Broberg,Skater 5,sk5,1st Powerplay Unit,pp1,6.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482077.0,Dylan Holloway,Skater 1,sk1,2nd Powerplay Unit,pp2,81.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8477402.0,Pavel Buchnevich,Skater 2,sk2,2nd Powerplay Unit,pp2,89.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481580.0,Connor McMichael,Skater 3,sk3,2nd Powerplay Unit,pp2,77.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,,Adam Jiříček,Skater 4,sk4,2nd Powerplay Unit,pp2,36.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8475764.0,Cam Fowler,Skater 5,sk5,2nd Powerplay Unit,pp2,17.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482733.0,Logan Mailloux,Injured Reserve 1,ir1,Injured Reserve,ir,23.0,ir,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481006.0,Tyler Tucker,Injured Reserve 2,ir2,Injured Reserve,ir,75.0,ir,False,2026-10-31
+st-louis-blues,detroit-red-wings,,Dillon Dube,Injured Reserve 4,ir4,Injured Reserve,ir,65.0,ir,False,2026-10-31
+st-louis-blues,detroit-red-wings,8477527.0,Ross Johnston,Injured Reserve 5,ir5,Injured Reserve,ir,49.0,dtd,False,2026-10-31
+st-louis-blues,detroit-red-wings,8476892.0,Colton Parayko,Injured Reserve 6,ir6,Injured Reserve,ir,55.0,dtd,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480459.0,Pius Suter,Skater 1,sk1,1st Penalty Kill Unit,pk1,24.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8482089.0,Jake Neighbours,Skater 2,sk2,1st Penalty Kill Unit,pk1,63.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8481598.0,Philip Broberg,Skater 3,sk3,1st Penalty Kill Unit,pk1,6.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8478443.0,Brandon Carlo,Skater 4,sk4,1st Penalty Kill Unit,pk1,25.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480023.0,Robert Thomas,Skater 1,sk1,2nd Penalty Kill Unit,pk2,18.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8480281.0,Alexey Toropchenko,Skater 2,sk2,2nd Penalty Kill Unit,pk2,13.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,8475764.0,Cam Fowler,Skater 3,sk3,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-31
+st-louis-blues,detroit-red-wings,,Theo Lindstein,Skater 4,sk4,2nd Penalty Kill Unit,pk2,41.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8477404.0,Jake Guentzel,Left Wing,lw,Forwards 1,f1,59.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8478010.0,Brayden Point,Center,c,Forwards 1,f1,21.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8476453.0,Nikita Kucherov,Right Wing,rw,Forwards 1,f1,86.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8479542.0,Brandon Hagel,Left Wing,lw,Forwards 2,f2,38.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8478519.0,Anthony Cirelli,Center,c,Forwards 2,f2,71.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8480995.0,Pontus Holmberg,Right Wing,rw,Forwards 2,f2,29.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8481624.0,Ilya Mikheyev,Left Wing,lw,Forwards 3,f3,95.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8483752.0,Dominic James,Center,c,Forwards 3,f3,17.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8482201.0,Gage Goncalves,Right Wing,rw,Forwards 3,f3,93.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8479705.0,Jeffrey Viel,Left Wing,lw,Forwards 4,f4,28.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8483447.0,Conor Geekie,Center,c,Forwards 4,f4,14.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8477149.0,Scott Sabourin,Right Wing,rw,Forwards 4,f4,46.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8482655.0,J.J. Moser,Left Defense,ld,Defense 1,d1,90.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8474151.0,Ryan McDonagh,Right Defense,rd,Defense 1,d1,27.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8474590.0,John Carlson,Left Defense,ld,Defense 2,d2,74.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8480426.0,Charle-Edouard D'Astous,Right Defense,rd,Defense 2,d2,51.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8475167.0,Victor Hedman,Left Defense,ld,Defense 3,d3,77.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,,Maxwell Crozier,Right Defense,rd,Defense 3,d3,24.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8477404.0,Jake Guentzel,Skater 1,sk1,1st Powerplay Unit,pp1,59.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8478010.0,Brayden Point,Skater 2,sk2,1st Powerplay Unit,pp1,21.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8476453.0,Nikita Kucherov,Skater 3,sk3,1st Powerplay Unit,pp1,86.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8479542.0,Brandon Hagel,Skater 4,sk4,1st Powerplay Unit,pp1,38.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8480426.0,Charle-Edouard D'Astous,Skater 5,sk5,1st Powerplay Unit,pp1,51.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8480995.0,Pontus Holmberg,Skater 1,sk1,2nd Powerplay Unit,pp2,29.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8478519.0,Anthony Cirelli,Skater 2,sk2,2nd Powerplay Unit,pp2,71.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8482201.0,Gage Goncalves,Skater 3,sk3,2nd Powerplay Unit,pp2,93.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8483447.0,Conor Geekie,Skater 4,sk4,2nd Powerplay Unit,pp2,14.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8474590.0,John Carlson,Skater 5,sk5,2nd Powerplay Unit,pp2,74.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8476826.0,Yanni Gourde,Injured Reserve 1,ir1,Injured Reserve,ir,37.0,out,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8476878.0,Zemgus Girgensons,Injured Reserve 2,ir2,Injured Reserve,ir,28.0,out,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8478519.0,Anthony Cirelli,Skater 1,sk1,1st Penalty Kill Unit,pk1,71.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8479542.0,Brandon Hagel,Skater 2,sk2,1st Penalty Kill Unit,pk1,38.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8474151.0,Ryan McDonagh,Skater 3,sk3,1st Penalty Kill Unit,pk1,27.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,,Maxwell Crozier,Skater 4,sk4,1st Penalty Kill Unit,pk1,24.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8483752.0,Dominic James,Skater 1,sk1,2nd Penalty Kill Unit,pk2,17.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8481624.0,Ilya Mikheyev,Skater 2,sk2,2nd Penalty Kill Unit,pk2,95.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8475167.0,Victor Hedman,Skater 3,sk3,2nd Penalty Kill Unit,pk2,77.0,,False,2026-10-31
+tampa-bay-lightning,nashville-predators,8482655.0,J.J. Moser,Skater 4,sk4,2nd Penalty Kill Unit,pk2,90.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,,Gavin McKenna,Left Wing,lw,Forwards 1,f1,92.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8479318.0,Auston Matthews,Center,c,Forwards 1,f1,34.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8478458.0,Jack Roslovic,Right Wing,rw,Forwards 1,f1,96.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8484158.0,Easton Cowan,Left Wing,lw,Forwards 2,f2,53.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8477426.0,Nick Paul,Center,c,Forwards 2,f2,20.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8477939.0,William Nylander,Right Wing,rw,Forwards 2,f2,88.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8478057.0,Dakota Joshua,Left Wing,lw,Forwards 3,f3,81.0,,True,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476925.0,Colton Sissons,Center,c,Forwards 3,f3,10.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,,Vinni Lettieri,Right Wing,rw,Forwards 3,f3,95.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8479520.0,Brandon Duhaime,Left Wing,lw,Forwards 4,f4,24.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476927.0,Teddy Blueger,Center,c,Forwards 4,f4,73.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8479772.0,Zack MacEwen,Right Wing,rw,Forwards 4,f4,,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476931.0,Jake McCabe,Left Defense,ld,Defense 1,d1,22.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8478178.0,Darren Raddysh,Right Defense,rd,Defense 1,d1,43.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476853.0,Morgan Rielly,Left Defense,ld,Defense 2,d2,44.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8475690.0,Chris Tanev,Right Defense,rd,Defense 2,d2,8.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8475171.0,Oliver Ekman-Larsson,Left Defense,ld,Defense 3,d3,95.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8479442.0,Troy Stecher,Right Defense,rd,Defense 3,d3,28.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8478458.0,Jack Roslovic,Skater 1,sk1,1st Powerplay Unit,pp1,96.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8477939.0,William Nylander,Skater 2,sk2,1st Powerplay Unit,pp1,88.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,,Gavin McKenna,Skater 3,sk3,1st Powerplay Unit,pp1,92.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8478178.0,Darren Raddysh,Skater 4,sk4,1st Powerplay Unit,pp1,43.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8479318.0,Auston Matthews,Skater 5,sk5,1st Powerplay Unit,pp1,34.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8484158.0,Easton Cowan,Skater 1,sk1,2nd Powerplay Unit,pp2,53.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8477426.0,Nick Paul,Skater 2,sk2,2nd Powerplay Unit,pp2,20.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,,Vinni Lettieri,Skater 3,sk3,2nd Powerplay Unit,pp2,95.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8475171.0,Oliver Ekman-Larsson,Skater 4,sk4,2nd Powerplay Unit,pp2,95.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476853.0,Morgan Rielly,Skater 5,sk5,2nd Powerplay Unit,pp2,44.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,,Elvis Merzlikins,Injured Reserve 1,ir1,Injured Reserve,ir,90.0,ir,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8477503.0,Max Domi,Injured Reserve 2,ir2,Injured Reserve,ir,11.0,ir,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8478057.0,Dakota Joshua,Injured Reserve 3,ir3,Injured Reserve,ir,81.0,ir,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8480893.0,Kirill Marchenko,Injured Reserve 5,ir5,Injured Reserve,ir,86.0,ir,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,,Marshall Rifai,Injured Reserve 6,ir6,Injured Reserve,ir,,out,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8475166.0,John Tavares,Injured Reserve 7,ir7,Injured Reserve,ir,91.0,out,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476927.0,Teddy Blueger,Skater 1,sk1,1st Penalty Kill Unit,pk1,73.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476925.0,Colton Sissons,Skater 2,sk2,1st Penalty Kill Unit,pk1,10.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8476931.0,Jake McCabe,Skater 3,sk3,1st Penalty Kill Unit,pk1,22.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8475690.0,Chris Tanev,Skater 4,sk4,1st Penalty Kill Unit,pk1,8.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8477939.0,William Nylander,Skater 1,sk1,2nd Penalty Kill Unit,pk2,88.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8484158.0,Easton Cowan,Skater 2,sk2,2nd Penalty Kill Unit,pk2,53.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8475171.0,Oliver Ekman-Larsson,Skater 3,sk3,2nd Penalty Kill Unit,pk2,95.0,,False,2026-10-31
+toronto-maple-leafs,vancouver-canucks,8479442.0,Troy Stecher,Skater 4,sk4,2nd Penalty Kill Unit,pk2,28.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8478498.0,Jake DeBrusk,Left Wing,lw,Forwards 1,f1,74.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8480012.0,Elias Pettersson,Center,c,Forwards 1,f1,40.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8478444.0,Brock Boeser,Right Wing,rw,Forwards 1,f1,6.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8483499.0,Liam Ohgren,Left Wing,lw,Forwards 2,f2,92.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8482079.0,Marco Rossi,Center,c,Forwards 2,f2,23.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8481024.0,Linus Karlsson,Right Wing,rw,Forwards 2,f2,94.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8482055.0,Drew O'Connor,Left Wing,lw,Forwards 3,f3,18.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8484901.0,Jacob Quillan,Center,c,Forwards 3,f3,26.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,,Jonathan Lekkerimaki,Right Wing,rw,Forwards 3,f3,88.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8481032.0,Paul Cotter,Left Wing,lw,Forwards 4,f4,47.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8484136.0,Max Sasson,Center,c,Forwards 4,f4,,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8483395.0,Arshdeep Bains,Right Wing,rw,Forwards 4,f4,,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,,Elias Nils Pettersson,Left Defense,ld,Defense 1,d1,25.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8479425.0,Filip Hronek,Right Defense,rd,Defense 1,d1,17.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8476467.0,Jamie Oleksiak,Left Defense,ld,Defense 2,d2,4.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8484240.0,Tom Willander,Right Defense,rd,Defense 2,d2,5.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8484798.0,Zeev Buium,Left Defense,ld,Defense 3,d3,8.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8483768.0,Victor Mancini,Right Defense,rd,Defense 3,d3,90.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8478498.0,Jake DeBrusk,Skater 1,sk1,1st Powerplay Unit,pp1,74.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8480012.0,Elias Pettersson,Skater 2,sk2,1st Powerplay Unit,pp1,40.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8478444.0,Brock Boeser,Skater 3,sk3,1st Powerplay Unit,pp1,6.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,,Jonathan Lekkerimaki,Skater 4,sk4,1st Powerplay Unit,pp1,88.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8479425.0,Filip Hronek,Skater 5,sk5,1st Powerplay Unit,pp1,17.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8483499.0,Liam Ohgren,Skater 1,sk1,2nd Powerplay Unit,pp2,92.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8482079.0,Marco Rossi,Skater 2,sk2,2nd Powerplay Unit,pp2,23.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8481032.0,Paul Cotter,Skater 3,sk3,2nd Powerplay Unit,pp2,47.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8481024.0,Linus Karlsson,Skater 4,sk4,2nd Powerplay Unit,pp2,94.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8484798.0,Zeev Buium,Skater 5,sk5,2nd Powerplay Unit,pp2,8.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,,Thatcher Demko,Injured Reserve 1,ir1,Injured Reserve,ir,35.0,ir,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8480078.0,Filip Chytil,Injured Reserve 2,ir2,Injured Reserve,ir,77.0,ir,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8480012.0,Elias Pettersson,Skater 1,sk1,1st Penalty Kill Unit,pk1,40.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8482055.0,Drew O'Connor,Skater 2,sk2,1st Penalty Kill Unit,pk1,18.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,,Elias Nils Pettersson,Skater 3,sk3,1st Penalty Kill Unit,pk1,25.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8479425.0,Filip Hronek,Skater 4,sk4,1st Penalty Kill Unit,pk1,17.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8484136.0,Max Sasson,Skater 1,sk1,2nd Penalty Kill Unit,pk2,,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8478444.0,Brock Boeser,Skater 2,sk2,2nd Penalty Kill Unit,pk2,6.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8476467.0,Jamie Oleksiak,Skater 3,sk3,2nd Penalty Kill Unit,pk2,4.0,,False,2026-10-31
+vancouver-canucks,toronto-maple-leafs,8483768.0,Victor Mancini,Skater 4,sk4,2nd Penalty Kill Unit,pk2,90.0,,False,2026-10-31
