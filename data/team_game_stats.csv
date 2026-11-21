@@ -8557,3 +8557,5 @@ game_id,game_date,team_abbrev,home_away,shots_for,shots_against,goals_for,goals_
 2026020357,2026-11-19,VAN,away,23,44,1,5
 2026020358,2026-11-19,VGK,home,30,22,3,4
 2026020358,2026-11-19,DAL,away,22,30,4,3
+2026020359,2026-11-21,CAR,home,22,12,5,4
+2026020359,2026-11-21,EDM,away,12,22,4,5
