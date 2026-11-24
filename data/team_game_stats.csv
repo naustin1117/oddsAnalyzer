@@ -8587,3 +8587,5 @@ game_id,game_date,team_abbrev,home_away,shots_for,shots_against,goals_for,goals_
 2026020372,2026-11-21,SEA,away,30,28,3,4
 2026020373,2026-11-22,NYR,home,27,41,2,5
 2026020373,2026-11-22,CAR,away,41,27,5,2
+2026020378,2026-11-23,NJD,home,11,11,2,1
+2026020378,2026-11-23,CBJ,away,11,11,1,2
