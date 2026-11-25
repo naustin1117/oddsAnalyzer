@@ -8601,3 +8601,5 @@ game_id,game_date,team_abbrev,home_away,shots_for,shots_against,goals_for,goals_
 2026020383,2026-11-23,ANA,away,26,21,2,3
 2026020384,2026-11-23,SJS,home,24,31,2,5
 2026020384,2026-11-23,MIN,away,31,24,5,2
+2026020385,2026-11-24,EDM,home,24,27,3,5
+2026020385,2026-11-24,VGK,away,27,24,5,3
